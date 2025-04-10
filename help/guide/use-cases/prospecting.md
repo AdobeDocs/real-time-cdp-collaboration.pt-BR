@@ -1,6 +1,6 @@
 ---
 title: Prospecção
-description: Descrição do prospecto
+description: Descrição de prospecção
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
@@ -17,4 +17,4 @@ ht-degree: 13%
 
 **Trabalho em andamento**
 
-Conteúdo para seguir
+Conteúdo a seguir

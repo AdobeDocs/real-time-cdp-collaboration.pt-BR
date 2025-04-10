@@ -6,8 +6,8 @@ badgelimitedavailability: label="Disponibilidade limitada" type="Informative" ur
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 81cedb2a06d930734b1f97304de82d450c06bf79
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 2%
+source-wordcount: '918'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ Em um alto nível, para estabelecer uma conexão entre um anunciante e um editor
 4. O anunciante envia configurações de conexão, incluindo chaves de correspondência e outras. Essas configurações de conexão representam os termos no produto da colaboração.
 5. O editor aceita configurações de conexão. Se desejar, o editor pode rejeitar as configurações de conexão iniciais e solicitar que o anunciante envie configurações de conexão revisadas.
 
-![Diagrama de alto nível do processo de conexão anunciante-editor.](/help/assets/connect/establish-connection/advertiser-publisher-connection-process.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+![Diagrama de alto nível do processo de conexão anunciante-publicador.](/help/assets/connect/establish-connection/advertiser-publisher-connection-process.png){zoomable="yes"}
 
 Quando os itens acima forem concluídos, os colaboradores poderão prosseguir para [criar um projeto](/help/guide/collaborate/manage-projects.md#create-project) para [executar relatórios de sobreposição](/help/guide/collaborate/discover.md) e iniciar campanhas publicitárias.
 
@@ -39,11 +39,11 @@ Quando os itens acima forem concluídos, os colaboradores poderão prosseguir pa
 
 Para configurar uma conexão, selecione **[!UICONTROL Conectar]** ao navegar pelo inventário de fornecedores na tela de descoberta de editores.
 
-![Seletor de conexão](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+![Seletor de conexão](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
 Neste ponto, o convite está fora e você pode visualizar as configurações de conexão, mas não pode editá-las. Você pode exibir o convite pendente na guia **[!UICONTROL Minhas conexões]**. O status da conexão é **[!UICONTROL Convite enviado]**.
 
-![Convite pendente enviado ao editor exibido no modo de exibição Minhas conexões.](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+![Convite pendente enviado ao editor exibido no modo de exibição Minhas conexões.](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}
 
 Depois que o colaborador aceitar o convite, você poderá definir as configurações de conexão e enviá-las ao colaborador para revisar e aceitar.
 
@@ -76,23 +76,23 @@ Depois que o colaborador aceitar o convite, você poderá definir as configuraç
 
 Depois que o convite for enviado, você poderá visualizar as configurações de conexão. O convite deve ser aceito antes que você possa concluir a configuração da conexão.
 
-![A exibição das configurações de conexão no estado de visualização.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+![A exibição das configurações de conexão no estado de visualização.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
 
 Depois que a conexão for aceita pelo colaborador, você poderá começar a definir as configurações de conexão para a conexão. As configurações de conexão definem os termos de sua colaboração, como os casos de uso que você realizará juntos, as chaves de correspondência que usará em projetos e muito mais.
 
 Para definir e compartilhar configurações de conexão com seu colaborador, navegue até **[!UICONTROL Minhas conexões]**. Para qualquer conexão com o status **[!UICONTROL Pendente]**, você pode selecionar **[!UICONTROL Configurar conexão]** para definir as configurações de conexão.
 
-![A exibição Minhas conexões com uma conexão Pendente e sua opção Configurar conexão foi realçada.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+![A exibição Minhas conexões com uma conexão Pendente e sua opção Configurar conexão foi realçada.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
 
 É possível editar e definir os campos abaixo:
 
-![Configurar exibição de conexão](/help/assets/connect/establish-connection/connection-view.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+![Configurar exibição de conexão](/help/assets/connect/establish-connection/connection-view.png){zoomable="yes"}
 
 +++Casos de uso
 
 Os casos de uso são preenchidos previamente com todos os casos de uso disponíveis. Você pode escolher quais casos de uso sua conexão usará ao selecionar **[!UICONTROL Editar]** e desativar todos os casos de uso que não desejar. Os casos de uso selecionados afetarão quais modos de exibição e opções estão [disponíveis em seus projetos](../collaborate/manage-projects.md#project-use-cases).
 
-![Casos de uso](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+![Casos de uso](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 +++
 
@@ -131,9 +131,9 @@ Você pode excluir qualquer conexão com colaboradores com os quais não deseja 
 1. Navegue até **[!UICONTROL Conectar]** > **[!UICONTROL Minhas conexões]**.
 2. Selecione **[!UICONTROL Exibir conexão]** no cartão de conexão para acessar a conexão que deseja excluir.
 3. Selecione o ícone de exclusão ![ícone de exclusão](/help/assets/common/delete.svg) para abrir a caixa de diálogo de confirmação de exclusão da conexão.
-   ![Ícone de exclusão de conexão realçado.](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+   ![Ícone de exclusão de conexão realçado.](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
 4. Confirme a exclusão selecionando **[!UICONTROL Excluir]**.
-   ![Diálogo para confirmar a exclusão de uma conexão. ](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+   ![Diálogo para confirmar a exclusão de uma conexão. ](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
 
 >[!WARNING]
 >

@@ -6,7 +6,7 @@ badgelimitedavailability: label="Disponibilidade limitada" type="Informative" ur
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
 workflow-type: tm+mt
-source-wordcount: '2653'
+source-wordcount: '2642'
 ht-degree: 1%
 
 ---
@@ -91,15 +91,15 @@ Em seguida, verifique se as ações de marketing corretas estão definidas nos d
 
 Use ações de marketing para controlar quais dados de público-alvo importar para o Real-Time CDP Collaboration do Experience Platform. A ação de marketing **Data Collaboration** dá suporte aos rótulos de uso de dados C4, C5 e C9. A ação de marketing **Ciência de dados** dá suporte ao rótulo de uso de dados C9.
 
-Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}{target=&quot;_blank&quot;}.
+Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Com a caixa de seleção *habilitada*, todos os dados marcados com os rótulos chamados acima no Experience Platform serão excluídos e *não* serão trazidos para o Real-Time CDP Collaboration.
 * Com a caixa de seleção *desabilitada*, não há restrição para dados do Experience Platform que possam ser importados para o Real-Time CDP Collaboration.
 
 Leia mais sobre os rótulos de uso de dados na documentação do Experience Platform:
 
-* [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}{target=&quot;_blank&quot;}
-* [Glossário de rótulos de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}{target=&quot;_blank&quot;}
+* [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Glossário de rótulos de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![Ações de marketing necessárias para colaboração de dados.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -337,7 +337,7 @@ Selecione se o público-alvo deve ser privado para você ou utilizável e detect
 
 >[!IMPORTANT]
 >
->Independentemente do status de acesso (público, privado ou personalizado), a população de qualquer público-alvo contribui para a população de **[!UICONTROL Todos os públicos-alvo]** na exibição de análise de sobreposição da Descoberta de público-alvo. <br> ![O público-alvo **Todos os públicos-alvo** gerados pelo sistema na análise de sobreposição da Descoberta de Público-alvo inclui os públicos-alvo com todos os status de acesso de conexão (público, privado, personalizado).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "O público-alvo gerado pelo sistema **Todos os públicos-alvo** na análise de sobreposição **Descoberta de público-alvo** inclui os públicos-alvo com todos os status de acesso de conexão (público, privado, personalizado)."){width="100" zoomable="yes"}{width=&quot;100&quot; zoomable=&quot;yes&quot;}
+>Independentemente do status de acesso (público, privado ou personalizado), a população de qualquer público-alvo contribui para a população de **[!UICONTROL Todos os públicos-alvo]** na exibição de análise de sobreposição da Descoberta de público-alvo. <br> ![O público-alvo **Todos os públicos-alvo** gerados pelo sistema na análise de sobreposição da Descoberta de Público-alvo inclui os públicos-alvo com todos os status de acesso de conexão (público, privado, personalizado).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "O público-alvo **Todos os públicos-alvo** gerado pelo sistema na análise de sobreposição **Descoberta de Público-alvo** inclui os públicos-alvo com todos os status de acesso de conexão (público, privado, personalizado)."){width="100" zoomable="yes"}
 
 A disponibilidade do público-alvo para uso em projetos com colaboradores é diferente de acordo com a configuração de acesso à conexão. Você sempre pode alterar o acesso à conexão de privado para público, mas não pode alterar essa configuração novamente depois que um público-alvo for compartilhado com colaboradores.
 

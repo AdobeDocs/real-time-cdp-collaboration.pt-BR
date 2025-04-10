@@ -45,11 +45,11 @@ Neste exemplo, considere que:
 | Identidades de Liveramp | 400 K | 350 K | 100 mil | 850 K |
 | Contagem total de identidades | 550 K | 950 K | 800 K | 2,3M |
 
-## Cálculo de contagens e porcentagens de sobreposição
+## Calcular contagens e porcentagens de sobreposição
 
-### Dados da amostra - Contagem de sobreposição
+### Dados de exemplo - Contagem de sobreposição
 
-#### Anunciante cada vs Editor Cada
+#### Anunciante cada vs Editor cada
 
 |                     | A1 - P1 | A2 - P2 | A3 - P3 |
 |---------------------|---------|---------|---------|
@@ -78,20 +78,20 @@ Neste exemplo, considere que:
 |                     | A TUDO - P ALL |
 |---------------------|---------------|
 | Sobreposição por email com hash | 850 K |
-| Sobreposição por ID do Liveramp | 730 K |
+| Sobreposição por ID de Liveramp | 730 K |
 | Sobreposição total | 1,58 M |
 
 ## Módulo Discover
 
-O **[!UICONTROL Discover]** módulo na Adobe Systems Colaboração CDP em tempo real fornece insights valiosos sobre seus dados público-alvo. Ao entender público-alvo sobreposição, você pode identificar possíveis colaboração oportunidades entre editores e anunciantes. A **[!UICONTROL seção Público-Insights]** seção no **[!UICONTROL Discover]** módulo ajuda a analisar as contagens de sobreposição e os percentuais entre públicos-alvo diferentes.
+O módulo **[!UICONTROL Discover]** no Adobe Real-Time CDP Collaboration fornece informações valiosas sobre os dados do público-alvo. Ao entender as sobreposições de público-alvo, é possível identificar oportunidades potenciais de colaboração entre editores e anunciantes. A seção **[!UICONTROL Insights de Público-alvo]** do módulo **[!UICONTROL Discover]** ajuda a analisar as contagens e porcentagens de sobreposição entre públicos-alvo diferentes.
 
-![A módulo do discover colaboração fluxo de Trabalho.](/help/assets/reference/overlap-calculations/discover-module-overlap-calculations.png)
+![O módulo de descoberta do fluxo de trabalho de colaboração.](/help/assets/reference/overlap-calculations/discover-module-overlap-calculations.png)
 
-Exibir abaixo dos cálculos de amostra e fórmulas para vários cenários de sobreposição.
+Veja abaixo exemplos de cálculos e fórmulas para vários cenários de sobreposição.
 
-### Todos os anunciante públicos-alvo e todos os editor públicos-alvo
+### Todos os públicos-alvo do anunciante e todos os públicos-alvo do editor
 
-| Audiences do anunciante | Públicos-alvo do editor | Contagem de identidade (A) | Identidades Sobrepostas (B) | Percentual de sobreposição | Detalhamento da chave de correspondência | % de Detalhamento da Chave de Correspondência |
+| Públicos-alvo do anunciante | Públicos-alvo do editor | Contagem de identidade (A) | Identidades Sobrepostas (B) | Percentual de sobreposição | Detalhamento da chave de correspondência | % de Detalhamento da Chave de Correspondência |
 |----------------------|---------------------|--------------------|----------------------------|-----------------|---------------------|-----------------------|
 | TODOS | TODOS | Contagem total de identidades de TODOS os públicos-alvo do anunciante <br> Contagem de identidades = 1M + 1,4M = 2,4M | Sobreposição total entre TODOS os públicos-alvo do anunciante e TODOS os públicos-alvo do publicador para todas as chaves de correspondência <br> Identidades sobrepostas = 1,58 M | Porcentagem de identidades sobrepostas em relação à contagem total de identidades de TODOS os públicos-alvo do anunciante <br> % de sobreposição = (B / A) * 100 = (1,58 M / 2,4 M) * 100 = 65,83% <br> Porcentagem de sobreposição = 65,83% | Sobreposição de identidades por chave de correspondência <br> Sobreposição por email com hash = 850K <br> Sobreposição por ID de Liveramp = 730K | Porcentagem de sobreposição de chave de correspondência em relação ao total de identidades sobrepostas <br> % de chave de correspondência para email com hash = (850K / 1,58M) * 100 = 53,8% <br> para ID de Liveramp = (730K / 1,58M) * 100 = 46,2% |
 
@@ -109,6 +109,6 @@ Exibir abaixo dos cálculos de amostra e fórmulas para vários cenários de sob
 
 ### Um público-alvo de anunciante e um público-alvo de editor
 
-| Públicos-alvo do anunciante | Públicos-alvo do editor | Contagem de identidade (A) | Identidades Sobrepostas (B) | Percentual de sobreposição | Análise da chave de correspondência | % de Detalhamento da Chave de Correspondência |
+| Públicos-alvo do anunciante | Públicos-alvo do editor | Contagem de identidade (A) | Identidades Sobrepostas (B) | Percentual de sobreposição | Detalhamento da chave de correspondência | % de Detalhamento da Chave de Correspondência |
 |----------------------|---------------------|--------------------|----------------------------|-----------------|---------------------|-----------------------|
-| 1 A2 | 1 P2 | Contagem total de identidades do público-alvo selecionado pelo anunciante A2 <br> Contagem de identidades = 450 K + 200 K = 650 K | Sobreposição total entre o público-alvo do anunciante selecionado A2 e o público-alvo do publicador selecionado P2 para todas as chaves de correspondência <br> Identidades sobrepostas = 450K | Porcentagem de identidades sobrepostas sobre a contagem de identidade do meu público-alvo selecionado (A2) <br> Sobreposição % = (B/ A) * 100 = (450K / 650K) * 100 = 69,23% <br> Sobreposição percentual = 69,23% | Identidades sobrepostas por chave de correspondência <br> Sobreposição por email com hash = Sobreposição de 300K <br> por Id liveramp = 150K | Porcentagem da sobreposição da chave de correspondência sobre identidades <br> totais sobrepostas Chave de correspondência % para email com hash = (300K / 450K) * 100 = 66,67% para Liveramp Id = (150K / 450K) * 100 = 33,33% <br> |
+| 1 A2 | 1 P2 | Contagem total de identidades do público-alvo selecionado pelo anunciante A2 <br> Contagem de identidades = 450 K + 200 K = 650 K | Sobreposição total entre o público-alvo do anunciante selecionado A2 e o público-alvo do publicador selecionado P2 para todas as chaves de correspondência <br> Identidades sobrepostas = 450K | Porcentagem de identidades sobrepostas sobre a contagem de identidades do público selecionado (A2) <br> % de sobreposição = (B / A) * 100 = (450 K / 650 K) * 100 = 69,23% <br> Porcentagem de sobreposição = 69,23% | Sobreposição de identidades por chave de correspondência <br> Sobreposição por email com hash = 300K <br> Sobreposição por ID de Liveramp = 150K | Porcentagem de sobreposição de chave de correspondência em relação ao total de identidades sobrepostas <br> % de chave de correspondência para email com hash = (300K / 450K) * 100 = 66,67% <br> para ID de Liveramp = (150K / 450K) * 100 = 33,33% |

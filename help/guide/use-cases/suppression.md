@@ -17,4 +17,4 @@ ht-degree: 13%
 
 **Trabalho em andamento**
 
-Conteúdo para seguir
+Conteúdo a seguir

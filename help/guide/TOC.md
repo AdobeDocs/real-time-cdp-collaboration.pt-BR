@@ -25,7 +25,7 @@ ht-degree: 12%
    * [Passarelas de Identificação](./setup/identity-crosswalk.md)
    * [Adicionar e gerenciar dados de medição](./setup/onboard-measurement-data.md)
    * [Logs de auditoria](./setup/audit-logs.md)
-* Conectar-se a um editor ou anunciante {#connect}
+* Conectar-se com o editor ou anunciante {#connect}
    * [Descubra editores](./connect/discover-publishers.md)
    * [Descubra anunciantes](./connect/discover-advertisers.md)
    * [Conectar-se a anunciantes ou editores](./connect/establishing-connections.md)

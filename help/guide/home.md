@@ -6,7 +6,7 @@ badgelimitedavailability: label="Disponibilidade limitada" type="Informative" ur
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '391'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 ## Introdução {#get-started}
 
-Para começar a usar o Real-Time CDP Collaboration, os administradores do sistema precisam dar a si mesmos, aos administradores de produtos e aos usuários finais acesso. Há várias etapas necessárias que dependem do usuário e do nível de acesso necessário. Consulte o guia [visão geral do controle de acesso](/help/guide/permissions/overview.md){target=_&quot;blank&quot;} para começar.
+Para começar a usar o Real-Time CDP Collaboration, os administradores do sistema precisam dar a si mesmos, aos administradores de produtos e aos usuários finais acesso. Há várias etapas necessárias que dependem do usuário e do nível de acesso necessário. Consulte o guia [visão geral do controle de acesso](/help/guide/permissions/overview.md){target=_"blank"} para começar.
 
 Depois de ter acesso, você estará pronto para configurar sua organização e conectar suas fontes de dados à Adobe Real-Time CDP Collaboration para importar públicos. Leia o [fluxo de trabalho completo de anunciante e editor](/help/guide/end-to-end-workflow.md) para começar.
 

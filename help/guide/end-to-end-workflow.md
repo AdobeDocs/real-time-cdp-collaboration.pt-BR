@@ -37,7 +37,7 @@ Como editor, comece por [integrar sua empresa](/help/guide/setup/onboard-organiz
 
 Decida quais dados de público-alvo importar e quais públicos-alvo tornar visíveis e visíveis para os anunciantes que desejam se conectar com você na área **[!UICONTROL Conectar]** do produto.
 
-Ao importar públicos para a Real-Time CDP Collaboration, marque e categorize os públicos. A Real-Time CDP Collaboration segue a [taxonomia IAB](https://www.iab.com/guidelines/content-taxonomy/){target="_blank"} estabelecida para categorizar públicos.
+Ao importar públicos para a Real-Time CDP Collaboration, marque e categorize os públicos. A Real-Time CDP Collaboration segue a [taxonomia do IAB](https://www.iab.com/guidelines/content-taxonomy/){target="_blank"} estabelecida para categorizar públicos.
 
 Decida com quais anunciantes você gostaria de trabalhar e entre em contato com o anunciante para discutir termos de colaboração fora do produto. Depois de concordar com um conjunto de termos, aguarde o anunciante estender um convite formal de conexão para se conectar com você. Geralmente, você também deve monitorar solicitações de conexão pendentes de marcas de anunciantes que desejam trabalhar com você em campanhas. Revise as configurações de conexão propostas por seu colaborador potencial e concorde ou corrija-as antes de iniciar a colaboração.
 
