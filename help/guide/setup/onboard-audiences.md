@@ -6,7 +6,7 @@ badgelimitedavailability: label="Disponibilidade limitada" type="Informative" ur
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2653'
 ht-degree: 1%
 
 ---
@@ -75,33 +75,33 @@ Nesta etapa, você escolherá a fonte dos dados do público-alvo. As fontes disp
 * **Adobe Experience Platform**: selecione esta opção para trazer seus públicos do Adobe Experience Platform Real-Time CDP.
 * **Arquivo CSV** (versão futura): carregue um arquivo CSV contendo seus dados de público-alvo para assimilação rápida e direta de dados.
 * **Amazon Web Services** (versão futura): conecte-se ao seu armazenamento Amazon S3 para importar dados de público diretamente dos seus buckets do S3.
-* **** Snowflake (versão futura): use sua Snowflake data warehouse para obter em público-alvo dados perfeitamente.
+* **Snowflake** (versão futura): use o data warehouse do Snowflake para obter dados de público-alvo facilmente.
 
 #### Selecionar sandbox
 
-Depois de **selecionar Adobe Experience Platform** como fonte de dados, você deve selecionar a área de segurança que inclui os públicos-alvo que você importará.
+Depois de selecionar **Adobe Experience Platform** como fonte de dados, você deve selecionar a sandbox que inclui os públicos que você vai importar.
 
-![Selecionar área de segurança para importação de públicos-alvo](/help/assets/setup/add-manage-audiences/import-audiences-select-sandbox.png)
+![Selecionar sandbox para importar públicos](/help/assets/setup/add-manage-audiences/import-audiences-select-sandbox.png)
 
-Selecione **[!UICONTROL Próximo]** depois de selecionar a área de segurança desejada.
+Selecione **[!UICONTROL Avançar]** depois de selecionar a sandbox desejada.
 
-#### Ações de controle política e aplicação {#governance-policy-and-enforcement-actions}
+#### Política de governação e medidas de execução {#governance-policy-and-enforcement-actions}
 
-Próximo, certifique-se de que as ações de marketing corretas estejam definidas nos dados importados. Também é necessário fornecer consentimento para que os dados importados do CDP em tempo real sejam usados para dados colaboração.
+Em seguida, verifique se as ações de marketing corretas estão definidas nos dados importados. Você também precisa fornecer consentimento para que os dados importados da Real-Time CDP sejam usados para colaboração de dados.
 
-Use ações marketing para controlar quais público-alvo dados a importar para a Colaboração CDP em tempo real da Experience Platform. A **ação de marketing colaboração** de dados é compatível com os rótulos de uso de dados C4, C5 e C9. A **ação de marketing de ciência** de dados suporta o rótulo de uso de dados C9.
+Use ações de marketing para controlar quais dados de público-alvo importar para o Real-Time CDP Collaboration do Experience Platform. A ação de marketing **Data Collaboration** dá suporte aos rótulos de uso de dados C4, C5 e C9. A ação de marketing **Ciência de dados** dá suporte ao rótulo de uso de dados C9.
 
-Leia mais sobre os [rótulos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"} de uso de dados C4, C5 e C9.
+Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}{target=&quot;_blank&quot;}.
 
 * Com a caixa de seleção *habilitada*, todos os dados marcados com os rótulos chamados acima no Experience Platform serão excluídos e *não* serão trazidos para o Real-Time CDP Collaboration.
 * Com a caixa de seleção *desabilitada*, não há restrição para dados do Experience Platform que possam ser importados para o Real-Time CDP Collaboration.
 
-Leia mais sobre rótulos de uso de dados na documentação do Experience Platform:
+Leia mais sobre os rótulos de uso de dados na documentação do Experience Platform:
 
-* [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Glossário de rótulos de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}{target=&quot;_blank&quot;}
+* [Glossário de rótulos de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}{target=&quot;_blank&quot;}
 
-![Ações de marketing obrigatórias para colaboração de dados.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
+![Ações de marketing necessárias para colaboração de dados.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
 ### Fornecer detalhes
 
@@ -256,9 +256,9 @@ Você pode exibir as seguintes informações relevantes sobre cada público-alvo
 
 | Item | Descrição |
 |----------|---------|
-| **[!UICONTROL Identidades]** | Indica o número de identidades presentes neste público-alvo. Observe que se o mesmo perfil tiver duas ou mais identidades, e essas identidades forem usadas como chaves de correspondência no projeto, então os perfil aparecerão duas vezes na contagem. |
+| **[!UICONTROL Identidades]** | Indica o número de identidades presentes nesse público-alvo. Observe que, se o mesmo perfil tiver duas ou mais identidades, e essas identidades forem usadas como chaves de correspondência no projeto, o perfil aparecerá duas vezes na contagem. |
 | **[!UICONTROL Status]** | Indica se a audiência está ativa e pode ser usada em projetos. Um status Pendente indica que o público-alvo acabou de ser importado e os membros do público-alvo ainda não foram preenchidos. Os públicos-alvo importados geralmente são preenchidos com perfis em 24 horas. |
-| **[!UICONTROL Fonte]** | Indica a fonte de onde esta público-alvo foi importada. No lançamento atual de Real-Time CDP Collaboration, Adobe Experience Platform é a única fonte compatível. |
+| **[!UICONTROL Source]** | Indica a fonte de onde esse público-alvo foi importado. Na versão atual do Real-Time CDP Collaboration, o Adobe Experience Platform é a única fonte compatível. |
 | **[!UICONTROL Conexão de dados]** | Mais informações detalhadas sobre de onde esse público-alvo foi importado. Por exemplo, ao importar públicos da origem do Experience Platform, as sandboxes individuais às quais sua organização tem acesso são consideradas as conexões de dados. |
 | **[!UICONTROL Acesso à conexão]** | Define se esse público-alvo é público ou privado. Os públicos-alvo são detectáveis em relatórios de sobreposição e podem ser compartilhados com colaboradores. |
 | **[!UICONTROL Criado]** | Indica quando esse público-alvo foi importado para o Real-Time CDP Collaboration. |
@@ -284,20 +284,20 @@ As métricas que você pode visualizar nessa tela estão descritas abaixo:
 | **[!UICONTROL Conexão de dados]** | Mais informações detalhadas sobre de onde esse público-alvo foi importado. Por exemplo, ao importar públicos da origem do Experience Platform, as sandboxes individuais às quais sua organização tem acesso são consideradas as conexões de dados. |
 | **[!UICONTROL Última atualização]** | Indica a última data e hora em que qualquer aspecto desse público-alvo foi atualizado. |
 | **[!UICONTROL Última atualização por]** | Indica o usuário que atualizou esse público pela última vez. |
-| **[!UICONTROL Criado]** | Indica quando essa público-alvo foi importada para a Colaboração de CDP em tempo real. |
-| **[!UICONTROL Criado por]** | Indica o usuário que importou a público-alvo para a Colaboração cdp em tempo real. |
+| **[!UICONTROL Criado]** | Indica quando esse público-alvo foi importado para o Real-Time CDP Collaboration. |
+| **[!UICONTROL Criado por]** | Indica o usuário que importou o público-alvo para o Real-Time CDP Collaboration. |
 
 
-Você pode usar mais dois controles na página para editar ou remover públicos-alvo:
+Você pode usar mais dois controles na página para editar ou remover públicos:
 
-* **** Excluir: Remover a público-alvo da sua inventário
-* **** Editar: Editar público-alvo metadados curtir seu nome ou descrição.
+* **[!UICONTROL Excluir]**: remover o público-alvo do inventário
+* **[!UICONTROL Editar]**: edite os metadados do público-alvo como seu nome ou descrição.
 
-![Exibir e inspecionar público-alvo individuais.](/help/assets/setup/add-manage-audiences/audiences-edit-delete-controls.png)
+![Exibir e inspecionar público-alvo individual.](/help/assets/setup/add-manage-audiences/audiences-edit-delete-controls.png)
 
-Mais informações sobre a público-alvo estão disponíveis e parcialmente editáveis em widgets abaixo:
+Mais informações sobre o público estão disponíveis e parcialmente editáveis nos widgets abaixo:
 
-![Exibir e inspecionar público-alvo individuais.](/help/assets/setup/add-manage-audiences/audiences-further-info-boxes.png)
+![Exibir e inspecionar público-alvo individual.](/help/assets/setup/add-manage-audiences/audiences-further-info-boxes.png)
 
 * [Identidades](#identities)
 * [Categorias](#categories)
@@ -318,26 +318,26 @@ Esta seção indica o número de perfis presentes no público com qualquer uma d
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
 >title="Categorias"
->abstract="Adicione tags aos públicos para facilitar a organização, a filtragem e a recuperação. Você pode tag um público-alvo com várias categorias e, em seguida, você pode usar essas tags categoria para filtrar seus públicos-alvo desejados em outras áreas do produto."
+>abstract="Adicione tags aos públicos para facilitar a organização, a filtragem e a recuperação. Você pode marcar um público-alvo com várias categorias e, em seguida, usar essas tags de categoria para filtrar os públicos-alvo desejados em outras áreas do produto."
 
-Para facilitar público-alvo organização, filtragem e recuperação, você pode tag seus públicos-alvo. Você pode tag um público-alvo com várias categorias e, em seguida, você pode usar essas tags categoria para filtrar seus públicos-alvo desejados na área do [produto Discover](/help/guide/collaborate/discover.md) , ao executar público-alvo relatórios de sobreposição.
+Para facilitar a organização, a filtragem e a recuperação de públicos-alvo, você pode marcar seus públicos-alvo. Você pode marcar um público com várias categorias e usar essas marcas de categoria para filtrar os públicos desejados na área de produto [descoberta](/help/guide/collaborate/discover.md), ao executar relatórios de sobreposição de público.
 
 ### Acesso à conexão {#connection-access}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Acesso à conexão"
->abstract="<p>Audiences pode ser de três tipos: público, privado e personalizado.</p><p> Sua disponibilidade para uso em projetos com colaboradores difere com base na configuração de acesso à conexão. Você sempre pode alterar o acesso à conexão de privado para público, mas não pode alterar essa configuração novamente depois que um público-alvo for compartilhado com colaboradores.</p>"
+>abstract="<p>Os públicos-alvo podem ser de três tipos: público, privado e personalizado.</p><p> Sua disponibilidade para uso em projetos com colaboradores difere com base na configuração de acesso à conexão. Você sempre pode alterar o acesso à conexão de privado para público, mas não pode alterar essa configuração novamente depois que um público-alvo for compartilhado com colaboradores.</p>"
 
 Selecione se o público-alvo deve ser privado para você ou utilizável e detectável em conexões. As três opções disponíveis são:
 
-* **[!UICONTROL Público-alvo]** públicos. Esses públicos-alvo estão disponíveis para uso em relatórios de sobreposição e para compartilhamento e ativação em conexões com qualquer colaborador.
-* **** Público-alvo particulares. Esses públicos-alvo não *estão* disponíveis para uso em relatórios de sobreposição e para compartilhamento e ativação em conexões com qualquer colaborador. Embora não esteja disponível para os colaboradores visualizarem ou usarem, a população deste público-alvo ainda contribui para a população total na exibição **[!UICONTROL Todos os públicos-alvo]** na [seção de descobertas e sobreposições](/help/guide/collaborate/discover.md#compare-audiences). Altere a configuração para público ou personalizado para usar os públicos-alvo em conexões com colaboradores.
+* **[!UICONTROL Público]**. Esses públicos-alvo estão disponíveis para uso em relatórios de sobreposição e para compartilhamento e ativação em conexões com qualquer colaborador.
+* **[!UICONTROL Público-alvo]**. Estes públicos-alvo *não* estão disponíveis para uso em relatórios de sobreposição e para compartilhamento e ativação em conexões com qualquer colaborador. Embora não esteja disponível para os colaboradores visualizarem ou usarem, a população deste público-alvo ainda contribui para a população total na exibição **[!UICONTROL Todos os públicos-alvo]** na [seção de descobertas e sobreposições](/help/guide/collaborate/discover.md#compare-audiences). Altere a configuração para público ou personalizado para usar os públicos-alvo em conexões com colaboradores.
 * **[!UICONTROL Público-alvo personalizado]**. Esses públicos-alvo estão disponíveis para uso em relatórios de sobreposição e para compartilhamento e ativação somente em conexões especificadas. Embora não esteja disponível para todos os colaboradores visualizarem ou usarem, a população deste público-alvo ainda contribui para a população total na exibição **[!UICONTROL Todos os públicos-alvo]** da seção [descobrir e sobrepor](/help/guide/collaborate/discover.md).
 
 >[!IMPORTANT]
 >
->Independentemente do status de acesso (público, privado ou personalizado), a população de qualquer público-alvo contribui para a população de **[!UICONTROL Todos os públicos-alvo]** na exibição de análise de sobreposição da Descoberta de público-alvo. <br> ![O público-alvo **Todos os públicos-alvo** gerados pelo sistema na análise de sobreposição da Descoberta de Público-alvo inclui os públicos-alvo com todos os status de acesso de conexão (público, privado, personalizado).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "O público-alvo **Todos os públicos-alvo** gerado pelo sistema na análise de sobreposição **Descoberta de Público-alvo** inclui os públicos-alvo com todos os status de acesso de conexão (público, privado, personalizado)."){width="100" zoomable="yes"}
+>Independentemente do status de acesso (público, privado ou personalizado), a população de qualquer público-alvo contribui para a população de **[!UICONTROL Todos os públicos-alvo]** na exibição de análise de sobreposição da Descoberta de público-alvo. <br> ![O público-alvo **Todos os públicos-alvo** gerados pelo sistema na análise de sobreposição da Descoberta de Público-alvo inclui os públicos-alvo com todos os status de acesso de conexão (público, privado, personalizado).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "O público-alvo gerado pelo sistema **Todos os públicos-alvo** na análise de sobreposição **Descoberta de público-alvo** inclui os públicos-alvo com todos os status de acesso de conexão (público, privado, personalizado)."){width="100" zoomable="yes"}{width=&quot;100&quot; zoomable=&quot;yes&quot;}
 
 A disponibilidade do público-alvo para uso em projetos com colaboradores é diferente de acordo com a configuração de acesso à conexão. Você sempre pode alterar o acesso à conexão de privado para público, mas não pode alterar essa configuração novamente depois que um público-alvo for compartilhado com colaboradores.
 
@@ -360,8 +360,8 @@ Indica qual das informações de metadados de público-alvo é visível para out
 
 **[!UICONTROL Mostrar sobreposição de público-alvo %]**: quando definido como verdadeiro, os colaboradores podem [descobrir porcentagens de sobreposição](/help/guide/collaborate/discover.md#compare-audiences) entre seus públicos-alvo e o público que pertence a você. Por exemplo, na gravação abaixo, o público-alvo `agora-advertiser-aud3` tem essa configuração definida como verdadeira e um colaborador pode visualizar porcentagens de sobreposição com esse público-alvo. A audiência `agora-advertiser-aud1` tem essa configuração definida como falsa, portanto, o colaborador não pode exibir porcentagens de sobreposição.
 
-![Porcentagem de sobreposição de público-alvo para dois públicos-alvo diferentes.](/help/assets/setup/add-manage-audiences/audience-overlap-percentage.gif)
+![Percentual de sobreposição de público-alvo para dois públicos-alvo diferentes.](/help/assets/setup/add-manage-audiences/audience-overlap-percentage.gif)
 
 ## Próximas etapas
 
-Depois de importar públicos-alvo, use a [seção Connect](/help/guide/connect/establishing-connections.md) para descobrir editores para se conectar e start colaboração em projetos.
+Depois de importar públicos, use a seção [Conectar](/help/guide/connect/establishing-connections.md) para descobrir editores para se conectar e começar a colaborar em projetos.

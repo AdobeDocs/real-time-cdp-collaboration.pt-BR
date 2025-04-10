@@ -6,18 +6,18 @@ badgelimitedavailability: label="Disponibilidade limitada" type="Informative" ur
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 0%
+source-wordcount: '858'
+ht-degree: 1%
 
 ---
 
-# Organização onboard e gerenciar
+# Integração e gerenciamento da organização
 
 {{limited-availability-release-note}}
 
 Saiba como integrar sua organização à Real-Time CDP Collaboration e gerenciar vários aspectos da empresa. Esta página descreve as etapas para integrar uma organização ao Adobe Real-Time CDP Collaboration, incluindo a configuração de chaves de correspondência, identidades preferenciais e mais opções.
 
-![Página de instalação](/help/assets/setup/manage-organization/my-organization.png){zoomable="yes"}
+![Página de instalação](/help/assets/setup/manage-organization/my-organization.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 ## Configuração inicial da organização
 
@@ -27,7 +27,7 @@ Primeiro, você deve configurar sua organização e os detalhes organizacionais.
 >
 >Depois de configurar uma conta inicial para trabalhar, é possível usar o mesmo fluxo de trabalho para configurar contas adicionais na mesma organização.
 
-![Selecione a Conta para adicionar uma nova organização à Real-Time CDP Collaboration](/help/assets/setup/manage-organization/add-new-account.png){zoomable="yes"}
+![Selecione a Conta para adicionar uma nova organização à Real-Time CDP Collaboration](/help/assets/setup/manage-organization/add-new-account.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 O fluxo de trabalho para configurar sua organização inclui as duas páginas abaixo:
 
@@ -36,19 +36,19 @@ O fluxo de trabalho para configurar sua organização inclui as duas páginas ab
 
 >[!IMPORTANT]
 >
->Quaisquer *chaves de correspondência* selecionadas no nível da organização serão percorridas até o [nível do projeto](/help/guide/collaborate/manage-projects.md) na colaboração entre anunciantes e editores. No nível do projeto, é possível remover qualquer tecla de correspondência, mas não *é* possível adicionar outras que não foram selecionadas no nível da organização nesta tela.
+>Quaisquer *chaves de correspondência* selecionadas no nível da organização serão percorridas até o [nível do projeto](/help/guide/collaborate/manage-projects.md) na colaboração entre anunciantes e editores. No nível do projeto, você pode remover qualquer chave de correspondência, mas *não* pode adicionar outras chaves que não foram selecionadas no nível da organização nesta tela.
 
 ### Configurar detalhes {#set-up-details}
 
-![As etapas de detalhes e casos de uso para configurar uma organização](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
+![As etapas de detalhes e casos de uso para configurar uma organização](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
-1. Adicione um **[!UICONTROL nome]** de organização para o seu empresa.
+1. Adicione um **[!UICONTROL Nome da organização]** à sua empresa.
 2. Adicione uma **[!UICONTROL Descrição]** sobre sua empresa.
 3. Selecione sua **[!UICONTROL Função da empresa]**. Você pode selecionar entre **[!UICONTROL Anunciante]** e **[!UICONTROL Publicador]**. Leia o [documento de fluxo de trabalho completo](/help/guide/end-to-end-workflow.md) para ver semelhanças e pequenas diferenças no fluxo de trabalho entre os dois tipos de função organizacional.
 4. Selecione o **[!UICONTROL Setor]** da sua organização. Alguns exemplos incluem **[!UICONTROL Varejo]**, **[!UICONTROL Telecomunicações]** ou **[!UICONTROL Serviços financeiros]**.
-5. Selecione a **[!UICONTROL Região]** da organização. Na versão atual do produto, **[!UICONTROL a América]** do Norte é a seleção padrão predefinida.
-6. <span class="preview"> Somente</span> editor: ao configurar uma organização editor, você deve ler e reconhecer que será descoberto pelos anunciantes no catálogo de editor.
-   ![Mensagem de aceitação específica do editor.](/help/assets/setup/manage-organization/publisher-specific-optin-message.png){zoomable="yes"}
+5. Selecione a **[!UICONTROL Região]** da sua organização. Na versão atual do produto, a **[!UICONTROL América do Norte]** é a seleção padrão predefinida.
+6. <span class="preview"> Somente editor</span>: ao configurar uma organização publicadora, você deve ler e confirmar que será detectado pelos anunciantes no catálogo do publicador.
+   ![Mensagem de aceitação específica do editor.](/help/assets/setup/manage-organization/publisher-specific-optin-message.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 7. Carregue um **[!UICONTROL Logotipo]** para sua empresa. Atualmente, imagens do tipo SVG são compatíveis.
 8. Selecione uma imagem para a imagem do cabeçalho da empresa.
 
@@ -69,22 +69,22 @@ Quando estiver satisfeito com sua seleção, use **[!UICONTROL Avançar]** para 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="IDs de dispositivo próprio"
->abstract="IDs dispositivo primárias, como endereços ECID ou IP, estão diretamente conectadas a dispositivos, que podem ser compartilhadas entre vários indivíduos. O IPv4 é o único dispositivo ID próprio suportado atualmente."
+>abstract="As IDs de dispositivo próprio, como ECID ou endereços IP, estão diretamente conectadas a dispositivos, que podem ser compartilhadas entre vários indivíduos. IPv4 é a única ID de dispositivo própria compatível no momento."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
->title="IDs parceiro suportadas"
+>title="IDs de parceiros compatíveis"
 >abstract="As IDs de parceiros associadas a perfis expandem o alcance para um determinado perfil."
 
 As chaves de correspondência, como endereços de email, IDs de dispositivo ou IDs de cliente, ajudam anunciantes e editores a trabalharem juntos, permitindo uma sincronização de dados precisa e compatível com a privacidade, o que permite um direcionamento e uma medição de público mais precisos.
 
 ![Slide mostrando os identificadores disponíveis para a primeira versão do Real-Time CDP Collaboration.](/help/assets/setup/manage-organization/available-identifiers.png)
 
-Selecione as chaves de correspondência que deseja usar ao reconciliar membros de públicos-alvo de editores e anunciantes. Inclua quaisquer chaves de correspondência com as quais o empresa pode trabalhar. plano para o futuro e selecione as chaves de correspondência que você prevê usar em campanhas futuras editor-anunciante. Se precisar selecionar chaves de correspondência adicionais para sua organização, também poderá fazer isso posteriormente, no fluxo de Trabalho da [organização](#edit-organization) de edição.
+Selecione as chaves de correspondência que deseja usar ao reconciliar membros de públicos-alvo de editores e anunciantes. Inclua todas as chaves de correspondência com as quais sua empresa pode trabalhar. Planeje para o futuro e selecione as chaves de correspondência que você antecipa que usará em campanhas futuras de editor-anunciante. Se você precisar selecionar chaves de correspondência adicionais para sua organização, também poderá fazer isso posteriormente, no fluxo de trabalho [editar organização](#edit-organization).
 
-![Corresponder etapa de seleção das chaves.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
+![Etapa de seleção de chaves de correspondência.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
-Selecione até cinco chaves de correspondência que você planeja usar. Posteriormente, ao configurar conexões, é possível remover chaves de correspondência indesejadas, mas não pode adicionar novas. Defina a contagem de identidade limite (contagem mínima) para cada chave de correspondência selecionada. Chaves de correspondência com menos que a contagem mínima não aparecerão nos detalhamentos de identidade para alguns casos de uso.
+Selecione até cinco chaves de correspondência que você planeja usar. Mais tarde, ao configurar conexões, você pode remover chaves de correspondência indesejadas, mas não pode adicionar novas. Defina o limite de contagem de identidades (contagem mínima) para cada chave de correspondência selecionada. Chaves de correspondência com menos que a contagem mínima não aparecerão nos detalhamentos de identidade para alguns casos de uso.
 
 As chaves de correspondência disponíveis no Real-Time CDP Collaboration podem ser de três tipos:
 
@@ -105,21 +105,21 @@ not available in the Limited GA release
 
 -->
 
-Quando estiver pronto, selecione **[!UICONTROL Todos os Apps]** para concluir a configuração da organização fluxo de Trabalho.
+Quando estiver pronto, selecione **[!UICONTROL Concluir]** para concluir o fluxo de trabalho de configuração da organização.
 
-## organização do Editar {#edit-organization}
+## Editar organização {#edit-organization}
 
-Depois de configurar sua organização inicialmente, você pode, a qualquer momento, editar certos aspectos e detalhes da organização. Para editar sua organização, selecione **[!UICONTROL Editar]** no visualização **[!UICONTROL da Minha organização]** .
+Depois de configurar inicialmente sua organização, você pode editar determinados aspectos e detalhes da organização a qualquer momento. Para editar sua organização, selecione **[!UICONTROL Editar]** na exibição **[!UICONTROL Minha organização]**.
 
-![Controle de edição da organização destacado.](/help/assets/setup/manage-organization/edit-organization.png){zoomable="yes"}
+![Editar controle de organização realçado.](/help/assets/setup/manage-organization/edit-organization.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 Nesse ponto, é possível atualizar o nome, a descrição, o logotipo e a imagem do perfil da organização.
 
-![Opções editáveis para organizações.](/help/assets/setup/manage-organization/editable-options.png){zoomable="yes"}
+![Opções editáveis para organizações.](/help/assets/setup/manage-organization/editable-options.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 Você também pode atualizar as chaves de correspondência selecionadas inicialmente ao integrar sua organização, bem como o limite mínimo para identidades correspondentes a chaves de correspondência serem visíveis e utilizáveis em sobreposições de público-alvo e outras áreas de produtos. Selecione **[!UICONTROL Editar]** na guia **[!UICONTROL Chaves de correspondência]** para adicionar outras chaves de correspondência desejadas ou atualizar limites de identidade.
 
-![Editar chaves de correspondência](/help/assets/setup/manage-organization/edit-match-keys.png){zoomable="yes"}
+![Editar chaves de correspondência](/help/assets/setup/manage-organization/edit-match-keys.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 ## Próximas etapas
 

@@ -6,8 +6,8 @@ badgelimitedavailability: label="Disponibilidade limitada" type="Informative" ur
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 1%
+source-wordcount: '428'
+ht-degree: 3%
 
 ---
 
@@ -25,15 +25,15 @@ Antes de gerenciar suas conexões de dados aqui, você deve inicialmente configu
 
 >[!IMPORTANT]
 >
->No momento, a exclusão de uma conexão de dados não é suportada na interface do usuário do Real-Time CDP Collaboration. Para excluir uma conexão de dados, entre em contato com o representante da Adobe ou [crie um tíquete de suporte ao cliente](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support).
+>No momento, a exclusão de uma conexão de dados não é suportada na interface do usuário do Real-Time CDP Collaboration. Para excluir uma conexão de dados, entre em contato com o representante da Adobe ou [crie um tíquete de suporte ao cliente](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"}{target=&quot;_blank&quot;}.
 
 Para exibir as conexões de dados existentes, navegue até **[!UICONTROL Configuração]** > **[!UICONTROL Meus públicos-alvo]** e selecione **[!UICONTROL Gerenciar conexões de dados]**.
 
-![Espaço de trabalho de Instalação com Gerenciar conexões de dados realçado.](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png)
+![Espaço de trabalho de Instalação com Gerenciar conexões de dados realçado.](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 Isso exibe todas as conexões de dados configuradas no momento, com informações sobre o número de públicos-alvo em cada uma delas, a fonte da conexão de dados e muito mais. Selecione **[!UICONTROL Exibir conexão de dados]** para exibir informações sobre as chaves de correspondência, o agendamento e os públicos-alvo que fazem parte dessa conexão de dados.
 
-![Gerenciar espaço de trabalho de conexões de dados com uma conexão Exibir conexões de dados realçadas. ](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png)
+![Gerenciar espaço de trabalho de conexões de dados com uma conexão Exibir conexões de dados realçadas. ](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 ### Coincidir chaves {#match-keys}
 
@@ -48,7 +48,7 @@ As chaves de correspondência são identificadores usados para reconciliar membr
 
 Não é possível editar as chaves de correspondência usadas nesta conexão de dados.
 
-![Um espaço de trabalho de conexões de dados com a seção Corresponder chaves realçada.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png)
+![Um espaço de trabalho de conexões de dados com a seção Corresponder chaves realçada.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 ### Agendando {#scheduling}
 
@@ -59,13 +59,13 @@ Não é possível editar as chaves de correspondência usadas nesta conexão de 
 
 Não é possível editar as opções de agendamento selecionadas inicialmente para a conexão de dados. Para obter mais informações sobre opções de agendamento, exiba a [seção de agendamento](/help/guide/setup/onboard-audiences.md#schedule) no documento de fluxo de trabalho de importação de público-alvo.
 
-![Um espaço de trabalho de conexões de dados com a seção Agendamento realçada.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png)
+![Um espaço de trabalho de conexões de dados com a seção Agendamento realçada.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 ## Gerenciar públicos {#manage-audiences}
 
 Ao exibir a lista de públicos-alvo da conexão de dados, você pode optar por exibi-los, editar suas categorias ou removê-los da conexão de dados.
 
-![Um espaço de trabalho de conexões de dados com os públicos-alvo realçados.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png)
+![Um espaço de trabalho de conexões de dados com os públicos-alvo realçados.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 ## Próximas etapas
 

@@ -6,7 +6,7 @@ badgelimitedavailability: label="Disponibilidade limitada" type="Informative" ur
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '605'
 ht-degree: 1%
 
 ---

@@ -6,8 +6,8 @@ badgelimitedavailability: label="Disponibilidade limitada" type="Informative" ur
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 81cedb2a06d930734b1f97304de82d450c06bf79
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 1%
+source-wordcount: '937'
+ht-degree: 2%
 
 ---
 
@@ -23,11 +23,11 @@ Em um alto nível, para estabelecer uma conexão entre um anunciante e um editor
 
 1. O anunciante [procura editores e descobre](/help/guide/connect/discover-publishers.md) um com o qual gostaria de trabalhar
 2. O anunciante envia um convite de conexão.
-3. A editor aceita o convite.
-4. O anunciante envia configurações de conexão, incluindo chaves de correspondência e outras. Essas configurações de conexão representam os termos no produto do colaboração.
-5. A editor aceita as configurações de conexão. Se desejado, o editor pode rejeitar as configurações iniciais de conexão e solicitação que a anunciante envie configurações de conexão revisadas.
+3. O editor aceita o convite.
+4. O anunciante envia configurações de conexão, incluindo chaves de correspondência e outras. Essas configurações de conexão representam os termos no produto da colaboração.
+5. O editor aceita configurações de conexão. Se desejar, o editor pode rejeitar as configurações de conexão iniciais e solicitar que o anunciante envie configurações de conexão revisadas.
 
-![Diagrama de alto nível do processo de conexão editor com anunciante níveis.](/help/assets/connect/establish-connection/advertiser-publisher-connection-process.png)
+![Diagrama de alto nível do processo de conexão anunciante-editor.](/help/assets/connect/establish-connection/advertiser-publisher-connection-process.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 Quando os itens acima forem concluídos, os colaboradores poderão prosseguir para [criar um projeto](/help/guide/collaborate/manage-projects.md#create-project) para [executar relatórios de sobreposição](/help/guide/collaborate/discover.md) e iniciar campanhas publicitárias.
 
@@ -37,13 +37,13 @@ Quando os itens acima forem concluídos, os colaboradores poderão prosseguir pa
 
 ## Enviar convite {#send-invite}
 
-Para configurar uma conexão, selecione **[!UICONTROL Conectar]** ao navegar no editor inventário na tela do editor Discover.
+Para configurar uma conexão, selecione **[!UICONTROL Conectar]** ao navegar pelo inventário de fornecedores na tela de descoberta de editores.
 
-![Conecte-se seletor](/help/assets/connect/establish-connection/connect-selection.png)
+![Seletor de conexão](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 Neste ponto, o convite está fora e você pode visualizar as configurações de conexão, mas não pode editá-las. Você pode exibir o convite pendente na guia **[!UICONTROL Minhas conexões]**. O status da conexão é **[!UICONTROL Convite enviado]**.
 
-![Convite pendente enviado ao editor exibido no modo de exibição Minhas conexões.](/help/assets/connect/establish-connection/pending-invite-sent.png)
+![Convite pendente enviado ao editor exibido no modo de exibição Minhas conexões.](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 Depois que o colaborador aceitar o convite, você poderá definir as configurações de conexão e enviá-las ao colaborador para revisar e aceitar.
 
@@ -62,12 +62,12 @@ Depois que o colaborador aceitar o convite, você poderá definir as configuraç
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="Divisão de crédito"
->abstract="Esta seção determina quem está pagando pelas atividades correspondentes na Colaboração CDP em tempo real. Atualmente, somente o público-alvo caso de uso de compartilhamento está configurável."
+>abstract="Esta seção determina quem está pagando pelas atividades correspondentes no Real-Time CDP Collaboration. Atualmente, somente o caso de uso de compartilhamento de público-alvo é configurável."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="Compartilhamento de público"
->abstract="O compartilhamento de público-alvo é o atividade que uma parte toma ao solicitar que seus dados correspondentes sejam ativados por seus parceiro de colaboração."
+>abstract="O Compartilhamento de público-alvo é a atividade que uma parte realiza ao solicitar que os dados correspondentes sejam ativados pelo parceiro de colaboração."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
@@ -76,31 +76,31 @@ Depois que o colaborador aceitar o convite, você poderá definir as configuraç
 
 Depois que o convite for enviado, você poderá visualizar as configurações de conexão. O convite deve ser aceito antes que você possa concluir a configuração da conexão.
 
-![As configurações de conexão visualização no estado pré-visualização.](/help/assets/connect/establish-connection/preview-connection-settings.png)
+![A exibição das configurações de conexão no estado de visualização.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
-Depois que a conexão for aceita pelo seu colaborador, agora você pode start configurar as configurações de conexão para a conexão. As configurações de conexão definem os termos do seu colaboração, como os casos de uso que você realizará em conjunto, as teclas de correspondência que você usará em projetos e muito mais.
+Depois que a conexão for aceita pelo colaborador, você poderá começar a definir as configurações de conexão para a conexão. As configurações de conexão definem os termos de sua colaboração, como os casos de uso que você realizará juntos, as chaves de correspondência que usará em projetos e muito mais.
 
-Para configurar e compartilhar configurações de conexão com seu colaborador, navegue até **[!UICONTROL Minhas conexões]**. Para qualquer conexão com o status **[!UICONTROL pendente]**, é possível selecionar **[!UICONTROL Configurar conexão]** para definir as configurações de conexão.
+Para definir e compartilhar configurações de conexão com seu colaborador, navegue até **[!UICONTROL Minhas conexões]**. Para qualquer conexão com o status **[!UICONTROL Pendente]**, você pode selecionar **[!UICONTROL Configurar conexão]** para definir as configurações de conexão.
 
-![A exibição Minhas conexões com uma conexão Pendente e sua opção Configurar conexão foi realçada.](/help/assets/connect/establish-connection/pending-connection.png)
+![A exibição Minhas conexões com uma conexão Pendente e sua opção Configurar conexão foi realçada.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 É possível editar e definir os campos abaixo:
 
-![Configurar exibição de conexão](/help/assets/connect/establish-connection/connection-view.png)
+![Configurar exibição de conexão](/help/assets/connect/establish-connection/connection-view.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 +++Casos de uso
 
 Os casos de uso são preenchidos previamente com todos os casos de uso disponíveis. Você pode escolher quais casos de uso sua conexão usará ao selecionar **[!UICONTROL Editar]** e desativar todos os casos de uso que não desejar. Os casos de uso selecionados afetarão quais modos de exibição e opções estão [disponíveis em seus projetos](../collaborate/manage-projects.md#project-use-cases).
 
-![Casos de uso](/help/assets/connect/establish-connection/view-use-cases.png)
+![Casos de uso](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 +++
 
-+++Chaves de correspondência
++++Teclas de correspondência
 
-As chaves de correspondência são preenchidas previamente com as que você [selecionou em seu nível organizacional](/help/guide/setup/onboard-organization.md#set-up-match-keys). É possível desativar as teclas de correspondência que não deseja usar nessa conexão, mas não é possível adicionar teclas de correspondência que não foram selecionadas ao configurar a organização.
+As chaves de correspondência são preenchidas previamente com aquelas que você [selecionou no seu nível organizacional](/help/guide/setup/onboard-organization.md#set-up-match-keys). Você pode desativar as chaves de correspondência que não deseja usar nesta conexão, mas não pode adicionar chaves de correspondência que não foram selecionadas ao configurar a organização.
 
-![Chaves de correspondência](/help/assets/connect/establish-connection/match-keys.png)
+![Chaves correspondentes](/help/assets/connect/establish-connection/match-keys.png)
 
 +++
 
@@ -116,7 +116,7 @@ Use a seção divisão de crédito para determinar qual das duas partes colabora
 
 Antes de prosseguir com essa conexão, você deve reconhecer que existe um acordo de compartilhamento de dados entre as duas partes.
 
-![Acordos legais.](/help/assets/connect/establish-connection/legal-agreement.png)
+![Contratos legais.](/help/assets/connect/establish-connection/legal-agreement.png)
 
 +++
 
@@ -131,14 +131,14 @@ Você pode excluir qualquer conexão com colaboradores com os quais não deseja 
 1. Navegue até **[!UICONTROL Conectar]** > **[!UICONTROL Minhas conexões]**.
 2. Selecione **[!UICONTROL Exibir conexão]** no cartão de conexão para acessar a conexão que deseja excluir.
 3. Selecione o ícone de exclusão ![ícone de exclusão](/help/assets/common/delete.svg) para abrir a caixa de diálogo de confirmação de exclusão da conexão.
-   ![Ícone de exclusão de conexão realçado.](/help/assets/connect/establish-connection/delete-icon-highlighted.png)
+   ![Ícone de exclusão de conexão realçado.](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 4. Confirme a exclusão selecionando **[!UICONTROL Excluir]**.
-   ![Diálogo para confirmar a exclusão de uma conexão. ](/help/assets/connect/establish-connection/delete-connection-dialog.png)
+   ![Diálogo para confirmar a exclusão de uma conexão. ](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 >[!WARNING]
 >
->Quando a conexão for excluída, você não estará mais conectado com o colaborador e todos os projetos existentes que fazem parte da colaboração serão permanentemente excluídos e irrecuperáveis.
+>Depois que a conexão for excluída, você não estará mais conectado ao colaborador e todos os projetos existentes que fazem parte da colaboração serão excluídos permanentemente e irrecuperáveis.
 
 ## Próximas etapas
 
-Depois de estabelecer uma conexão com seu colaborador, você e seu colaborador agora [podem criar projetos](/help/guide/collaborate/manage-projects.md#create-project).
+Depois de estabelecer uma conexão com seu colaborador, você e ele agora podem [criar projetos](/help/guide/collaborate/manage-projects.md#create-project).

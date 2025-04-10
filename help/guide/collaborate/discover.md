@@ -6,8 +6,8 @@ badgelimitedavailability: label="Disponibilidade limitada" type="Informative" ur
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 0%
+source-wordcount: '886'
+ht-degree: 1%
 
 ---
 
@@ -85,7 +85,7 @@ As informações exibidas estão relacionadas a:
 | **[!UICONTROL Percentual de sobreposição]** | A porcentagem de sobreposição de perfis entre seu e o público-alvo selecionado do colaborador. |
 | **[!UICONTROL Detalhamento de identidades por chave de correspondência]** | Com base nas chaves de correspondência em que você e seu colaborador concordaram para o projeto, visualize a composição das identidades nos cálculos de sobreposição por chaves de correspondência individuais. |
 
-{style="table-layout:auto"}
+{style=&quot;table-layout:auto&quot;}
 
 >[!TIP]
 >
