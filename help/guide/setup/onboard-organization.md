@@ -4,9 +4,9 @@ description: Saiba como integrar e gerenciar vários aspectos da sua organizaç�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: a93ba1bc2aa043fcc1519ec2e1cc79435175d71c
+source-git-commit: f146a39ab69a9a41bb12aeb59b0d23ae567cf4c2
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Selecione as chaves de correspondência que deseja usar ao reconciliar membros d
 
 ![Etapa de seleção de chaves de correspondência.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
 
-Selecione até cinco chaves de correspondência que você planeja usar. Mais tarde, ao configurar conexões, você pode remover chaves de correspondência indesejadas, mas não pode adicionar novas. Defina o limite de contagem de identidades (contagem mínima) para cada chave de correspondência selecionada. Chaves de correspondência com menos que a contagem mínima não aparecerão nos detalhamentos de identidade para alguns casos de uso.
+Selecione até cinco chaves de correspondência que você planeja usar. Mais tarde, ao configurar conexões, você pode remover chaves de correspondência indesejadas, mas não pode adicionar novas.
 
 As chaves de correspondência disponíveis no Real-Time CDP Collaboration podem ser de três tipos:
 
