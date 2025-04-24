@@ -4,10 +4,10 @@ description: Saiba como rastrear a atividade de consumo de crédito da sua organ
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: 1e8c2fdb3294111562f206ac141cfa39d5193c6c
+source-git-commit: a69d4405c47824c8afabc84782dc9f8a9d70763a
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 1%
+source-wordcount: '644'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Para acessar sua atividade de consumo de crédito estimado, navegue até **[!UIC
 >
 >A exibição **[!UICONTROL Minha atividade]** não inclui informações sobre ações do usuário em diferentes partes da interface do usuário da Real-Time Collaboration CDP. Use a funcionalidade [logs de auditoria](/help/guide/setup/audit-logs.md) para obter essas informações.
 
-## Entender o painel de atividades
+## Entender o painel de atividades {#understand-dashboard}
 
 O painel de instrumentos de atividade exibe uma lista abrangente de todas as operações de consumo de crédito na organização. Cada linha representa uma atividade distinta e fornece informações importantes sobre o uso do crédito:
 
@@ -38,11 +38,12 @@ O painel de instrumentos de atividade exibe uma lista abrangente de todas as ope
 >As atividades de **[!UICONTROL Gerenciamento de Público-Alvo]** não estão associadas a outro colaborador, portanto, as colunas **[!UICONTROL ID de Conexão]** e **[!UICONTROL Nome de Conexão]** para esses tipos de atividades indicam um valor **[!UICONTROL N/A]**.
 
 | Coluna | Descrição |
-|--------|-------------|
+|------------|--------------|
 | **[!UICONTROL Data]** | A data em que a atividade ocorreu, exibida no formato MM/DD/AAAA. |
 | **[!UICONTROL ID da Conexão]** | Um identificador exclusivo para cada conexão associada a uma atividade de consumo de crédito, representada como uma sequência alfanumérica. |
 | **[!UICONTROL Nome da conexão]** | O nome do colaborador associado à conexão e à atividade que consome crédito. |
 | **[!UICONTROL Atividade]** | O tipo de atividade realizada, como **Ativação - Compartilhamento**, **Ativação - Saída** ou **Gerenciamento de público-alvo**. |
+| **[!UICONTROL Entradas processadas]** | O número total de entradas (por exemplo, IDs ou linhas) processadas para a atividade, medido em milhões. Isso ajuda você a entender o custo da atividade, correlacionando-o com sua CPM (custo por mil) para calcular o custo bruto. |
 | **[!UICONTROL Total de créditos usados]** | O número total de créditos consumidos pela atividade. |
 | **[!UICONTROL Meu compartilhamento de crédito]** | A parte da organização nos créditos usada para a atividade. |
 
@@ -55,6 +56,8 @@ A coluna **[!UICONTROL Atividade]** mostra diferentes tipos de operações que c
 * **[!UICONTROL Gerenciamento de público-alvo]**: os créditos são consumidos quando os públicos-alvo são importados para a Real-Time CDP Collaboration. Os créditos são consumidos como uma função do número de IDs (em milhões) indexadas no Real-Time CDP Collaboration em todos os públicos-alvo e da frequência dessa indexação (diariamente, a cada três dias ou semanalmente) durante o período de faturamento. Leia mais sobre [importação e gerenciamento de públicos](/help/guide/setup/onboard-audiences.md).
 * **[!UICONTROL Ativação - Compartilhamento]** - Os créditos são consumidos como uma função do número de IDs ativadas da Real-Time CDP Collaboration durante todo o período de cobrança. Leia mais sobre [compartilhamento](/help/guide/collaborate/share.md) e [ativação de públicos](/help/guide/collaborate/activate.md) no Real-Time CDP Collaboration.
 * **[!UICONTROL Ativação - Saída]** - Os créditos são consumidos como uma função do número de IDs ativadas da Real-Time CDP Collaboration durante todo o período de cobrança. Leia mais sobre [compartilhamento](/help/guide/collaborate/share.md) e [ativação de públicos](/help/guide/collaborate/activate.md) no Real-Time CDP Collaboration.
+* **[!UICONTROL Sobreposições de público-alvo]** - Os créditos são consumidos ao analisar sobreposições de público-alvo usando rascunhos de dados. Os rascunhos de dados são resumos simplificados de dados de público-alvo que ajudam a determinar a semelhança entre dois públicos-alvo e, ao mesmo tempo, mantêm a privacidade dos dados. Leia mais sobre [sobreposições de público-alvo na guia de descoberta](/help/guide/collaborate/discover.md).
+* **[!UICONTROL Medição de público-alvo]** - Execute atividades no Real-Time CDP Collaboration para gerar relatórios e insights de desempenho da campanha. Os créditos são consumidos com base no número de linhas nos relatórios de campanha em todas as campanhas e na frequência dos relatórios (diariamente, a cada três dias ou semanalmente).
 
 
 <!--
