@@ -4,9 +4,9 @@ description: Saiba como rastrear a atividade de consumo de crédito da sua organ
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: a69d4405c47824c8afabc84782dc9f8a9d70763a
+source-git-commit: 3aec9806d2ea920d656bb0981f22ba31fd8ae3ee
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ O painel de instrumentos de atividade exibe uma lista abrangente de todas as ope
 | **[!UICONTROL ID da Conexão]** | Um identificador exclusivo para cada conexão associada a uma atividade de consumo de crédito, representada como uma sequência alfanumérica. |
 | **[!UICONTROL Nome da conexão]** | O nome do colaborador associado à conexão e à atividade que consome crédito. |
 | **[!UICONTROL Atividade]** | O tipo de atividade realizada, como **Ativação - Compartilhamento**, **Ativação - Saída** ou **Gerenciamento de público-alvo**. |
-| **[!UICONTROL Entradas processadas]** | O número total de entradas (por exemplo, IDs ou linhas) processadas para a atividade, medido em milhões. Isso ajuda você a entender o custo da atividade, correlacionando-o com sua CPM (custo por mil) para calcular o custo bruto. |
+| **[!UICONTROL Entradas processadas]** | O número total de entradas (por exemplo, IDs ou linhas) processadas para a atividade. |
 | **[!UICONTROL Total de créditos usados]** | O número total de créditos consumidos pela atividade. |
 | **[!UICONTROL Meu compartilhamento de crédito]** | A parte da organização nos créditos usada para a atividade. |
 
