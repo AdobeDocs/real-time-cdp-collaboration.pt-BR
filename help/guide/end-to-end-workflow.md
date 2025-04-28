@@ -4,7 +4,7 @@ description: Entenda o fluxo de trabalho completo do uso do Real-Time CDP Collab
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-O Adobe Real-Time Customer Data Platform (CDP) Collaboration permite que anunciantes e editores colaborem em campanhas de maneira priorizada pela privacidade. Leia esta página para entender o fluxo de trabalho e aproveitar ao máximo o produto, como anunciante ou editor.
+O Adobe Real-Time Customer Data Platform (CDP) Collaboration permite que anunciantes e editores colaborem em campanhas de maneira centrada na privacidade. Leia esta página para entender o fluxo de trabalho e aproveitar ao máximo o produto, como anunciante ou editor.
 
 ## Fluxo de trabalho completo do anunciante {#advertiser}
 
@@ -37,7 +37,7 @@ Como editor, comece por [integrar sua empresa](/help/guide/setup/onboard-organiz
 
 Decida quais dados de público-alvo importar e quais públicos-alvo tornar visíveis e visíveis para os anunciantes que desejam se conectar com você na área **[!UICONTROL Conectar]** do produto.
 
-Ao importar públicos para a Real-Time CDP Collaboration, marque e categorize os públicos. A Real-Time CDP Collaboration segue a [taxonomia do IAB](https://www.iab.com/guidelines/content-taxonomy/){target="_blank"} estabelecida para categorizar públicos.
+Ao importar públicos para a Real-Time CDP Collaboration, marque e categorize os públicos. A Real-Time CDP Collaboration segue a [taxonomia IAB](https://www.iab.com/guidelines/content-taxonomy/){target="_blank"} estabelecida para categorizar públicos.
 
 Decida com quais anunciantes você gostaria de trabalhar e entre em contato com o anunciante para discutir termos de colaboração fora do produto. Depois de concordar com um conjunto de termos, aguarde o anunciante estender um convite formal de conexão para se conectar com você. Geralmente, você também deve monitorar solicitações de conexão pendentes de marcas de anunciantes que desejam trabalhar com você em campanhas. Revise as configurações de conexão propostas por seu colaborador potencial e concorde ou corrija-as antes de iniciar a colaboração.
 

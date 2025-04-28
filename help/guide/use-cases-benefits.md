@@ -4,7 +4,7 @@ description: Entenda os principais benefícios e casos de uso do Adobe Real-Time
 audience: admin, publisher, advertiser, decision-maker
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
-source-git-commit: 23dc33af83366806f7d99161b4b713a33daeec76
+source-git-commit: 89a966d6487c309fd29f3183513fc48518b85089
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 {{limited-availability-release-note}}
 
-O Adobe Real-Time CDP Collaboration fornece os recursos essenciais para descobrir, ativar e medir seus públicos com eficiência, garantindo que suas estratégias de marketing permaneçam robustas e orientadas por dados, tudo isso em um espaço de privacidade.
+O Adobe Real-Time CDP Collaboration fornece os recursos essenciais para descobrir, ativar e medir seus públicos com eficiência, garantindo que suas estratégias de marketing permaneçam robustas e orientadas por dados, tudo isso em um espaço centrado na privacidade.
 
 ![Vantagens e casos de uso do Real-Time CDP Collaboration](/help/assets/benefits-use-cases/discover-activate-measure.png)
 

@@ -4,9 +4,9 @@ description: Saiba como usar o Adobe Real-Time Customer Data Platform (CDP) Coll
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '393'
 ht-degree: 1%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 1%
 
 ## Visão geral
 
-Com o Adobe Real-Time Customer Data Platform (CDP) Collaboration, você pode descobrir, ativar e medir públicos-alvo de alto valor sem depender de cookies de terceiros. Essa solução permite a colaboração avançada de dados entre anunciantes e editores, ajudando você a criar experiências personalizadas e impactantes do cliente em um ambiente centralizado e seguro para privacidade.
+Com o Adobe Real-Time Customer Data Platform (CDP) Collaboration, você pode descobrir, ativar e medir públicos-alvo de alto valor sem depender de cookies de terceiros. Essa solução permite a colaboração avançada de dados entre anunciantes e editores, ajudando você a criar experiências personalizadas e impactantes do cliente em um ambiente centralizado e centralizado com privacidade.
 
 ![Página inicial do Real-Time CDP Collaboration](/help/assets/overview/homepage.png){zoomable="yes"}
 
 ## Identificar públicos-alvo por meio de parceiros confiáveis
 
-Os editores e anunciantes podem colaborar em um ambiente seguro para corresponder aos públicos, descobrir novos clientes em potencial e maximizar o retorno dos anúncios no inventário disponível. A interface fácil de usar permite exibir esses públicos-alvo em um ambiente sem código, conectando editores e anunciantes premium para oportunidades de colaboração de dados.
+Os editores e anunciantes podem colaborar em um ambiente centrado na privacidade para corresponder aos públicos, descobrir novos clientes em potencial e maximizar o retorno dos anúncios no inventário disponível. A interface fácil de usar permite exibir esses públicos-alvo em um ambiente sem código, conectando editores e anunciantes premium para oportunidades de colaboração de dados.
 
 ## Dimensionar o alcance e fornecer campanhas entre canais
 
@@ -31,9 +31,9 @@ Os editores podem acessar e ativar com segurança os públicos-alvo do anunciant
 
 ## Entender o desempenho agregado da campanha
 
-Use as ferramentas de medição colaborativa para acompanhar o impacto de suas campanhas. Os editores podem informar o desempenho da campanha às marcas, ajudando a melhorar os anúncios atuais e futuros e ajustar os gastos com anúncios. Os anunciantes podem compartilhar insights de conversão e engajamento seguros para privacidade, integrar dados de exposição, canal e conversão e usar parceiros de medição preferidos para obter insights completos. Observe que parte da automação de medição não está disponível na primeira versão.
+Use as ferramentas de medição colaborativa para acompanhar o impacto de suas campanhas. Os editores podem informar o desempenho da campanha às marcas, ajudando a melhorar os anúncios atuais e futuros e ajustar os gastos com anúncios. Os anunciantes podem compartilhar insights de envolvimento e conversão centrados em privacidade, integrar dados de exposição, canal e conversão e usar parceiros de medição preferidos para obter insights completos. Observe que parte da automação de medição não está disponível na primeira versão.
 
-## Foco na privacidade
+## Centrado na privacidade
 
 Os controles incorporados garantem que os requisitos de governança e privacidade sejam atendidos, orientando o uso responsável dos dados do público-alvo em cada etapa dos fluxos de trabalho.
 
@@ -53,7 +53,7 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 ## Introdução {#get-started}
 
-Para começar a usar o Real-Time CDP Collaboration, os administradores do sistema precisam dar a si mesmos, aos administradores de produtos e aos usuários finais acesso. Há várias etapas necessárias que dependem do usuário e do nível de acesso necessário. Consulte o guia [visão geral do controle de acesso](/help/guide/permissions/overview.md){target=_"blank"} para começar.
+Para começar a usar o Real-Time CDP Collaboration, os administradores do sistema precisam dar a si mesmos, aos administradores de produtos e aos usuários finais acesso. Há várias etapas necessárias que dependem do usuário e do nível de acesso necessário. Consulte o guia [visão geral do controle de acesso](/help/guide/permissions/overview.md){target=_&quot;blank&quot;} para começar.
 
 Depois de ter acesso, você estará pronto para configurar sua organização e conectar suas fontes de dados à Adobe Real-Time CDP Collaboration para importar públicos. Leia o [fluxo de trabalho completo de anunciante e editor](/help/guide/end-to-end-workflow.md) para começar.
 
