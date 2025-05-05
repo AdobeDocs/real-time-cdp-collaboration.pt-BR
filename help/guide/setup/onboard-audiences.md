@@ -2,12 +2,12 @@
 title: Importar e gerenciar públicos
 description: Saiba como importar e gerenciar públicos no Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
+source-git-commit: 2c835ce72f09c450aa3467dc72980c9c627a0ab8
 workflow-type: tm+mt
-source-wordcount: '2642'
-ht-degree: 23%
+source-wordcount: '2666'
+ht-degree: 21%
 
 ---
 
@@ -91,15 +91,15 @@ Em seguida, verifique se as ações de marketing corretas estão definidas nos d
 
 Use ações de marketing para controlar quais dados de público-alvo importar para colaboração na Real-Time CDP a partir da Experience Platform. A ação de marketing **Colaboração de dados** é compatível com os rótulos de uso de dados C4, C5 e C9. A ação de marketing **Ciência de dados** é compatível com o rótulo de uso de dados C9.
 
-Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Com a caixa de seleção *habilitada*, todos os dados marcados com os rótulos mencionados acima na Experience Platform serão excluídos e *não* serão enviados para a Real-Time CDP Collaboration.
 * Com a caixa de seleção *desabilitada*, não há restrição para dados da Experience Platform que possam ser importados para a Real-Time CDP Collaboration.
 
 Leia mais sobre os rótulos de uso de dados na documentação do Experience Platform:
 
-* [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Glossário de rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Glossário de rótulos de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![Ações de marketing necessárias para colaboração de dados.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -211,7 +211,7 @@ Note that this control is disabled in the initial release of Real-Time CDP Colla
 
 After selecting the desired use cases for each identity, proceed to the next step. 
 
--->
+-->›
 
 ### Agendar {#schedule}
 
@@ -246,7 +246,7 @@ Revise todas as configurações e definições antes de finalizar a adição do 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_missing_identities"
 >title="Identidades ausentes"
->abstract="A contagem de identidades exibe um `-` pelas primeiras 24 horas, aproximadamente, após um público-alvo ser importado para a Real-Time CDP Collaboration. Após esse período, a contagem de identidades será atualizada com o número de perfis presentes no público-alvo."
+>abstract="The identities count will be available after the next data connection refresh following the configured schedule. The initial refresh usually occurs within 24 hours after the data connection is set up. Ongoing refreshes will follow the configured schedule. "
 
 Depois de importar públicos para o Real-Time CDP Collaboration, você pode obter informações sobre eles em uma visualização de painel. O modo de exibição padrão na página **[!UICONTROL Meus públicos-alvo]** exibe todos os públicos-alvo atualmente importados pela sua organização para a Real-Time CDP Collaboration.
 
@@ -257,7 +257,7 @@ Você pode exibir as seguintes informações relevantes sobre cada público-alvo
 | Item | Descrição |
 |----------|---------|
 | **[!UICONTROL Identidades]** | Indica o número de identidades presentes nesse público-alvo. Observe que, se o mesmo perfil tiver duas ou mais identidades, e essas identidades forem usadas como chaves de correspondência no projeto, o perfil aparecerá duas vezes na contagem. |
-| **[!UICONTROL Status]** | Indica se a audiência está ativa e pode ser usada em projetos. Um status Pendente indica que o público-alvo acabou de ser importado e os membros do público-alvo ainda não foram preenchidos. Os públicos-alvo importados geralmente são preenchidos com perfis em 24 horas. |
+| **[!UICONTROL Status]** | Indica se a audiência está ativa e pode ser usada em projetos. Um status Pendente indica que o público-alvo acabou de ser importado e os membros do público-alvo ainda não foram preenchidos. Os públicos-alvo importados serão preenchidos com perfis após a próxima atualização da conexão de dados após o agendamento configurado. A atualização inicial geralmente ocorre em 24 horas após a configuração da conexão de dados                                         . |
 | **[!UICONTROL Source]** | Indica a fonte de onde esse público-alvo foi importado. Na versão atual do Real-Time CDP Collaboration, o Adobe Experience Platform é a única fonte compatível. |
 | **[!UICONTROL Conexão de dados]** | Mais informações detalhadas sobre de onde esse público-alvo foi importado. Por exemplo, ao importar públicos da origem do Experience Platform, as sandboxes individuais às quais sua organização tem acesso são consideradas as conexões de dados. |
 | **[!UICONTROL Acesso à conexão]** | Define se esse público-alvo é público ou privado. Os públicos-alvo são detectáveis em relatórios de sobreposição e podem ser compartilhados com colaboradores. |
