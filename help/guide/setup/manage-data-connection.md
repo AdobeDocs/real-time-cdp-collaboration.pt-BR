@@ -2,7 +2,7 @@
 title: Gerenciar conexões de dados
 description: Saiba como gerenciar conexões de dados, incluindo chaves de correspondência, agendamento, casos de uso e filtragem de público-alvo no Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
@@ -25,7 +25,7 @@ Antes de gerenciar suas conexões de dados aqui, você deve inicialmente configu
 
 >[!IMPORTANT]
 >
->No momento, a exclusão de uma conexão de dados não é suportada na interface do usuário do Real-Time CDP Collaboration. Para excluir uma conexão de dados, entre em contato com o representante da Adobe ou [crie um tíquete de suporte ao cliente](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"}.
+>No momento, a exclusão de uma conexão de dados não é suportada na interface do usuário do Real-Time CDP Collaboration. Para excluir uma conexão de dados, entre em contato com o representante da Adobe ou [crie um tíquete de suporte ao cliente](https://experienceleague.adobe.com/home?lang=pt-BR&amp;support-tab=open-ticket#support){target="_blank"}.
 
 Para exibir as conexões de dados existentes, navegue até **[!UICONTROL Configuração]** > **[!UICONTROL Meus públicos-alvo]** e selecione **[!UICONTROL Gerenciar conexões de dados]**.
 

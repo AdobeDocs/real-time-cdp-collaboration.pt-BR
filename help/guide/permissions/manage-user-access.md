@@ -2,7 +2,7 @@
 title: Gerenciar o acesso do usuário por meio das permissões
 description: Gerencie permissões e o acesso de usuários a diferentes componentes da interface do usuário do Real-Time CDP Collaboration.
 audience: admin
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0155f6a6-5e67-4415-af96-1848345842e4
 source-git-commit: a1328ab6da15bb48f62e313659baf7c7723ffc32
 workflow-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-Gerencie permissões e acesso de usuário a componentes individuais no Real-Time CDP Collaboration por meio da interface [Permissões](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"} do Experience Cloud. As permissões permitem que os administradores do sistema e do produto definam [funções](./manage-roles.md) para gerenciar o acesso de usuários a recursos e recursos específicos.
+Gerencie permissões e acesso de usuário a componentes individuais no Real-Time CDP Collaboration por meio da interface [Permissões](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"} do Experience Cloud. As permissões permitem que os administradores do sistema e do produto definam [funções](./manage-roles.md) para gerenciar o acesso de usuários a recursos e recursos específicos.
 
 ## Configurar acesso às permissões {#permissions-access}
 
@@ -83,7 +83,7 @@ O usuário deve agora ter acesso de administrador e de produto ao Experience Pla
 
 ### Administradores: configurar o acesso à interface do usuário do Experience Platform {#product-access}
 
-No Real-Time CDP Collaboration, administradores e usuários finais trabalharão com dados da Experience Platform, como públicos-alvo e logs de auditoria. Esses dados são mantidos em instâncias da Experience Platform chamadas de sandboxes. Para garantir que os usuários possam interagir com esses dados, você precisa atribuir [funções padrão](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#default-roles){target="_blank"} ao usuário.
+No Real-Time CDP Collaboration, administradores e usuários finais trabalharão com dados da Experience Platform, como públicos-alvo e logs de auditoria. Esses dados são mantidos em instâncias da Experience Platform chamadas de sandboxes. Para garantir que os usuários possam interagir com esses dados, você precisa atribuir [funções padrão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home#default-roles){target="_blank"} ao usuário.
 
 Para começar, navegue até [Adobe Experience Cloud](https://experience.adobe.com/). Agora você deve ver **[!UICONTROL Experience Platform]** e **[!UICONTROL Permissões]** dentro de **[!UICONTROL Acesso rápido]**.
 
@@ -113,7 +113,7 @@ Agora você tem acesso ao Experience Platform e às permissões. Na etapa final,
 
 ### Administradores: configurar o acesso ao Real-Time CDP Collaboration {#RTCDP-collaboration-access}
 
-Para conceder aos usuários acesso ao Real-Time CDP Collaboration, você usará um conceito de controle de acesso chamado funções. As funções definem o nível de acesso que um administrador ou usuário tem a [recursos](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) em sua organização.
+Para conceder aos usuários acesso ao Real-Time CDP Collaboration, você usará um conceito de controle de acesso chamado funções. As funções definem o nível de acesso que um administrador ou usuário tem a [recursos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home#permissions) em sua organização.
 
 Ao configurar o acesso individual ao Real-Time CDP Collaboration, você atribuirá as funções dos usuários que contêm permissões do recurso Colaborações. Você pode usar o guia [gerenciar funções](./manage-roles.md) para obter informações sobre:
 
