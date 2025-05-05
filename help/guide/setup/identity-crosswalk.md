@@ -9,7 +9,7 @@ exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
 source-git-commit: 23dc33af83366806f7d99161b4b713a33daeec76
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 1%
+ht-degree: 20%
 
 ---
 
@@ -58,16 +58,16 @@ Depois de selecionar o Experience Platform como fonte das suas passarelas,
 
 Forneça um nome e uma descrição para a faixa de cruzamento de identidade que você está importando para o produto.
 
-### Selecionar chave de junção {#select-join-key}
+### Selecionar chave de associação {#select-join-key}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_crosswalk_join_key"
 >title="Chave de associação"
->abstract="Uma chave de associação é um identificador exclusivo usado para corresponder e vincular registros em diferentes conjuntos de dados. Ela garante que os dados de várias fontes possam ser associados com precisão ao mesmo indivíduo ou entidade. Qualquer um dos cabeçalhos de coluna da faixa de cruzamento selecionada pode servir como chave de junção."
+>abstract="Uma chave de associação é um identificador exclusivo usado para corresponder e vincular registros em diferentes conjuntos de dados. Ela garante que os dados de várias fontes possam ser associados com precisão ao mesmo indivíduo ou entidade. Qualquer um dos cabeçalhos de coluna da faixa de cruzamento selecionada pode servir como chave de associação."
 
 Uma chave de associação é um identificador exclusivo usado para corresponder e vincular registros em diferentes conjuntos de dados. Ela garante que os dados de várias fontes possam ser associados com precisão ao mesmo indivíduo ou entidade. Ao selecionar a chave de junção apropriada, você pode mesclar e reconciliar dados de maneira eficaz, melhorando a precisão e a integridade de suas campanhas.
 
-Qualquer um dos cabeçalhos de coluna da faixa de cruzamento selecionada pode servir como chave de junção.
+Qualquer um dos cabeçalhos de coluna da faixa de cruzamento selecionada pode servir como chave de associação.
 
 Selecione a chave de junção desejada para a tabela de faixas e selecione **[!UICONTROL Avançar]** para prosseguir para a próxima etapa.
 

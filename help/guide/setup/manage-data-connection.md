@@ -7,7 +7,7 @@ exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 1%
+ht-degree: 15%
 
 ---
 
@@ -35,11 +35,11 @@ Isso exibe todas as conexões de dados configuradas no momento, com informaçõe
 
 ![Gerenciar espaço de trabalho de conexões de dados com uma conexão Exibir conexões de dados realçadas. ](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png){zoomable="yes"}
 
-### Coincidir chaves {#match-keys}
+### Chaves de correspondência {#match-keys}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
->title="Coincidir chaves"
+>title="Chaves de correspondência"
 >abstract="As chaves de correspondência determinam como os dados de diferentes fontes serão correspondidos. Escolha as chaves de correspondência mais relevantes para seus casos de uso e diretrizes de privacidade."
 
 As chaves de correspondência são identificadores usados para reconciliar membros entre públicos-alvo de diferentes fontes de dados. As chaves de correspondência disponíveis incluem:
@@ -50,12 +50,12 @@ Não é possível editar as chaves de correspondência usadas nesta conexão de 
 
 ![Um espaço de trabalho de conexões de dados com a seção Corresponder chaves realçada.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
-### Agendando {#scheduling}
+### Agendamento {#scheduling}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
->title="Agendando"
->abstract="Essa exibição mostra as opções de agendamento selecionadas inicialmente para sua conexão de dados."
+>title="Agendamento"
+>abstract="Essa exibição mostra as opções de agendamento selecionadas inicialmente para a conexão de dados."
 
 Não é possível editar as opções de agendamento selecionadas inicialmente para a conexão de dados. Para obter mais informações sobre opções de agendamento, exiba a [seção de agendamento](/help/guide/setup/onboard-audiences.md#schedule) no documento de fluxo de trabalho de importação de público-alvo.
 

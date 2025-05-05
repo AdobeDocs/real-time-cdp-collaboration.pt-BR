@@ -7,7 +7,7 @@ exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: 0de6ab9af8152975f8e0b0f75b1ee0116ed73584
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
@@ -64,18 +64,18 @@ Quando estiver satisfeito com sua seleção, use **[!UICONTROL Avançar]** para 
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
->title="Coincidir chaves"
+>title="Chaves de correspondência"
 >abstract="As chaves de correspondência são identificadores usados para reconciliar membros entre públicos-alvo de diferentes fontes de dados. Inclua todas as chaves de correspondência com as quais sua empresa pode trabalhar."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="IDs de pessoas primárias"
->abstract="IDs de pessoas primárias, como endereços de email com hash ou números de telefone, são conectadas diretamente a um perfil individual. As IDs compatíveis no momento são emails com hash e números de telefone."
+>title="IDs próprias de pessoas"
+>abstract="As IDs próprias de pessoas, como endereços de email ou números de telefone com hash, são conectadas diretamente a um perfil individual. As IDs compatíveis no momento são emails e números de telefone com hash."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
->title="IDs de dispositivo próprio"
->abstract="As IDs de dispositivo próprio, como ECID ou endereços IP, estão diretamente conectadas a dispositivos, que podem ser compartilhadas entre vários indivíduos. IPv4 é a única ID de dispositivo própria compatível no momento."
+>title="IDs de dispositivos próprios"
+>abstract="As IDs de dispositivos próprios, como ECID ou endereços IP, estão diretamente conectadas a dispositivos, que podem ser compartilhados entre vários indivíduos. IPv4 é a única ID de dispositivos próprios compatível no momento."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
@@ -94,8 +94,8 @@ Selecione até cinco chaves de correspondência que você planeja usar. Mais tar
 
 As chaves de correspondência disponíveis no Real-Time CDP Collaboration podem ser de três tipos:
 
-* IDs de pessoas primárias
-* IDs de dispositivo próprio
+* IDs próprias de pessoas
+* IDs de dispositivos próprios
 * IDs de parceiros
 
 As chaves de correspondência disponíveis para a primeira versão do Real-Time CDP Collaboration são:

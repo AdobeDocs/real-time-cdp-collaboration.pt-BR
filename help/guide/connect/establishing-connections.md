@@ -7,7 +7,7 @@ exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 81cedb2a06d930734b1f97304de82d450c06bf79
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
@@ -52,21 +52,21 @@ Depois que o colaborador aceitar o convite, você poderá definir as configuraç
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_usecases"
 >title="Casos de uso"
->abstract="Os casos de uso são preenchidos previamente com todas as opções. Você pode editar os casos de uso antes de enviar as configurações de conexão."
+>abstract="Os casos de uso são preenchidos previamente com todas as opções. É possível editar os casos de uso antes de enviar as configurações de conexão."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
->title="Coincidir chaves"
->abstract="As chaves de correspondência são pré-preenchidas com aquelas que você selecionou no nível organizacional. Você pode desativar qualquer chave de correspondência que não quiser usar nesta conexão."
+>title="Chaves de correspondência"
+>abstract="As chaves de correspondência são preenchidas previamente com aquelas que você selecionou no nível organizacional. É possível desativar qualquer chave de correspondência que não quiser usar nesta conexão."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="Divisão de crédito"
->abstract="Esta seção determina quem está pagando pelas atividades correspondentes no Real-Time CDP Collaboration. Atualmente, somente o caso de uso de compartilhamento de público-alvo é configurável."
+>abstract="Esta seção determina quem está pagando pelas atividades correspondentes na Real-Time CDP Collaboration. Atualmente, somente o caso de uso de compartilhamento de público-alvo é configurável."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
->title="Compartilhamento de público"
+>title="Compartilhamento de público-alvo"
 >abstract="O Compartilhamento de público-alvo é a atividade que uma parte realiza ao solicitar que os dados correspondentes sejam ativados pelo parceiro de colaboração."
 
 >[!CONTEXTUALHELP]

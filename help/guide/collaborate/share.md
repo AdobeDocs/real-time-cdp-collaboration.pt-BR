@@ -7,7 +7,7 @@ exl-id: 0fdf0598-89c9-452d-a2e3-ce868df0b9d2
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -103,7 +103,7 @@ A página também fornece controles para você **[!UICONTROL Pausar o compartilh
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_share_edit_audiences_usecases"
 >title="Direcionar ou suprimir caso de uso"
->abstract="<p>Selecione **Target** se desejar que os perfis do público sejam exibidos nos anúncios da campanha.</p> <p>Selecione **Suprimir** se desejar excluir os perfis no público das mensagens da campanha.</p>"
+>abstract="<p>Selecione **Direcionar** se deseja exibir anúncios da campanha aos perfis no público-alvo.</p> <p>Selecione **Suprimir** se deseja excluir os perfis no público-alvo das mensagens da campanha.</p>"
 
 Selecione **[!UICONTROL Editar públicos-alvo]** para alterar quais públicos-alvo são compartilhados em um módulo de compartilhamento de público-alvo, bem como para alterar várias configurações relacionadas ao modo como os públicos-alvo estão sendo compartilhados.
 

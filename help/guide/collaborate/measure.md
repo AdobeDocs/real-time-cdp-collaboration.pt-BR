@@ -7,7 +7,7 @@ exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
@@ -55,9 +55,9 @@ A exibição do topo da página na guia Measurement mostra um resumo da campanha
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measure_metricsovertime"
 >title="Métricas ao longo do tempo"
->abstract="Use as métricas ao longo do tempo para entender o número total de impressões exibidas para o criativo durante todo o período da campanha. É possível selecionar um máximo de duas dimensões para exibir no relatório."
+>abstract="Use a exibição métricas ao longo do tempo para entender o número total de impressões exibidas à equipe de criação durante todo o período da campanha. É possível selecionar um máximo de duas dimensões para exibir no relatório."
 
-Use as métricas ao longo do tempo para entender o número total de impressões exibidas para o criativo durante todo o período da campanha. Observe que é possível selecionar no máximo duas métricas para exibir e analisar no relatório.
+Use a exibição métricas ao longo do tempo para entender o número total de impressões exibidas à equipe de criação durante todo o período da campanha. Observe que é possível selecionar no máximo duas métricas para exibir e analisar no relatório.
 
 ![Métricas ao longo da exibição de tempo.](/help/assets/collaborate/measure/metrics-over-time.png)
 

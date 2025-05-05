@@ -7,7 +7,7 @@ exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
 workflow-type: tm+mt
 source-wordcount: '2642'
-ht-degree: 1%
+ht-degree: 23%
 
 ---
 
@@ -28,7 +28,7 @@ Use esta página como local de destino para entender todas as métricas relevant
 O que você encontrará nesta página de documentação:
 
 * [Importar públicos-alvo para a Real-Time CDP Collaboration](#import-audiences)
-* [Exibir painel de públicos](#view-audiences-dashboard)
+* [Exibir painel de públicos-alvo](#view-audiences-dashboard)
 * [Exibir públicos-alvo individuais](#view-individual-audiences)
 
 >[!ENDSHADEBOX]
@@ -50,9 +50,9 @@ Na guia **[!UICONTROL Meus públicos-alvo]**, selecione o símbolo de adição *
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Ações de marketing"
->abstract="<p>Use ações de marketing para controlar quais dados de público-alvo importar para o Real-Time CDP Collaboration do Experience Platform. A ação de marketing <strong>Data Collaboration</strong> dá suporte aos rótulos de uso de dados C4, C5 e C9. A ação de marketing <strong>Ciência de dados</strong> dá suporte ao rótulo de uso de dados C9.</p> <p> <ul><li> Com a caixa de seleção <em>habilitada</em>, todos os dados marcados com os rótulos chamados acima no Experience Platform serão excluídos e <strong>não</strong> serão trazidos para o Real-Time CDP Collaboration.</li><li> Com a caixa de seleção <em>desabilitada</em>, não há restrição para dados do Experience Platform que possam ser importados para o Real-Time CDP Collaboration.</li></ul></p>"
+>abstract="<p>Use ações de marketing para controlar quais dados de público-alvo importar para colaboração na Real-Time CDP a partir da Experience Platform. A ação de marketing <strong>Colaboração de dados</strong> é compatível com os rótulos de uso de dados C4, C5 e C9. A ação de marketing <strong>Ciência de dados</strong> é compatível com o rótulo de uso de dados C9.</p> <p> <ul><li> Com a caixa de seleção <em>habilitada</em>, todos os dados marcados com os rótulos mencionados acima na Experience Platform serão excluídos e <strong>não</strong> serão enviados para a Real-Time CDP Collaboration.</li><li> Com a caixa de seleção <em>desabilitada</em>, não há restrição para dados da Experience Platform que possam ser importados para a Real-Time CDP Collaboration.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=pt-BR" text="Visão geral dos rótulos de uso de dados"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="Glossário de rótulos de uso de dados"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=pt-BR" text="Glossário de rótulos de uso de dados"
 
 >[!IMPORTANT]
 >
@@ -89,12 +89,12 @@ Selecione **[!UICONTROL Avançar]** depois de selecionar a sandbox desejada.
 
 Em seguida, verifique se as ações de marketing corretas estão definidas nos dados importados. Você também precisa fornecer consentimento para que os dados importados da Real-Time CDP sejam usados para colaboração de dados.
 
-Use ações de marketing para controlar quais dados de público-alvo importar para o Real-Time CDP Collaboration do Experience Platform. A ação de marketing **Data Collaboration** dá suporte aos rótulos de uso de dados C4, C5 e C9. A ação de marketing **Ciência de dados** dá suporte ao rótulo de uso de dados C9.
+Use ações de marketing para controlar quais dados de público-alvo importar para colaboração na Real-Time CDP a partir da Experience Platform. A ação de marketing **Colaboração de dados** é compatível com os rótulos de uso de dados C4, C5 e C9. A ação de marketing **Ciência de dados** é compatível com o rótulo de uso de dados C9.
 
 Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
-* Com a caixa de seleção *habilitada*, todos os dados marcados com os rótulos chamados acima no Experience Platform serão excluídos e *não* serão trazidos para o Real-Time CDP Collaboration.
-* Com a caixa de seleção *desabilitada*, não há restrição para dados do Experience Platform que possam ser importados para o Real-Time CDP Collaboration.
+* Com a caixa de seleção *habilitada*, todos os dados marcados com os rótulos mencionados acima na Experience Platform serão excluídos e *não* serão enviados para a Real-Time CDP Collaboration.
+* Com a caixa de seleção *desabilitada*, não há restrição para dados da Experience Platform que possam ser importados para a Real-Time CDP Collaboration.
 
 Leia mais sobre os rótulos de uso de dados na documentação do Experience Platform:
 
@@ -120,7 +120,7 @@ Em seguida, forneça um nome e uma descrição para que você reconheça essa co
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_source_fields"
 >title="Campos de origem"
->abstract="Os campos do Source são namespaces de identidade e atributos de sua implementação existente do Real-Time CDP. Você pode mapeá-los para campos de destino definidos no Real-Time CDP Collaboration."
+>abstract="Os campos de origem são namespaces de identidade e atributos de sua implementação existente da Real-Time CDP. É possível mapeá-los para campos de destino definidos na Real-Time CDP Collaboration."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
@@ -130,19 +130,19 @@ Em seguida, forneça um nome e uma descrição para que você reconheça essa co
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
 >title="Aplicar transformação"
->abstract="Ao importar campos *sem hash* da sua origem, use essa opção para que o Real-Time CDP Collaboration aplique o hash e transforme os campos sem formatação em campos com hash."
+>abstract="Ao importar campos *sem hash* da origem, use essa opção para que a Real-Time CDP Collaboration aplique hash e transforme os campos simples em campos com hash."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="Namespaces de identidade"
 >abstract="Selecione um namespace de identidade nos namespaces de identidade padrão e personalizados disponíveis em sua organização da Experience Platform."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Namespaces padrão e de identidade no Experience Platform"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=pt-BR#standard" text="Namespaces padrão e de identidade na Experience Platform"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
->title="Atributos de perfil"
->abstract="Selecione atributos do Esquema de união para a classe Perfil no Experience Platform. Essa exibição mostra atributos que estão presentes no Esquema de união e pertencem à classe Perfil individual XDM."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Esquema de união no Experience Platform"
+>title="Atributos do perfil"
+>abstract="Selecione atributos do esquema de união para a classe Perfil na Experience Platform. Essa exibição mostra atributos que estão presentes no esquema de união e pertencem à classe Perfil individual XDM."
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=pt-BR" text="Esquema de união na Experience Platform"
 
 ![Tela Mapear campos mostrando campos de origem mapeados para campos de destino.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 
@@ -241,12 +241,12 @@ Depois de selecionar a origem do público-alvo, você escolherá públicos-alvo 
 
 Revise todas as configurações e definições antes de finalizar a adição do público-alvo. Verifique se todos os detalhes estão corretos e selecione **[!UICONTROL Concluído]** para finalizar o processo.
 
-## Exibir painel de públicos {#view-audiences-dashboard}
+## Exibir painel de públicos-alvo {#view-audiences-dashboard}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_missing_identities"
 >title="Identidades ausentes"
->abstract="A contagem de identidades exibe um `-` pelas primeiras 24 horas após um público ser importado para o Real-Time CDP Collaboration. Após esse período, a contagem de identidades será atualizada com o número de perfis presentes no público-alvo."
+>abstract="A contagem de identidades exibe um `-` pelas primeiras 24 horas, aproximadamente, após um público-alvo ser importado para a Real-Time CDP Collaboration. Após esse período, a contagem de identidades será atualizada com o número de perfis presentes no público-alvo."
 
 Depois de importar públicos para o Real-Time CDP Collaboration, você pode obter informações sobre eles em uma visualização de painel. O modo de exibição padrão na página **[!UICONTROL Meus públicos-alvo]** exibe todos os públicos-alvo atualmente importados pela sua organização para a Real-Time CDP Collaboration.
 
@@ -318,7 +318,7 @@ Esta seção indica o número de perfis presentes no público com qualquer uma d
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
 >title="Categorias"
->abstract="Adicione tags aos públicos para facilitar a organização, a filtragem e a recuperação. Você pode marcar um público-alvo com várias categorias e, em seguida, usar essas tags de categoria para filtrar os públicos-alvo desejados em outras áreas do produto."
+>abstract="Adicione tags aos públicos-alvo para facilitar a organização, a filtragem e a recuperação. Você pode marcar um público-alvo com várias categorias e então usar essas tags de categoria para filtrar os públicos-alvo desejados em outras áreas do produto."
 
 Para facilitar a organização, a filtragem e a recuperação de públicos-alvo, você pode marcar seus públicos-alvo. Você pode marcar um público com várias categorias e usar essas marcas de categoria para filtrar os públicos desejados na área de produto [descoberta](/help/guide/collaborate/discover.md), ao executar relatórios de sobreposição de público.
 
@@ -327,7 +327,7 @@ Para facilitar a organização, a filtragem e a recuperação de públicos-alvo,
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Acesso à conexão"
->abstract="<p>Os públicos-alvo podem ser de três tipos: público, privado e personalizado.</p><p> Sua disponibilidade para uso em projetos com colaboradores difere com base na configuração de acesso à conexão. Você sempre pode alterar o acesso à conexão de privado para público, mas não pode alterar essa configuração novamente depois que um público-alvo for compartilhado com colaboradores.</p>"
+>abstract="<p>Os públicos-alvo podem ser de três tipos: públicos, privados e personalizados.</p><p> Sua disponibilidade para uso em projetos com colaboradores difere com base na configuração de acesso à conexão. É sempre possível alterar o acesso à conexão de privado para público, mas não será permitido retornar à configuração anterior a partir do momento que um público-alvo for compartilhado com os colaboradores.</p>"
 
 Selecione se o público-alvo deve ser privado para você ou utilizável e detectável em conexões. As três opções disponíveis são:
 
@@ -339,14 +339,14 @@ Selecione se o público-alvo deve ser privado para você ou utilizável e detect
 >
 >Independentemente do status de acesso (público, privado ou personalizado), a população de qualquer público-alvo contribui para a população de **[!UICONTROL Todos os públicos-alvo]** na exibição de análise de sobreposição da Descoberta de público-alvo. <br> ![O público-alvo **Todos os públicos-alvo** gerados pelo sistema na análise de sobreposição da Descoberta de Público-alvo inclui os públicos-alvo com todos os status de acesso de conexão (público, privado, personalizado).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "O público-alvo **Todos os públicos-alvo** gerado pelo sistema na análise de sobreposição **Descoberta de Público-alvo** inclui os públicos-alvo com todos os status de acesso de conexão (público, privado, personalizado)."){width="100" zoomable="yes"}
 
-A disponibilidade do público-alvo para uso em projetos com colaboradores é diferente de acordo com a configuração de acesso à conexão. Você sempre pode alterar o acesso à conexão de privado para público, mas não pode alterar essa configuração novamente depois que um público-alvo for compartilhado com colaboradores.
+A disponibilidade do público-alvo para uso em projetos com colaboradores é diferente de acordo com a configuração de acesso à conexão. É sempre possível alterar o acesso à conexão de privado para público, mas não será permitido retornar à configuração anterior a partir do momento que um público-alvo for compartilhado com os colaboradores.
 
 ### Visibilidade de metadados {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilidade de metadados"
->abstract="<p>Indica qual das informações de metadados de público-alvo está visível para outras organizações antes de elas se conectarem com a sua organização. </p> <p> **Contagem de identidades** controla se o parceiro pode exibir contagens de identidades para os públicos-alvo ao exibir relatórios de sobreposição na guia descoberta. **Sobreposição de público %** controla se os colaboradores podem descobrir porcentagens de sobreposição entre seus públicos e os seus."
+>abstract="<p>Indica quais das informações de metadados de público-alvo estão visíveis para outras organizações antes de elas se conectarem com a sua organização. </p> <p> A **contagem de identidades** controla se o seu parceiro pode exibir contagens de identidades dos seus públicos-alvo ao visualizar relatórios de sobreposição na guia de descoberta. A **% de sobreposição de público-alvo** controla se os colaboradores podem descobrir as porcentagens de sobreposição entre os públicos-alvo deles e os seus."
 
 >[!NOTE]
 >

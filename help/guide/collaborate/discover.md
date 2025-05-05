@@ -7,7 +7,7 @@ exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
@@ -41,17 +41,17 @@ Para utilizar toda a funcionalidade na guia **[!UICONTROL Descobrir]** do fluxo 
 
 Depois que os pré-requisitos anotados acima forem atendidos, você poderá começar a explorar e comparar a sobreposição entre os públicos do e do seu colaborador.
 
-## Comparar públicos {#compare-audiences}
+## Comparar públicos-alvo {#compare-audiences}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_compare_audiences"
->title="Comparar públicos"
->abstract="Descubra sobreposições entre o seu e os públicos do seu colaborador. Você pode ajustar as configurações no seletor suspenso para descobrir sobreposições entre um ou mais públicos-alvo em relação a um ou mais públicos-alvo do colaborador."
+>title="Comparar públicos-alvo"
+>abstract="Descubra sobreposições entre os seus públicos-alvo e os do seu colaborador. É possível ajustar as configurações no seletor suspenso para descobrir sobreposições entre um ou mais dos seus públicos-alvo em relação a um ou mais dos públicos-alvo do seu colaborador."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
 >title="Sua contagem de identidades"
->abstract="O número de perfis com a identidade selecionada que fazem parte do público selecionado"
+>abstract="O número de perfis com essa identidade selecionada que fazem parte do seu público-alvo selecionado"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
@@ -61,12 +61,12 @@ Depois que os pré-requisitos anotados acima forem atendidos, você poderá come
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_count"
 >title="Contagem de identidades sobrepostas"
->abstract="O número de perfis com a identidade selecionada presentes no seu público-alvo e no do seu colaborador"
+>abstract="O número de perfis com essa identidade selecionada que estão presentes no seu público-alvo e no do seu colaborador."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_percentage"
 >title="Porcentagem de identidades sobrepostas"
->abstract="A porcentagem de sobreposição de perfis entre seu e o público-alvo selecionado do colaborador."
+>abstract="A porcentagem de sobreposição de perfis entre o público alvo selecionado do seu colaborador e o seu."
 
 Use o cartão Comparar públicos para obter informações detalhadas sobre a sobreposição entre os públicos do e do colaborador. É possível selecionar uma das seguintes combinações de público-alvo para comparar:
 
@@ -82,7 +82,7 @@ As informações exibidas estão relacionadas a:
 | **[!UICONTROL Contagem de identidades]** (sua) | O número de perfis com uma identidade selecionada que fazem parte do público-alvo selecionado. |
 | **[!UICONTROL Contagem de identidades]** (seu colaborador) | O número de perfis com uma identidade selecionada que fazem parte do público selecionado do colaborador. |
 | **[!UICONTROL Identidades sobrepostas]** | O número de perfis com uma identidade selecionada presentes no seu público-alvo e no do seu colaborador. |
-| **[!UICONTROL Percentual de sobreposição]** | A porcentagem de sobreposição de perfis entre seu e o público-alvo selecionado do colaborador. |
+| **[!UICONTROL Percentual de sobreposição]** | A porcentagem de sobreposição de perfis entre o público alvo selecionado do seu colaborador e o seu. |
 | **[!UICONTROL Detalhamento de identidades por chave de correspondência]** | Com base nas chaves de correspondência em que você e seu colaborador concordaram para o projeto, visualize a composição das identidades nos cálculos de sobreposição por chaves de correspondência individuais. |
 
 {style="table-layout:auto"}
@@ -91,12 +91,12 @@ As informações exibidas estão relacionadas a:
 >
 >O índice de porcentagem de sobreposição nem sempre está disponível para todos os públicos-alvo. A visibilidade do indicador de porcentagem de sobreposição depende da configuração escolhida pelo seu colaborador para um público na [seção de visibilidade de metadados](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
-## Públicos relevantes {#relevant-audiences}
+## Públicos-alvo relevantes {#relevant-audiences}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
->title="Públicos relevantes"
->abstract="Com base nas porcentagens de sobreposição, esses públicos-alvo do editor podem ser adequados para a sua campanha. <br><br> A <b>contagem de identidades</b> é o tamanho do público-alvo do publicador. <br><br> <b>Identidades sobrepostas</b> representam a sobreposição entre o público-alvo do editor recomendado e todos os públicos-alvo do anunciante. <br><br> A <b>Sobreposição %</b> representa o número de identidades sobrepostas dividido pelo tamanho de <i>todas</i> públicos-alvo de anunciantes."
+>title="Públicos-alvo relevantes"
+>abstract="Com base nas porcentagens de sobreposição, esses públicos-alvo do editor podem ser adequados para a campanha. <br><br> A <b>contagem de identidades</b> é o tamanho do público-alvo do editor. <br><br> As <b>identidades sobrepostas</b> representam a sobreposição entre o público-alvo do editor recomendado e todos os públicos-alvo do anunciante. <br><br> A <b>% de sobreposição</b> representa o número de identidades sobrepostas dividido pelo tamanho de <i>todos</i> os públicos-alvo do anunciante."
 
 A exibição **[!UICONTROL Públicos-alvo relevantes]** no módulo **[!UICONTROL Discover]** fornece uma lista com curadoria dos cinco principais públicos-alvo com base na porcentagem de sobreposição. Esse recurso ajuda a identificar rapidamente os públicos-alvo com a maior sobreposição com os dados atuais, permitindo que você direcione suas campanhas com mais eficiência.
 
@@ -106,12 +106,12 @@ A exibição **[!UICONTROL Públicos-alvo relevantes]** no módulo **[!UICONTROL
 
 ![Exibição de públicos relevantes](/help/assets/collaborate/discover-overlaps/relevant-audiences-highlighted.png)
 
-## Descobrir sobreposições {#discover-overlaps}
+## Descubra sobreposições {#discover-overlaps}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
->title="Descubra sobreposições com públicos individuais"
->abstract="Obtenha insights sobre a população desse público e suas sobreposições com o universo de identidades do colaborador."
+>title="Descubra sobreposições com públicos-alvo individuais"
+>abstract="Obtenha insights sobre a população desse público-alvo e suas sobreposições com o universo de identidades do colaborador."
 
 ![Descubra sobreposições com diferentes visualizações de públicos-alvo](/help/assets/collaborate/discover-overlaps/discover-overlaps-cards-view.png)
 
