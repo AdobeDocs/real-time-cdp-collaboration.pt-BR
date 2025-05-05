@@ -4,9 +4,9 @@ description: Depois de descobrir possíveis colaboradores, saiba como estabelece
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 81cedb2a06d930734b1f97304de82d450c06bf79
+source-git-commit: ee434f1bb8119e2a378580a02ffa0b9efb93cf28
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '938'
 ht-degree: 13%
 
 ---
@@ -68,6 +68,11 @@ Depois que o colaborador aceitar o convite, você poderá definir as configuraç
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="Compartilhamento de público-alvo"
 >abstract="O Compartilhamento de público-alvo é a atividade que uma parte realiza ao solicitar que os dados correspondentes sejam ativados pelo parceiro de colaboração."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
+>title="Medição"
+>abstract="Esse caso de uso permite executar atividades no Real-Time CDP Collaboration para gerar relatórios e insights de desempenho da campanha."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
