@@ -2,11 +2,11 @@
 title: Integração e gerenciamento da organização
 description: Saiba como integrar e gerenciar vários aspectos da sua organização no Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 27faef284a07be114ea0a9a7beeae75ec6265d53
+source-git-commit: 12e73a9bf64f5746748d1a8c81827c50000a6428
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '842'
 ht-degree: 14%
 
 ---
@@ -79,6 +79,11 @@ Quando estiver satisfeito com sua seleção, use **[!UICONTROL Avançar]** para 
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="IDs de parceiros compatíveis"
 >abstract="As IDs de parceiros associadas a perfis expandem o alcance para um determinado perfil."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_destinations_activation_matchkeys"
+>title="Chaves de correspondência de ativação"
+>abstract="As chaves de correspondência de ativação são exibidas com base nas chaves de correspondência escolhidas de sua organização."
 
 As chaves de correspondência, como endereços de email, IDs de dispositivo ou IDs de cliente, ajudam anunciantes e editores a trabalharem juntos, permitindo uma sincronização de dados precisa e centrada em privacidade, permitindo um direcionamento e uma medição de público mais precisos.
 
