@@ -2,11 +2,11 @@
 title: Gerenciar conexões de dados
 description: Saiba como gerenciar conexões de dados, incluindo chaves de correspondência, agendamento, casos de uso e filtragem de público-alvo no Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: 8d620828bb0fb0bf116396f884b1bbd35d7c5d69
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '439'
 ht-degree: 15%
 
 ---
@@ -19,21 +19,11 @@ ht-degree: 15%
 
 Use conexões de dados no Real-Time CDP Collaboration para importar públicos de várias fontes. Saiba como gerenciar chaves de correspondência e agendar importações de dados para suas conexões de dados existentes. Além disso, você poderá filtrar públicos-alvo por atributos diferentes para obter insights mais granulares.
 
-Antes de gerenciar suas conexões de dados aqui, você deve inicialmente configurá-las durante o [fluxo de trabalho de integração de público-alvo](./onboard-audiences.md). Isso garantirá que as fontes de dados corretas sejam conectadas para uso no Real-Time CDP Collaboration.
-
 ## Exibir conexões de dados
 
->[!IMPORTANT]
->
->No momento, a exclusão de uma conexão de dados não é suportada na interface do usuário do Real-Time CDP Collaboration. Para excluir uma conexão de dados, entre em contato com o representante da Adobe ou [crie um tíquete de suporte ao cliente](https://experienceleague.adobe.com/home?lang=pt-BR&amp;support-tab=open-ticket#support){target="_blank"}.
+Para exibir as conexões de dados existentes, navegue até **[!UICONTROL Instalação]** e selecione a guia **[!UICONTROL Minhas conexões de dados]**. Todas as conexões de dados atuais são exibidas, mostrando uma breve visão geral de cada conexão. Para obter uma exibição completa das informações de uma conexão de dados, incluindo suas chaves de correspondência, detalhes do agendamento e públicos-alvo, selecione **[!UICONTROL Exibir conexão de dados]** na conexão correspondente.
 
-Para exibir as conexões de dados existentes, navegue até **[!UICONTROL Configuração]** > **[!UICONTROL Meus públicos-alvo]** e selecione **[!UICONTROL Gerenciar conexões de dados]**.
-
-![Espaço de trabalho de Instalação com Gerenciar conexões de dados realçado.](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png){zoomable="yes"}
-
-Isso exibe todas as conexões de dados configuradas no momento, com informações sobre o número de públicos-alvo em cada uma delas, a fonte da conexão de dados e muito mais. Selecione **[!UICONTROL Exibir conexão de dados]** para exibir informações sobre as chaves de correspondência, o agendamento e os públicos-alvo que fazem parte dessa conexão de dados.
-
-![Gerenciar espaço de trabalho de conexões de dados com uma conexão Exibir conexões de dados realçadas. ](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png){zoomable="yes"}
+![O espaço de trabalho de Instalação com a exibição de guia Minhas conexões de dados foi exibido e realçado.](/help/assets/setup/manage-data-connection/my-data-connections.png){zoomable="yes"}
 
 ### Chaves de correspondência {#match-keys}
 
@@ -42,11 +32,11 @@ Isso exibe todas as conexões de dados configuradas no momento, com informaçõe
 >title="Chaves de correspondência"
 >abstract="As chaves de correspondência determinam como os dados de diferentes fontes serão correspondidos. Escolha as chaves de correspondência mais relevantes para seus casos de uso e diretrizes de privacidade."
 
-As chaves de correspondência são identificadores usados para reconciliar membros entre públicos-alvo de diferentes fontes de dados. As chaves de correspondência disponíveis incluem:
+As chaves de correspondência são identificadores usados para reconciliar membros entre públicos-alvo de diferentes fontes de dados. Não é possível editar as chaves de correspondência selecionadas inicialmente para a conexão de dados.
+
+As chaves de correspondência disponíveis incluem:
 
 - **Email com hash**
-
-Não é possível editar as chaves de correspondência usadas nesta conexão de dados.
 
 ![Um espaço de trabalho de conexões de dados com a seção Corresponder chaves realçada.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -61,9 +51,21 @@ Não é possível editar as opções de agendamento selecionadas inicialmente pa
 
 ![Um espaço de trabalho de conexões de dados com a seção Agendamento realçada.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
+## Excluir conexão de dados
+
+A exclusão de uma conexão de dados removerá todos os públicos-alvo subjacentes, as configurações associadas e o uso na plataforma. Essa ação não pode ser desfeita.
+
+Para excluir uma conexão de dados existente, selecione o ícone de exclusão (![Ícone de exclusão](/help/assets/common/delete.svg)) no espaço de trabalho de uma conexão de dados individual.
+
+![Um espaço de trabalho de conexões de dados com a opção de exclusão realçada.](/help/assets/setup/manage-data-connection/delete-data-connection.png){zoomable="yes"}
+
+Uma caixa de diálogo de confirmação será exibida. Selecione **[!UICONTROL Excluir]** para concluir a exclusão da conexão de dados.
+
+![A caixa de diálogo Excluir conexão de dados com a opção Excluir foi realçada.](/help/assets/setup/manage-data-connection/delete-data-connection-confirm.png){zoomable="yes"}
+
 ## Gerenciar públicos {#manage-audiences}
 
-Ao exibir a lista de públicos-alvo da conexão de dados, você pode optar por exibi-los, editar suas categorias ou removê-los da conexão de dados.
+Uma lista de públicos-alvo anexados à conexão de dados é exibida na parte inferior do espaço de trabalho. A lista exibe uma breve visão geral de cada público-alvo, incluindo status, origem e acesso à conexão. Para editar as categorias, o acesso à conexão ou a visibilidade dos metadados de um público, selecione o nome do público. Para obter um guia completo sobre como gerenciar um público, consulte o guia [exibir públicos-alvo individuais](./onboard-audiences.md#view-individual-audiences).
 
 ![Um espaço de trabalho de conexões de dados com os públicos-alvo realçados.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 
