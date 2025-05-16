@@ -2,10 +2,10 @@
 user-guide-title: Real-Time Customer Data Platform Collaboration
 breadcrumb-title: Real-Time Customer Data Platform Collaboration
 user-guide-description: O Adobe Real-Time CDP Collaboration permite o compartilhamento de dados e a colaboração perfeitos e seguros entre anunciantes e editores, facilitando insights do público-alvo em tempo real e estratégias de marketing personalizadas.
-source-git-commit: 56872a2cd91ae040aba51ed5784c86b055f88756
+source-git-commit: c2a20aad386314f654d5451126390da4228f5572
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 12%
+source-wordcount: '122'
+ht-degree: 13%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 12%
    * [Passarelas de Identificação](./setup/identity-crosswalk.md)
    * [Adicionar e gerenciar dados de medição](./setup/onboard-measurement-data.md)
    * [Logs de auditoria](./setup/audit-logs.md)
-* Conectar-se com o editor ou anunciante {#connect}
+* Conectar-se a um editor ou anunciante {#connect}
    * [Descubra editores](./connect/discover-publishers.md)
    * [Descubra anunciantes](./connect/discover-advertisers.md)
    * [Conectar-se a anunciantes ou editores](./connect/establishing-connections.md)
@@ -39,11 +39,6 @@ ht-degree: 12%
    * [Visão geral](/help/guide/permissions/overview.md)
    * [Gerenciar acesso do usuário](/help/guide/permissions/manage-user-access.md)
    * [Gerenciar funções](/help/guide/permissions/manage-roles.md)
-* Casos de uso de exemplo {#use-cases}
-   * [Medição de campanha](./use-cases/campaign-measurement.md)
-   * [Prospecção](./use-cases/prospecting.md)
-   * [Redirecionamento](./use-cases/retargeting.md)
-   * [Supressão](./use-cases/suppression.md)
 * Referência {#reference}
    * [Perguntas frequentes e dicas para solução de problemas](./faqs/common-questions.md)
    * [Glossário](./glossary.md)
