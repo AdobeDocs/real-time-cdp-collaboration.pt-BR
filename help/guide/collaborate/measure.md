@@ -2,11 +2,11 @@
 title: Medir desempenho
 description: Meça o desempenho de suas campanhas em diferentes canais. Saiba como usar e interpretar vários relatórios.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: b69d204149f203d1950fd0e28b0858ffca2c1225
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '636'
 ht-degree: 11%
 
 ---
@@ -28,7 +28,27 @@ Antes de acessar os relatórios de medição no Real-Time CDP Collaboration, voc
 * [Conectado](/help/guide/connect/establishing-connections.md) com um anunciante ou editor desejado com o caso de uso **Medição de campanha** habilitado e começou a colaborar em [projetos](/help/guide/collaborate/manage-projects.md)
 * Execute uma campanha e [carregue os dados de medição](/help/guide/setup/onboard-measurement-data.md) no Real-Time CDP Collaboration.
 
-## Exibir relatórios
+<!--
+
+## Create a report {#create-report}
+
+Hidden until functionality is live. At that point, move the contextualhelp from below into this section. 
+
+The syntax rtcdp_collaboration_measurement_create_report is currently implemented in the UI. However, a preference would be to imlement the other contextualhelp ID from below instead, since that explicitly includes campaignID in the syntax. Need to sync up with UI team. More details in CORE-116991.
+
+-->
+
+## Exibir relatórios {#view-reports}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_measurement_create_report_campaignID"
+>title="IDs de campanha"
+>abstract="Espaço reservado para adicionar informações relevantes na interface do usuário sobre as IDs da campanha."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_measurement_create_report"
+>title="IDs de campanha"
+>abstract="Espaço reservado para adicionar informações relevantes na interface do usuário sobre as IDs da campanha."
 
 Para exibir os relatórios disponíveis na guia mensuração:
 
