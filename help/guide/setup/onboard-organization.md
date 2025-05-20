@@ -2,12 +2,12 @@
 title: Integração e gerenciamento da organização
 description: Saiba como integrar e gerenciar vários aspectos da sua organização no Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: 12e73a9bf64f5746748d1a8c81827c50000a6428
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -42,7 +42,7 @@ O fluxo de trabalho para configurar sua organização inclui as duas páginas ab
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_contact_email"
->title="Email para contato"
+>title="Email de contato"
 >abstract="Forneça um email de equipe ou baseado em funções, como `collaboration@yourcompany.com`. Endereços de email pessoais ou individuais não devem ser usados."
 
 ![As etapas de detalhes e casos de uso para configurar uma organização](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
@@ -83,7 +83,7 @@ Quando estiver satisfeito com sua seleção, use **[!UICONTROL Avançar]** para 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_activation_matchkeys"
 >title="Chaves de correspondência de ativação"
->abstract="As chaves de correspondência de ativação são exibidas com base nas chaves de correspondência escolhidas de sua organização."
+>abstract="As chaves de correspondência de ativação são exibidas com base nas chaves de correspondência escolhidas da organização."
 
 As chaves de correspondência, como endereços de email, IDs de dispositivo ou IDs de cliente, ajudam anunciantes e editores a trabalharem juntos, permitindo uma sincronização de dados precisa e centrada em privacidade, permitindo um direcionamento e uma medição de público mais precisos.
 

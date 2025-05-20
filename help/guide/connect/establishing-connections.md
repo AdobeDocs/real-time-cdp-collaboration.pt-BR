@@ -2,12 +2,12 @@
 title: Conectar-se a anunciantes ou editores
 description: Depois de descobrir possíveis colaboradores, saiba como estabelecer conexões e começar a colaborar em projetos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
 workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -72,7 +72,7 @@ Depois que o colaborador aceitar o convite, você poderá definir as configuraç
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="Medição"
->abstract="Esse caso de uso permite executar atividades no Real-Time CDP Collaboration para gerar relatórios e insights de desempenho da campanha."
+>abstract="Esse caso de uso permite executar atividades na Real-Time CDP Collaboration para gerar relatórios e insights de desempenho da campanha."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
@@ -81,8 +81,8 @@ Depois que o colaborador aceitar o convite, você poderá definir as configuraç
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
->title="Nomes dos anunciantes"
->abstract="Indica os aliases pelos quais o anunciante é conhecido pelo publicador. "
+>title="Nomes do anunciante"
+>abstract="Indica os aliases pelos quais o anunciante é conhecido para o editor. "
 
 Depois que o convite for enviado, você poderá visualizar as configurações de conexão. O convite deve ser aceito antes que você possa concluir a configuração da conexão.
 
