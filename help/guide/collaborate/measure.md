@@ -2,12 +2,12 @@
 title: Medir desempenho
 description: Meça o desempenho de suas campanhas em diferentes canais. Saiba como usar e interpretar vários relatórios.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 source-git-commit: b69d204149f203d1950fd0e28b0858ffca2c1225
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -43,12 +43,12 @@ The syntax rtcdp_collaboration_measurement_create_report is currently implemente
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measurement_create_report_campaignID"
 >title="IDs de campanha"
->abstract="Espaço reservado para adicionar informações relevantes na interface do usuário sobre as IDs da campanha."
+>abstract="Espaço reservado para adicionar informações relevantes na interface sobre o que são as IDs de campanha."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measurement_create_report"
 >title="IDs de campanha"
->abstract="Espaço reservado para adicionar informações relevantes na interface do usuário sobre as IDs da campanha."
+>abstract="Espaço reservado para adicionar informações relevantes na interface sobre o que são as IDs de campanha."
 
 Para exibir os relatórios disponíveis na guia mensuração:
 
