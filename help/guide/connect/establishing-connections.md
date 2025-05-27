@@ -2,7 +2,7 @@
 title: Conectar-se a anunciantes ou editores
 description: Depois de descobrir possíveis colaboradores, saiba como estabelecer conexões e começar a colaborar em projetos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: e4826c777d9d1df1dac7cd894536b7fd51be8a39
 workflow-type: tm+mt
@@ -83,7 +83,7 @@ Depois que o colaborador aceitar o convite, você poderá definir as configuraç
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Nomes do anunciante"
 >abstract="<p>Configuração opcional. Indica o nome e a ID pelos quais o anunciante é conhecido pelo publicador.</p><p>O nome do anunciante adicionado aqui será preenchido previamente na etapa criar projeto.</p><ul><li>Se o editor configurou vários nomes, selecione um na lista.</li><li>Se apenas um nome estiver configurado, ele será pré-selecionado automaticamente.</li><li>Se nenhum nome for configurado, o campo será pré-preenchido com o nome da conta do anunciante do Real-Time CDP Collaboration.</li></ul>"
->additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Criar um projeto"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Criar um projeto"
 
 Depois que o convite for enviado, você poderá visualizar as configurações de conexão. O convite deve ser aceito antes que você possa concluir a configuração da conexão.
 
