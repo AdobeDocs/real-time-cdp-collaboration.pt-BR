@@ -2,9 +2,9 @@
 title: Importar e gerenciar públicos
 description: Saiba como importar e gerenciar públicos no Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 8fca38c8125cefae9fe52ecd168e3d0ff20f2936
+source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
 source-wordcount: '2685'
 ht-degree: 23%
@@ -91,15 +91,15 @@ Em seguida, verifique se as ações de marketing corretas estão definidas nos d
 
 Use ações de marketing para controlar quais dados de público-alvo importar para colaboração na Real-Time CDP a partir da Experience Platform. A ação de marketing **Colaboração de dados** é compatível com os rótulos de uso de dados C4, C5 e C9. A ação de marketing **Ciência de dados** é compatível com o rótulo de uso de dados C9.
 
-Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Com a caixa de seleção *habilitada*, todos os dados marcados com os rótulos mencionados acima na Experience Platform serão excluídos e *não* serão enviados para a Real-Time CDP Collaboration.
 * Com a caixa de seleção *desabilitada*, não há restrição para dados da Experience Platform que possam ser importados para a Real-Time CDP Collaboration.
 
 Leia mais sobre os rótulos de uso de dados na documentação do Experience Platform:
 
-* [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Glossário de rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Glossário de rótulos de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![Ações de marketing necessárias para colaboração de dados.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
