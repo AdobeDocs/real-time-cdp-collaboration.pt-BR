@@ -2,7 +2,7 @@
 title: Descubra anunciantes
 description: Descubra anunciantes em potencial para colaborar no uso do Adobe Real-Time CDP Collaboration
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: caee65fa-63bf-4cb1-80c7-6fdc38c4285b
