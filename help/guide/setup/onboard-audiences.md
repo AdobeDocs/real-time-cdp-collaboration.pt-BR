@@ -2,12 +2,12 @@
 title: Importar e gerenciar públicos
 description: Saiba como importar e gerenciar públicos no Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '2685'
-ht-degree: 23%
+source-wordcount: '2961'
+ht-degree: 17%
 
 ---
 
@@ -39,11 +39,11 @@ O que você encontrará nesta página de documentação:
 >
 >Para importar públicos, seu usuário precisa ser atribuído a uma função que contém duas permissões de Gerenciamento de perfil - Exibir perfis e Exibir segmentos. Para obter informações sobre como atribuir as permissões necessárias, consulte o guia [importação de público-alvo](../permissions/overview.md#audience-importation).
 
-Antes de compartilhar públicos com colaboradores e executar cálculos de sobreposição, os públicos precisam ser importados para o Real-Time CDP Collaboration. Para importar públicos, siga as etapas do fluxo de trabalho na seção abaixo.
+Antes de ativar públicos-alvo com colaboradores e executar cálculos de sobreposição, os públicos-alvo precisam ser importados para o Real-Time CDP Collaboration. Para importar públicos, siga as etapas do fluxo de trabalho na seção abaixo.
 
-![Meus públicos-alvo são exibidos antes da adição de qualquer público-alvo à organização.](/help/assets/setup/add-manage-audiences/org-without-audiences-added.png)
+Na guia **[!UICONTROL Meus públicos-alvo]** da área de trabalho **[!UICONTROL Configuração]**, selecione o ícone adicionar (![ícone Adicionar.](/help/assets/icons/plus.png)) ou a opção **[!UICONTROL Adicionar]** e selecione **Público**.
 
-Na guia **[!UICONTROL Meus públicos-alvo]**, selecione o símbolo de adição **+** e selecione **Público-alvo**.
+![Meu espaço de trabalho de públicos-alvo com a opção Adicionar e a opção Públicos-alvo realçadas.](/help/assets/setup/add-manage-audiences/add-audiences.png)
 
 ### Selecionar conexão de dados {#select-data-connection}
 
@@ -56,34 +56,38 @@ Na guia **[!UICONTROL Meus públicos-alvo]**, selecione o símbolo de adição *
 
 >[!IMPORTANT]
 >
->Depois de se conectar à primeira conexão de dados e importar o primeiro público-alvo, você pode optar por importar vários públicos-alvo dessa conexão de dados existente. Nesse caso, o fluxo de trabalho levará você diretamente à etapa [selecionar público-alvo](#select-audience), já que todas as informações de pré-requisito das outras etapas serão importadas da conexão existente.
+>Depois de estabelecer para sua primeira conexão de dados e importar o primeiro público-alvo, você pode importar vários públicos-alvo da conexão de dados existente. Ao adicionar públicos-alvo adicionais, você começará pela etapa [selecionar público-alvo](#select-audience), já que todas as informações de pré-requisito das outras etapas serão importadas da conexão existente.
 
-Uma conexão de dados é a fonte de dados da qual você está importando públicos para o Real-Time CDP Collaboration. Para a primeira versão do Real-Time CDP Collaboration, a única conexão de dados compatível é a Adobe Experience Platform.
+Uma conexão de dados é a fonte de dados da qual você está importando públicos para o Real-Time CDP Collaboration. No momento, a única conexão de dados compatível é a Adobe Experience Platform.
 
-Todas as configurações, como mapeamento de identidade ou agendamento, definidas para a conexão de dados são aplicadas a todos os públicos-alvo importados dessa conexão de dados.
+Todas as configurações, como o agendamento definido para a conexão de dados, são aplicadas a todos os públicos-alvo importados dessa conexão de dados.
 
 >[!TIP]
 >
->Há um fluxo de trabalho separado em que você sempre pode exibir e editar todas as conexões de dados adicionadas nesta etapa. Leia mais sobre [gerenciamento de conexões de dados](/help/guide/setup/manage-data-connection.md).
+>Há um fluxo de trabalho separado em que você pode visualizar e editar suas conexões de dados. Para obter mais informações, siga o guia [gerenciando conexões de dados](/help/guide/setup/manage-data-connection.md).
 
-![Selecione a tela de origem do público-alvo que mostra as opções do AEP RTCDP, Arquivo CSV, Amazon S3 e Snowflake.](/help/assets/setup/add-manage-audiences/Step-Select-Audience-Source.png)
+Para começar a adicionar sua conexão de dados, selecione **[!UICONTROL Adicionar nova conexão de dados]** e clique em **[!UICONTROL Avançar]**.
+
+![O espaço de trabalho Adicionar públicos-alvo com a opção Adicionar uma nova conexão de dados foi realçado.](/help/assets/setup/add-manage-audiences/add-data-connection.png)
 
 #### Selecionar fonte de dados
 
-Nesta etapa, você escolherá a fonte dos dados do público-alvo. As fontes disponíveis incluem:
+Em seguida, escolha a origem da conexão de dados. As fontes disponíveis incluem:
 
 * **Adobe Experience Platform**: selecione esta opção para trazer seus públicos do Adobe Experience Platform Real-Time CDP.
 * **Arquivo CSV** (versão futura): carregue um arquivo CSV contendo seus dados de público-alvo para assimilação rápida e direta de dados.
 * **Amazon Web Services** (versão futura): conecte-se ao seu armazenamento Amazon S3 para importar dados de público diretamente dos seus buckets do S3.
 * **Snowflake** (versão futura): use o data warehouse do Snowflake para obter dados de público-alvo facilmente.
 
+Selecione sua fonte de dados e selecione **[!UICONTROL Avançar]**.
+
+![O espaço de trabalho Adicionar públicos-alvo com a opção Adobe Experience Platform está realçado.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png)
+
 #### Selecionar sandbox
 
-Depois de selecionar **Adobe Experience Platform** como fonte de dados, você deve selecionar a sandbox que inclui os públicos que você vai importar.
+Após selecionar a fonte de dados, é necessário selecionar a sandbox que inclui os públicos que você importará. Selecione a sandbox na lista de sandboxes disponíveis e selecione **[!UICONTROL Avançar]**
 
-![Selecionar sandbox para importar públicos](/help/assets/setup/add-manage-audiences/import-audiences-select-sandbox.png)
-
-Selecione **[!UICONTROL Avançar]** depois de selecionar a sandbox desejada.
+![O espaço de trabalho Adicionar públicos-alvo com uma sandbox selecionada.](/help/assets/setup/add-manage-audiences/select-sandbox.png)
 
 #### Política de governação e medidas de execução {#governance-policy-and-enforcement-actions}
 
@@ -91,7 +95,7 @@ Em seguida, verifique se as ações de marketing corretas estão definidas nos d
 
 Use ações de marketing para controlar quais dados de público-alvo importar para colaboração na Real-Time CDP a partir da Experience Platform. A ação de marketing **Colaboração de dados** é compatível com os rótulos de uso de dados C4, C5 e C9. A ação de marketing **Ciência de dados** é compatível com o rótulo de uso de dados C9.
 
-Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Com a caixa de seleção *habilitada*, todos os dados marcados com os rótulos mencionados acima na Experience Platform serão excluídos e *não* serão enviados para a Real-Time CDP Collaboration.
 * Com a caixa de seleção *desabilitada*, não há restrição para dados da Experience Platform que possam ser importados para a Real-Time CDP Collaboration.
@@ -99,21 +103,21 @@ Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleag
 Leia mais sobre os rótulos de uso de dados na documentação do Experience Platform:
 
 * [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Glossário de rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Glossário de rótulos de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
-![Ações de marketing necessárias para colaboração de dados.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
+Além disso, selecione suas regras de consentimento a serem aplicadas aos dados que estão sendo importados para o Real-Time CDP Collaboration.
+
+![O espaço de trabalho Adicionar públicos-alvo na seção Política de governança e ações de imposição.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
+
+Depois de selecionar as ações de marketing e as regras de consentimento, selecione **[!UICONTROL Avançar]** para prosseguir para a próxima etapa. Uma caixa de diálogo de confirmação será exibida, solicitando que você aceite os termos. Marque a caixa de seleção e selecione **[!UICONTROL OK]** para confirmar.
+
+![Caixa de diálogo Política de governança e ações de aplicação com a caixa de seleção e a opção OK realçadas.](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png)
 
 ### Fornecer detalhes
 
-Em seguida, forneça um nome e uma descrição para que você reconheça essa conexão de dados no futuro.
+Em seguida, forneça um nome e uma descrição para sua conexão de dados. Essas informações ajudarão você a identificar a conexão de dados posteriormente.
 
-<!--
-
->[!IMPORTANT]
->
->Note a difference in terminology where the sandbox selected from Real-Time CDP is considered a dataset in the UI in Real-Time CDP Collaboration.
-
--->
+![O espaço de trabalho Adicionar públicos-alvo com a opção para fornecer um nome e uma descrição.](/help/assets/setup/add-manage-audiences/data-connection-details.png)
 
 ### Mapear campos {#map-fields}
 
@@ -125,7 +129,7 @@ Em seguida, forneça um nome e uma descrição para que você reconheça essa co
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Campos de destino"
->abstract="Os campos de destino correspondem às chaves de correspondência selecionadas ao integrar sua empresa. Atualmente, os emails com hash são as únicas chaves de correspondência compatíveis."
+>abstract="Atualmente, os emails com hash são as únicas chaves de correspondência compatíveis."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -144,14 +148,9 @@ Em seguida, forneça um nome e uma descrição para que você reconheça essa co
 >abstract="Selecione atributos do esquema de união para a classe Perfil na Experience Platform. Essa exibição mostra atributos que estão presentes no esquema de união e pertencem à classe Perfil individual XDM."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=pt-BR" text="Esquema de união na Experience Platform"
 
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_destinations_target_namespaces"
->title="Direcionar namespaces"
->abstract="Isso será preenchido com uma descrição apropriada."
+Em seguida, você selecionará campos de origem para mapear para campos de destino no Real-Time CDP Collaboration.
 
-![Tela Mapear campos mostrando campos de origem mapeados para campos de destino.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
-
-Na etapa mapear campos, é possível selecionar como os campos de identidade dos perfis trazidos da conexão de dados devem mapear para as chaves de correspondência selecionadas na organização.
+![O espaço de trabalho Adicionar públicos-alvo com a opção para mapear campos de origem para campos de destino.](/help/assets/setup/add-manage-audiences/add-map-fields.png)
 
 >[!TIP]
 >
@@ -159,83 +158,41 @@ Na etapa mapear campos, é possível selecionar como os campos de identidade dos
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Os campos do Source]** indicam como as identidades são referenciadas na fonte da qual você está importando dados.
+**[!UICONTROL Os campos do Source]** são namespaces de identidade e atributos de sua implementação existente do Real-Time CDP. É assim que as identidades existem na origem da qual você está importando dados. Os campos do Source são mapeados para os campos de destino definidos no Real-Time CDP Collaboration.
 
-**[!UICONTROL Os campos de destino]** indicam como as identidades são referenciadas no Real-Time CDP Collaboration. Os valores que você pode selecionar aqui correspondem às chaves de correspondência configuradas no fluxo de trabalho de integração da empresa.
+**[!UICONTROL Os campos de destino]** indicam como as identidades são referenciadas no Real-Time CDP Collaboration. Atualmente, os emails com hash são as únicas chaves de correspondência compatíveis.
 
 Use a opção **[!UICONTROL Aplicar transformação]** ao importar campos *sem hash* da sua origem. Nesse caso, o Real-Time CDP Collaboration aplicará o hash e transformará os campos. O algoritmo de hash usado pelo Adobe é SHA256.
 
 >[!ENDSHADEBOX]
 
-Adicione quantos pares de mapeamento forem necessários e selecione **[!UICONTROL Avançar]** para prosseguir para a próxima etapa.
+Selecione o campo de origem vazio ao lado do campo de destino. A caixa de diálogo **[!UICONTROL Selecionar campo de origem]** será exibida. Selecione entre as opções **[!UICONTROL Namespaces de identidade]** e **[!UICONTROL Atributos do perfil]** para localizar o campo de origem desejado e selecione o campo de origem na lista, usando a opção de pesquisa para localizar o campo desejado.
 
-<!--
+![A caixa de diálogo Selecionar campo de origem com as opções de email exibidas.](/help/assets/setup/add-manage-audiences/select-source-field.png)
 
-In this step, you can also add any identity crosswalks that you would like to use.
+Para lidar com vários campos de email, mapeie o campo de origem de email sem hash usando **[!UICONTROL Aplicar transformação]**.
 
-Identity crosswalks will be supported after the beta release.
+![O espaço de trabalho Adicionar públicos-alvo com os campos de origem de email mapeados para o campo de destino, com a opção Aplicar transformação ativada para um campo.](/help/assets/setup/add-manage-audiences/apply-transformation.png)
 
-#### Add identity crosswalk
-
-Use identity crosswalks to connect different identifiers across datasets to enrich your audience data with additional attributes or dimensions. 
-
-TODO add GIF Identity crosswalks screen showing a list of available identity crosswalks with details.
-
-Select **[!UICONTROL Add identity crosswalk]** to see a screen where you can choose from various identity crosswalks that you have previously [imported into Real-Time CDP Collaboration](/help/guide/setup/identity-crosswalk.md#import-crosswalk). Each entry includes details such as the table name, type, description, and creation date.
-
-After selecting the desired crosswalk, use a source field join key to map to the crosswalk table join key. 
-
->[!NOTE]
->
->After selecting an identity crosswalk, the **[!UICONTROL Add identity crosswalk]** control is greyed out. 
-
-For further reading about identity crosswalks, refer to the [glossary](/help/guide/glossary.md).
-
--->
-
-
-<!-- will uncomment this part when Manage use cases part becomes available
-
-### Manage use cases {#manage-use-cases}
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_import_audience_usecases"
->title="Use cases for identities"
->abstract="This control is disabled in the initial release of Real-Time CDP Collaboration"
-
-![Manage use cases screen.](/help/assets/setup/add-manage-audiences/Step-manage-use-cases.png)
-
-For every identity selected in the mapping step, select the use cases that you can use the identity for. Available use cases are: 
-
-* Discover
-* Share
-* Activate
-* Measure
-
-Note that this control is disabled in the initial release of Real-Time CDP Collaboration.
-
-After selecting the desired use cases for each identity, proceed to the next step. 
-
--->›
+Continue adicionando pares de mapeamento conforme necessário e selecione **[!UICONTROL Avançar]**.
 
 ### Agendar {#schedule}
 
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_destinations_audience_expiration"
->title="Expiração de público-alvo"
->abstract="Detalhes sobre a expiração de público-alvo ainda serão fornecidos."
+Em seguida, programe quando começar e terminar de preencher os públicos. O público será atualizado de acordo com este agendamento.
 
-Agendar quando começar e terminar de preencher e atualizar os públicos. A associação de público será atualizada de acordo com este agendamento.
-
-![Tela de agendamento mostrando datas de início e término para preencher os públicos.](/help/assets/setup/add-manage-audiences/Step-Schedule.png)
-
-Selecione a taxa de atualização para os públicos-alvo. As opções disponíveis estão entre taxas de atualização de um a seis dias.
+![O espaço de trabalho Adicionar público-alvo com as opções de agendamento exibidas.](/help/assets/setup/add-manage-audiences/audience-scheduling.png)
 
 >[!IMPORTANT]
 >
->Ajustar a frequência de atualizações de público ajudará a gerenciar a [atividade de crédito de Gerenciamento de público-alvo](/help/guide/setup/my-activity.md#types-of-activities), que é calculada por atualização de associação de público-alvo. O impacto disso pode ser a disponibilização de dados menos atualizados para relatórios de descoberta de público-alvo e compartilhamento e ativação de público-alvo.
+>Ajustar a frequência de atualizações de público ajudará a gerenciar a [atividade de crédito de Gerenciamento de público-alvo](/help/guide/setup/my-activity.md#types-of-activities), que é calculada por atualização de público-alvo. Selecionar uma frequência mais alta pode afetar a atualização dos dados disponíveis para os relatórios de descoberta de público-alvo e a ativação de público-alvo.
 
-![Tela de agendamento mostrando intervalos de frequência diferentes para atualizar associação de público-alvo.](/help/assets/setup/add-manage-audiences/Step-Schedule-Set-Frequency.png)
+Selecione a frequência de atualização do público na lista suspensa **[!UICONTROL Frequência]**.
+
+![O espaço de trabalho Adicionar agendamento de públicos-alvo com a lista suspensa de Frequência aberta.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png)
+
+Em seguida, selecione o **[!UICONTROL Intervalo de datas]**. A data de início é a data em que o público-alvo começará a preencher com perfis, e a data de término é quando o público-alvo parará de ser atualizado.
+
+![A opção Adicionar espaço de trabalho de agendamento de públicos-alvo com o intervalo de datas é exibida.](/help/assets/setup/add-manage-audiences/audience-scheduling-date-range.png)
 
 >[!IMPORTANT]
 >
@@ -243,13 +200,15 @@ Selecione a taxa de atualização para os públicos-alvo. As opções disponíve
 
 ### Selecionar públicos-alvo {#select-audience}
 
-Depois de selecionar a origem do público-alvo, você escolherá públicos-alvo específicos para incluir. Use as opções de pesquisa e filtro na página para localizar os públicos relevantes da fonte de dados selecionada.
+Depois de selecionar a origem do público-alvo, você escolherá públicos-alvo específicos para incluir. Use as opções de pesquisa e filtro para localizar os públicos relevantes da sua fonte de dados. Selecione os públicos desejados e selecione **[!UICONTROL Avançar]**.
 
-![Tela Selecionar público-alvo mostrando uma lista de públicos-alvo disponíveis com caixas de seleção para selecioná-los.](/help/assets/setup/add-manage-audiences/Step-Select-Audience.png)
+![O espaço de trabalho Adicionar públicos-alvo com uma lista de públicos-alvo disponíveis.](/help/assets/setup/add-manage-audiences/select-audience.png)
 
 ### Revisar
 
-Revise todas as configurações e definições antes de finalizar a adição do público-alvo. Verifique se todos os detalhes estão corretos e selecione **[!UICONTROL Concluído]** para finalizar o processo.
+Revise todas as configurações e definições antes de finalizar a adição do público-alvo. Verifique se todos os detalhes estão corretos e selecione **[!UICONTROL Concluído]** para concluir a criação da conexão de dados.
+
+![O espaço de trabalho Adicionar públicos-alvo com todas as configurações selecionadas foi exibido.](/help/assets/setup/add-manage-audiences/review-connection.png)
 
 ## Exibir painel de públicos-alvo {#view-audiences-dashboard}
 
@@ -258,56 +217,58 @@ Revise todas as configurações e definições antes de finalizar a adição do 
 >title="Identidades ausentes"
 >abstract="A contagem de identidades estará disponível após a próxima atualização da conexão de dados, de acordo com o agendamento configurado. A atualização inicial geralmente ocorre em 24 horas após a configuração da conexão de dados. Atualizações contínuas seguirão o cronograma configurado. "
 
-Depois de importar públicos para o Real-Time CDP Collaboration, você pode obter informações sobre eles em uma visualização de painel. O modo de exibição padrão na página **[!UICONTROL Meus públicos-alvo]** exibe todos os públicos-alvo atualmente importados pela sua organização para a Real-Time CDP Collaboration.
+Depois de importar públicos para o Real-Time CDP Collaboration, o espaço de trabalho **[!UICONTROL Meus públicos]** exibe todos os públicos atualmente importados para o Real-Time CDP Collaboration pela sua organização.
 
-![Página de visão geral dos públicos-alvo mostrando todos os públicos-alvo importados por um anunciante](/help/assets/setup/add-manage-audiences/audiences-overview.png)
 
-Você pode exibir as seguintes informações relevantes sobre cada público-alvo:
+Cada público-alvo contém uma visão geral das seguintes informações:
 
 | Item | Descrição |
 |----------|---------|
 | **[!UICONTROL Identidades]** | Indica o número de identidades presentes nesse público-alvo. Observe que, se o mesmo perfil tiver duas ou mais identidades, e essas identidades forem usadas como chaves de correspondência no projeto, o perfil aparecerá duas vezes na contagem. |
-| **[!UICONTROL Status]** | Indica se a audiência está ativa e pode ser usada em projetos. Um status Pendente indica que o público-alvo acabou de ser importado e os membros do público-alvo ainda não foram preenchidos. Os públicos-alvo importados serão preenchidos com perfis após a próxima atualização da conexão de dados após o agendamento configurado. A atualização inicial geralmente ocorre em 24 horas após a configuração da conexão de dados                                         . |
-| **[!UICONTROL Source]** | Indica a fonte de onde esse público-alvo foi importado. Na versão atual do Real-Time CDP Collaboration, o Adobe Experience Platform é a única fonte compatível. |
-| **[!UICONTROL Conexão de dados]** | Mais informações detalhadas sobre de onde esse público-alvo foi importado. Por exemplo, ao importar públicos da origem do Experience Platform, as sandboxes individuais às quais sua organização tem acesso são consideradas as conexões de dados. |
-| **[!UICONTROL Acesso à conexão]** | Define se esse público-alvo é público ou privado. Os públicos-alvo são detectáveis em relatórios de sobreposição e podem ser compartilhados com colaboradores. |
-| **[!UICONTROL Criado]** | Indica quando esse público-alvo foi importado para o Real-Time CDP Collaboration. |
-| **[!UICONTROL Última atualização]** | Indica a última data e hora em que qualquer aspecto desse público-alvo foi atualizado. |
+| **[!UICONTROL Status]** | Indica se a audiência está ativa e pode ser usada em projetos. Um status **[!UICONTROL Pendente]** indica que o público-alvo acabou de ser importado e os membros do público-alvo ainda não foram preenchidos. Os públicos-alvo importados serão preenchidos com perfis após a atualização inicial, que geralmente ocorre em 24 horas após a configuração da conexão de dados. |
+| **[!UICONTROL Source]** | Indica a fonte de onde o público-alvo foi importado. Na versão atual do Real-Time CDP Collaboration, o Adobe Experience Platform é a única fonte compatível. |
+| **[!UICONTROL Conexão de dados]** | A conexão de dados da qual o público-alvo tem origem. Você pode selecionar o nome para exibir a conexão de dados. |
+| **[!UICONTROL Acesso à conexão]** | Define se o público é privado ou público. Os públicos-alvo são detectáveis em relatórios de sobreposição e podem ser ativados em um projeto. |
+| **[!UICONTROL Criado]** | Indica quando o público-alvo foi importado para o Real-Time CDP Collaboration. |
+| **[!UICONTROL Última atualização]** | Indica a última data e hora em que qualquer aspecto do público-alvo foi atualizado. |
 
-Selecione **[!UICONTROL Gerenciar conexões de dados]** para exibir e editar todas as conexões de dados configuradas.
-Selecione as reticências e **[!UICONTROL Excluir]** para remover o público.
-Selecione as reticências e **[!UICONTROL Editar categorias]** para adicionar marcas de categoria diferentes ao público-alvo. Obtenha mais informações na seção [categorias](/#categories) abaixo.
-Selecione o nome do público para inspecionar ou editar públicos individuais.
+![O espaço de trabalho Meu público-alvo mostrando todos os públicos importados.](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
+
+Para executar ações rápidas em um público, selecione as reticências **...** ao lado do nome do público. As opções disponíveis são as seguintes:
+
+* **[!UICONTROL Editar categorias]** permite adicionar diferentes marcas de categoria ao público-alvo. Para obter mais informações, consulte a seção [categorias](#categories) abaixo.
+* **[!UICONTROL Excluir]** excluirá o público da conexão de dados.
+
+![O espaço de trabalho Meus públicos-alvo com o menu de reticências é aberto, e as opções Editar categorias e Excluir são realçadas.](/help/assets/setup/add-manage-audiences/audiences-ellipsis-menu.png)
 
 ## Exibir públicos-alvo individuais {#view-individual-audiences}
 
-A visualização do público-alvo revela mais informações sobre ele.
+Para exibir mais informações e editar configurações para um público individual, selecione o público no espaço de trabalho **[!UICONTROL Meus públicos]**. O espaço de trabalho de público-alvo exibe informações detalhadas sobre o público-alvo selecionado, incluindo seus detalhes, identidades, categorias, acesso à conexão e configurações de visibilidade de metadados.
 
-![Exibir e inspecionar público-alvo individual.](/help/assets/setup/add-manage-audiences/view-inspect-audience.png)
+### Detalhes do público-alvo
 
-As métricas que você pode visualizar nessa tela estão descritas abaixo:
+As seguintes informações são exibidas para cada público individual:
 
 | Item | Descrição |
 |----------|---------|
 | **[!UICONTROL Status]** | Indica se a audiência está ativa e pode ser usada em projetos. |
-| **[!UICONTROL Source]** | Indica a fonte de onde esse público-alvo foi importado. Na versão atual do Real-Time CDP Collaboration, o Adobe Experience Platform é a única fonte compatível. |
-| **[!UICONTROL Conexão de dados]** | Mais informações detalhadas sobre de onde esse público-alvo foi importado. Por exemplo, ao importar públicos da origem do Experience Platform, as sandboxes individuais às quais sua organização tem acesso são consideradas as conexões de dados. |
-| **[!UICONTROL Última atualização]** | Indica a última data e hora em que qualquer aspecto desse público-alvo foi atualizado. |
-| **[!UICONTROL Última atualização por]** | Indica o usuário que atualizou esse público pela última vez. |
-| **[!UICONTROL Criado]** | Indica quando esse público-alvo foi importado para o Real-Time CDP Collaboration. |
+| **[!UICONTROL Source]** | Indica a fonte de onde o público-alvo foi importado. Na versão atual do Real-Time CDP Collaboration, o Adobe Experience Platform é a única fonte compatível. |
+| **[!UICONTROL Conexão de dados]** | A conexão de dados da qual o público-alvo tem origem. |
+| **[!UICONTROL Última atualização]** | Indica a última data e hora em que o público-alvo foi atualizado. |
+| **[!UICONTROL Última atualização por]** | Indica o usuário que atualizou o público pela última vez. |
+| **[!UICONTROL Criado]** | Indica quando o público-alvo foi importado para o Real-Time CDP Collaboration. |
 | **[!UICONTROL Criado por]** | Indica o usuário que importou o público-alvo para o Real-Time CDP Collaboration. |
 
+![Espaço de trabalho de um público-alvo individual.](/help/assets/setup/add-manage-audiences/audience-details.png)
 
-Você pode usar mais dois controles na página para editar ou remover públicos:
+Além disso, os seguintes controles estão disponíveis no espaço de trabalho do público-alvo:
 
-* **[!UICONTROL Excluir]**: remover o público-alvo do inventário
-* **[!UICONTROL Editar]**: edite os metadados do público-alvo como seu nome ou descrição.
+* **[!UICONTROL Excluir]**: remova o público-alvo de sua conexão de dados.
+* **[!UICONTROL Editar]**: edite o nome ou a descrição do público-alvo.
 
-![Exibir e inspecionar público-alvo individual.](/help/assets/setup/add-manage-audiences/audiences-edit-delete-controls.png)
+![Um espaço de trabalho de público-alvo individual com a opção Editar e Excluir realçada.](/help/assets/setup/add-manage-audiences/audience-details-edit-delete.png)
 
-Mais informações sobre o público estão disponíveis e parcialmente editáveis nos widgets abaixo:
-
-![Exibir e inspecionar público-alvo individual.](/help/assets/setup/add-manage-audiences/audiences-further-info-boxes.png)
+Em seguida, você pode atualizar as seguintes seções no espaço de trabalho do público-alvo:
 
 * [Identidades](#identities)
 * [Categorias](#categories)
@@ -319,9 +280,11 @@ Mais informações sobre o público estão disponíveis e parcialmente editávei
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identidades"
->abstract="Obtenha uma visualização detalhada das identidades que compõem esse público-alvo, bem como uma contagem total de perfis com as respectivas identidades."
+>abstract="Uma exibição detalhada das identidades que compõem esse público-alvo, bem como uma contagem total de perfis com as respectivas identidades."
 
-Esta seção indica o número de perfis presentes no público com qualquer uma das identidades especificadas ao importar os públicos. A seção também contém um detalhamento de identidade para que você possa saber quais identidades compõem a maioria da população do público-alvo.
+A seção **[!UICONTROL Identidades]** indica o número de perfis presentes no público com qualquer uma das identidades que você selecionou ao importar o público. A seção também contém um detalhamento de identidade para que você possa saber quais identidades compõem a maioria da população do público-alvo.
+
+![A seção Identidades do espaço de trabalho de um público-alvo individual.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
 
 ### Categorias {#categories}
 
@@ -332,46 +295,66 @@ Esta seção indica o número de perfis presentes no público com qualquer uma d
 
 Para facilitar a organização, a filtragem e a recuperação de públicos-alvo, você pode marcar seus públicos-alvo. Você pode marcar um público com várias categorias e usar essas marcas de categoria para filtrar os públicos desejados na área de produto [descoberta](/help/guide/collaborate/discover.md), ao executar relatórios de sobreposição de público.
 
+Para adicionar categorias, selecione a opção **[!UICONTROL Editar]** na seção **[!UICONTROL Categorias]**.
+
+![A seção Categorias do espaço de trabalho de um público-alvo individual.](/help/assets/setup/add-manage-audiences/audience-details-categories.png)
+
+A caixa de diálogo **[!UICONTROL Categorias]** será exibida, permitindo que você selecione as categorias que deseja adicionar ao público-alvo. Para selecionar uma categoria individual, marque a caixa de seleção ao lado do nome da categoria.
+
+![A caixa de diálogo Categorias exibida com as categorias disponíveis.](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png)
+
 ### Acesso à conexão {#connection-access}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Acesso à conexão"
->abstract="<p>Os públicos-alvo podem ser de três tipos: públicos, privados e personalizados.</p><p> Sua disponibilidade para uso em projetos com colaboradores difere com base na configuração de acesso à conexão. É sempre possível alterar o acesso à conexão de privado para público, mas não será permitido retornar à configuração anterior a partir do momento que um público-alvo for compartilhado com os colaboradores.</p>"
+>abstract="<p>Os públicos-alvo podem ser de três tipos: públicos, privados e personalizados.</p><p> Sua disponibilidade para uso em projetos com colaboradores difere com base na configuração de acesso à conexão. Você sempre pode alterar o acesso à conexão de privado para público, mas não pode alterar essa configuração novamente depois que um público-alvo for ativado com colaboradores.</p>"
 
-Selecione se o público-alvo deve ser privado para você ou utilizável e detectável em conexões. As três opções disponíveis são:
+A disponibilidade de um público-alvo para uso em projetos com colaboradores é diferente com base na configuração de acesso à conexão. Na seção **[!UICONTROL Acesso à conexão]**, você pode selecionar se o público-alvo deve ser privado ou utilizável e detectável em conexões.
 
-* **[!UICONTROL Público]**. Esses públicos-alvo estão disponíveis para uso em relatórios de sobreposição e para compartilhamento e ativação em conexões com qualquer colaborador.
-* **[!UICONTROL Público-alvo]**. Estes públicos-alvo *não* estão disponíveis para uso em relatórios de sobreposição e para compartilhamento e ativação em conexões com qualquer colaborador. Embora não esteja disponível para os colaboradores visualizarem ou usarem, a população deste público-alvo ainda contribui para a população total na exibição **[!UICONTROL Todos os públicos-alvo]** na [seção de descobertas e sobreposições](/help/guide/collaborate/discover.md#compare-audiences). Altere a configuração para público ou personalizado para usar os públicos-alvo em conexões com colaboradores.
-* **[!UICONTROL Público-alvo personalizado]**. Esses públicos-alvo estão disponíveis para uso em relatórios de sobreposição e para compartilhamento e ativação somente em conexões especificadas. Embora não esteja disponível para todos os colaboradores visualizarem ou usarem, a população deste público-alvo ainda contribui para a população total na exibição **[!UICONTROL Todos os públicos-alvo]** da seção [descobrir e sobrepor](/help/guide/collaborate/discover.md).
+Para atualizar o acesso à conexão do público-alvo, selecione a opção **[!UICONTROL Editar]** na seção **[!UICONTROL Acesso à conexão]**.
+
+![A seção Acesso à conexão do espaço de trabalho de um público-alvo individual.](/help/assets/setup/add-manage-audiences/audience-details-connection-access.png)
+
+A caixa de diálogo **[!UICONTROL Acesso à conexão]** é exibida, com três opções de acesso à conexão disponíveis:
+
+* **[!UICONTROL Público-alvo]**. Estes públicos-alvo *não* estão disponíveis para uso em relatórios de sobreposição ou para ativação em conexões com qualquer colaborador. Embora os públicos-alvo não estejam disponíveis para os colaboradores visualizarem ou usarem, a população dos públicos-alvo ainda contribui para a população total na exibição **[!UICONTROL Todos os públicos-alvo]** da [seção Comparar públicos-alvo](/help/guide/collaborate/discover.md#compare-audiences). Altere a configuração para público ou personalizado para usar os públicos-alvo em conexões com colaboradores.
+* **[!UICONTROL Público]**. Esses públicos-alvo estão disponíveis para uso em relatórios de sobreposição e para ativação em conexões com qualquer colaborador.
+* **[!UICONTROL Público-alvo personalizado]**. Esses públicos-alvo estão disponíveis para uso em relatórios de sobreposição e para ativação somente em conexões especificadas. Embora os públicos-alvo não estejam disponíveis para os colaboradores visualizarem ou usarem, a população dos públicos-alvo ainda contribui para a população total na exibição **[!UICONTROL Todos os públicos-alvo]** da [seção Comparar públicos-alvo](/help/guide/collaborate/discover.md#compare-audiences).
+
+Selecione a opção de acesso de conexão desejada e selecione **[!UICONTROL Salvar]** para aplicar as alterações.
+
+![A caixa de diálogo Acesso à conexão com as opções disponíveis foi exibida.](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
 
 >[!IMPORTANT]
 >
->Independentemente do status de acesso (público, privado ou personalizado), a população de qualquer público-alvo contribui para a população de **[!UICONTROL Todos os públicos-alvo]** na exibição de análise de sobreposição da Descoberta de público-alvo. <br> ![O público-alvo **Todos os públicos-alvo** gerados pelo sistema na análise de sobreposição da Descoberta de Público-alvo inclui os públicos-alvo com todos os status de acesso de conexão (público, privado, personalizado).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "O público-alvo **Todos os públicos-alvo** gerado pelo sistema na análise de sobreposição **Descoberta de Público-alvo** inclui os públicos-alvo com todos os status de acesso de conexão (público, privado, personalizado)."){width="100" zoomable="yes"}
+>Independentemente do status de acesso (público, privado ou personalizado), a população de qualquer público-alvo contribui para a população **[!UICONTROL Todos os públicos-alvo]** na seção **[!UICONTROL Comparar públicos-alvo]** em um projeto.<br>
 
-A disponibilidade do público-alvo para uso em projetos com colaboradores é diferente de acordo com a configuração de acesso à conexão. É sempre possível alterar o acesso à conexão de privado para público, mas não será permitido retornar à configuração anterior a partir do momento que um público-alvo for compartilhado com os colaboradores.
+A disponibilidade do público-alvo para uso em projetos com colaboradores é diferente de acordo com a configuração de acesso à conexão. Você sempre pode alterar o acesso à conexão de privado para público, mas não pode alterar essa configuração novamente depois que um público-alvo for ativado.
 
 ### Visibilidade de metadados {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilidade de metadados"
->abstract="<p>Indica quais das informações de metadados de público-alvo estão visíveis para outras organizações antes de elas se conectarem com a sua organização. </p> <p> A **contagem de identidades** controla se o seu parceiro pode exibir contagens de identidades dos seus públicos-alvo ao visualizar relatórios de sobreposição na guia de descoberta. A **% de sobreposição de público-alvo** controla se os colaboradores podem descobrir as porcentagens de sobreposição entre os públicos-alvo deles e os seus."
+>abstract="<p>Indica qual dos metadados do público-alvo é visível para outras organizações antes de elas se conectarem com a sua organização. </p> <p> A **contagem de identidades** controla se o seu parceiro pode exibir contagens de identidades dos seus públicos-alvo ao visualizar relatórios de sobreposição na guia de descoberta. A **% de sobreposição de público-alvo** controla se os colaboradores podem descobrir as porcentagens de sobreposição entre os públicos-alvo deles e os seus."
 
 >[!NOTE]
 >
->Se o colaborador tiver todos os públicos definidos como privados, a exibição **[!UICONTROL Públicos relevantes]** nos insights do público-alvo estará em branco. [Leia mais](/help/guide/collaborate/discover.md#relevant-audiences).
+>Se o colaborador tiver todos os públicos definidos como privados, a seção **[!UICONTROL Públicos relevantes]** de um projeto no espaço de trabalho **[!UICONTROL Descobrir]** ficará em branco. Para obter mais informações, leia a [descoberta](/help/guide/collaborate/discover.md#relevant-audiences). guia.
 
-Indica qual das informações de metadados de público-alvo é visível para outras organizações antes que elas se conectem com a organização ou em diferentes visualizações de projeto.
+A visibilidade dos metadados indica a visibilidade dos metadados de um público-alvo para outras organizações antes que elas se conectem com a sua organização ou em diferentes visualizações de projeto. Para atualizar a visibilidade de metadados do público, selecione a opção **[!UICONTROL Editar]** na seção **[!UICONTROL Visibilidade de metadados]**.
 
-**[!UICONTROL Mostrar contagem de identidades]**: esta configuração controla se o parceiro pode exibir contagens de identidades para os públicos-alvo ao [exibir relatórios de sobreposição na guia de descoberta](/help/guide/collaborate/discover.md#discover-overlaps).
+![A seção Visibilidade de metadados do espaço de trabalho de um público-alvo individual.](/help/assets/setup/add-manage-audiences/audience-details-metadata.png)
 
-![Imagens lado a lado com a opção mostrar contagem de identidades desmarcada e selecionada.](/help/assets/setup/add-manage-audiences/show-identity-count.png)
+A caixa de diálogo **[!UICONTROL Visibilidade de metadados]** é exibida, permitindo definir as configurações de visibilidade para o público-alvo. Há duas configurações de visibilidade de metadados que você pode configurar para cada público:
 
-**[!UICONTROL Mostrar sobreposição de público-alvo %]**: quando definido como verdadeiro, os colaboradores podem [descobrir porcentagens de sobreposição](/help/guide/collaborate/discover.md#compare-audiences) entre seus públicos-alvo e o público que pertence a você. Por exemplo, na gravação abaixo, o público-alvo `agora-advertiser-aud3` tem essa configuração definida como verdadeira e um colaborador pode visualizar porcentagens de sobreposição com esse público-alvo. A audiência `agora-advertiser-aud1` tem essa configuração definida como falsa, portanto, o colaborador não pode exibir porcentagens de sobreposição.
+**[!UICONTROL Mostrar contagem de identidades]**: esta configuração controla se seu colaborador pode exibir contagens de identidades para seus públicos ao [exibir relatórios de sobreposição na guia de descoberta](/help/guide/collaborate/discover.md#discover-overlaps) em um projeto.
 
-![Percentual de sobreposição de público-alvo para dois públicos-alvo diferentes.](/help/assets/setup/add-manage-audiences/audience-overlap-percentage.gif)
+**[!UICONTROL Mostrar sobreposição de público-alvo %]**: quando definido como verdadeiro, os colaboradores podem [descobrir porcentagens de sobreposição](/help/guide/collaborate/discover.md#compare-audiences) entre seus públicos-alvo e os seus públicos-alvo.
+
+![A caixa de diálogo de visibilidade de Metadados com as opções disponíveis foi exibida.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
 
 ## Próximas etapas
 
-Depois de importar públicos, use a seção [Conectar](/help/guide/connect/establishing-connections.md) para descobrir editores para se conectar e começar a colaborar em projetos.
+Depois de importar públicos, é hora de descobrir editores para [conectar](/help/guide/connect/establishing-connections.md) e começar a colaborar em projetos.

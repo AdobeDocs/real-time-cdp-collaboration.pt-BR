@@ -2,12 +2,12 @@
 title: Conectar-se a anunciantes ou editores
 description: Depois de descobrir possíveis colaboradores, saiba como estabelecer conexões e começar a colaborar em projetos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 17%
+source-wordcount: '1387'
+ht-degree: 11%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 17%
 
 {{limited-availability-release-note}}
 
-Estabelecer uma conexão entre duas partes de uma colaboração (geralmente um anunciante e um editor) é o pré-requisito no Real-Time CDP Collaboration para empresas que trabalham juntas em campanhas. Tanto editores quanto anunciantes podem configurar conexões. O participante que iniciar a conexão será o *proprietário da conexão*.
+Antes que os colaboradores (normalmente um anunciante e um editor) possam trabalhar juntos em campanhas, eles devem estabelecer uma conexão. Essa conexão permite que eles ativem públicos, criem projetos e executem relatórios sobre o desempenho da campanha.
 
 ## Fluxo de trabalho de alto nível
 
-Em um alto nível, para estabelecer uma conexão entre um anunciante e um editor, o fluxo de trabalho se parece com o abaixo:
+Para estabelecer uma conexão entre um anunciante e um editor, as seguintes etapas são necessárias:
 
-1. O anunciante [procura editores e descobre](/help/guide/connect/discover-publishers.md) um com o qual gostaria de trabalhar
+1. O anunciante [navega por editores e descobre](/help/guide/connect/discover-publishers.md) um com o qual gostaria de trabalhar.
 2. O anunciante envia um convite de conexão.
 3. O editor aceita o convite.
 4. O anunciante envia configurações de conexão, incluindo chaves de correspondência e outras. Essas configurações de conexão representam os termos no produto da colaboração.
@@ -39,9 +39,9 @@ Quando os itens acima forem concluídos, os colaboradores poderão prosseguir pa
 
 Para configurar uma conexão, selecione **[!UICONTROL Conectar]** ao navegar pelo inventário de fornecedores na tela de descoberta de editores.
 
-![Seletor de conexão](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
+![O painel Conectar com a opção Conectar foi realçado em um editor específico.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
-Neste ponto, o convite está fora e você pode visualizar as configurações de conexão, mas não pode editá-las. Você pode exibir o convite pendente na guia **[!UICONTROL Minhas conexões]**. O status da conexão é **[!UICONTROL Convite enviado]**.
+Depois que o convite for enviado, você poderá visualizar (mas não editar) as configurações de conexão. Exibir convites pendentes na guia **[!UICONTROL Minhas conexões]**. O status da conexão aparece como **[!UICONTROL Convite enviado]**.
 
 ![Convite pendente enviado ao editor exibido no modo de exibição Minhas conexões.](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}
 
@@ -62,17 +62,17 @@ Depois que o colaborador aceitar o convite, você poderá definir as configuraç
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="Divisão de crédito"
->abstract="Esta seção determina quem está pagando pelas atividades correspondentes na Real-Time CDP Collaboration. Atualmente, somente o caso de uso de compartilhamento de público-alvo é configurável."
+>abstract="Esta seção determina quem está pagando pelas atividades correspondentes no Real-Time CDP Collaboration."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="Compartilhamento de público-alvo"
->abstract="O Compartilhamento de público-alvo é a atividade que uma parte realiza ao solicitar que os dados correspondentes sejam ativados pelo parceiro de colaboração."
+>abstract="Os créditos de ativação de público são consumidos com base no número de IDs correspondentes preparadas para ativação."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="Medição"
->abstract="Esse caso de uso permite executar atividades na Real-Time CDP Collaboration para gerar relatórios e insights de desempenho da campanha."
+>abstract="Execute atividades para gerar relatórios e insights de desempenho da campanha. Os créditos são consumidos com base no número de linhas nos relatórios de campanha em todas as campanhas e na frequência dos relatórios (diariamente, a cada três dias ou semanalmente)."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
@@ -89,29 +89,31 @@ Depois que o convite for enviado, você poderá visualizar as configurações de
 
 ![A exibição das configurações de conexão no estado de visualização.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
 
-Depois que a conexão for aceita pelo colaborador, você poderá começar a definir as configurações de conexão para a conexão. As configurações de conexão definem os termos de sua colaboração, como os casos de uso que você realizará juntos, as chaves de correspondência que usará em projetos e muito mais.
+### Configurações de conexão do anunciante {#advertiser-connection-settings}
 
-Para definir e compartilhar configurações de conexão com seu colaborador, navegue até **[!UICONTROL Minhas conexões]**. Para qualquer conexão com o status **[!UICONTROL Pendente]**, você pode selecionar **[!UICONTROL Configurar conexão]** para definir as configurações de conexão.
+Depois que seu colaborador aceitar a conexão, defina as configurações de conexão. Essas configurações definem os termos de colaboração, incluindo os casos de uso nos quais você trabalhará, as chaves de correspondência para projetos e outras configurações.
 
-![A exibição Minhas conexões com uma conexão Pendente e sua opção Configurar conexão foi realçada.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
+Para começar, navegue até **[!UICONTROL Minhas conexões]**. Para qualquer conexão com o status **[!UICONTROL Pendente]**, você pode selecionar **[!UICONTROL Configurar conexão]** para definir as configurações de conexão.
+
+![O espaço de trabalho Minhas conexões com uma conexão Pendente e sua opção Configurar conexão foi realçada.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
 
 É possível editar e definir os campos abaixo:
 
-![Configurar exibição de conexão](/help/assets/connect/establish-connection/connection-view.png){zoomable="yes"}
+![O espaço de trabalho de configurações de conexão antes de ser preenchido.](/help/assets/connect/establish-connection/connection-view.png){zoomable="yes"}
 
 +++Casos de uso
 
-Os casos de uso são preenchidos previamente com todos os casos de uso disponíveis. Você pode escolher quais casos de uso sua conexão usará ao selecionar **[!UICONTROL Editar]** e desativar todos os casos de uso que não desejar. Os casos de uso selecionados afetarão quais modos de exibição e opções estão [disponíveis em seus projetos](../collaborate/manage-projects.md#project-use-cases).
+Os casos de uso são preenchidos previamente com todas as opções disponíveis. Para personalizá-los, selecione **[!UICONTROL Editar]** na seção **[!UICONTROL Casos de uso]** e desative os que não desejar. Os casos de uso selecionados determinam quais modos de exibição e opções estão [disponíveis em seus projetos](../collaborate/manage-projects.md#project-use-cases).
 
-![Casos de uso](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
+![As configurações de casos de uso no espaço de trabalho de configurações de conexão.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 +++
 
 +++Teclas de correspondência
 
-As chaves de correspondência são preenchidas previamente com aquelas que você [selecionou no seu nível organizacional](/help/guide/setup/onboard-organization.md#set-up-match-keys). Você pode desativar as chaves de correspondência que não deseja usar nesta conexão, mas não pode adicionar chaves de correspondência que não foram selecionadas ao configurar a organização.
+As chaves de correspondência são preenchidas previamente com aquelas que você selecionou ao [configurar sua organização](/help/guide/setup/onboard-organization.md#set-up-match-keys). Você pode desativar as chaves de correspondência que não deseja usar, mas não pode adicionar chaves de correspondência que não foram selecionadas durante a configuração da organização.
 
-![Chaves correspondentes](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
+![As configurações da chave Corresponder no espaço de trabalho de configurações de conexão.](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
 +++
 
@@ -130,15 +132,27 @@ Use a seção divisão de crédito para determinar qual das duas partes colabora
 
 Antes de prosseguir com essa conexão, você deve reconhecer que existe um acordo de compartilhamento de dados entre as duas partes.
 
-![Contratos legais.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
+![A seção Contrato legal é destacada e confirmada no espaço de trabalho de conexão.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
 
 +++
+
+Depois de fazer suas seleções, selecione **[!UICONTROL Enviar]** para enviar as configurações sugeridas ao seu colaborador para revisão.
+
+### Configurações de conexão do editor {#publisher-connection-settings}
+
+Em seguida, o editor precisa revisar as configurações de conexão e aceitá-las ou rejeitá-las. Para examinar as configurações de conexão, navegue até **[!UICONTROL Minhas conexões]** e selecione **[!UICONTROL Examinar configurações de conexão]** no cartão de conexão.
+
+![A opção Revisar configurações de conexão foi realçada na exibição Minhas conexões.](/help/assets/connect/establish-connection/review-connection-settings.png){zoomable="yes"}
+
+Revise as configurações propostas pelo colaborador. Antes de aceitar as configurações de conexão, você deve reconhecer que um contrato legal está em vigor entre você e o colaborador. Além disso, você pode adicionar qualquer nome de anunciante pelo qual o anunciante seja conhecido em seus sistemas.
+
+![O espaço de trabalho de configurações de conexão com as configurações propostas do colaborador e das seções de Nomes e Contratos de Anunciante realçadas.](/help/assets/connect/establish-connection/publisher-connection-settings.png){zoomable="yes"}
 
 +++Nomes do anunciante
 
 Como editor trabalhando nas configurações de conexão, você pode optar por adicionar qualquer nome de anunciante pelo qual ele seja conhecido em seus sistemas. Como editor, você pode adicionar vários nomes de anunciante a uma conexão, por exemplo, em casos em que o anunciante com o qual você trabalha tem presença em várias regiões geográficas. Em uma parte posterior do processo, ao [criar um projeto](/help/guide/collaborate/manage-projects.md#create-project) para colaborar, você ou seu colaborador poderão selecionar o nome do anunciante a ser associado ao projeto.
 
-![Adicionar modal de nomes de anunciante.](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)
+![A caixa de diálogo Nomes de anunciante no espaço de trabalho de configurações de conexão.](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)
 
 Veja como a seleção de nome do anunciante funciona ao criar um projeto:
 
@@ -146,24 +160,29 @@ Veja como a seleção de nome do anunciante funciona ao criar um projeto:
 2. **Um conjunto de nomes de anunciante**: se um único nome de anunciante for adicionado, o Real-Time CDP Collaboration usará automaticamente esse nome como o nome de anunciante do projeto.
 3. **Conjunto de vários nomes de anunciante**: se mais de um nome de anunciante for adicionado, você ou seu colaborador poderá selecionar qualquer um dos nomes fornecidos ao criar o projeto.
 
-![Nomes do anunciante.](/help/assets/connect/establish-connection/advertiser-names.png)
+![O espaço de trabalho de configurações de conexão com a seção de nomes de anunciante foi preenchida.](/help/assets/connect/establish-connection/advertiser-names.png)
 
 +++
 
-Depois de fazer sua seleção, selecione **[!UICONTROL Enviar]** para enviar as configurações sugeridas ao seu colaborador para revisão.
+>[!NOTE]
+>
+> Depois de aceitar as configurações de conexão, você não poderá mais adicionar ou editar nomes de anunciante.
 
-Se você estiver recebendo configurações de conexão propostas do seu colaborador, é possível **[!UICONTROL Aceitar]** ou **[!UICONTROL Rejeitar]** essas configurações. Antes de aceitar as configurações de conexão, você precisa reconhecer e confirmar que um contrato legal está em vigor entre você e o colaborador. Se você estiver rejeitando configurações de conexão, entre em contato com seu colaborador fora do produto e discuta como ele deve revisar as configurações de conexão para que você as aceite.
+Se você estiver satisfeito com as configurações de conexão propostas, selecione **[!UICONTROL Aceitar]** para estabelecer a conexão. Se você deseja solicitar alterações nas configurações de conexão, selecione **[!UICONTROL Rejeitar]**. Em seguida, o colaborador pode revisar as configurações de conexão e reenviá-las para revisão.
 
 ## Excluir conexões {#delete-connections}
 
-Você pode excluir qualquer conexão com colaboradores com os quais não deseja continuar trabalhando. Para excluir conexões existentes:
+Você pode excluir qualquer conexão com colaboradores com os quais não deseja continuar trabalhando. Para excluir conexões existentes, navegue até **[!UICONTROL Conectar]**. Os anunciantes devem navegar para **[!UICONTROL Minhas conexões]**. Selecione **[!UICONTROL Exibir conexão]** no cartão de conexão para abrir a conexão que deseja excluir.
 
-1. Navegue até **[!UICONTROL Conectar]** > **[!UICONTROL Minhas conexões]**.
-2. Selecione **[!UICONTROL Exibir conexão]** no cartão de conexão para acessar a conexão que deseja excluir.
-3. Selecione o ícone de exclusão ![ícone de exclusão](/help/assets/common/delete.svg) para abrir a caixa de diálogo de confirmação de exclusão da conexão.
-   ![Ícone de exclusão de conexão realçado.](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
-4. Confirme a exclusão selecionando **[!UICONTROL Excluir]**.
-   ![Diálogo para confirmar a exclusão de uma conexão. ](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
+![A opção de conexão Exibir foi realçada na exibição Minhas conexões.](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
+
+Selecione o ícone de exclusão ![ícone de exclusão](/help/assets/common/delete.svg) no espaço de trabalho de conexão para excluir a conexão.
+
+![O ícone de exclusão foi realçado no espaço de trabalho de conexão.](/help/assets/connect/establish-connection/delete-option.png){zoomable="yes"}
+
+Uma caixa de diálogo de confirmação é exibida, solicitando que você confirme a exclusão da conexão. Selecione **[!UICONTROL Excluir]** para confirmar a exclusão.
+
+![A caixa de diálogo de confirmação para excluir uma conexão.](/help/assets/connect/establish-connection/delete-confirmation-dialog.png){zoomable="yes"}
 
 >[!WARNING]
 >
