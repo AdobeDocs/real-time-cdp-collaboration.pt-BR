@@ -2,9 +2,9 @@
 title: Principais benefícios e casos de uso do Adobe Real-Time CDP Collaboration
 description: Entenda os principais benefícios e casos de uso do Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 2%
@@ -21,8 +21,7 @@ O Adobe Real-Time CDP Collaboration fornece os recursos essenciais para descobri
 
 ## Descobrir {#discover}
 
-Use painéis e relatórios para descobrir públicos-alvo para colaboração entre marcas e editores.
-Como anunciante que trabalha com o Real-Time CDP Collaboration, acesse e entenda as sobreposições de público-alvo para desbloquear o redirecionamento, a supressão e as possíveis oportunidades de prospecção de um amplo inventário de editores.
+Use painéis e relatórios para descobrir públicos-alvo para colaboração entre marcas e editores. Como anunciante que trabalha com o Real-Time CDP Collaboration, acesse e entenda as sobreposições de público-alvo para desbloquear o redirecionamento, a supressão e as possíveis oportunidades de prospecção de um amplo inventário de editores.
 
 ## Ativar {#activate}
 
@@ -31,5 +30,4 @@ Em uma versão futura, trabalhe com os parceiros de identidade selecionados para
 
 ## Medição {#measure}
 
-Combine e explore o envolvimento conhecido do cliente de várias fontes, como impressões da Web e muito mais.
-Visualize o desempenho da campanha em relatórios simplificados e personalizáveis.
+Combine e explore o envolvimento conhecido do cliente de várias fontes, como impressões da Web e muito mais. Visualize o desempenho da campanha em relatórios simplificados e personalizáveis.

@@ -2,10 +2,10 @@
 user-guide-title: Real-Time Customer Data Platform Collaboration
 breadcrumb-title: Real-Time Customer Data Platform Collaboration
 user-guide-description: O Adobe Real-Time CDP Collaboration permite o compartilhamento de dados e a colaboração perfeitos e seguros entre anunciantes e editores, facilitando insights do público-alvo em tempo real e estratégias de marketing personalizadas.
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 13%
+source-wordcount: '130'
+ht-degree: 15%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 13%
    * [Integrar e gerenciar sua organização](./setup/onboard-organization.md)
    * [Importar e gerenciar públicos](./setup/onboard-audiences.md)
    * [Gerenciar conexões de dados](./setup/manage-data-connection.md)
+   * [Configurar e gerenciar destinos](./setup/manage-destinations.md)
    * [Rastrear sua atividade de consumo de crédito](/help/guide/setup/my-activity.md)
    * [Passarelas de Identificação](./setup/identity-crosswalk.md)
    * [Adicionar e gerenciar dados de medição](./setup/onboard-measurement-data.md)
@@ -32,9 +33,11 @@ ht-degree: 13%
 * Colaborar {#collaborate}
    * [Gerenciar projetos](./collaborate/manage-projects.md)
    * [Descobrir](./collaborate/discover.md)
-   * [Compartilhar](./collaborate/share.md)
    * [Ativar](./collaborate/activate.md)
    * [Medição](./collaborate/measure.md)
+* Destinos {#destinations}
+   * [Visão geral](./destinations/overview.md)
+   * [Adobe Experience Platform](./destinations/experience-platform.md)
 * Permissões {#permissions}
    * [Visão geral](/help/guide/permissions/overview.md)
    * [Gerenciar acesso do usuário](/help/guide/permissions/manage-user-access.md)

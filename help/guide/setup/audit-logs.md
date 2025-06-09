@@ -2,9 +2,9 @@
 title: Logs de auditoria
 description: Saiba como usar a funcionalidade Logs de auditoria no Real-Time CDP Collaboration para rastrear atividades e alterações do usuário.
 audience: admin
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Use a funcionalidade de logs de auditoria no Real-Time CDP Collaboration para ra
 
 ![Tela de visão geral de alto nível da funcionalidade de logs de auditoria](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-Para obter informações mais abrangentes sobre logs de auditoria, consulte a [documentação de Logs de auditoria do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
+Para obter informações mais abrangentes sobre logs de auditoria, consulte a [documentação de Logs de auditoria do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
 
 ## Acessar logs de auditoria
 
@@ -61,7 +61,7 @@ Os logs de auditoria capturam informações detalhadas sobre as atividades do us
 * **Recurso**: o recurso modificado ou criado.
 * **Carimbo de data/hora**: a hora em que a ação foi executada.
 
-Esses registros criam uma trilha abrangente de todas as atividades na instância do Real-Time CDP Collaboration, o que é útil para o controle de dados e a conformidade normativa. Leia mais sobre [gerenciamento de logs de auditoria na interface](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
+Esses registros criam uma trilha abrangente de todas as atividades na instância do Real-Time CDP Collaboration, o que é útil para o controle de dados e a conformidade normativa. Leia mais sobre [gerenciamento de logs de auditoria na interface](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
 
 ### Filtrar logs de auditoria
 
@@ -74,7 +74,7 @@ A interface dos logs de auditoria fornece vários filtros para ajudar você a pe
 * **Status**: o status da ação (por exemplo: permitido, negado).
 * **Intervalo de datas**: o intervalo de datas para o qual você deseja exibir logs.
 
-Leia mais sobre [filtrando logs de auditoria](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
+Leia mais sobre [filtrando logs de auditoria](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
 
 ### Uso de exemplos
 
@@ -104,7 +104,7 @@ A tabela abaixo fornece uma referência de todas as categorias e ações do Real
 | **[!UICONTROL Conexão de dados do Collaboration]** | criar, atualizar, excluir | Gerencie conexões de dados para colaboração a fim de importar e gerenciar públicos, incluindo criação, atualização e exclusão de conexões de dados. Leia mais sobre [gerenciamento de conexões de dados](/help/guide/setup/manage-data-connection.md). |
 | **[!UICONTROL Entidade de Dados do Collaboration]** | criar, atualizar, excluir | Gerencie entidades de dados para colaboração, incluindo criação, atualização e exclusão de entidades de dados. As entidades de dados neste contexto se referem aos públicos-alvo. Leia mais sobre [importação e gerenciamento de públicos](/help/guide/setup/onboard-audiences.md). |
 | **[!UICONTROL Projeto do Collaboration]** | criar, atualizar, excluir | Gerencie projetos dentro da colaboração, incluindo criação, atualização e exclusão de projetos. Leia mais sobre [gerenciamento de projetos](/help/guide/collaborate/manage-projects.md). |
-| **[!UICONTROL Módulo Collaboration]** | criar, atualizar, excluir | Gerencie diferentes módulos em projetos de colaboração, incluindo a criação, atualização e exclusão de vários módulos na interface do usuário. Por exemplo, a capacidade de [compartilhar públicos](/help/guide/collaborate/share.md). |
+| **[!UICONTROL Módulo Collaboration]** | criar, atualizar, excluir | Gerencie diferentes módulos em projetos de colaboração, incluindo a criação, atualização e exclusão de vários módulos na interface do usuário. Por exemplo, a capacidade de [ativar públicos-alvo](/help/guide/collaborate/activate.md). |
 
 {style="table-layout:auto"}
 

@@ -2,13 +2,13 @@
 title: Passarelas de Identificação
 description: Saiba tudo sobre faixas de cruzamento de identidade no Real-Time CDP Collaboration, incluindo como trazer faixas de cruzamento de identidade de diferentes fontes e como gerenciar faixas de cruzamento de identidade
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '516'
 ht-degree: 20%
 
 ---
@@ -34,7 +34,7 @@ Como primeiro passo, você deve importar as travessias de identidade para o Real
 
 ## Importação de travessias de identidade para o Real-Time CDP Collaboration {#import-crosswalk}
 
-Navegue até **[!UICONTROL Configuração]** > **[!UICONTROL Identity crosswalk]**, selecione o símbolo Plus **+** e selecione **[!UICONTROL Identity crosswalk]**
+Navegue até a guia **[!UICONTROL Configuração]** > **[!UICONTROL Cruzamentos de identidade]**, selecione o ícone adicionar (![Ícone Adicionar.](/help/assets/icons/plus.png)) e selecione **[!UICONTROL Passarela de Identidade]**
 
 ![Gravação de como chegar à tela para adicionar faixas de pedestres de identidade](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
 

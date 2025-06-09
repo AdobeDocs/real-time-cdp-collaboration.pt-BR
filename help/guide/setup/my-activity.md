@@ -2,9 +2,9 @@
 title: Rastrear sua atividade de consumo de crédito
 description: Saiba como rastrear a atividade de consumo de crédito da sua organização no Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 1%
@@ -46,7 +46,7 @@ O painel de instrumentos de atividade exibe uma lista abrangente de todas as ope
 | **[!UICONTROL Data]** | A data em que a atividade ocorreu, exibida no formato MM/DD/AAAA. |
 | **[!UICONTROL ID da Conexão]** | Um identificador exclusivo para cada conexão associada a uma atividade de consumo de crédito, representada como uma sequência alfanumérica. |
 | **[!UICONTROL Nome da conexão]** | O nome do colaborador associado à conexão e à atividade que consome crédito. |
-| **[!UICONTROL Atividade]** | O tipo de atividade realizada, como **Ativação - Compartilhamento**, **Ativação - Saída** ou **Gerenciamento de público-alvo**. |
+| **[!UICONTROL Atividade]** | O tipo de atividade realizada, como **Ativação - Correspondência**, **Ativação - Saída** ou **Gerenciamento de Público-Alvo**. |
 | **[!UICONTROL Entradas processadas]** | O número total de entradas (por exemplo, IDs ou linhas) processadas para a atividade. |
 | **[!UICONTROL Total de créditos usados]** | O número total de créditos consumidos pela atividade. |
 | **[!UICONTROL Meu compartilhamento de crédito]** | A parte da organização nos créditos usada para a atividade. |
@@ -66,7 +66,7 @@ A coluna **[!UICONTROL Atividade]** mostra diferentes tipos de operações que c
 
 Para gerenciar efetivamente o consumo de crédito:
 
-1. **Entenda** o consumo de crédito associado a cada atividade. Verifique a [descrição do produto Real-Time CDP Collaboration](https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} para obter uma tabela de créditos de colaboração usados por atividade.
+1. **Entenda** o consumo de crédito associado a cada atividade. Verifique a [descrição do produto Real-Time CDP Collaboration](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} para obter uma tabela de créditos de colaboração usados por atividade.
 2. **Monitorar regularmente**: verifique seu painel de atividades com frequência para entender os padrões de uso.
 3. **Rastrear por conexão**: use o nome da conexão para identificar quais parcerias estão consumindo mais créditos.
 

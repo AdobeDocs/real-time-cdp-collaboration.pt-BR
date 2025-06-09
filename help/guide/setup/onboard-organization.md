@@ -2,41 +2,30 @@
 title: Integração e gerenciamento da organização
 description: Saiba como integrar e gerenciar vários aspectos da sua organização no Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 18%
+source-wordcount: '861'
+ht-degree: 16%
 
 ---
 
-# Integração e gerenciamento da organização
+# Integrar e gerenciar sua organização
 
 {{limited-availability-release-note}}
 
 Saiba como integrar sua organização à Real-Time CDP Collaboration e gerenciar vários aspectos da empresa. Esta página descreve as etapas para integrar uma organização ao Adobe Real-Time CDP Collaboration, incluindo a configuração de chaves de correspondência, identidades preferenciais e mais opções.
 
-![Página de instalação](/help/assets/setup/manage-organization/my-organization.png){zoomable="yes"}
+![O espaço de trabalho de configuração da organização apresentando suas configurações atuais.](/help/assets/setup/manage-organization/my-organization.png){zoomable="yes"}
 
 ## Configuração inicial da organização
 
-Primeiro, você deve configurar sua organização e os detalhes organizacionais. Navegue até **[!UICONTROL Configuração]** no painel esquerdo, selecione o símbolo **+** no canto superior direito e selecione **[!UICONTROL Conta]**.
+Primeiro, você deve configurar sua organização e os detalhes organizacionais. Se esta for sua primeira organização, você será direcionado imediatamente para o processo de integração, começando com a configuração dos [detalhes da sua conta](#set-up-details).
 
->[!TIP]
->
->Depois de configurar uma conta inicial para trabalhar, é possível usar o mesmo fluxo de trabalho para configurar contas adicionais na mesma organização.
+Para adicionar outras organizações, navegue até **[!UICONTROL Configuração]** no painel esquerdo e selecione o ícone adicionar (![ícone Adicionar.](/help/assets/icons/plus.png)) no canto superior direito. Em seguida, selecione **[!UICONTROL Conta]**.
 
-![Selecione a Conta para adicionar uma nova organização à Real-Time CDP Collaboration](/help/assets/setup/manage-organization/add-new-account.png){zoomable="yes"}
-
-O fluxo de trabalho para configurar sua organização inclui as duas páginas abaixo:
-
-* [Configurar detalhes](#set-up-details)
-* [Configurar chaves de correspondência](#set-up-match-keys)
-
->[!IMPORTANT]
->
->Quaisquer *chaves de correspondência* selecionadas no nível da organização serão percorridas até o [nível do projeto](/help/guide/collaborate/manage-projects.md) na colaboração entre anunciantes e editores. No nível do projeto, você pode remover qualquer chave de correspondência, mas *não* pode adicionar outras chaves que não foram selecionadas no nível da organização nesta tela.
+![O espaço de trabalho de instalação com a opção Conta realçada.](/help/assets/setup/manage-organization/add-new-account.png){zoomable="yes"}
 
 ### Configurar detalhes {#set-up-details}
 
@@ -45,18 +34,24 @@ O fluxo de trabalho para configurar sua organização inclui as duas páginas ab
 >title="Email de contato"
 >abstract="Forneça um email de equipe ou baseado em funções, como `collaboration@yourcompany.com`. Endereços de email pessoais ou individuais não devem ser usados."
 
-![As etapas de detalhes e casos de uso para configurar uma organização](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
+Para começar a integrar sua organização, primeiro você deve configurar os detalhes da organização. Isso requer que você adicione as seguintes informações:
 
-1. Adicione um **[!UICONTROL Nome da organização]** à sua empresa.
-2. Adicione uma **[!UICONTROL Descrição]** sobre sua empresa.
-3. Selecione sua **[!UICONTROL Função da empresa]**. Você pode selecionar entre **[!UICONTROL Anunciante]** e **[!UICONTROL Publicador]**. Leia o [documento de fluxo de trabalho completo](/help/guide/end-to-end-workflow.md) para ver semelhanças e pequenas diferenças no fluxo de trabalho entre os dois tipos de função organizacional.
-4. Selecione o **[!UICONTROL Setor]** da sua organização. Alguns exemplos incluem **[!UICONTROL Varejo]**, **[!UICONTROL Telecomunicações]** ou **[!UICONTROL Serviços financeiros]**.
-5. Selecione a **[!UICONTROL Região]** da sua organização. Na versão atual do produto, a **[!UICONTROL América do Norte]** é a seleção padrão predefinida.
-6. Adicione um **[!UICONTROL Email de contato]** para sua organização. Esse deve ser um endereço de email de equipe ou baseado em funções. Endereços de email pessoais não devem ser fornecidos.
-7. Carregue um **[!UICONTROL Logotipo]** para sua empresa. Atualmente, imagens do tipo SVG são compatíveis.
-8. Selecione uma imagem para a imagem do cabeçalho da empresa.
+* Adicione um **[!UICONTROL Nome da organização]** à sua empresa.
+* Adicione uma **[!UICONTROL Descrição]** sobre sua empresa.
+* Selecione sua **[!UICONTROL Função da empresa]**. Você pode selecionar entre **[!UICONTROL Anunciante]** e **[!UICONTROL Publicador]**. Leia o [documento de fluxo de trabalho completo](/help/guide/end-to-end-workflow.md) para ver semelhanças e pequenas diferenças no fluxo de trabalho entre os dois tipos de função organizacional.
+* Selecione o **[!UICONTROL Setor]** da sua organização. Alguns exemplos incluem **[!UICONTROL Varejo]**, **[!UICONTROL Telecomunicações]** ou **[!UICONTROL Serviços financeiros]**.
+* Selecione a **[!UICONTROL Região]** da sua organização. Na versão atual do produto, a **[!UICONTROL América do Norte]** é a seleção padrão predefinida.
+* Adicione um **[!UICONTROL Email de contato]** para sua organização. Esse deve ser um endereço de email de equipe ou baseado em funções. Endereços de email pessoais não devem ser fornecidos.
+* Carregue um **[!UICONTROL Logotipo]** para sua empresa. Atualmente, imagens do tipo SVG são compatíveis.
+* Selecione uma imagem para a imagem do cabeçalho da empresa.
 
-Quando estiver satisfeito com sua seleção, use **[!UICONTROL Avançar]** para prosseguir para a próxima página e selecione as chaves de correspondência desejadas que sua organização deve usar.
+>[!NOTE]
+>
+>Embora você possa editar a maioria desses detalhes a qualquer momento, a **[!UICONTROL Função]** e a **[!UICONTROL Região]** não serão editáveis após a configuração inicial.
+
+![O espaço de trabalho Configurar organização com a seção Detalhes exibida.](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
+
+Quando terminar, use **[!UICONTROL Avançar]** para prosseguir para a próxima página e selecionar as chaves de correspondência desejadas que sua organização usará.
 
 ### Configurar chaves de correspondência {#set-up-match-keys}
 
@@ -80,10 +75,9 @@ Quando estiver satisfeito com sua seleção, use **[!UICONTROL Avançar]** para 
 >title="IDs de parceiros compatíveis"
 >abstract="As IDs de parceiros associadas a perfis expandem o alcance para um determinado perfil."
 
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_destinations_activation_matchkeys"
->title="Chaves de correspondência de ativação"
->abstract="As chaves de correspondência de ativação são exibidas com base nas chaves de correspondência escolhidas da organização."
+>[!IMPORTANT]
+>
+>As chaves de correspondência selecionadas durante a configuração da organização determinarão as chaves de correspondência disponíveis para as conexões criadas com outras organizações. Embora você possa remover chaves de correspondência durante a configuração da conexão, não é possível adicionar novas chaves de correspondência posteriormente. É importante selecionar todas as chaves de correspondência que você planeja usar em campanhas futuras durante a configuração da organização.
 
 As chaves de correspondência, como endereços de email, IDs de dispositivo ou IDs de cliente, ajudam anunciantes e editores a trabalharem juntos, permitindo uma sincronização de dados precisa e centrada em privacidade, permitindo um direcionamento e uma medição de público mais precisos.
 
@@ -91,7 +85,7 @@ As chaves de correspondência, como endereços de email, IDs de dispositivo ou I
 
 Selecione as chaves de correspondência que deseja usar ao reconciliar membros de públicos-alvo de editores e anunciantes. Inclua todas as chaves de correspondência com as quais sua empresa pode trabalhar. Planeje para o futuro e selecione as chaves de correspondência que você antecipa que usará em campanhas futuras de editor-anunciante. Se você precisar selecionar chaves de correspondência adicionais para sua organização, também poderá fazer isso posteriormente, no fluxo de trabalho [editar organização](#edit-organization).
 
-![Etapa de seleção de chaves de correspondência.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
+![O espaço de trabalho Configurar organização com a seção Chaves de correspondência exibida.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
 
 Selecione até cinco chaves de correspondência que você planeja usar. Mais tarde, ao configurar conexões, você pode remover chaves de correspondência indesejadas, mas não pode adicionar novas.
 
@@ -105,30 +99,21 @@ As chaves de correspondência disponíveis para a primeira versão do Real-Time 
 
 * Email com hash
 
-<!--
-
-not available in the Limited GA release
-
-* Hashed phone
-* IPv4
-
--->
-
 Quando estiver pronto, selecione **[!UICONTROL Concluir]** para concluir o fluxo de trabalho de configuração da organização.
 
 ## Editar organização {#edit-organization}
 
-Depois de configurar inicialmente sua organização, você pode editar determinados aspectos e detalhes da organização a qualquer momento. Para editar sua organização, selecione **[!UICONTROL Editar]** na exibição **[!UICONTROL Minha organização]**.
+Depois de configurar inicialmente sua organização, você pode editar determinados aspectos e detalhes da organização a qualquer momento. Para editar sua organização, selecione **[!UICONTROL Editar]** na seção **[!UICONTROL Minha organização]** do espaço de trabalho **[!UICONTROL Instalação]**.
 
-![Controle de edição da organização destacado.](/help/assets/setup/manage-organization/edit-organization.png){zoomable="yes"}
+![O espaço de trabalho de Instalação com a guia Minha organização e a opção Editar foi realçado.](/help/assets/setup/manage-organization/edit-organization.png){zoomable="yes"}
 
-Nesse ponto, é possível atualizar o nome, a descrição, o logotipo e a imagem do perfil da organização.
+Agora é possível editar os detalhes da organização, com exceção da **[!UICONTROL Função]** e da **[!UICONTROL Região]**.
 
-![Opções editáveis para organizações.](/help/assets/setup/manage-organization/editable-options.png){zoomable="yes"}
+![A caixa de diálogo Editar detalhes da organização.](/help/assets/setup/manage-organization/editable-options.png){zoomable="yes"}
 
-Você também pode atualizar as chaves de correspondência selecionadas inicialmente ao integrar sua organização, bem como o limite mínimo para identidades correspondentes a chaves de correspondência serem visíveis e utilizáveis em sobreposições de público-alvo e outras áreas de produtos. Selecione **[!UICONTROL Editar]** na guia **[!UICONTROL Chaves de correspondência]** para adicionar outras chaves de correspondência desejadas ou atualizar limites de identidade.
+Você também pode atualizar as chaves de correspondência selecionadas inicialmente ao integrar sua organização. Selecione **[!UICONTROL Editar]** na seção **[!UICONTROL Chaves de correspondência]** para adicionar as chaves de correspondência desejadas.
 
-![Editar chaves de correspondência](/help/assets/setup/manage-organization/edit-match-keys.png){zoomable="yes"}
+![O espaço de trabalho de Instalação com a opção Editar realçada na seção Chaves de correspondência da organização.](/help/assets/setup/manage-organization/edit-match-keys.png){zoomable="yes"}
 
 ## Próximas etapas
 

@@ -2,11 +2,11 @@
 title: Notas de versão mais recentes do Real-Time CDP Collaboration
 description: Seguir as versões mais recentes do Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '392'
 ht-degree: 5%
 
 ---
@@ -26,11 +26,11 @@ Essas notas de versão abordam a funcionalidade lançada no Real-Time Customer D
 
 ## Março de 2025 {#march-2025}
 
-* Ao [importar públicos](/help/guide/setup/onboard-audiences.md) para o Real-Time CDP Collaboration, agora é possível definir uma frequência de atualização de público de **a cada 1 a 6 dias** para gerenciar melhor a [atividade de crédito de Gerenciamento de público](/help/guide/setup/my-activity.md#types-of-activities). [Leia mais](/help/guide/setup/onboard-audiences.md#schedule). <br> ![A tela Agendar mostra intervalos de frequência diferentes para atualizar a associação de público-alvo.](/help/assets/setup/add-manage-audiences/Step-Schedule-Set-Frequency.png "Tela de agendamento mostrando intervalos de frequência diferentes para atualizar associação de público-alvo."){width="250" align="center" zoomable="yes"}
+* Ao [importar públicos](/help/guide/setup/onboard-audiences.md) para o Real-Time CDP Collaboration, agora é possível definir uma frequência de atualização de público de **a cada um a seis dias** para gerenciar melhor a [atividade de crédito de Gerenciamento de público](/help/guide/setup/my-activity.md#types-of-activities). [Leia mais](/help/guide/setup/onboard-audiences.md#schedule). <br> ![A tela Agendar mostra intervalos de frequência diferentes para atualizar a associação de público-alvo.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "Tela de agendamento mostrando intervalos de frequência diferentes para atualizar associação de público-alvo."){width="250" align="center" zoomable="yes"}
 * Ao estabelecer uma conexão com um colaborador, agora é possível selecionar **casos de uso** predefinidos. O caso de uso selecionado determina quais seções do projeto e funcionalidades do produto ficam disponíveis. [Leia mais](/help/guide/collaborate/manage-projects.md#project-use-cases).
    * *Medição de campanha* habilita a seção de projeto **Medida**.
    * A *descoberta de público-alvo* habilita a seção de projeto **Descoberta**.
-   * *O compartilhamento e a ativação de público-alvo* habilita as seções de projeto **Compartilhamento** e **Ativar** *(somente publicador)*. <br> ![Casos de uso destacados na exibição de conexão.](/help/assets/release-notes/2025/use-cases.png "Casos de uso destacados na exibição de conexão."){width="250" align="center" zoomable="yes"}
+   * *A ativação de público* habilita as **Ativar** seções de projeto <br>
 * Agora você pode excluir conexões com colaboradores com os quais não deseja mais trabalhar. [Leia mais](/help/guide/connect/establishing-connections.md#delete-connections).
 
 

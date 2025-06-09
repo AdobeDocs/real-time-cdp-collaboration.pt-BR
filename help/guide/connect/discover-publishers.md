@@ -2,11 +2,11 @@
 title: Descubra editores
 description: Como anunciante, saiba como descobrir possíveis editores para colaborar usando o Adobe Real-Time CDP Collaboration
 audience: admin, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Para descobrir editores, vá para a guia **[!UICONTROL Conectar]** > **[!UICONTR
 
 ![Página Descobrir editores](/help/assets/connect/discover-publishers/discover-publishers-overview.png){zoomable="yes"}
 
-Selecione **[!UICONTROL Exibir editor]** para saber mais sobre o editor. Você também pode exibir e inspecionar qualquer público-alvo público que o editor decidiu compartilhar.
+Selecione **[!UICONTROL Exibir editor]** para saber mais sobre o editor. Você também pode exibir e inspecionar qualquer público que o editor [definiu como público](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
 ![Exibir perfil do editor](/help/assets/connect/discover-publishers/view-publisher-profile.png){zoomable="yes"}
 
