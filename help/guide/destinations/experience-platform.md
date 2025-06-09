@@ -2,7 +2,7 @@
 title: Configurar o Adobe Experience Platform como destino
 description: Saiba como configurar e gerenciar o Adobe Experience Platform como destino no Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
 workflow-type: tm+mt
 source-wordcount: '766'
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 {{limited-availability-release-note}}
 
-Configure esse destino para ativar públicos do seu projeto para a Adobe Experience Platform. A ativação de públicos para o Adobe Experience Platform permite que você aproveite os recursos da plataforma para segmentação de público, análise e ativação em vários canais de marketing. Para saber mais sobre o Adobe Experience Platform, consulte a [visão geral do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}.
+Configure esse destino para ativar públicos do seu projeto para a Adobe Experience Platform. A ativação de públicos para o Adobe Experience Platform permite que você aproveite os recursos da plataforma para segmentação de público, análise e ativação em vários canais de marketing. Para saber mais sobre o Adobe Experience Platform, consulte a [visão geral do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/home){target="_blank"}.
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Em seguida, configure a **[!UICONTROL Expiração do público-alvo]**. Por padr�
 >title="Direcionar namespaces"
 >abstract="Os namespaces de destino especificam a qual namespace de identidade a chave de correspondência será mapeada no Adobe Experience Platform. As chaves de correspondência com hash devem ser mapeadas para um namespace de destino que ofereça suporte a valores com hash."
 
-Em seguida, crie um mapeamento de ativação para definir como os dados do público-alvo serão enviados para o Adobe Experience Platform. Você pode mapear cada [chave de correspondência](../setup/onboard-organization.md#set-up-match-keys) selecionada ao criar sua organização em um namespace de destino. Os namespaces de destino especificam para qual [namespace de identidade](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} a chave correspondente será mapeada no Adobe Experience Platform.
+Em seguida, crie um mapeamento de ativação para definir como os dados do público-alvo serão enviados para o Adobe Experience Platform. Você pode mapear cada [chave de correspondência](../setup/onboard-organization.md#set-up-match-keys) selecionada ao criar sua organização em um namespace de destino. Os namespaces de destino especificam para qual [namespace de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} a chave correspondente será mapeada no Adobe Experience Platform.
 
 >
 >
