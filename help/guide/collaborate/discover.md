@@ -55,7 +55,7 @@ Depois que esses pré-requisitos forem atendidos, você poderá começar a explo
 >title="Sua contagem de identidades"
 >abstract="O número de IDs exclusivas dentro do público selecionado, com base nas chaves de correspondência em que você e seu colaborador concordaram para o projeto."
 >
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="Contagem de identidades do colaborador"
 >abstract="O número de IDs exclusivas no público-alvo do colaborador, com base nas chaves de correspondência que você e seu colaborador concordaram com o projeto."
