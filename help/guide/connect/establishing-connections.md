@@ -2,11 +2,11 @@
 title: Conectar-se a anunciantes ou editores
 description: Depois de descobrir possíveis colaboradores, saiba como estabelecer conexões e começar a colaborar em projetos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: c9b96753a9a78bd85002ede3369c5f20eb430548
+source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1401'
 ht-degree: 11%
 
 ---
@@ -84,6 +84,13 @@ Depois que o colaborador aceitar o convite, você poderá definir as configuraç
 >title="Nomes do anunciante"
 >abstract="<p>Configuração opcional. Indica o nome e a ID pelos quais o editor conhece o anunciante.</p><p>O nome do anunciante adicionado aqui será preenchido previamente na etapa de criação do projeto.</p><ul><li>Se o editor tiver configurado vários nomes, selecione um deles na lista.</li><li>Se apenas um nome tiver sido configurado, ele será pré-selecionado automaticamente.</li><li>Se nenhum nome tiver sido configurado, o campo será preenchido previamente com o nome da conta do anunciante da Real-Time CDP Collaboration.</li></ul>"
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Criar um projeto"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_activation"
+>title="Ativação de público-alvo"
+>abstract="A ativação de público permite selecionar qual colaborador pode iniciar a ativação de público."
+
+<!-- Move and update the above popover when bidirectional is active. -->
 
 Depois que o convite for enviado, você poderá visualizar as configurações de conexão. O convite deve ser aceito antes que você possa concluir a configuração da conexão.
 
