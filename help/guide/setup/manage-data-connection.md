@@ -2,12 +2,12 @@
 title: Gerenciar conexões de dados
 description: Saiba como gerenciar conexões de dados, incluindo chaves de correspondência, agendamento, casos de uso e filtragem de público-alvo no Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 15%
+source-wordcount: '598'
+ht-degree: 10%
 
 ---
 
@@ -34,6 +34,10 @@ Para exibir as conexões de dados existentes, navegue até **[!UICONTROL Instala
 
 As chaves de correspondência são identificadores usados para reconciliar membros entre públicos-alvo de diferentes fontes de dados. Não é possível editar as chaves de correspondência selecionadas inicialmente para a conexão de dados.
 
+>[!IMPORTANT]
+> 
+>As chaves de correspondência não podem ser editadas após a criação da conexão de dados. Para atualizar chaves de correspondência, você deve criar uma nova conexão de dados.
+
 As chaves de correspondência disponíveis incluem:
 
 - **Email com hash**
@@ -45,11 +49,27 @@ As chaves de correspondência disponíveis incluem:
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="Agendamento"
->abstract="Essa exibição mostra as opções de agendamento selecionadas inicialmente para a conexão de dados."
+>abstract="Exiba os detalhes de programação da sua conexão de dados e edite a frequência de atualização, se necessário."
 
-Não é possível editar as opções de agendamento selecionadas inicialmente para a conexão de dados. Para obter mais informações sobre opções de agendamento, exiba a [seção de agendamento](/help/guide/setup/onboard-audiences.md#schedule) no documento de fluxo de trabalho de importação de público-alvo.
+Exibir e gerenciar as configurações de agendamento para suas conexões de dados. O agendamento determina a frequência com que o público-alvo é atualizado.
 
-![Um espaço de trabalho de conexões de dados com a seção Agendamento realçada.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+Após criar uma conexão de dados, você poderá atualizar sua frequência de atualização diretamente na seção **[!UICONTROL Agendamento]** do espaço de trabalho da conexão de dados.
+
+>[!NOTE]
+>
+>Ao fornecer públicos-alvo da Adobe Experience Platform, os públicos-alvo se tornam disponíveis em 24 horas após a conexão de dados ser estabelecida. Após a importação inicial, os dados do público-alvo são atualizados de acordo com a frequência definida.
+
+Para obter mais informações sobre agendamento, consulte a [seção de agendamento](/help/guide/setup/onboard-audiences.md#schedule) no guia de públicos-alvo de integração.
+
+![Um espaço de trabalho de conexão de dados com a seção Agendamento realçada.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+
+#### Editar agendamento {#edit-scheduling}
+
+É possível editar a frequência de uma conexão de dados existente para controlar melhor a frequência com que os públicos-alvo são atualizados. Para editar o agendamento, selecione **[!UICONTROL Editar]** na conexão de dados do cartão de agendamento.
+
+Na caixa de diálogo **[!UICONTROL Agendamento]**, selecione o menu suspenso para atualizar a **[!UICONTROL Frequência]**. Defina a frequência de atualização para ser executada diariamente ou a cada dois ou seis dias. Quando terminar, selecione **[!UICONTROL Salvar]** para aplicar as alterações.
+
+![A caixa de diálogo Agendamento, mostrando opções para definir a frequência e o intervalo de datas.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency."}
 
 ## Excluir conexão de dados
 
