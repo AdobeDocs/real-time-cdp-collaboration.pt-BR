@@ -2,11 +2,11 @@
 title: Notas de versão mais recentes do Real-Time CDP Collaboration
 description: Seguir as versões mais recentes do Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: 691161cdc1f9338a470373988fbc0dee9a5be6db
+source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '683'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ Essas notas de versão abordam a funcionalidade lançada no Real-Time Customer D
 * O Real-Time CDP Collaboration agora está disponível para clientes na **Austrália** e na **Nova Zelândia**. Ele fica disponível automaticamente para clientes do Real-Time CDP Prime e do Ultimate nessas regiões.
 * O Real-Time CDP Collaboration agora oferece [destinos de autoatendimento](../setup/manage-destinations.md) por meio da guia **[!UICONTROL Meus destinos]** na seção **[!UICONTROL Configuração]**. Os destinos permitem ativar públicos-alvo em plataformas de terceiros, como redes de publicidade ou plataformas de gerenciamento de dados, para alcançar seus clientes em vários canais. No momento, somente os destinos do Adobe Experience Platform são compatíveis. Se você estiver interessado em configurar um destino diferente, entre em contato com o representante da Adobe. Para saber mais sobre destinos, leia o guia [visão geral dos destinos](../destinations/overview.md).
 
-   * Destinos também adiciona suporte para exibir públicos da Real-Time CDP Collaboration no [portal de público-alvo da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences.).
+   * Destinos também adiciona suporte para exibir públicos da Real-Time CDP Collaboration no [portal de público-alvo da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences.).
 
 * Agora você pode editar a frequência de atualização do público-alvo para conexões de dados existentes no Real-Time CDP Collaboration. Atualmente, você pode optar por atualizar os públicos-alvo diariamente ou a cada dois ou seis dias. Para saber mais sobre como editar a frequência de atualização do público-alvo, leia o guia [gerenciar conexões de dados](../setup/manage-data-connection.md#scheduling).
 * As divisões de crédito entre colaboradores agora são definidas para cada caso de uso selecionado na conexão. Você pode definir diferentes regras de consumo de crédito para cada caso de uso para controlar melhor como seus créditos são usados. Para saber mais sobre a funcionalidade de divisão de crédito, leia o guia [configurações de conexão](../connect/establishing-connections.md#connection-settings). Para saber mais sobre como os créditos são consumidos, leia o guia [tipos de atividade de crédito](../setup/my-activity.md#types-of-activities). <br> ![Tela de configurações de conexão mostrando a funcionalidade de divisão de crédito.](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
@@ -39,7 +39,7 @@ Essas notas de versão abordam a funcionalidade lançada no Real-Time Customer D
 
 * Ao [importar públicos](/help/guide/setup/onboard-audiences.md) para o Real-Time CDP Collaboration, agora é possível definir uma frequência de atualização de público de **a cada um a seis dias** para gerenciar melhor a [atividade de crédito de Gerenciamento de público](/help/guide/setup/my-activity.md#types-of-activities). [Leia mais](/help/guide/setup/onboard-audiences.md#schedule). <br> ![A tela Agendar mostra intervalos de frequência diferentes para atualizar a associação de público-alvo.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "Tela de agendamento mostrando intervalos de frequência diferentes para atualizar associação de público-alvo."){width="250" align="center" zoomable="yes"}
 * Ao estabelecer uma conexão com um colaborador, agora é possível selecionar **casos de uso** predefinidos. O caso de uso selecionado determina quais seções do projeto e funcionalidades do produto ficam disponíveis. [Leia mais](/help/guide/collaborate/manage-projects.md#project-use-cases).
-   * *Medição de campanha* habilita a seção de projeto **Medida**.
+   * *A medição* habilita a seção de projeto **Medida**.
    * A *descoberta de público-alvo* habilita a seção de projeto **Descoberta**.
    * *A ativação de público* habilita as **Ativar** seções de projeto <br>
 * Agora você pode excluir conexões com colaboradores com os quais não deseja mais trabalhar. [Leia mais](/help/guide/connect/establishing-connections.md#delete-connections).

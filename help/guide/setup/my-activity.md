@@ -2,11 +2,11 @@
 title: Rastrear sua atividade de consumo de crédito
 description: Saiba como rastrear a atividade de consumo de crédito da sua organização no Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -60,13 +60,13 @@ A coluna **[!UICONTROL Atividade]** mostra diferentes tipos de operações que c
 * **[!UICONTROL Gerenciamento de público-alvo]**: os créditos são consumidos quando os públicos-alvo são originados na Real-Time CDP Collaboration. Os créditos são consumidos como uma função do número de IDs (em milhões) indexadas no Real-Time CDP Collaboration em todos os públicos-alvo e da frequência dessa indexação (diariamente, a cada três dias ou semanalmente). Para saber mais, leia o [guia de importação e gerenciamento de públicos-alvo](/help/guide/setup/onboard-audiences.md).
 * **[!UICONTROL Ativação - Correspondente]** - Os créditos são consumidos como uma função do número de IDs correspondentes e preparadas para ativação. Para saber mais, leia o [guia de ativação de públicos-alvo](/help/guide/collaborate/activate.md).
 * **[!UICONTROL Ativação - Saída]** - Os créditos são consumidos como uma função do número de IDs enviadas para um destino. Isso é sempre cobrado do colaborador que recebe o público-alvo. Para saber mais, leia o [guia de ativação de públicos-alvo](/help/guide/collaborate/activate.md).
-* **[!UICONTROL Medição de público-alvo]** - Execute atividades no Real-Time CDP Collaboration para gerar relatórios e insights de desempenho da campanha. Os créditos são consumidos com base no número de linhas nos relatórios de campanha em todas as campanhas e na frequência dos relatórios (diariamente, a cada três dias ou semanalmente).
+* **[!UICONTROL Medição]** - Execute atividades no Real-Time CDP Collaboration para gerar relatórios e insights de desempenho da campanha. Os créditos são consumidos com base no número de linhas nos relatórios de campanha em todas as campanhas e na frequência dos relatórios (diariamente, a cada três dias ou semanalmente).
 
 ## Gerencie seu consumo de crédito {#manage-credit-consumption}
 
 Para gerenciar efetivamente o consumo de crédito:
 
-1. **Entenda** o consumo de crédito associado a cada atividade. Verifique a [descrição do produto Real-Time CDP Collaboration](https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} para obter uma tabela de créditos de colaboração usados por atividade.
+1. **Entenda** o consumo de crédito associado a cada atividade. Verifique a [descrição do produto Real-Time CDP Collaboration](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} para obter uma tabela de créditos de colaboração usados por atividade.
 2. **Monitorar regularmente**: verifique seu painel de atividades com frequência para entender os padrões de uso.
 3. **Rastrear por conexão**: use o nome da conexão para identificar quais parcerias estão consumindo mais créditos.
 

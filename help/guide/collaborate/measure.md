@@ -2,12 +2,12 @@
 title: Medir desempenho
 description: Meça o desempenho de suas campanhas em diferentes canais. Saiba como usar e interpretar vários relatórios.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: b69d204149f203d1950fd0e28b0858ffca2c1225
+source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 16%
+source-wordcount: '634'
+ht-degree: 18%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->O espaço de trabalho **[!UICONTROL Medida]** só estará disponível se o caso de uso **Medição de campanha** tiver sido habilitado [durante o processo de conexão](../connect/establishing-connections.md#connection-settings). Para obter mais informações sobre casos de uso, consulte o guia [gerenciar projetos](./manage-projects.md#project-use-cases).
+>O espaço de trabalho **[!UICONTROL Medida]** só estará disponível se o caso de uso **Medida** tiver sido habilitado [durante o processo de conexão](../connect/establishing-connections.md#connection-settings). Para obter mais informações sobre casos de uso, consulte o guia [gerenciar projetos](./manage-projects.md#project-use-cases).
 
 Saiba mais sobre os relatórios disponíveis no Real-Time CDP Collaboration e entenda como medir e analisar o desempenho de suas campanhas de marketing em vários canais.
 
@@ -25,7 +25,7 @@ Saiba mais sobre os relatórios disponíveis no Real-Time CDP Collaboration e en
 
 Antes de acessar os relatórios de medição no Real-Time CDP Collaboration, você já deve:
 
-* [Conectado](/help/guide/connect/establishing-connections.md) com um anunciante ou editor desejado com o caso de uso **Medição de campanha** habilitado e começou a colaborar em [projetos](/help/guide/collaborate/manage-projects.md)
+* [Conectado](/help/guide/connect/establishing-connections.md) com um anunciante ou editor desejado com o caso de uso **Medição** habilitado e começou a colaborar em [projetos](/help/guide/collaborate/manage-projects.md)
 * Execute uma campanha e [carregue os dados de medição](/help/guide/setup/onboard-measurement-data.md) no Real-Time CDP Collaboration.
 
 <!--
