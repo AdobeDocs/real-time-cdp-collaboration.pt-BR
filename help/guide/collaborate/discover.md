@@ -2,9 +2,9 @@
 title: Descubra sobreposições e compare públicos
 description: Descubra sobreposições entre o seu e o público-alvo de seus colaboradores. Saiba como descobrir os melhores públicos-alvo para usar em suas campanhas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
+source-git-commit: 92702e8dd596dc6249a7240f0e3b57b661905c30
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 11%
@@ -54,7 +54,7 @@ Depois que esses pré-requisitos forem atendidos, você poderá começar a explo
 >id="rtcdp_collaboration_discover_your_identity_count"
 >title="Sua contagem de identidades"
 >abstract="O número de IDs exclusivas dentro do público selecionado, com base nas chaves de correspondência em que você e seu colaborador concordaram para o projeto."
->
+
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="Contagem de identidades do colaborador"
