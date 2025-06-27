@@ -2,12 +2,12 @@
 title: Conectar-se a anunciantes ou editores
 description: Depois de descobrir possíveis colaboradores, saiba como estabelecer conexões e começar a colaborar em projetos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -62,12 +62,12 @@ Depois que o colaborador aceitar o convite, você poderá definir as configuraç
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="Divisão de crédito"
->abstract="Esta seção determina quem está pagando pelas atividades correspondentes no Real-Time CDP Collaboration."
+>abstract="Esta seção determina quem está pagando pelas atividades correspondentes na Real-Time CDP Collaboration. "
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="Compartilhamento de público-alvo"
->abstract="Os créditos de ativação de público são consumidos com base no número de IDs correspondentes preparadas para ativação."
+>abstract="Os créditos de ativação de público-alvo são consumidos com base no número de IDs correspondentes preparadas para ativação."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
@@ -88,7 +88,7 @@ Depois que o colaborador aceitar o convite, você poderá definir as configuraç
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_activation"
 >title="Ativação de público-alvo"
->abstract="A ativação de público permite selecionar qual colaborador pode iniciar a ativação de público."
+>abstract="A Ativação de público-alvo permite selecionar qual colaborador pode iniciar a ativação de público-alvo."
 
 <!-- Move and update the above popover when bidirectional is active. -->
 

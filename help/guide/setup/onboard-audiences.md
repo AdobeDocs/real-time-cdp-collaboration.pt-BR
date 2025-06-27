@@ -2,12 +2,12 @@
 title: Importar e gerenciar públicos
 description: Saiba como importar e gerenciar públicos no Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '2961'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
@@ -89,13 +89,13 @@ Após selecionar a fonte de dados, é necessário selecionar a sandbox que inclu
 
 ![O espaço de trabalho Adicionar públicos-alvo com uma sandbox selecionada.](/help/assets/setup/add-manage-audiences/select-sandbox.png)
 
-#### Política de governação e medidas de execução {#governance-policy-and-enforcement-actions}
+#### Política de governança e medidas de aplicação {#governance-policy-and-enforcement-actions}
 
 Em seguida, verifique se as ações de marketing corretas estão definidas nos dados importados. Você também precisa fornecer consentimento para que os dados importados da Real-Time CDP sejam usados para colaboração de dados.
 
 Use ações de marketing para controlar quais dados de público-alvo importar para colaboração na Real-Time CDP a partir da Experience Platform. A ação de marketing **Colaboração de dados** é compatível com os rótulos de uso de dados C4, C5 e C9. A ação de marketing **Ciência de dados** é compatível com o rótulo de uso de dados C9.
 
-Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Com a caixa de seleção *habilitada*, todos os dados marcados com os rótulos mencionados acima na Experience Platform serão excluídos e *não* serão enviados para a Real-Time CDP Collaboration.
 * Com a caixa de seleção *desabilitada*, não há restrição para dados da Experience Platform que possam ser importados para a Real-Time CDP Collaboration.
@@ -103,7 +103,7 @@ Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleag
 Leia mais sobre os rótulos de uso de dados na documentação do Experience Platform:
 
 * [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Glossário de rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Glossário de rótulos de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 Além disso, selecione suas regras de consentimento a serem aplicadas aos dados que estão sendo importados para o Real-Time CDP Collaboration.
 
@@ -113,7 +113,7 @@ Depois de selecionar as ações de marketing e as regras de consentimento, selec
 
 ![Caixa de diálogo Política de governança e ações de aplicação com a caixa de seleção e a opção OK realçadas.](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png)
 
-### Fornecer detalhes
+### Forneça detalhes
 
 Em seguida, forneça um nome e uma descrição para sua conexão de dados. Essas informações ajudarão você a identificar a conexão de dados posteriormente.
 
@@ -280,7 +280,7 @@ Em seguida, você pode atualizar as seguintes seções no espaço de trabalho do
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identidades"
->abstract="Uma exibição detalhada das identidades que compõem esse público-alvo, bem como uma contagem total de perfis com as respectivas identidades."
+>abstract="Uma visualização detalhada das identidades que compõem esse público-alvo, bem como uma contagem total de perfis com as respectivas identidades."
 
 A seção **[!UICONTROL Identidades]** indica o número de perfis presentes no público com qualquer uma das identidades que você selecionou ao importar o público. A seção também contém um detalhamento de identidade para que você possa saber quais identidades compõem a maioria da população do público-alvo.
 
@@ -308,7 +308,7 @@ A caixa de diálogo **[!UICONTROL Categorias]** será exibida, permitindo que vo
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Acesso à conexão"
->abstract="<p>Os públicos-alvo podem ser de três tipos: públicos, privados e personalizados.</p><p> Sua disponibilidade para uso em projetos com colaboradores difere com base na configuração de acesso à conexão. Você sempre pode alterar o acesso à conexão de privado para público, mas não pode alterar essa configuração novamente depois que um público-alvo for ativado com colaboradores.</p>"
+>abstract="<p>Os públicos-alvo podem ser de três tipos: públicos, privados e personalizados.</p><p> Sua disponibilidade para uso em projetos com colaboradores difere com base na configuração de acesso à conexão. É sempre possível alterar o acesso à conexão de privado para público, mas não será permitido reverter essa configuração a partir do momento que um público-alvo for ativado com colaboradores.</p>"
 
 A disponibilidade de um público-alvo para uso em projetos com colaboradores é diferente com base na configuração de acesso à conexão. Na seção **[!UICONTROL Acesso à conexão]**, você pode selecionar se o público-alvo deve ser privado ou utilizável e detectável em conexões.
 
@@ -337,7 +337,7 @@ A disponibilidade do público-alvo para uso em projetos com colaboradores é dif
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilidade de metadados"
->abstract="<p>Indica qual dos metadados do público-alvo é visível para outras organizações antes de elas se conectarem com a sua organização. </p> <p> A **contagem de identidades** controla se o seu parceiro pode exibir contagens de identidades dos seus públicos-alvo ao visualizar relatórios de sobreposição na guia de descoberta. A **% de sobreposição de público-alvo** controla se os colaboradores podem descobrir as porcentagens de sobreposição entre os públicos-alvo deles e os seus."
+>abstract="<p>Indica quais metadados de público-alvo estão visíveis para outras organizações antes de elas se conectarem com a sua organização. </p> <p> A **contagem de identidades** controla se o seu parceiro pode exibir contagens de identidades dos seus públicos-alvo ao visualizar relatórios de sobreposição na guia de descoberta. A **% de sobreposição de público-alvo** controla se os colaboradores podem descobrir as porcentagens de sobreposição entre os públicos-alvo deles e os seus."
 
 >[!NOTE]
 >

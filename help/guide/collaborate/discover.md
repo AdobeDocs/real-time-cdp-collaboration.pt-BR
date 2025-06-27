@@ -2,12 +2,12 @@
 title: Descubra sobreposições e compare públicos
 description: Descubra sobreposições entre o seu e o público-alvo de seus colaboradores. Saiba como descobrir os melhores públicos-alvo para usar em suas campanhas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 92702e8dd596dc6249a7240f0e3b57b661905c30
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 11%
+ht-degree: 19%
 
 ---
 
@@ -53,22 +53,22 @@ Depois que esses pré-requisitos forem atendidos, você poderá começar a explo
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
 >title="Sua contagem de identidades"
->abstract="O número de IDs exclusivas dentro do público selecionado, com base nas chaves de correspondência em que você e seu colaborador concordaram para o projeto."
+>abstract="O número de IDs exclusivas no público-alvo selecionado, com base nas chaves de correspondência do projeto definidas por você e o(a) colaborador(a)."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="Contagem de identidades do colaborador"
->abstract="O número de IDs exclusivas no público-alvo do colaborador, com base nas chaves de correspondência que você e seu colaborador concordaram com o projeto."
+>abstract="O número de IDs exclusivas no público-alvo do(a) colaborador(a), com base nas chaves de correspondência do projeto que vocês definiram."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_count"
 >title="Contagem de identidades sobrepostas"
->abstract="O número de IDs exclusivas que estão presentes no seu público-alvo e no do seu colaborador, com base nas chaves de correspondência que você e o seu colaborador concordaram para o projeto."
+>abstract="O número de IDs exclusivas que estão presentes no seu público-alvo e no do colaborador, com base nas chaves de correspondência do projeto com as quais você e o colaborador concordaram."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_percentage"
 >title="Porcentagem de identidades sobrepostas"
->abstract="A porcentagem de identidades sobrepostas entre você e o público selecionado do colaborador."
+>abstract="A porcentagem de sobreposição de identidades entre o público-alvo selecionado do colaborador e o seu."
 
 Use a seção comparar públicos para obter informações detalhadas sobre a sobreposição entre os públicos do e do colaborador. Para alterar a seleção de público, use o seletor suspenso na parte superior da seção **[!UICONTROL Comparar públicos]**. Você pode selecionar um ou todos os públicos-alvo e um ou todos os públicos-alvo do colaborador para comparar.
 
@@ -126,7 +126,7 @@ A seção **[!UICONTROL Públicos relevantes]** exibe as seguintes informações
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
 >title="Descubra sobreposições com públicos-alvo individuais"
->abstract="Obtenha insights sobre as sobreposições entre os públicos-alvo e os públicos-alvo do seu colaborador."
+>abstract="Obtenha insights sobre as sobreposições entre os seus públicos-alvo e os públicos-alvo do colaborador."
 
 Descubra sobreposições para obter insights sobre como os públicos-alvo se comparam com os públicos-alvo do colaborador. Por padrão, esta seção compara todos os públicos-alvo com cada um dos públicos-alvo do colaborador. Use o controle de paginação na parte inferior da seção para navegar pelos públicos disponíveis.
 

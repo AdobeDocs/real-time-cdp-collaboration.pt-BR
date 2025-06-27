@@ -2,12 +2,12 @@
 title: Gerenciar conexões de dados
 description: Saiba como gerenciar conexões de dados, incluindo chaves de correspondência, agendamento, casos de uso e filtragem de público-alvo no Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -49,7 +49,7 @@ As chaves de correspondência disponíveis incluem:
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="Agendamento"
->abstract="Exiba os detalhes de programação da sua conexão de dados e edite a frequência de atualização, se necessário."
+>abstract="Exiba os detalhes de agendamento da conexão de dados e edite a frequência de atualização, se necessário."
 
 Exibir e gerenciar as configurações de agendamento para suas conexões de dados. O agendamento determina a frequência com que o público-alvo é atualizado.
 
