@@ -2,7 +2,7 @@
 title: Gerenciar conexões de dados
 description: Saiba como gerenciar conexões de dados, incluindo chaves de correspondência, agendamento, casos de uso e filtragem de público-alvo no Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
 workflow-type: tm+mt
