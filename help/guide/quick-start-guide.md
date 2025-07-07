@@ -135,7 +135,7 @@ Para ver uma apresentação completa de como fazer referência a públicos-alvo 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-Como alternativa, consulte o documento sobre [como disponibilizar públicos-alvo no Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+Como alternativa, consulte o documento sobre [como disponibilizar públicos-alvo no Real-Time CDP Collaboration](https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
 
 ## Etapa 4: ativar públicos-alvo (para Experience Platform ou um destino de nuvem) {#activate-audiences}
 
@@ -147,7 +147,7 @@ Use a interface do usuário do Collaboration para ativar públicos-alvo para sua
 
 ### Opção A: Ativar para o Experience Platform
 
-Conclua as etapas a seguir descritas no guia [Configurar o Adobe Experience Platform como destino](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
+Conclua as etapas a seguir descritas no guia [Configurar o Adobe Experience Platform como destino](https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
 
 - **Criar um destino** - Use a interface do usuário para configurar um destino do Experience Platform (nível de sandbox).
 - **Mapear chaves de correspondência** - Selecione o identificador (por exemplo, `hashedEmail`).
