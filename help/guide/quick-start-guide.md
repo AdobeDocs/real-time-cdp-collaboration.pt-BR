@@ -1,17 +1,18 @@
 ---
 title: Início rápido de integração do Real-Time CDP Collaboration
-description: Saiba como integrar sua organização ao Real-Time CDP Collaboration, incluindo a configuração de funções e organizações, o provisionamento de público-alvo, a ativação e a medição. Este guia ajuda anunciantes e editores a definir as configurações de colaboração e começar a usar públicos-alvo compartilhados de forma segura e eficiente.
+description: Saiba como integrar sua organização ao Real-Time CDP Collaboration, incluindo a configuração de funções e organizações, fornecimento de público-alvo, ativação e medição. Este guia ajuda anunciantes e editores a definir as configurações de colaboração e começar a usar públicos-alvo compartilhados de forma segura e eficiente.
 audience: admin, publisher, advertiser
-source-git-commit: 4435788917dd82cb127525e054f7f09803e1dcdf
+exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
+source-git-commit: 5b17bcfbab02e8d24009a875ddea15cbd49c1506
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
 
 # Início rápido da integração do Real-Time CDP Collaboration
 
-Comece a usar o Real-Time Customer Data Platform (CDP) Collaboration configurando sua organização, provisionando públicos e habilitando a ativação e a medição com foco em privacidade.
+Comece a usar o Real-Time CDP Collaboration configurando sua organização, fornecendo públicos-alvo e habilitando a ativação e a medição com foco na privacidade.
 
 ## Pré-requisitos
 
@@ -41,7 +42,7 @@ As funções de acesso da sua organização determinam o que os usuários podem 
 
 Assista a este vídeo para saber como atribuir acesso e permissões de produto ao Collaboration usando a interface do usuário do Admin Console e do Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452235/?learn=on&enablevpops&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Etapa 2: configurar sua organização da Real-Time CDP Collaboration {#set-up-your-organization}
 
@@ -73,7 +74,7 @@ Defina a função da sua organização na Collaboration, forneça ativos de marc
 
 - **Configurar chaves de correspondência** - Selecione os identificadores usados para correspondência de público-alvo (atualmente, o email com hash é a única chave de correspondência com suporte).
 
-Depois que sua organização for criada e suas chaves de correspondência e identidade visual forem configuradas, sua organização estará pronta para começar a provisionar públicos e ativar dados.
+Depois que sua organização for criada e suas chaves de correspondência e identidade visual forem configuradas, sua organização estará pronta para começar a fornecer públicos-alvo e ativar dados.
 
 Para saber mais sobre a configuração inicial da organização, incluindo como definir funções, carregar ativos de marca e configurar chaves de correspondência, consulte o [documento de configuração inicial da organização](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}.
 
@@ -83,7 +84,7 @@ Assista a uma apresentação passo a passo da configuração do anunciante, incl
 
 ## Etapa 3: públicos-alvo da Source (do Experience Platform ou de uma fonte na nuvem) {#source-audiences}
 
-Escolha um ou ambos os armazenamentos de dados a seguir para originar públicos-alvo. Use a interface do usuário do Collaboration ou coordene com a Adobe para provisionar públicos-alvo em um formato com preservação da privacidade.
+Escolha um ou ambos os armazenamentos de dados a seguir para originar públicos-alvo. Use a interface do usuário do Collaboration ou coordene com o Adobe para originar públicos-alvo em um formato com preservação da privacidade.
 
 ### Opção A: Source do Experience Platform
 
@@ -99,7 +100,7 @@ Para configurar uma fonte de nuvem (por exemplo, [!DNL AWS S3] ou [!DNL Snowflak
 >
 >Todos os públicos-alvo no arquivo carregado são totalmente originários nesse estágio. O acesso a organizações parceiras específicas é provisionado separadamente por meio da interface do usuário do Collaboration.
 
-### Provisionar públicos-alvo
+### Configurar públicos
 
 Configure como os públicos-alvo são preparados, combinados e controlados para uso em conexões.
 
@@ -117,8 +118,8 @@ Configure como os públicos-alvo são preparados, combinados e controlados para 
 >
 >**Número máximo de públicos-alvo por função de colaborador:**
 >
->- **Os anunciantes** podem provisionar até 25 públicos-alvo.
->- **Os editores** podem provisionar até 250 públicos-alvo (cada um com no mínimo 5.000 IDs).
+>- **Anunciantes** podem ter até 25 públicos-alvo.
+>- **Os editores** podem ter até 250 públicos-alvo (cada um com no mínimo 5.000 IDs).
 
 >[!IMPORTANT]
 >
@@ -134,7 +135,7 @@ Para ver uma apresentação completa de como fazer referência a públicos-alvo 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-Como alternativa, consulte o documento sobre [como disponibilizar públicos-alvo no Real-Time CDP Collaboration](https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+Como alternativa, consulte o documento sobre [como disponibilizar públicos-alvo no Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
 
 ## Etapa 4: ativar públicos-alvo (para Experience Platform ou um destino de nuvem) {#activate-audiences}
 
@@ -146,7 +147,7 @@ Use a interface do usuário do Collaboration para ativar públicos-alvo para sua
 
 ### Opção A: Ativar para o Experience Platform
 
-Conclua as etapas a seguir descritas no guia [Configurar o Adobe Experience Platform como destino](https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
+Conclua as etapas a seguir descritas no guia [Configurar o Adobe Experience Platform como destino](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
 
 - **Criar um destino** - Use a interface do usuário para configurar um destino do Experience Platform (nível de sandbox).
 - **Mapear chaves de correspondência** - Selecione o identificador (por exemplo, `hashedEmail`).
@@ -237,11 +238,17 @@ Após a ativação, verifique se os públicos-alvo foram entregues ou disponibil
 
 Com a configuração e o provisionamento de dados concluídos, sua organização agora está pronta para se conectar com colaboradores, enviando ou aceitando convites e enviando configurações de projeto para aprovação. Esse processo de conexão envolve enviar ou receber convites, revisar e enviar configurações de conexão (como casos de uso e consumo de crédito) e confirmar o relacionamento.
 
-Use o espaço de trabalho **[!UICONTROL Conectar]** no menu de navegação esquerdo da interface do usuário do Collaboration para procurar editores disponíveis (os anunciantes não podem ser procurados no momento). Para obter uma visão geral desse fluxo, consulte o [Guia de Conectar com anunciantes ou editores](./connect/establishing-connections.md){target="_blank"}. Para uma apresentação visual do processo de conexão, incluindo a navegação de colaboradores e o gerenciamento das configurações de conexão, assista ao [vídeo de configuração da conta do anunciante](https://experienceleague.adobe.com/pt-br/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+Como anunciante, use o espaço de trabalho **[!UICONTROL Conectar]** no menu de navegação esquerdo da interface do usuário do Collaboration para procurar editores disponíveis.
+
+>[!NOTE]
+>
+>Atualmente, somente anunciantes podem navegar pelos editores. Os editores não podem procurar ou iniciar conexões com anunciantes.
+
+Para obter uma visão geral desse fluxo, consulte o [Guia de Conectar com anunciantes ou editores](./connect/establishing-connections.md){target="_blank"}. Para uma apresentação visual do processo de conexão, incluindo a navegação de colaboradores e o gerenciamento das configurações de conexão, assista ao [vídeo de configuração da conta do anunciante](https://experienceleague.adobe.com/pt-br/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## Próximas etapas
 
-Agora você concluiu a integração e configurou a organização para colaboração segura. Em seguida, explore os seguintes recursos para aprofundar sua compreensão da ativação, medição e governança de dados:
+Agora você concluiu a configuração inicial e configurou sua organização para colaboração segura. Em seguida, explore os seguintes recursos para aprofundar sua compreensão da ativação, medição e governança de dados:
 
 - [Documentação do fluxo de trabalho de ativação de público-alvo](./collaborate/activate.md)
 - [Casos de uso de medição](./collaborate/measure.md)
