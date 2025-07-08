@@ -3,9 +3,9 @@ title: Início rápido de integração do Real-Time CDP Collaboration
 description: Saiba como integrar sua organização ao Real-Time CDP Collaboration, incluindo a configuração de funções e organizações, fornecimento de público-alvo, ativação e medição. Este guia ajuda anunciantes e editores a definir as configurações de colaboração e começar a usar públicos-alvo compartilhados de forma segura e eficiente.
 audience: admin, publisher, advertiser
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: 5b17bcfbab02e8d24009a875ddea15cbd49c1506
+source-git-commit: b5f76b1001f97304332f731490613a8597a182c1
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Antes de começar, verifique se você tem o seguinte:
 - [Funções criadas para sua organização e atribuídas a usuários](./permissions/manage-roles.md).
 - Acesso aos ativos de marca, como nome, logotipo e banner da sua organização.
 - Uma [estratégia de chave de correspondência definida](./setup/onboard-organization.md#set-up-match-keys) (no momento, o email com hash é a única chave de correspondência com suporte).
-- (Opcional) Acesse uma origem na nuvem compatível (Amazon S3 ou Snowflake) se não estiver usando o Experience Platform como destino.
+- (Opcional) Acesse uma fonte de nuvem compatível (Amazon S3 ou Snowflake) se você não estiver usando o Experience Platform para gerenciamento de público-alvo.
 
 ## Etapa 1: concluir configuração baseada em função {#complete-role-based-setup}
 
@@ -42,7 +42,7 @@ As funções de acesso da sua organização determinam o que os usuários podem 
 
 Assista a este vídeo para saber como atribuir acesso e permissões de produto ao Collaboration usando a interface do usuário do Admin Console e do Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452235/?learn=on&enablevpops&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Etapa 2: configurar sua organização da Real-Time CDP Collaboration {#set-up-your-organization}
 
@@ -52,29 +52,26 @@ Assista a este vídeo para saber como atribuir acesso e permissões de produto a
 
 Antes de adicionar públicos, é necessário configurar sua organização no Collaboration. Isso controla como sua organização aparece e se comporta na interface.
 
-Se você não tiver acesso de administrador ao Experience Platform, entre em contato com o administrador da organização para obter ajuda para concluir essa configuração.
+Se você não tiver o acesso necessário, consulte a etapa 1 ou entre em contato com o administrador da organização para obter ajuda para concluir essa configuração.
 
-Defina a função da sua organização na Collaboration, forneça ativos de marca e configure chaves de correspondência para alinhar públicos-alvo em todas as conexões. Em seguida, conclua as etapas abaixo para finalizar a configuração e preparar sua organização para se envolver com suas conexões.
+Defina a função da sua organização na Collaboration, forneça ativos de marca e configure chaves de correspondência para alinhar públicos-alvo em todas as conexões.
 
 >[!NOTE]
 >
->Você pode criar um ou mais colaboradores (como anunciantes ou editores) durante a configuração. Determinados campos, como ativos de marca e email de contato, podem ser atualizados posteriormente no espaço de trabalho **[!UICONTROL Configurações]**. As teclas correspondentes podem ser removidas no nível do projeto, mas não adicionadas. Portanto, planeje-as cuidadosamente.
+>Você pode criar um ou mais colaboradores (como anunciantes ou editores) durante a configuração. Determinados campos, como ativos de marca e email de contato, podem ser atualizados posteriormente no espaço de trabalho **[!UICONTROL Configurações]**.
 
 - **Atribuir uma função** - Determina se sua organização atua como anunciante, editor ou ambos. Sua função define quais recursos de colaboração você tem, como iniciar o compartilhamento de público-alvo (anunciante) ou disponibilizar públicos-alvo (editor). Para saber mais sobre como as funções afetam o fluxo de trabalho de colaboração, consulte o [Guia completo do fluxo de trabalho](./end-to-end-workflow.md).
 - **Ativos de marca** - Adicione o seguinte à sua conta:
    - Nome da marca (máximo de 100 caracteres)
    - Descrição da marca (máximo de 1.000 caracteres)
    - Logotipo da marca (SVG &lt;20KB, idealmente quadrado)
-   - Banner da marca (JPG 2688x1536 ou semelhante)
-- **Email de contato** - Forneça um email comercial para que os colaboradores usem depois que uma conexão for estabelecida.
 
   >[!NOTE]
   >
   >Se você estiver criando uma conta de editor e quiser que o seja exibido publicamente no catálogo de conexões da Collaboration, entre em contato com o representante de conta da Adobe. As contas do editor exigem um banner de marca personalizado (JPG 2688x1536); esse arquivo pode ser compartilhado diretamente com o representante.
 
+- **Email de contato** - Forneça um email comercial para que os colaboradores usem depois que uma conexão for estabelecida.
 - **Configurar chaves de correspondência** - Selecione os identificadores usados para correspondência de público-alvo (atualmente, o email com hash é a única chave de correspondência com suporte).
-
-Depois que sua organização for criada e suas chaves de correspondência e identidade visual forem configuradas, sua organização estará pronta para começar a fornecer públicos-alvo e ativar dados.
 
 Para saber mais sobre a configuração inicial da organização, incluindo como definir funções, carregar ativos de marca e configurar chaves de correspondência, consulte o [documento de configuração inicial da organização](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}.
 
@@ -84,23 +81,13 @@ Assista a uma apresentação passo a passo da configuração do anunciante, incl
 
 ## Etapa 3: públicos-alvo da Source (do Experience Platform ou de uma fonte na nuvem) {#source-audiences}
 
-Escolha um ou ambos os armazenamentos de dados a seguir para originar públicos-alvo. Use a interface do usuário do Collaboration ou coordene com o Adobe para originar públicos-alvo em um formato com preservação da privacidade.
+Depois que sua organização for criada e suas chaves de correspondência e identidade visual forem configuradas, você estará pronto para começar a fornecer públicos-alvo. Escolha um dos seguintes métodos de seleção de fornecedor com base no armazenamento de dados e nas necessidades comerciais.
 
 ### Opção A: Source do Experience Platform
 
-[Use a interface do usuário de destinos do Collaboration para vincular uma sandbox que contenha públicos](./setup/onboard-audiences.md). Use esse método de autoatendimento para fazer referência a segmentos de público-alvo existentes na sua instância do Experience Platform.
+[Use a interface do usuário do Collaboration para vincular uma sandbox que contenha públicos](./setup/onboard-audiences.md). Use esse método de autoatendimento para fazer referência a segmentos de público-alvo existentes na sua instância do Experience Platform.
 
-### Opção B: Source do Snowflake ou Amazon S3
-
-Para configurar uma fonte de nuvem (por exemplo, [!DNL AWS S3] ou [!DNL Snowflake]), prepare os dados do público-alvo usando a seguinte [PDF de Especificação de Público-Alvo](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf). Depois de concluir, ou em caso de dúvidas, entre em contato com o representante de conta da Adobe para finalizar a configuração. Este método não é de autoatendimento e requer a assistência da Adobe.
-
->[!IMPORTANT]
->
->Os arquivos de público-alvo baseados em nuvem devem seguir o esquema necessário descrito na PDF de especificação de público-alvo. Os arquivos devem incluir identificadores com hash (SHA256 em letras minúsculas), campos de metadados obrigatórios como `segment_name` e `activation_id` e usar formatos compatíveis como CSV ou Parquet. O Adobe não normaliza dados antes da ativação. O TTL é aplicado com base na duração do público-alvo.
->
->Todos os públicos-alvo no arquivo carregado são totalmente originários nesse estágio. O acesso a organizações parceiras específicas é provisionado separadamente por meio da interface do usuário do Collaboration.
-
-### Configurar públicos
+#### Configurar públicos
 
 Configure como os públicos-alvo são preparados, combinados e controlados para uso em conexões.
 
@@ -135,7 +122,17 @@ Para ver uma apresentação completa de como fazer referência a públicos-alvo 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-Como alternativa, consulte o documento sobre [como disponibilizar públicos-alvo no Real-Time CDP Collaboration](https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+Como alternativa, consulte o documento sobre [como disponibilizar públicos-alvo no Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+
+### Opção B: Source do Snowflake ou Amazon S3
+
+Para configurar uma fonte de nuvem (por exemplo, [!DNL AWS S3] ou [!DNL Snowflake]), prepare os dados do público-alvo usando a seguinte [PDF de Especificação de Público-Alvo](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf). Depois de concluir, ou em caso de dúvidas, entre em contato com o representante de conta da Adobe para finalizar a configuração. Este método não é de autoatendimento e requer a assistência da Adobe.
+
+>[!IMPORTANT]
+>
+>Os arquivos de público-alvo baseados em nuvem devem seguir o esquema necessário descrito na PDF de especificação de público-alvo. Os arquivos devem incluir identificadores com hash (SHA256 em letras minúsculas), campos de metadados obrigatórios como `segment_name` e `activation_id` e usar formatos compatíveis como CSV ou Parquet. O Adobe não normaliza dados antes da ativação. O TTL é aplicado com base na duração do público-alvo.
+>
+>Todos os públicos-alvo no arquivo carregado são totalmente originários nesse estágio. O acesso a organizações parceiras específicas é provisionado separadamente por meio da interface do usuário do Collaboration.
 
 ## Etapa 4: ativar públicos-alvo (para Experience Platform ou um destino de nuvem) {#activate-audiences}
 
@@ -147,7 +144,7 @@ Use a interface do usuário do Collaboration para ativar públicos-alvo para sua
 
 ### Opção A: Ativar para o Experience Platform
 
-Conclua as etapas a seguir descritas no guia [Configurar o Adobe Experience Platform como destino](https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
+Conclua as etapas a seguir descritas no guia [Configurar o Adobe Experience Platform como destino](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
 
 - **Criar um destino** - Use a interface do usuário para configurar um destino do Experience Platform (nível de sandbox).
 - **Mapear chaves de correspondência** - Selecione o identificador (por exemplo, `hashedEmail`).
@@ -156,16 +153,9 @@ Conclua as etapas a seguir descritas no guia [Configurar o Adobe Experience Plat
 
 ### Opção B: Ativar para nuvem
 
-Para ativar públicos-alvo para um destino de nuvem (como [!DNL AWS S3] ou [!DNL Snowflake]), entre em contato com o representante de conta da Adobe para iniciar o processo de configuração. Você precisará fornecer detalhes de destino, como caminho do arquivo, credenciais e formato de arquivo esperado. Durante a instalação, você também deve especificar uma chave de correspondência (por exemplo, `hashedEmail`) e definir o TTL desejado e a cadência de atualização. Quando a configuração for concluída, a Adobe fornecerá o destino e garantirá que os dados sejam entregues corretamente.
+Para configurar um destino de nuvem (por exemplo, [!DNL AWS S3] ou [!DNL Snowflake]), entre em contato com o representante de conta da Adobe para iniciar o processo de configuração. Dependendo do destino da nuvem, você precisará fornecer detalhes de destino da nuvem, como caminho do arquivo, credenciais, localizadores de conta etc. Depois que as informações necessárias forem fornecidas, o Adobe definirá a configuração do destino da nuvem.
 
 Os dados de público-alvo enviados para um destino de nuvem seguem um esquema predefinido. Para obter uma descrição detalhada dos campos e formatos necessários, baixe o [Guia do Collaboration Audience Activation](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf).
-
-### Principais diferenças
-
-A lista a seguir destaca as diferenças entre as opções de ativação do Experience Platform e da nuvem:
-
-- As ativações para o Experience Platform são totalmente de autoatendimento e visíveis no Portal de público-alvo.
-- Os destinos em nuvem exigem coordenação do Adobe e não estão visíveis na interface do usuário.
 
 ## Etapa 5: configurar medição (opcional) {#set-up-measurement}
 
@@ -226,13 +216,6 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
    - Input the report name, date range, and report run date.
    - Select **[!UICONTROL Campaign summary]** as the report type.
    - Submit the report. It will run on the selected date and populate within 24 hours. -->
-
-## Verificação
-
-Após a ativação, verifique se os públicos-alvo foram entregues ou disponibilizados no destino apropriado.
-
-- Verifique se os públicos-alvo aparecem no Portal de público-alvo (para ativação do Experience Platform).
-- Confirme a entrega bem-sucedida na nuvem por meio de logs de destino externos ou confirmação.
 
 ## Etapa 6: conectar-se com colaboradores {#connect-with-collaborators}
 
