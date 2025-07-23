@@ -2,11 +2,11 @@
 title: Gerenciar conexões de dados
 description: Saiba como gerenciar conexões de dados, incluindo chaves de correspondência, agendamento, casos de uso e filtragem de público-alvo no Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '597'
 ht-degree: 12%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 ## Visão geral
 
-Use conexões de dados no Real-Time CDP Collaboration para importar públicos de várias fontes. Saiba como gerenciar chaves de correspondência e agendar importações de dados para suas conexões de dados existentes. Além disso, você poderá filtrar públicos-alvo por atributos diferentes para obter insights mais granulares.
+Use conexões de dados no Real-Time CDP Collaboration para originar públicos-alvo de várias plataformas. Saiba como gerenciar chaves de correspondência e agendar a atualização de dados para suas conexões de dados existentes. Além disso, você poderá filtrar públicos-alvo por atributos diferentes para obter insights mais granulares.
 
 ## Exibir conexões de dados
 
@@ -59,7 +59,7 @@ Após criar uma conexão de dados, você poderá atualizar sua frequência de at
 >
 >Ao fornecer públicos-alvo da Adobe Experience Platform, os públicos-alvo se tornam disponíveis em 24 horas após a conexão de dados ser estabelecida. Após a importação inicial, os dados do público-alvo são atualizados de acordo com a frequência definida.
 
-Para obter mais informações sobre agendamento, consulte a [seção de agendamento](/help/guide/setup/onboard-audiences.md#schedule) no guia de públicos-alvo de integração.
+Para obter mais informações sobre agendamento, consulte a [seção de agendamento](/help/guide/setup/onboard-audiences.md#schedule) no guia para configurar públicos.
 
 ![Um espaço de trabalho de conexão de dados com a seção Agendamento realçada.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
@@ -69,11 +69,11 @@ Para obter mais informações sobre agendamento, consulte a [seção de agendame
 
 Na caixa de diálogo **[!UICONTROL Agendamento]**, selecione o menu suspenso para atualizar a **[!UICONTROL Frequência]**. Defina a frequência de atualização para ser executada diariamente ou a cada dois ou seis dias. Quando terminar, selecione **[!UICONTROL Salvar]** para aplicar as alterações.
 
-![A caixa de diálogo Agendamento, mostrando opções para definir a frequência e o intervalo de datas.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency."}
+![A caixa de diálogo Agendamento, mostrando opções para definir a frequência e o intervalo de datas.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
 ## Excluir conexão de dados
 
-A exclusão de uma conexão de dados removerá todos os públicos-alvo subjacentes, as configurações associadas e o uso na plataforma. Essa ação não pode ser desfeita.
+A exclusão de uma conexão de dados removerá todos os públicos-alvo subjacentes, as configurações associadas e o uso no Collaboration. Essa ação não pode ser desfeita.
 
 Para excluir uma conexão de dados existente, selecione o ícone de exclusão (![Ícone de exclusão](/help/assets/common/delete.svg)) no espaço de trabalho de uma conexão de dados individual.
 

@@ -2,12 +2,12 @@
 title: Criar e gerenciar projetos
 description: Saiba como criar e gerenciar projetos no Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 8%
+source-wordcount: '428'
+ht-degree: 9%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 8%
 
 {{limited-availability-release-note}}
 
-Os projetos são a parte central do fluxo de trabalho no Real-Time CDP Collaboration. Depois de se conectar com colaboradores, crie um projeto para executar cálculos de sobreposição de público e descobrir públicos relevantes para campanhas.
+Os projetos são a parte central do fluxo de trabalho no Adobe Real-Time CDP Collaboration. Depois de se conectar com colaboradores, crie um projeto para executar cálculos de sobreposição de público e descobrir públicos relevantes para campanhas.
 
 >[!TIP]
 >
@@ -28,6 +28,8 @@ Você pode usar filtros para exibir somente os projetos iniciados com determinad
 ![Exibição filtrada de projetos com um único colaborador.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## Criar projeto {#create-project}
+
+Para criar um projeto, primeiro [estabeleça uma conexão](/help/guide/connect/establishing-connections.md) com um colaborador. Depois que a conexão for estabelecida, você poderá criar um projeto com esse colaborador.
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"
@@ -60,6 +62,6 @@ A visão geral do projeto exibe os casos de uso selecionados durante a configura
 
 | Caso de uso | Seção do projeto |
 | --- | --- |
-| Medição de campanha | Este caso de uso concede acesso à seção [Medida](/help/guide/collaborate/measure.md) e a todas as funcionalidades disponíveis. |
-| Descoberta de público | Este caso de uso concede acesso à seção [Descobrir](/help/guide/collaborate/discover.md) e a todas as funcionalidades disponíveis. |
+| Medição da campanha | Este caso de uso concede acesso à seção [Medida](/help/guide/collaborate/measure.md) e a todas as funcionalidades disponíveis. |
+| Descoberta de públicos-alvo | Este caso de uso concede acesso à seção [Descobrir](/help/guide/collaborate/discover.md) e a todas as funcionalidades disponíveis. |
 | Ativação de público-alvo | Este caso de uso concede acesso à seção [Ativar](/help/guide/collaborate/activate.md) e a todas as funcionalidades disponíveis. |

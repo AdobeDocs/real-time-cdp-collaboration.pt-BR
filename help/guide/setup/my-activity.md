@@ -2,12 +2,12 @@
 title: Rastrear sua atividade de consumo de crédito
 description: Saiba como rastrear a atividade de consumo de crédito da sua organização no Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 1%
+source-wordcount: '554'
+ht-degree: 5%
 
 ---
 
@@ -31,15 +31,15 @@ Para acessar sua atividade de consumo de crédito estimado, navegue até **[!UIC
 
 >[!TIP]
 >
->A exibição **[!UICONTROL Minha atividade]** não inclui informações sobre ações do usuário em diferentes partes da interface do usuário da Real-Time Collaboration CDP. Use a funcionalidade [logs de auditoria](/help/guide/setup/audit-logs.md) para obter essas informações.
+>A exibição **[!UICONTROL Minha atividade]** não inclui informações sobre ações do usuário em diferentes partes da interface do usuário do Collaboration. Use a funcionalidade [logs de auditoria](/help/guide/setup/audit-logs.md) para obter essas informações.
 
 ## Entender o painel de atividades {#understand-dashboard}
 
-O painel de instrumentos de atividade exibe uma lista abrangente de todas as operações de consumo de crédito na organização. Cada linha representa uma atividade distinta e fornece informações importantes sobre o uso do crédito:
+O painel de atividade exibe uma lista abrangente de todas as operações de consumo de crédito na conta. Cada linha representa uma atividade distinta e fornece informações importantes sobre o uso do crédito:
 
 >[!NOTE]
 >
->As atividades de **[!UICONTROL Gerenciamento de Público-Alvo]** não estão associadas a outro colaborador, portanto, as colunas **[!UICONTROL ID de Conexão]** e **[!UICONTROL Nome de Conexão]** para esses tipos de atividades indicam um valor **[!UICONTROL N/A]**.
+>As atividades de **[!UICONTROL Gerenciamento de Público-Alvo]** não estão associadas a outro colaborador, portanto, as colunas **[!UICONTROL ID da Conexão]** e **[!UICONTROL Nome da Conexão]** para esses tipos de atividades indicam um valor de **[!UICONTROL -]**.
 
 | Coluna | Descrição |
 |------------|--------------|
@@ -49,7 +49,7 @@ O painel de instrumentos de atividade exibe uma lista abrangente de todas as ope
 | **[!UICONTROL Atividade]** | O tipo de atividade realizada, como **Ativação - Correspondência**, **Ativação - Saída** ou **Gerenciamento de Público-Alvo**. |
 | **[!UICONTROL Entradas processadas]** | O número total de entradas (por exemplo, IDs ou linhas) processadas para a atividade. |
 | **[!UICONTROL Total de créditos usados]** | O número total de créditos consumidos pela atividade. |
-| **[!UICONTROL Meu compartilhamento de crédito]** | A parte da organização nos créditos usada para a atividade. |
+| **[!UICONTROL Meu compartilhamento de crédito]** | A parte da sua conta dos créditos usados para a atividade. |
 
 {style="table-layout:auto"}
 
@@ -57,23 +57,15 @@ O painel de instrumentos de atividade exibe uma lista abrangente de todas as ope
 
 A coluna **[!UICONTROL Atividade]** mostra diferentes tipos de operações que consomem crédito.
 
-* **[!UICONTROL Gerenciamento de público-alvo]**: os créditos são consumidos quando os públicos-alvo são originados na Real-Time CDP Collaboration. Os créditos são consumidos como uma função do número de IDs (em milhões) indexadas no Real-Time CDP Collaboration em todos os públicos-alvo e da frequência dessa indexação (diariamente, a cada três dias ou semanalmente). Para saber mais, leia o [guia de importação e gerenciamento de públicos-alvo](/help/guide/setup/onboard-audiences.md).
+* **[!UICONTROL Gerenciamento de público-alvo]**: os créditos são consumidos quando os públicos-alvo são originados na Collaboration. Os créditos são consumidos como uma função do número de IDs (em milhões) indexadas no Collaboration em todos os públicos-alvo e da frequência dessa indexação (diariamente, a cada três dias ou semanalmente). Para saber mais, leia o [guia de fornecimento e gerenciamento de públicos-alvo](/help/guide/setup/onboard-audiences.md).
 * **[!UICONTROL Ativação - Correspondente]** - Os créditos são consumidos como uma função do número de IDs correspondentes e preparadas para ativação. Para saber mais, leia o [guia de ativação de públicos-alvo](/help/guide/collaborate/activate.md).
 * **[!UICONTROL Ativação - Saída]** - Os créditos são consumidos como uma função do número de IDs enviadas para um destino. Isso é sempre cobrado do colaborador que recebe o público-alvo. Para saber mais, leia o [guia de ativação de públicos-alvo](/help/guide/collaborate/activate.md).
-* **[!UICONTROL Medição]** - Execute atividades no Real-Time CDP Collaboration para gerar relatórios e insights de desempenho da campanha. Os créditos são consumidos com base no número de linhas nos relatórios de campanha em todas as campanhas e na frequência dos relatórios (diariamente, a cada três dias ou semanalmente).
+* **[!UICONTROL Medição]** - Execute atividades no Collaboration para gerar relatórios e insights de desempenho da campanha. Os créditos são consumidos com base no número de linhas nos relatórios de campanha em todas as campanhas e na frequência dos relatórios (diariamente, a cada três dias ou semanalmente).
 
 ## Gerencie seu consumo de crédito {#manage-credit-consumption}
 
 Para gerenciar efetivamente o consumo de crédito:
 
-1. **Entenda** o consumo de crédito associado a cada atividade. Verifique a [descrição do produto Real-Time CDP Collaboration](https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} para obter uma tabela de créditos de colaboração usados por atividade.
+1. **Entenda** o consumo de crédito associado a cada atividade. Verifique a [descrição do produto Collaboration](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} para obter uma tabela de créditos usados por atividade.
 2. **Monitorar regularmente**: verifique seu painel de atividades com frequência para entender os padrões de uso.
-3. **Rastrear por conexão**: use o nome da conexão para identificar quais parcerias estão consumindo mais créditos.
-
-<!--
-
-## Pagination and navigation
-
-The activity list is paginated to improve performance and readability. Use the navigation controls at the bottom of the table to move between pages and adjust how many records you can view at once.
-
--->
+3. **Rastrear por conexão**: use o nome da conexão para identificar quais conexões estão consumindo mais créditos.

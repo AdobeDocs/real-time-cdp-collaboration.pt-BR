@@ -2,9 +2,9 @@
 title: Fluxo de trabalho completo
 description: Entenda o fluxo de trabalho completo do uso do Real-Time CDP Collaboration como anunciante ou editor
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -19,7 +19,7 @@ O Adobe Real-Time Customer Data Platform (CDP) Collaboration permite que anuncia
 
 ## Fluxo de trabalho completo do anunciante {#advertiser}
 
-Como anunciante, comece pela [integração da sua empresa](/help/guide/setup/onboard-organization.md) à Real-Time CDP Collaboration. Use a [página de configuração](/help/guide/setup/setup-overview.md) para enviar e editar as configurações da sua empresa, adicionar suas chaves de correspondência preferidas com as quais você trabalhará e decidir quais dados serão trazidos. Na primeira versão, o produto permite [importar públicos-alvo](/help/guide/setup/onboard-audiences.md) somente do Adobe Experience Platform.
+Como anunciante, comece pela [integração da sua empresa](/help/guide/setup/onboard-account.md) à Real-Time CDP Collaboration. Use a [página de configuração](/help/guide/setup/setup-overview.md) para enviar e editar as configurações da sua empresa, adicionar suas chaves de correspondência preferidas com as quais você trabalhará e decidir quais dados serão trazidos. Na primeira versão, o produto permite [importar públicos-alvo](/help/guide/setup/onboard-audiences.md) somente do Adobe Experience Platform.
 
 ![Descobrir, ativar, medir para anunciantes.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
 
@@ -33,7 +33,7 @@ A etapa final no loop de colaboração é [measurement](/help/guide/collaborate/
 
 ## Fluxo de trabalho completo do editor {#publisher}
 
-Como editor, comece por [integrar sua empresa](/help/guide/setup/onboard-organization.md) à Real-Time CDP Collaboration. Use a [página de configuração](/help/guide/setup/setup-overview.md) para editar várias configurações da empresa.
+Como editor, comece por [integrar sua empresa](/help/guide/setup/onboard-account.md) à Real-Time CDP Collaboration. Use a [página de configuração](/help/guide/setup/setup-overview.md) para editar várias configurações da empresa.
 
 Decida quais dados de público-alvo importar e quais públicos-alvo tornar visíveis e visíveis para os anunciantes que desejam se conectar com você na área **[!UICONTROL Conectar]** do produto.
 

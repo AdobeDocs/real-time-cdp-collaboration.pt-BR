@@ -2,12 +2,12 @@
 title: Descubra sobreposições e compare públicos
 description: Descubra sobreposições entre o seu e o público-alvo de seus colaboradores. Saiba como descobrir os melhores públicos-alvo para usar em suas campanhas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 92702e8dd596dc6249a7240f0e3b57b661905c30
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 19%
+source-wordcount: '1167'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,7 @@ Depois de [criar um projeto](/help/guide/collaborate/manage-projects.md), você 
 >
 >Quaisquer [rascunhos de dados](/help/guide/glossary.md#sketches) que não forem atualizados ou atualizados serão excluídos após 7 dias. Quando isso acontece, os números exibidos nos vários relatórios de sobreposição nesta página vão para zero e o compartilhamento de público-alvo fica indisponível para esses públicos expirados. Os rascunhos de dados são atualizados automaticamente para públicos-alvo com um [cronograma de atualização ativo](/help/guide/setup/onboard-audiences.md#schedule).
 
-As chaves de correspondência usadas para descobrir e comparar públicos estão configuradas [durante o processo de conexão](/help/guide/connect/establishing-connections.md#connection-settings). As teclas de correspondência são usadas para calcular a sobreposição entre os públicos, e podem ser ativadas e desativadas. Para editar as chaves de correspondência, selecione a opção **[!UICONTROL Editar chaves de correspondência]**. Este
+As chaves de correspondência usadas para descobrir e comparar públicos estão configuradas [durante o processo de conexão](/help/guide/connect/establishing-connections.md#connection-settings). As teclas de correspondência são usadas para calcular a sobreposição entre os públicos, e podem ser ativadas e desativadas. Para editar as chaves de correspondência, selecione a opção **[!UICONTROL Editar chaves de correspondência]**.
 
 ![O espaço de trabalho da guia Descobrir, mostrando os insights do Público-alvo.](/help/assets/collaborate/discover/discover-overview.png)
 
@@ -37,11 +37,11 @@ A caixa de diálogo **[!UICONTROL Editar chaves de correspondência]** é aberta
 
 Para começar a usar a guia **[!UICONTROL Descobrir]** no seu projeto, você deve ter:
 
-* [Públicos-alvo importados](/help/guide/setup/onboard-audiences.md) para sua organização
+* [Públicos-alvo ](/help/guide/setup/onboard-audiences.md) originados na sua conta
 * [Conectado](/help/guide/connect/establishing-connections.md) com um colaborador com o caso de uso **Descoberta de público-alvo** habilitado
 * [Criou um projeto](/help/guide/collaborate/manage-projects.md) entre você e um colaborador
 
-Depois que esses pré-requisitos forem atendidos, você poderá começar a explorar e comparar a sobreposição entre você e os públicos do seu colaborador.
+Depois que esses pré-requisitos forem atendidos, você poderá começar a explorar e comparar sobreposições entre você e os públicos do seu colaborador.
 
 ## Comparar públicos-alvo {#compare-audiences}
 
@@ -86,7 +86,7 @@ Na seção comparar públicos, você pode ver as seguintes métricas, que se bas
 
 {style="table-layout:auto"}
 
->[!TIP]
+>[!NOTE]
 >
 >O índice de porcentagem de sobreposição nem sempre está disponível para todos os públicos-alvo. A visibilidade do indicador de porcentagem de sobreposição depende da configuração escolhida pelo seu colaborador para um público na [seção de visibilidade de metadados](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
@@ -95,7 +95,7 @@ Na seção comparar públicos, você pode ver as seguintes métricas, que se bas
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="Públicos-alvo relevantes"
->abstract="Com base nas porcentagens de sobreposição, esses públicos-alvo do editor podem ser adequados para a campanha. <br><br> A <b>contagem de identidades</b> é o tamanho do público-alvo do editor. <br><br> As <b>identidades sobrepostas</b> representam a sobreposição entre o público-alvo do editor recomendado e todos os públicos-alvo do anunciante. <br><br> A <b>% de sobreposição</b> representa o número de identidades sobrepostas dividido pelo tamanho de <i>todos</i> os públicos-alvo do anunciante."
+>abstract="Com base nas porcentagens de sobreposição, esses públicos-alvo podem ser adequados para a sua campanha. <br><br> A <b>contagem de identidades</b> é o tamanho do público-alvo do colaborador. <br><br> <b>Identidades sobrepostas</b> representam a sobreposição entre o público recomendado e todos os seus públicos. <br><br> A <b>Sobreposição %</b> representa o número de identidades sobrepostas dividido pelo tamanho de <i>todas</i> seus públicos."
 
 A seção **[!UICONTROL Públicos-alvo relevantes]** da guia **[!UICONTROL Descobrir]** fornece uma lista com curadoria dos cinco principais públicos-alvo com base na porcentagem de sobreposição entre o público-alvo do seu colaborador e todos os seus públicos-alvo. Esse recurso ajuda você a identificar rapidamente os públicos-alvo com a maior sobreposição, permitindo direcionar suas campanhas com mais eficiência. Alterne entre os públicos-alvo relevantes usando os seletores de página na parte superior direita da seção.
 
@@ -117,10 +117,6 @@ A seção **[!UICONTROL Públicos relevantes]** exibe as seguintes informações
 
 {style="table-layout:auto"}
 
->[!NOTE]
->
->A visibilidade dos públicos do colaborador depende da configuração escolhida por ele para um público na [seção de visibilidade de metadados](/help/guide/setup/onboard-audiences.md#metadata-visibility). Se o colaborador tiver definido todos os públicos-alvo como privados, esta seção não exibirá públicos-alvo.
-
 ## Descubra sobreposições {#discover-overlaps}
 
 >[!CONTEXTUALHELP]
@@ -140,7 +136,7 @@ Para alterar a seleção de público, selecione **[!UICONTROL Alterar público]*
 
 ![O espaço de trabalho do Discover com a opção Alterar público-alvo foi realçado.](/help/assets/collaborate/discover/change-audience.png)
 
-A caixa de diálogo **[!UICONTROL Alterar público-alvo]** é aberta, onde você pode selecionar um público-alvo específico para comparar com os públicos-alvo do seu colaborador. Selecione os públicos desejados ou desmarque suas seleções para selecionar todos os públicos e selecione **[!UICONTROL Salvar]**.
+A caixa de diálogo **[!UICONTROL Alterar público-alvo]** é aberta, onde você pode selecionar um público-alvo específico para comparar com os públicos do seu colaborador. Selecione os públicos desejados ou desmarque suas seleções para selecionar todos os públicos e selecione **[!UICONTROL Salvar]**.
 
 ![A caixa de diálogo Alterar público-alvo no espaço de trabalho Descobrir.](/help/assets/collaborate/discover/change-audience-selection.png)
 
@@ -148,7 +144,7 @@ Depois de selecionar os públicos desejados, a seção **[!UICONTROL Descobrir s
 
 | Métrica | Descrição |
 |---------|----------|
-| **[!UICONTROL Contagem de identidades]** | O nome das IDs exclusivas no público-alvo. |
+| **[!UICONTROL Contagem de identidades]** | O número de IDs exclusivas dentro do público-alvo. |
 | **[!UICONTROL Identidades sobrepostas]** | O número de IDs exclusivas que se sobrepõem entre o público-alvo recomendado e todos os públicos-alvo. |
 | **[!UICONTROL Sobreposição %]** | A porcentagem de identidades sobrepostas entre o público-alvo recomendado e todos os públicos-alvo. |
 | **[!UICONTROL Categorias de público-alvo]** | As categorias que seu colaborador atribuiu ao público-alvo. |

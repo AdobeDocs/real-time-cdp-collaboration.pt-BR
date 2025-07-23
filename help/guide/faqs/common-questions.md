@@ -2,9 +2,9 @@
 title: Perguntas comuns
 description: Encontre respostas para as perguntas mais frequentes sobre o Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 07fa043a-ce42-494d-a262-fa1d5cad7476
-source-git-commit: c61af18aafe1bcf7f59159cff6d765349e1ac7f9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 4%
@@ -25,8 +25,8 @@ Estou vendo esta tela ao tentar acessar o Real-Time CDP Collaboration. Como poss
 
 +++Selecione para exibir a resposta
 
-Se você for um usuário final, precisará entrar em contato com o administrador de sistemas ou de produtos de sua empresa.
+Se você for um usuário final, precisará entrar em contato com o administrador de sistemas ou de produtos de sua organização.
 
-Se você for um administrador de sistema ou de produto, leia o guia de permissões para entender como conceder a si mesmo e a seus colegas as permissões corretas para usar o Real-Time CDP Collaboration. Comece com a [visão geral do controle de acesso](/help/guide/permissions/overview.md).
+Se você for um administrador de sistema ou de produto, leia o guia de permissões para entender como conceder a si mesmo e a seus colegas as permissões corretas para usar o Collaboration. Para saber mais, leia a[visão geral do controle de acesso](/help/guide/permissions/overview.md).
 
 +++

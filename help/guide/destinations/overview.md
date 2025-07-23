@@ -2,11 +2,12 @@
 title: Visão geral de destinos
 description: Saiba mais sobre destinos no Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 5%
+source-wordcount: '349'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 5%
 
 Destinos são integrações usadas para enviar públicos-alvo direcionados para plataformas externas. Essas integrações permitem ativar públicos em vários canais e plataformas de marketing para uso em campanhas e no engajamento do cliente.
 
-Atualmente, os destinos só estão disponíveis para editores no Real-Time CDP Collaboration. Os editores podem configurar destinos para enviar públicos para plataformas externas, como o Adobe Experience Platform, para uso em campanhas. Os anunciantes podem [ativar públicos-alvo em um projeto](../collaborate/activate.md), que são enviados para o destino configurado do editor.
+Atualmente, os destinos só estão disponíveis para editores no Adobe Real-Time CDP Collaboration. Os editores podem configurar destinos para enviar públicos para plataformas externas, como o Adobe Experience Platform, para uso em campanhas. Os anunciantes podem [ativar públicos-alvo em um projeto](../collaborate/activate.md), que são enviados para o destino configurado do editor.
 
 >[!IMPORTANT]
 >
@@ -28,7 +29,7 @@ Para configurar um destino, navegue até **[!UICONTROL Configuração]** e selec
 
 >[!NOTE]
 >
-> Atualmente, somente o Adobe Experience Platform está disponível como destino de autoatendimento no Real-Time CDP Collaboration. Se você estiver interessado em configurar um destino como o Amazon S3 ou o Snowflake, entre em contato com o representante da Adobe.
+> Atualmente, somente o Adobe Experience Platform está disponível como destino de autoatendimento no Collaboration. Se você estiver interessado em configurar um destino como o Amazon S3 ou o Snowflake, entre em contato com o representante da Adobe.
 
 ![A guia Meus destinos no espaço de trabalho da Instalação mostrando os destinos disponíveis.](/help/assets/destinations/overview/my-destinations-overview.png)
 
@@ -38,7 +39,7 @@ Para começar a configurar um destino, selecione a opção **[!UICONTROL Configu
 
 ### Destinos disponíveis {#available-destinations}
 
-Os seguintes destinos estão disponíveis para configuração no Real-Time CDP Collaboration. Para exibir o guia de configuração desse destino, selecione o nome do destino na tabela abaixo. Se você estiver interessado em configurar um destino que não esteja disponível no momento, entre em contato com o representante da Adobe.
+Os seguintes destinos estão disponíveis para configuração no Collaboration. Para exibir o guia de configuração desse destino, selecione o nome do destino na tabela abaixo. Se você estiver interessado em configurar um destino que não esteja disponível no momento, entre em contato com o representante da Adobe.
 
 | Destino | Disponibilidade |
 | --- | --- |

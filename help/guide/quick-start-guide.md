@@ -1,16 +1,19 @@
 ---
-title: Início rápido de integração do Real-Time CDP Collaboration
+title: Guia de início rápido do Real-Time CDP Collaboration
 description: Saiba como integrar sua organização ao Real-Time CDP Collaboration, incluindo a configuração de funções e organizações, fornecimento de público-alvo, ativação e medição. Este guia ajuda anunciantes e editores a definir as configurações de colaboração e começar a usar públicos-alvo compartilhados de forma segura e eficiente.
 audience: admin, publisher, advertiser
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: b5f76b1001f97304332f731490613a8597a182c1
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1428'
 ht-degree: 0%
 
 ---
 
-# Início rápido da integração do Real-Time CDP Collaboration
+# Guia de início rápido do Real-Time CDP Collaboration
+
+
 
 Comece a usar o Real-Time CDP Collaboration configurando sua organização, fornecendo públicos-alvo e habilitando a ativação e a medição com foco na privacidade.
 
@@ -19,11 +22,11 @@ Comece a usar o Real-Time CDP Collaboration configurando sua organização, forn
 Antes de começar, verifique se você tem o seguinte:
 
 - Uma licença ativa do Real-Time CDP Collaboration.
-- [Acesso de administrador de sistema ou de produto ao Adobe Experience Platform](./permissions/overview.md#use-cases).
+- [Acesso de administrador de sistema ou de produto ao Adobe Experience Platform](./permissions/overview.md).
 - [Acesso provisionado para usuários finais](./permissions/manage-user-access.md).
 - [Funções criadas para sua organização e atribuídas a usuários](./permissions/manage-roles.md).
 - Acesso aos ativos de marca, como nome, logotipo e banner da sua organização.
-- Uma [estratégia de chave de correspondência definida](./setup/onboard-organization.md#set-up-match-keys) (no momento, o email com hash é a única chave de correspondência com suporte).
+- Uma [estratégia de chave de correspondência definida](./setup/onboard-account.md#set-up-match-keys) (no momento, o email com hash é a única chave de correspondência com suporte).
 - (Opcional) Acesse uma fonte de nuvem compatível (Amazon S3 ou Snowflake) se você não estiver usando o Experience Platform para gerenciamento de público-alvo.
 
 ## Etapa 1: concluir configuração baseada em função {#complete-role-based-setup}
@@ -32,7 +35,7 @@ Antes de começar, verifique se você tem o seguinte:
 >
 >Essa etapa se aplica a anunciantes e editores.
 
-As funções de acesso da sua organização determinam o que os usuários podem ver e fazer no Real-Time CDP Collaboration. Antes de continuar, verifique se as permissões baseadas em função estão configuradas corretamente para garantir o acesso e a visibilidade apropriados na plataforma.
+As funções de acesso da sua organização determinam o que os usuários podem ver e fazer no Collaboration. Antes de continuar, verifique se as permissões baseadas em função estão configuradas corretamente para garantir o acesso e a visibilidade apropriados na plataforma.
 
 **Recursos:**
 
@@ -40,52 +43,52 @@ As funções de acesso da sua organização determinam o que os usuários podem 
 - [Documentação de configuração de função](./permissions/manage-roles.md)
 
 
-Assista a este vídeo para saber como atribuir acesso e permissões de produto ao Collaboration usando a interface do usuário do Admin Console e do Experience Platform.
+Assista a este vídeo para saber como atribuir acesso e permissões de produto ao Collaboration usando o Admin Console e o Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452235/?learn=on&enablevpops&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
-## Etapa 2: configurar sua organização da Real-Time CDP Collaboration {#set-up-your-organization}
+## Etapa 2: configurar a conta do Collaboration {#set-up-your-account}
 
 >[!NOTE]
 >
 >Essa etapa se aplica a anunciantes e editores.
 
-Antes de adicionar públicos, é necessário configurar sua organização no Collaboration. Isso controla como sua organização aparece e se comporta na interface.
+Antes de fornecer públicos, você deve configurar sua conta no Collaboration. Isso controla como você aparece e a que você tem acesso na interface do.
 
 Se você não tiver o acesso necessário, consulte a etapa 1 ou entre em contato com o administrador da organização para obter ajuda para concluir essa configuração.
 
-Defina a função da sua organização na Collaboration, forneça ativos de marca e configure chaves de correspondência para alinhar públicos-alvo em todas as conexões.
+Defina a função da sua conta no Collaboration, forneça ativos de marca e configure chaves de correspondência para alinhar públicos-alvo em todas as conexões.
 
 >[!NOTE]
 >
->Você pode criar um ou mais colaboradores (como anunciantes ou editores) durante a configuração. Determinados campos, como ativos de marca e email de contato, podem ser atualizados posteriormente no espaço de trabalho **[!UICONTROL Configurações]**.
+>É possível criar uma ou mais contas (como anunciante e editor) durante a configuração. Determinados campos, como ativos de marca e email de contato, podem ser atualizados posteriormente no espaço de trabalho **[!UICONTROL Configurações]**.
 
-- **Atribuir uma função** - Determina se sua organização atua como anunciante, editor ou ambos. Sua função define quais recursos de colaboração você tem, como iniciar o compartilhamento de público-alvo (anunciante) ou disponibilizar públicos-alvo (editor). Para saber mais sobre como as funções afetam o fluxo de trabalho de colaboração, consulte o [Guia completo do fluxo de trabalho](./end-to-end-workflow.md).
+- **Atribuir uma função** - Determina se sua conta é como anunciante ou editor. Sua função define quais recursos você tem no Collaboration. Para saber mais sobre como as funções afetam o fluxo de trabalho de colaboração, consulte o [manual completo sobre fluxo de trabalho](./end-to-end-workflow.md).
 - **Ativos de marca** - Adicione o seguinte à sua conta:
-   - Nome da marca (máximo de 100 caracteres)
-   - Descrição da marca (máximo de 1.000 caracteres)
-   - Logotipo da marca (SVG &lt;20KB, idealmente quadrado)
+   - Nome da conta (máximo de 100 caracteres)
+   - Descrição (máximo de 1.000 caracteres)
+   - Logotipo (SVG &lt;20KB, idealmente quadrado)
 
-  >[!NOTE]
-  >
-  >Se você estiver criando uma conta de editor e quiser que o seja exibido publicamente no catálogo de conexões da Collaboration, entre em contato com o representante de conta da Adobe. As contas do editor exigem um banner de marca personalizado (JPG 2688x1536); esse arquivo pode ser compartilhado diretamente com o representante.
+>[!NOTE]
+>
+>Se você estiver criando uma conta de editor e quiser que o seja exibido publicamente no catálogo de conexões da Collaboration, entre em contato com o representante de conta da Adobe. As contas do editor exigem um banner de marca personalizado (JPG 2688x1536); esse arquivo pode ser compartilhado diretamente com o representante.
 
 - **Email de contato** - Forneça um email comercial para que os colaboradores usem depois que uma conexão for estabelecida.
 - **Configurar chaves de correspondência** - Selecione os identificadores usados para correspondência de público-alvo (atualmente, o email com hash é a única chave de correspondência com suporte).
 
-Para saber mais sobre a configuração inicial da organização, incluindo como definir funções, carregar ativos de marca e configurar chaves de correspondência, consulte o [documento de configuração inicial da organização](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}.
+Para saber mais sobre a configuração inicial da conta, incluindo como definir funções, carregar ativos de marca e configurar chaves de correspondência, consulte o guia [configuração inicial da conta](./setup/onboard-account.md#initial-account-setup){target="_blank"}.
 
-Assista a uma apresentação passo a passo da configuração do anunciante, incluindo criação de conta, marca e configuração principal de correspondência.
+Assista a este vídeo para obter uma apresentação passo a passo da configuração de um anunciante, incluindo criação de conta, marca e configuração principal de correspondência.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452264/?learn=on&enablevpops)
 
 ## Etapa 3: públicos-alvo da Source (do Experience Platform ou de uma fonte na nuvem) {#source-audiences}
 
-Depois que sua organização for criada e suas chaves de correspondência e identidade visual forem configuradas, você estará pronto para começar a fornecer públicos-alvo. Escolha um dos seguintes métodos de seleção de fornecedor com base no armazenamento de dados e nas necessidades comerciais.
+Depois que sua conta for criada e suas chaves de identidade visual e correspondência forem configuradas, você estará pronto para começar a fornecer públicos-alvo. Escolha um dos seguintes métodos de seleção de fornecedor com base no armazenamento de dados e nas necessidades comerciais.
 
 ### Opção A: Source do Experience Platform
 
-[Use a interface do usuário do Collaboration para vincular uma sandbox que contenha públicos](./setup/onboard-audiences.md). Use esse método de autoatendimento para fazer referência a segmentos de público-alvo existentes na sua instância do Experience Platform.
+[Use o Collaboration para vincular uma sandbox que contém públicos](./setup/onboard-audiences.md). Use esse método de autoatendimento para fazer referência a segmentos de público-alvo existentes na sua instância do Experience Platform.
 
 #### Configurar públicos
 
@@ -99,7 +102,7 @@ Configure como os públicos-alvo são preparados, combinados e controlados para 
 
 >[!NOTE]
 >
->Você pode adicionar ou remover públicos e atualizar o agendamento de atualização diretamente na interface do usuário do Collaboration. Para alterar outras configurações, como chaves de correspondência ou modo de consentimento, você deve excluir e recriar a conexão de dados.
+>Você pode adicionar ou remover públicos e atualizar o agendamento de atualização diretamente no Collaboration. Para alterar outras configurações, como chaves de correspondência ou modo de consentimento, você deve excluir e recriar a conexão de dados.
 
 >[!IMPORTANT]
 >
@@ -114,15 +117,15 @@ Configure como os públicos-alvo são preparados, combinados e controlados para 
 >
 >Todas as chaves de correspondência devem ser **cortadas**, **em minúsculas** e **SHA256-com hash**.\
 >Se você fornecer valores com hash que usam caracteres em maiúsculas, o Collaboration os converterá automaticamente em minúsculas.\
->Se sua origem contiver **identificadores de texto sem formatação**, use a opção **[!UICONTROL Aplicar transformação]** na interface para aplicar o hash. Essa opção só está disponível ao fornecer públicos-alvo do Experience Platform e não tem suporte para fontes baseadas em nuvem.
+>Se sua origem contiver **identificadores de texto sem formatação**, use a opção **[!UICONTROL Aplicar transformação]** para aplicar o hash. Essa opção só está disponível ao fornecer públicos-alvo do Experience Platform e não tem suporte para fontes baseadas em nuvem.
 >
->Para obter mais informações, consulte a seção [mapear campos](./setup/onboard-audiences.md#map-fields) do guia de importação e gerenciamento de públicos.
+>Para obter mais informações, consulte a seção [mapear campos](./setup/onboard-audiences.md#map-fields) do guia de origem e gerenciar públicos.
 
-Para ver uma apresentação completa de como fazer referência a públicos-alvo usando a interface do usuário do Collaboration, assista ao vídeo de demonstração Referência de público-alvo da Collaboration abaixo.
+Para ver uma apresentação completa de como fornecer públicos-alvo usando o Collaboration, assista ao vídeo abaixo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-Como alternativa, consulte o documento sobre [como disponibilizar públicos-alvo no Real-Time CDP Collaboration](https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+Como alternativa, consulte o documento sobre [origem de públicos-alvo no Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
 
 ### Opção B: Source do Snowflake ou Amazon S3
 
@@ -132,7 +135,7 @@ Para configurar uma fonte de nuvem (por exemplo, [!DNL AWS S3] ou [!DNL Snowflak
 >
 >Os arquivos de público-alvo baseados em nuvem devem seguir o esquema necessário descrito na PDF de especificação de público-alvo. Os arquivos devem incluir identificadores com hash (SHA256 em letras minúsculas), campos de metadados obrigatórios como `segment_name` e `activation_id` e usar formatos compatíveis como CSV ou Parquet. O Adobe não normaliza dados antes da ativação. O TTL é aplicado com base na duração do público-alvo.
 >
->Todos os públicos-alvo no arquivo carregado são totalmente originários nesse estágio. O acesso a organizações parceiras específicas é provisionado separadamente por meio da interface do usuário do Collaboration.
+>Todos os públicos-alvo no arquivo carregado são totalmente originários nesse estágio. A [configuração de visibilidade de público-alvo](/help/guide/setup/onboard-audiences.md#metadata-visibility) determina se seus colaboradores podem ver seu público-alvo e é gerenciada por meio da interface do usuário do Collaboration.
 
 ## Etapa 4: ativar públicos-alvo (para Experience Platform ou um destino de nuvem) {#activate-audiences}
 
@@ -140,11 +143,11 @@ Para configurar uma fonte de nuvem (por exemplo, [!DNL AWS S3] ou [!DNL Snowflak
 >
 >Essa etapa se aplica a anunciantes e editores.
 
-Use a interface do usuário do Collaboration para ativar públicos-alvo para sua instância do Experience Platform ou um destino de nuvem.
+Em seguida, ative os públicos-alvo para sua instância do Experience Platform ou para um destino de nuvem.
 
 ### Opção A: Ativar para o Experience Platform
 
-Conclua as etapas a seguir descritas no guia [Configurar o Adobe Experience Platform como destino](https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
+Conclua as etapas a seguir descritas no guia [configurar o Adobe Experience Platform como destino](/help/guide/destinations/experience-platform.md).
 
 - **Criar um destino** - Use a interface do usuário para configurar um destino do Experience Platform (nível de sandbox).
 - **Mapear chaves de correspondência** - Selecione o identificador (por exemplo, `hashedEmail`).
@@ -219,15 +222,15 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 ## Etapa 6: conectar-se com colaboradores {#connect-with-collaborators}
 
-Com a configuração e o provisionamento de dados concluídos, sua organização agora está pronta para se conectar com colaboradores, enviando ou aceitando convites e enviando configurações de projeto para aprovação. Esse processo de conexão envolve enviar ou receber convites, revisar e enviar configurações de conexão (como casos de uso e consumo de crédito) e confirmar o relacionamento.
+Com a configuração concluída, sua organização agora está pronta para se conectar com colaboradores, enviando ou aceitando convites e enviando configurações de projeto para aprovação. Esse processo de conexão envolve enviar ou receber convites, revisar e enviar configurações de conexão (como casos de uso e consumo de crédito) e confirmar a conexão.
 
-Como anunciante, use o espaço de trabalho **[!UICONTROL Conectar]** no menu de navegação esquerdo da interface do usuário do Collaboration para procurar editores disponíveis.
+Como anunciante, use o espaço de trabalho **[!UICONTROL Conectar]** no menu de navegação esquerdo para procurar editores disponíveis.
 
 >[!NOTE]
 >
 >Atualmente, somente anunciantes podem navegar pelos editores. Os editores não podem procurar ou iniciar conexões com anunciantes.
 
-Para obter uma visão geral desse fluxo, consulte o [Guia de Conectar com anunciantes ou editores](./connect/establishing-connections.md){target="_blank"}. Para uma apresentação visual do processo de conexão, incluindo a navegação de colaboradores e o gerenciamento das configurações de conexão, assista ao [vídeo de configuração da conta do anunciante](https://experienceleague.adobe.com/pt-br/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+Para obter uma visão geral desse fluxo, consulte o [guia de conexão com anunciantes ou editores](./connect/establishing-connections.md){target="_blank"}. Para uma apresentação visual do processo de conexão, incluindo a navegação de colaboradores e o gerenciamento das configurações de conexão, assista ao [vídeo de configuração da conta do anunciante](https://experienceleague.adobe.com/pt-br/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## Próximas etapas
 
