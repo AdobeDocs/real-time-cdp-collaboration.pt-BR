@@ -2,7 +2,7 @@
 title: Logs de auditoria
 description: Saiba como usar a funcionalidade Logs de auditoria no Real-Time CDP Collaboration para rastrear atividades e alterações do usuário.
 audience: admin
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
 source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
@@ -23,7 +23,7 @@ Use a funcionalidade de logs de auditoria no Collaboration para rastrear ativida
 
 ![Tela de visão geral de alto nível da funcionalidade de logs de auditoria.](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-Para obter informações mais abrangentes sobre logs de auditoria, consulte a [documentação sobre logs de auditoria da Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
+Para obter informações mais abrangentes sobre logs de auditoria, consulte a [documentação sobre logs de auditoria da Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
 
 ## Acessar logs de auditoria
 
@@ -62,7 +62,7 @@ Os logs de auditoria capturam informações detalhadas sobre as atividades do us
 * **Ação**: a ação específica executada, como criar ou excluir.
 * **Usuário**: o endereço de email do usuário que executou a ação.
 
-Esses registros criam uma trilha abrangente de todas as atividades na instância do Collaboration, o que é útil para o controle de dados e a conformidade normativa. Leia mais sobre [gerenciamento de logs de auditoria na interface](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
+Esses registros criam uma trilha abrangente de todas as atividades na instância do Collaboration, o que é útil para o controle de dados e a conformidade normativa. Leia mais sobre [gerenciamento de logs de auditoria na interface](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
 
 ### Filtrar logs de auditoria {#filter-audit-logs}
 
@@ -75,7 +75,7 @@ A interface dos logs de auditoria fornece vários filtros para ajudar você a pe
 * **Status**: o status da ação, como permitir ou negar.
 * **Intervalo de datas**: o intervalo de datas para o qual você deseja exibir logs.
 
-Leia mais sobre [filtrando logs de auditoria](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
+Leia mais sobre [filtrando logs de auditoria](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
 
 ## Benefícios
 

@@ -2,7 +2,7 @@
 title: Guia de início rápido do Real-Time CDP Collaboration
 description: Saiba como integrar sua organização ao Real-Time CDP Collaboration, incluindo a configuração de funções e organizações, fornecimento de público-alvo, ativação e medição. Este guia ajuda anunciantes e editores a definir as configurações de colaboração e começar a usar públicos-alvo compartilhados de forma segura e eficiente.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
 source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
@@ -125,7 +125,7 @@ Para ver uma apresentação completa de como fornecer públicos-alvo usando o Co
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-Como alternativa, consulte o documento sobre [origem de públicos-alvo no Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+Como alternativa, consulte o documento sobre [origem de públicos-alvo no Collaboration](https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
 
 ### Opção B: Source do Snowflake ou Amazon S3
 
