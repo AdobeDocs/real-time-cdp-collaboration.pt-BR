@@ -2,12 +2,12 @@
 title: Conectar-se a anunciantes ou editores
 description: Depois de descobrir possíveis colaboradores, saiba como estabelecer conexões e começar a colaborar em projetos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
 source-wordcount: '1400'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -62,7 +62,7 @@ Depois que o colaborador aceitar o convite, você poderá definir as configuraç
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="Divisão de crédito"
->abstract="Esta seção determina quem está pagando pelas atividades correspondentes no Collaboration."
+>abstract="Esta seção determina quem está pagando pelas atividades correspondentes na Collaboration. "
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
@@ -82,7 +82,7 @@ Depois que o colaborador aceitar o convite, você poderá definir as configuraç
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Nomes do anunciante"
->abstract="<p>Configuração opcional. Indica o nome e a ID pelos quais o editor conhece o anunciante.</p><p>O nome do anunciante adicionado aqui será preenchido previamente na etapa de criação do projeto.</p><ul><li>Se o editor tiver configurado vários nomes, selecione um deles na lista.</li><li>Se apenas um nome tiver sido configurado, ele será pré-selecionado automaticamente.</li><li>Se nenhum nome for configurado, o campo será pré-preenchido com o nome da conta do anunciante do Collaboration.</li></ul>"
+>abstract="<p>Configuração opcional. Indica o nome e a ID pelos quais o editor conhece o anunciante.</p><p>O nome do anunciante adicionado aqui será preenchido previamente na etapa de criação do projeto.</p><ul><li>Se o editor tiver configurado vários nomes, selecione um deles na lista.</li><li>Se apenas um nome tiver sido configurado, ele será pré-selecionado automaticamente.</li><li>Se nenhum nome tiver sido configurado, o campo será preenchido previamente com o nome da conta do anunciante da Collaboration.</li></ul>"
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Criar um projeto"
 
 >[!CONTEXTUALHELP]

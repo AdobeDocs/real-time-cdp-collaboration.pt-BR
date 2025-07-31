@@ -2,12 +2,12 @@
 title: Configurar e gerenciar sua conta
 description: Saiba como configurar e gerenciar vários aspectos da sua conta no Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -37,7 +37,7 @@ Para adicionar outras organizações, navegue até **[!UICONTROL Configuração]
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_connect_code"
 >title="Código de conexão"
->abstract="O código de conexão é um identificador exclusivo da sua conta. É usado para estabelecer conexões com outros colaboradores no Real-Time CDP Collaboration."
+>abstract="O código de conexão é um identificador exclusivo para a conta. Ele é usado para estabelecer conexões com outros colaboradores na Real-Time CDP Collaboration."
 
 <!-- Move the above popover to new section for invite on this page when its created -->
 

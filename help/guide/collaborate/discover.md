@@ -2,12 +2,12 @@
 title: Descubra sobreposições e compare públicos
 description: Descubra sobreposições entre o seu e o público-alvo de seus colaboradores. Saiba como descobrir os melhores públicos-alvo para usar em suas campanhas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -95,7 +95,7 @@ Na seção comparar públicos, você pode ver as seguintes métricas, que se bas
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="Públicos-alvo relevantes"
->abstract="Com base nas porcentagens de sobreposição, esses públicos-alvo podem ser adequados para a sua campanha. <br><br> A <b>contagem de identidades</b> é o tamanho do público-alvo do colaborador. <br><br> <b>Identidades sobrepostas</b> representam a sobreposição entre o público recomendado e todos os seus públicos. <br><br> A <b>Sobreposição %</b> representa o número de identidades sobrepostas dividido pelo tamanho de <i>todas</i> seus públicos."
+>abstract="Com base nas porcentagens de sobreposição, esses públicos-alvo podem ser adequados para a campanha. <br><br>A <b>contagem de identidades</b> é o tamanho do público-alvo do colaborador. <br><br> As <b>identidades sobrepostas</b> representam a sobreposição entre o público-alvo recomendado e todos os seus públicos-alvo. <br><br> A <b>% de sobreposição</b> representa o número de identidades sobrepostas dividido pelo tamanho de <i>todos</i> os seus públicos-alvo."
 
 A seção **[!UICONTROL Públicos-alvo relevantes]** da guia **[!UICONTROL Descobrir]** fornece uma lista com curadoria dos cinco principais públicos-alvo com base na porcentagem de sobreposição entre o público-alvo do seu colaborador e todos os seus públicos-alvo. Esse recurso ajuda você a identificar rapidamente os públicos-alvo com a maior sobreposição, permitindo direcionar suas campanhas com mais eficiência. Alterne entre os públicos-alvo relevantes usando os seletores de página na parte superior direita da seção.
 

@@ -2,12 +2,12 @@
 title: Source e gerenciar públicos
 description: Saiba como fornecer e gerenciar públicos-alvo no Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
 workflow-type: tm+mt
 source-wordcount: '2897'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -90,7 +90,7 @@ Em seguida, verifique se as ações de marketing corretas estão definidas nos d
 
 Use ações de marketing para controlar quais dados de público-alvo trazer para o Collaboration a partir do Experience Platform. A ação de marketing **[!UICONTROL Colaboração de dados]** é compatível com os rótulos de uso de dados C4, C5 e C9. A ação de marketing **[!UICONTROL Ciência de dados]** é compatível com o rótulo de uso de dados C9.
 
-Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando a caixa de seleção estiver ***habilitada***, todos os dados rotulados no Experience Platform conforme descrito acima serão excluídos e **não** serão trazidos para o Collaboration.
 * Com a caixa de seleção ***desabilitada***, não há restrição nos dados obtidos do Experience Platform.
@@ -119,7 +119,7 @@ Em seguida, forneça um nome e uma descrição para sua conexão de dados. Essas
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_source_fields"
 >title="Campos de origem"
->abstract="Os campos do Source são namespaces de identidade e atributos da implementação do Experience Platform. Você pode mapeá-los para campos de destino definidos no Collaboration."
+>abstract="Os campos de origem são namespaces de identidade e atributos da implementação da Experience Platform. É possível mapeá-los para campos de destino definidos em Collaboration."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
@@ -129,7 +129,7 @@ Em seguida, forneça um nome e uma descrição para sua conexão de dados. Essas
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
 >title="Aplicar transformação"
->abstract="Ao fornecer campos *sem hash*, use essa opção para que o Collaboration aplique o hash e transforme os campos sem formatação em campos com hash."
+>abstract="Ao importar campos *sem hash*, use essa opção para que a Collaboration aplique hash e transforme os campos simples em campos com hash."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
@@ -331,7 +331,7 @@ A disponibilidade do público-alvo para uso em projetos com colaboradores é dif
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilidade de metadados"
->abstract="<p>Indica qual dos metadados do público-alvo é visível para outros colaboradores antes que eles se conectem com você ou nas visualizações do projeto.</p> <p> **Contagem de identidades** controla se o colaborador pode exibir contagens de identidades para os públicos-alvo ao exibir relatórios de sobreposição na guia descoberta. A **% de sobreposição de público-alvo** controla se os colaboradores podem descobrir as porcentagens de sobreposição entre os públicos-alvo deles e os seus."
+>abstract="<p>Indica quais metadados de público-alvo estão visíveis para outros colaboradores antes que se conectem com você ou em visualizações de projeto.</p> <p> A **contagem de identidades** controla se o seu colaborador pode exibir contagens de identidades dos seus públicos-alvo ao visualizar relatórios de sobreposição na guia de descoberta. A **% de sobreposição de público-alvo** controla se os colaboradores podem descobrir as porcentagens de sobreposição entre os públicos-alvo deles e os seus."
 
 >[!NOTE]
 >
