@@ -1,30 +1,25 @@
 ---
-title: Passarelas de Identificação
+title: Cruzamentos de identidades
 description: Saiba tudo sobre faixas de cruzamento de identidade no Real-Time CDP Collaboration, incluindo como trazer faixas de cruzamento de identidade de diferentes fontes e como gerenciar faixas de cruzamento de identidade
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: 41e7b0511a2d3fd882bb37f233112f1d3c572668
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
-# Passarelas de Identificação
+# Cruzamentos de identidades
 
 {{limited-availability-release-note}}
 
 Saiba tudo sobre faixas de cruzamento de identidade no Real-Time CDP Collaboration, incluindo como trazer faixas de cruzamento de identidade de diferentes fontes e como gerenciar faixas de cruzamento de identidade.
 
 As passarelas de identificação facilitam a vinculação segura e compatível com a privacidade das identidades do cliente em vários conjuntos de dados e plataformas. Utilizando identificadores com hash, o Real-Time CDP Collaboration garante que os usuários possam sincronizar e reconciliar identidades sem expor informações pessoais identificáveis (PII). Isso permite uma visualização unificada do cliente para melhor colaboração e esforços de marketing direcionados.
-
-<!--
-In Real-Time CDP Collaboration, use identity crosswalks alongside your audiences by [TODO] insert material here. 
--->
-
 
 Como primeiro passo, você deve importar as travessias de identidade para o Real-Time CDP Collaboration. Para importar as travessias de identidade para o Real-Time CDP Collaboration, leia a seção abaixo:
 
@@ -38,7 +33,7 @@ Navegue até a guia **[!UICONTROL Configuração]** > **[!UICONTROL Cruzamentos 
 
 ![Gravação de como chegar à tela para adicionar faixas de pedestres de identidade](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
 
-### Selecionar origem da faixa de pedestres
+### Selecionar origem do cruzamento
 
 Selecione uma fonte da qual você importará a faixa de cruzamento de identidade. Na primeira versão do Real-Time CDP Collaboration, o Experience Platform é a única fonte compatível para a importação de faixas de pedestres.
 
@@ -50,11 +45,11 @@ Depois de selecionar o Experience Platform como origem das suas passarelas, sele
 
 ![Gravação de como selecionar uma fonte de faixa de pedestres](/help/assets/setup/identity-crosswalks/select-crosswalk-source.gif)
 
-### Selecionar faixa de pedestres
+### Selecionar cruzamento
 
 Depois de selecionar o Experience Platform como fonte das suas passarelas,
 
-### Fornecer detalhes
+### Forneça detalhes
 
 Forneça um nome e uma descrição para a faixa de cruzamento de identidade que você está importando para o produto.
 

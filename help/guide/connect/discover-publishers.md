@@ -2,11 +2,11 @@
 title: Descobrir editores
 description: Como anunciante, saiba como descobrir possíveis editores para colaborar usando o Adobe Real-Time CDP Collaboration
 audience: admin, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '335'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 2%
 {{limited-availability-release-note}}
 
 Descubra e conecte-se com possíveis editores no Adobe Real-Time CDP Collaboration. Este guia fornece insights sobre como identificar colaboradores ideais e usar seus públicos para aprimorar suas campanhas de marketing.
+
+>[!NOTE]
+>
+>Atualmente, o espaço de trabalho **[!UICONTROL Descobrir editores]** está disponível somente para anunciantes.
 
 Para descobrir editores, vá para a guia **[!UICONTROL Conectar]** > **[!UICONTROL Descobrir editores]**.
 

@@ -1,22 +1,24 @@
 ---
-user-guide-title: Real-Time Customer Data Platform Collaboration
-breadcrumb-title: Real-Time Customer Data Platform Collaboration
+user-guide-title: Colaboração da Real-Time CDP
+breadcrumb-title: Colaboração da Real-Time CDP
 user-guide-description: O Adobe Real-Time CDP Collaboration permite o compartilhamento de dados e a colaboração perfeitos e seguros entre anunciantes e editores, facilitando insights do público-alvo em tempo real e estratégias de marketing personalizadas.
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: 66db8aa03d779b4b81021b6d502613a7f13d0771
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 21%
+source-wordcount: '121'
+ht-degree: 34%
 
 ---
 
 
-# Real-Time Customer Data Platform Collaboration {#using}
+# Colaboração da Real-Time CDP {#using}
 
 * [Página inicial do Real-Time CDP Collaboration](./home.md)
+* [Guia de início rápido](./quick-start-guide.md)
 * Visão geral {#overview}
-   * [Casos de uso e benefícios](./use-cases-benefits.md)
-   * [Fluxo de trabalho completo](./end-to-end-workflow.md)
-* [Início rápido da integração](./quick-start-guide.md)
+   * [Casos de uso](./overview/use-cases.md)
+   * [Funções da conta](./overview/roles.md)
+   * [Padrões do Collaboration](./overview/collaboration-patterns.md)
+   * [Fluxo de trabalho completo](./overview/end-to-end-workflow.md)
 * Configurar {#setup}
    * [Visão geral da seção de configuração](./setup/setup-overview.md)
    * [Integrar e gerenciar sua conta](./setup/onboard-account.md)
@@ -27,10 +29,10 @@ ht-degree: 21%
    * [Cruzamentos de identidades](./setup/identity-crosswalk.md)
    * [Adicionar e gerenciar dados de medição](./setup/onboard-measurement-data.md)
    * [Logs de auditoria](./setup/audit-logs.md)
-* Conectar-se a um editor ou anunciante {#connect}
+* Estabelecimento de conexões {#connect}
    * [Descobrir editores](./connect/discover-publishers.md)
    * [Descubra anunciantes](./connect/discover-advertisers.md)
-   * [Conectar-se a anunciantes ou editores](./connect/establishing-connections.md)
+   * [Estabelecimento de conexões](./connect/establishing-connections.md)
 * Colaborar {#collaborate}
    * [Gerenciar projetos](./collaborate/manage-projects.md)
    * [Descobrir](./collaborate/discover.md)
@@ -40,10 +42,10 @@ ht-degree: 21%
    * [Visão geral](./destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
 * Permissões {#permissions}
-   * [Visão geral](/help/guide/permissions/overview.md)
-   * [Gerenciar acesso do usuário](/help/guide/permissions/manage-user-access.md)
-   * [Gerenciar funções](/help/guide/permissions/manage-roles.md)
+   * [Visão geral](./permissions/overview.md)
+   * [Gerenciar acesso do usuário](./permissions/manage-user-access.md)
+   * [Gerenciar funções](./permissions/manage-roles.md)
 * Referência {#reference}
    * [Perguntas frequentes e dicas para solução de problemas](./faqs/common-questions.md)
    * [Glossário](./glossary.md)
-* [Notas de versão mais recentes](/help/guide/release-notes/latest.md)
+* [Notas de versão mais recentes](./release-notes/latest.md)

@@ -2,11 +2,11 @@
 title: Configurar e gerenciar destinos
 description: Saiba como configurar e gerenciar destinos no Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b4b26761-46ac-420f-b9f7-6e829d67aec9
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Destinos são integrações usadas para enviar públicos-alvo direcionados para plataformas externas. Essas integrações permitem ativar públicos em vários canais e plataformas de marketing para uso em campanhas e no engajamento do cliente.
 
-Atualmente, os destinos só estão disponíveis para editores no Real-Time CDP Collaboration. Os editores podem configurar destinos para ativar públicos para plataformas externas, como o Adobe Experience Platform, para uso em campanhas. Os anunciantes podem [enviar públicos-alvo dentro de um projeto](../collaborate/activate.md), que são enviados para o destino configurado pelo editor.
+Os colaboradores podem configurar destinos para enviar públicos-alvo para plataformas externas, como o Adobe Experience Platform, para uso em campanhas. Os colaboradores podem [ativar públicos-alvo em um projeto](../collaborate/activate.md), que são enviados para o destino configurado de sua conexão. A ativação pode ser feita por qualquer um dos colaboradores, dependendo das configurações de ativação de público-alvo [definidas na conexão](/help/guide/connect/establishing-connections.md#configure-connection-settings).
 
 ![A guia Meus destinos no espaço de trabalho da Instalação mostrando um destino ativo do Adobe Experience Platform.](/help/assets/setup/manage-destinations/my-destinations-overview.png)
 
@@ -41,7 +41,7 @@ O processo de configuração para destinos depende do destino que você está co
 
 ## Excluir destinos {#delete-destinations}
 
-Excluir um destino o remove de sua organização, remove qualquer público enviado anteriormente do destino e impede que qualquer público futuro seja enviado para esse destino.
+Excluir um destino o remove da sua conta, remove qualquer público enviado anteriormente do destino e impede que qualquer público futuro seja enviado para esse destino.
 
 Para excluir um destino, navegue até a guia **[!UICONTROL Meus destinos]** na seção **[!UICONTROL Instalação]**. Selecione a opção **[!UICONTROL Excluir]** para o destino que você deseja remover.
 
@@ -53,4 +53,4 @@ Uma caixa de diálogo de confirmação é exibida, onde você pode confirmar que
 
 ## Próximas etapas
 
-Depois de configurar o destino, você pode começar a colaborar com os anunciantes para [ativar públicos-alvo direcionados](../collaborate/activate.md) nos seus projetos.
+Depois de configurar o destino, você pode começar a colaborar em suas conexões para [ativar públicos-alvo direcionados](../collaborate/activate.md) em seus projetos.

@@ -2,9 +2,9 @@
 title: Descubra sobreposições e compare públicos
 description: Descubra sobreposições entre o seu e o público-alvo de seus colaboradores. Saiba como descobrir os melhores públicos-alvo para usar em suas campanhas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 20%
@@ -19,7 +19,7 @@ ht-degree: 20%
 >
 >O espaço de trabalho **[!UICONTROL Descoberta]** só estará disponível se o caso de uso **Descoberta de público-alvo** tiver sido habilitado [durante o processo de conexão](../connect/establishing-connections.md#connection-settings). Para obter mais informações sobre casos de uso, consulte o guia [gerenciar projetos](./manage-projects.md#project-use-cases).
 
-Depois de [criar um projeto](/help/guide/collaborate/manage-projects.md), você pode comparar seus públicos com os de seus colaboradores. Isso ajuda a identificar públicos relevantes para campanhas e decidir quais enviar aos editores para ativação.
+Depois de [criar um projeto](/help/guide/collaborate/manage-projects.md), você pode comparar seus públicos com os de seus colaboradores. Isso ajuda a identificar públicos relevantes para campanhas e decidir quais enviar aos colaboradores para ativação.
 
 >[!IMPORTANT]
 >

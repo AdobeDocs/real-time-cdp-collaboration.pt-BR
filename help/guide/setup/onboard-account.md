@@ -2,11 +2,11 @@
 title: Configurar e gerenciar sua conta
 description: Saiba como configurar e gerenciar vários aspectos da sua conta no Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '936'
 ht-degree: 18%
 
 ---
@@ -39,13 +39,11 @@ Para adicionar outras organizações, navegue até **[!UICONTROL Configuração]
 >title="Código de conexão"
 >abstract="O código de conexão é um identificador exclusivo para a conta. Ele é usado para estabelecer conexões com outros colaboradores na Real-Time CDP Collaboration."
 
-<!-- Move the above popover to new section for invite on this page when its created -->
-
 Para começar a configurar sua conta, primeiro você deve definir os detalhes da conta. Isso requer que você adicione as seguintes informações:
 
 * Adicione um **[!UICONTROL Nome da conta]** que represente claramente sua marca.
 * Adicione uma **[!UICONTROL Descrição]** sobre sua marca. Isso é opcional, mas ajuda outros colaboradores a entender melhor sua marca.
-* Selecione sua **[!UICONTROL Função]**. Você pode selecionar entre **[!UICONTROL Anunciante]** e **[!UICONTROL Publicador]**. Leia o [documento de fluxo de trabalho completo](/help/guide/end-to-end-workflow.md) para ver semelhanças e pequenas diferenças no fluxo de trabalho entre os dois tipos de função organizacional.
+* Selecione sua **[!UICONTROL Função]**. Você pode selecionar entre **[!UICONTROL Anunciante]** e **[!UICONTROL Publicador]**. Leia o guia [funções](/help/guide/overview/roles.md) para ver semelhanças e pequenas diferenças no fluxo de trabalho entre os dois tipos de função de conta.
 <!-- The above will need to be updated when I update things for B2B -->
 * Selecione o **[!UICONTROL Setor]** da sua conta. Alguns exemplos incluem **[!UICONTROL Varejo]**, **[!UICONTROL Telecomunicações]** ou **[!UICONTROL Serviços financeiros]**.
 * A **[!UICONTROL Região]** é automaticamente definida com base em sua conta da Adobe Experience Cloud. Isso não pode ser alterado a qualquer momento.

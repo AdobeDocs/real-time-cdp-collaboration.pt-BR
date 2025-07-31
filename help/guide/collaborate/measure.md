@@ -2,12 +2,12 @@
 title: Medir desempenho
 description: Meça o desempenho de suas campanhas em diferentes canais. Saiba como usar e interpretar vários relatórios.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 18%
+source-wordcount: '575'
+ht-degree: 19%
 
 ---
 
@@ -25,7 +25,7 @@ Saiba mais sobre os relatórios disponíveis no Adobe Real-Time CDP Collaboratio
 
 Antes de acessar os relatórios de medição no Collaboration, você já deve:
 
-* [Conectado](/help/guide/connect/establishing-connections.md) com um anunciante ou editor desejado com o caso de uso **Medição** habilitado e começou a colaborar em [projetos](/help/guide/collaborate/manage-projects.md)
+* [Conectado](/help/guide/connect/establishing-connections.md) com um colaborador com o caso de uso **Medição** habilitado e começou a colaborar em [projetos](/help/guide/collaborate/manage-projects.md)
 * Execute uma campanha e [carregue os dados de medição](/help/guide/setup/onboard-measurement-data.md) no Collaboration.
 
 <!--
@@ -104,9 +104,3 @@ Conforme a campanha avançava e o número de impressões aumentava, entenda se o
 Entenda qual mídia está gerando impressões para o seu criativo. Isso pode ajudá-lo a decidir onde investir seu investimento em anúncios em campanhas futuras.
 
 ![Impressões por posicionamento.](/help/assets/collaborate/measure/impressions-by-placement.png)
-
-## Próximas etapas
-
-![Descobrir, ativar, medir para anunciantes.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
-
-No espírito do ciclicidade na imagem acima, use os insights que você obteve ao visualizar os relatórios no planejamento da próxima campanha. Como anunciante, se necessário, volte para descobrir diferentes editores e execute sobreposições para descobrir públicos diferentes para as próximas campanhas.

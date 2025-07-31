@@ -2,11 +2,11 @@
 title: Visão geral de destinos
 description: Saiba mais sobre destinos no Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: 4ef7f8c7c27935f0e5b3620da63e7129f2714b37
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '328'
 ht-degree: 6%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 6%
 
 Destinos são integrações usadas para enviar públicos-alvo direcionados para plataformas externas. Essas integrações permitem ativar públicos em vários canais e plataformas de marketing para uso em campanhas e no engajamento do cliente.
 
-Atualmente, os destinos só estão disponíveis para editores no Adobe Real-Time CDP Collaboration. Os editores podem configurar destinos para enviar públicos para plataformas externas, como o Adobe Experience Platform, para uso em campanhas. Os anunciantes podem [ativar públicos-alvo em um projeto](../collaborate/activate.md), que são enviados para o destino configurado do editor.
+Os colaboradores podem configurar destinos para enviar públicos-alvo para plataformas externas, como o Adobe Experience Platform, para uso em campanhas. Os colaboradores podem [ativar públicos-alvo em um projeto](../collaborate/activate.md), que são enviados para o destino configurado de sua conexão. A ativação pode ser feita por qualquer um dos colaboradores, dependendo das configurações de ativação de público-alvo [definidas na conexão](/help/guide/connect/establishing-connections.md#configure-connection-settings).
 
 >[!IMPORTANT]
 >
->Atualmente, quando os anunciantes ativam os públicos-alvo em seu projeto, eles são automaticamente enviados para o destino configurado de um editor. Como publicador, você **deve** configurar um destino *antes* que seu colaborador ative um público. Se nenhum destino estiver configurado, o público-alvo será enviado para você e ficará visível na guia **[!UICONTROL Ativar]** em um projeto, mas não será ativado.
+>Atualmente, quando os colaboradores ativam os públicos-alvo em um projeto, eles são automaticamente enviados para o destino configurado da conexão. Você **deve** configurar um destino para que seu colaborador possa ativar públicos-alvo em um projeto.
 
 ## Configurar destinos {#configure-destinations}
 
