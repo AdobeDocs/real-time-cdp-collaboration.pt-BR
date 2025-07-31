@@ -2,7 +2,7 @@
 title: Cruzamentos de identidades
 description: Saiba tudo sobre faixas de cruzamento de identidade no Real-Time CDP Collaboration, incluindo como trazer faixas de cruzamento de identidade de diferentes fontes e como gerenciar faixas de cruzamento de identidade
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
