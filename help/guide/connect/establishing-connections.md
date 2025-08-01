@@ -2,9 +2,9 @@
 title: Estabelecimento de conexões
 description: Depois de descobrir possíveis colaboradores, saiba como estabelecer conexões e começar a colaborar em projetos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: c159bbcdc5f84abc4c591c5256192d117ec51102
+source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
 workflow-type: tm+mt
 source-wordcount: '3213'
 ht-degree: 7%
@@ -37,10 +37,10 @@ No padrão anunciante para editor, um anunciante descobre um editor com o qual d
 Para estabelecer uma conexão entre um anunciante e um editor, as seguintes etapas estão envolvidas:
 
 1. [Descobrir editores](#discover-publishers): o anunciante identifica possíveis editores com os quais colaborar.
-2. [Enviar convite](#send-invite): o anunciante envia um convite de conexão para o editor selecionado.
-3. [Aceitar convite](#accept-invite): o editor revisa e aceita o convite.
-4. [Definir configurações de conexão](#configure-connection-settings): o anunciante define as configurações de conexão e as envia ao editor para revisão.
-5. [Confirmar configurações de conexão](#establish-connection): o publicador revisa as configurações de conexão e as aceita ou rejeita. Se aceita, a conexão é estabelecida. Se rejeitado, o editor pode fornecer feedback para revisões fora do produto. O anunciante poderá então revisar as configurações e reenviá-las para revisão.
+1. [Enviar convite](#send-invite): o anunciante envia um convite de conexão para o editor selecionado.
+1. [Aceitar convite](#accept-invite): o editor revisa e aceita o convite.
+1. [Definir configurações de conexão](#configure-connection-settings): o anunciante define as configurações de conexão e as envia ao editor para revisão.
+1. [Confirmar configurações de conexão](#establish-connection): o publicador revisa as configurações de conexão e as aceita ou rejeita. Se aceita, a conexão é estabelecida. Se rejeitado, o editor pode fornecer feedback para revisões fora do produto. O anunciante poderá então revisar as configurações e reenviá-las para revisão.
 
 Depois que as configurações de conexão forem aceitas, a conexão será estabelecida e os colaboradores estarão prontos para [criar um projeto](/help/guide/collaborate/manage-projects.md#create-project) para começar a colaborar em campanhas.
 
@@ -65,14 +65,14 @@ Para começar, um colaborador envia um convite de conexão privada para outro co
 O processo de conexão entre duas marcas envolve várias etapas. Antes de o processo de conexão começar, alguns pré-requisitos devem ser atendidos:
 
 1. Duas marcas se comunicam fora do produto para discutir a conexão potencial.
-2. As marcas [criam contas](/help/guide/setup/onboard-account.md) na Collaboration, se ainda não o fizeram, certificando-se de selecionar o tipo de função apropriado (anunciante ou editor).
+1. As marcas [criam contas](/help/guide/setup/onboard-account.md) na Collaboration, se ainda não o fizeram, certificando-se de selecionar o tipo de função apropriado (anunciante ou editor).
 
-Depois que os pré-requisitos forem atendidos, o processo de conexão poderá ser iniciado. As etapas a seguir descrevem o processo:
+   Depois que os pré-requisitos forem atendidos, o processo de conexão poderá ser iniciado. As etapas a seguir descrevem o processo:
 
 1. [Enviar convite de conexão privada](#send-private-connection-invite): um colaborador envia um convite de conexão privada para outro colaborador.
-2. [Aceitar convite de conexão privada](#accept-private-connection-invite): o destinatário revisa e aceita o convite de conexão privada.
-3. [Definir configurações de conexão](#configure-connection-settings): o proprietário define as configurações de conexão e as envia ao destinatário para revisão e aceitação.
-4. [Confirmar configurações da conexão](#establish-connection): o destinatário revisa as configurações da conexão e as aceita ou rejeita.
+1. [Aceitar convite de conexão privada](#accept-private-connection-invite): o destinatário revisa e aceita o convite de conexão privada.
+1. [Definir configurações de conexão](#configure-connection-settings): o proprietário define as configurações de conexão e as envia ao destinatário para revisão e aceitação.
+1. [Confirmar configurações da conexão](#establish-connection): o destinatário revisa as configurações da conexão e as aceita ou rejeita.
 
 Depois que as configurações de conexão forem aceitas, a conexão será estabelecida e os colaboradores estarão prontos para [criar um projeto](/help/guide/collaborate/manage-projects.md#create-project) para começar a colaborar em campanhas.
 
@@ -310,8 +310,8 @@ Quando terminar, selecione **[!UICONTROL Salvar]** para salvar suas alterações
 Ao criar um projeto, o nome do anunciante será pré-preenchido com base nas seguintes configurações estabelecidas durante a conexão    :
 
 1. **Nenhum nome de anunciante definido**: se nenhum nome de anunciante for adicionado, o padrão da Collaboration será usar o nome do anunciante como o nome do anunciante.
-2. **Um conjunto de nomes de anunciante**: se um único nome de anunciante for adicionado, o Collaboration usará automaticamente esse nome como o nome de anunciante do projeto.
-3. **Conjunto de vários nomes de anunciante**: se mais de um nome de anunciante for adicionado, você ou seu colaborador poderá selecionar qualquer um dos nomes fornecidos ao criar o projeto.
+1. **Um conjunto de nomes de anunciante**: se um único nome de anunciante for adicionado, o Collaboration usará automaticamente esse nome como o nome de anunciante do projeto.
+1. **Conjunto de vários nomes de anunciante**: se mais de um nome de anunciante for adicionado, você ou seu colaborador poderá selecionar qualquer um dos nomes fornecidos ao criar o projeto.
 
 >[!NOTE]
 >

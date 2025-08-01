@@ -2,9 +2,9 @@
 title: Guia de início rápido do Real-Time CDP Collaboration
 description: Saiba como integrar sua organização ao Real-Time CDP Collaboration, incluindo a configuração de funções e organizações, fornecimento de público-alvo, ativação e medição. Este guia ajuda os colaboradores a definir configurações de conexão para começar a usar seus públicos de forma segura e eficiente.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 0%
@@ -41,7 +41,7 @@ As funções de acesso da sua organização determinam o que os usuários podem 
 
 Assista a este vídeo para saber como atribuir acesso e permissões de produto ao Collaboration usando o Admin Console e o Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452235/?learn=on&enablevpops&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Etapa 2: configurar a conta do Collaboration {#set-up-your-account}
 
@@ -162,7 +162,9 @@ O Collaboration oferece vários relatórios para analisar o alcance, a frequênc
 
 Para saber como exibir e interpretar relatórios de medição, consulte o [Guia de medição](./collaborate/measure.md). Ele abrange atribuição, métricas de resumo da campanha e painéis, como curvas de alcance e distribuição de frequência.
 
-<!-- Commenting out the below information as this workflow is not yet in Beta but will be imminently. A guided measurement configuration workflow will be available in a future release."
+<!-- 
+Commenting out the below information as this workflow is not yet in Beta but will be imminently. A guided measurement configuration workflow will be available in a future release."
+
 ### Configure measurement workflow
 
 Collaboration supports two measurement workflows:
@@ -206,7 +208,8 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
    - Navigate to the **[!UICONTROL Measure]** workspace within the project.
    - Input the report name, date range, and report run date.
    - Select **[!UICONTROL Campaign summary]** as the report type.
-   - Submit the report. It will run on the selected date and populate within 24 hours. -->
+   - Submit the report. It will run on the selected date and populate within 24 hours. 
+-->
 
 ## Etapa 6: conectar-se com colaboradores {#connect-with-collaborators}
 
