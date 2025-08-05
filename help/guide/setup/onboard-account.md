@@ -2,7 +2,7 @@
 title: Configurar e gerenciar sua conta
 description: Saiba como configurar e gerenciar vários aspectos da sua conta no Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
@@ -66,13 +66,13 @@ Para começar a configurar sua conta, primeiro você deve definir os detalhes da
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="IDs próprias de pessoas"
->abstract="As IDs próprias de pessoas, como endereços de email ou números de telefone com hash, são conectadas diretamente a um perfil individual. As IDs compatíveis no momento são emails e números de telefone com hash."
+>title="IDs próprias para pessoas"
+>abstract="As IDs próprias para pessoas, como endereços de email ou números de telefone com hash, são conectadas diretamente a um perfil individual. As IDs compatíveis no momento são emails e números de telefone com hash."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
->title="IDs de dispositivos próprios"
->abstract="As IDs de dispositivos próprios, como ECID ou endereços IP, estão diretamente conectadas a dispositivos, que podem ser compartilhados entre vários indivíduos. IPv4 é a única ID de dispositivos próprios compatível no momento."
+>title="IDs próprias para dispositivos"
+>abstract="As IDs próprias para dispositivos, como ECID ou endereços IP, estão diretamente conectadas a dispositivos, que podem ser compartilhados entre várias pessoas. O IPv4 é a única ID própria para dispositivo compatível no momento."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
@@ -95,8 +95,8 @@ Selecione até cinco chaves de correspondência que você planeja usar. Mais tar
 
 Há três tipos de chaves de correspondência disponíveis:
 
-* IDs próprias de pessoas
-* IDs de dispositivos próprios
+* IDs próprias para pessoas
+* IDs próprias para dispositivos
 * IDs de parceiros
 
 >[!IMPORTANT]
