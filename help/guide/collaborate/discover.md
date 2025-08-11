@@ -2,12 +2,12 @@
 title: Descubra sobreposições e compare públicos
 description: Descubra sobreposições entre o seu e o público-alvo de seus colaboradores. Saiba como descobrir os melhores públicos-alvo para usar em suas campanhas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: 76ad3357aa4cd02dbc0616e5d8bd03b03683b7fd
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 20%
+source-wordcount: '2068'
+ht-degree: 12%
 
 ---
 
@@ -82,13 +82,16 @@ Na seção comparar públicos, você pode ver as seguintes métricas, que se bas
 | **[!UICONTROL Contagem de identidades]** (seu colaborador) | O número de IDs exclusivas no(s) público(s) do colaborador. |
 | **[!UICONTROL Identidades sobrepostas]** | O número de IDs exclusivas presentes nos públicos do e do colaborador. |
 | **[!UICONTROL Sobreposição %]** | A porcentagem de sobreposição de perfis entre o público alvo selecionado do seu colaborador e o seu. |
+| **[!UICONTROL Índice de público-alvo]** | Uma pontuação que indica com que intensidade um público-alvo está relacionado a outro com base nas contagens e sobreposições subjacentes do público-alvo. Para saber mais sobre o significado das pontuações, leia a seção [pontuação do índice de público-alvo](#audience-index-score). As pontuações do índice de público-alvo não estão disponíveis ao comparar com a linha de base do colaborador (todos os públicos-alvo). |
 | **[!UICONTROL Detalhamento de identidades por chave de correspondência]** | O detalhamento de identidades para cada chave de correspondência escolhida no projeto, com base nos públicos selecionados para cada colaborador. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->O índice de porcentagem de sobreposição nem sempre está disponível para todos os públicos-alvo. A visibilidade do indicador de porcentagem de sobreposição depende da configuração escolhida pelo seu colaborador para um público na [seção de visibilidade de metadados](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+>O índice de porcentagem de sobreposição e a pontuação do índice de público-alvo nem sempre estão disponíveis para todos os públicos-alvo. A visibilidade da porcentagem de sobreposição e da pontuação do índice de público-alvo depende da configuração que seu colaborador escolheu para um público na [seção de visibilidade de metadados](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+
+Se o colaborador não tiver ativado o índice de público-alvo ou a porcentagem de sobreposição, o público-alvo não terá dados de comparação disponíveis.
 
 ## Públicos-alvo relevantes {#relevant-audiences}
 
@@ -103,19 +106,22 @@ A seção **[!UICONTROL Públicos-alvo relevantes]** da guia **[!UICONTROL Desco
 
 >[!NOTE]
 >
->A visibilidade dos públicos do colaborador depende da configuração escolhida por ele para um público na [seção de visibilidade de metadados](/help/guide/setup/onboard-audiences.md#metadata-visibility). Se o colaborador tiver definido todos os públicos-alvo como privados, esta seção não exibirá públicos-alvo.
+>A visibilidade dos públicos do colaborador depende da configuração escolhida por ele para um público na [seção de acesso à conexão](/help/guide/setup/onboard-audiences.md#connection-access) e na [seção de visibilidade de metadados](/help/guide/setup/onboard-audiences.md#metadata-visibility). Se o colaborador tiver definido todos os públicos-alvo como privados, esta seção não exibirá públicos-alvo.
 
 A seção **[!UICONTROL Públicos relevantes]** exibe as seguintes informações para cada público recomendado:
 
 | Métrica | Descrição |
 |---------|----------|
-| **[!UICONTROL Contagem de identidades]** | O nome das IDs exclusivas no público-alvo. |
+| **[!UICONTROL Contagem de identidades]** | O número de IDs exclusivas dentro do público-alvo. |
 | **[!UICONTROL Identidades sobrepostas]** | O número de IDs exclusivas que se sobrepõem entre o público-alvo recomendado e todos os públicos-alvo. |
 | **[!UICONTROL Sobreposição %]** | A porcentagem de identidades sobrepostas entre o público-alvo recomendado e todos os públicos-alvo. |
+| **[!UICONTROL Índice de público-alvo]** | Uma pontuação que indica com que intensidade um público-alvo está relacionado a outro com base nas contagens e sobreposições subjacentes do público-alvo. Para saber mais sobre o significado das pontuações, leia a seção [pontuação do índice de público-alvo](#audience-index-score). |
 | **[!UICONTROL Categorias de público-alvo]** | As categorias que seu colaborador atribuiu ao público-alvo. |
 | **[!UICONTROL Chaves correspondentes]** | As chaves de correspondência que seu colaborador selecionou para o público-alvo. |
 
 {style="table-layout:auto"}
+
+Se a pontuação do índice de público-alvo estiver habilitada para qualquer público-alvo do colaborador, os públicos relevantes serão baseados na pontuação do índice de público-alvo, e qualquer público-alvo no qual o índice de público-alvo não foi habilitado não será incluído. Os públicos-alvo relevantes com base na pontuação do índice de público-alvo são classificados para que a pontuação de índice mais alta seja exibida primeiro. Se o índice de público-alvo não estiver habilitado para qualquer público-alvo do colaborador, os públicos-alvo relevantes serão baseados na porcentagem de sobreposição.
 
 ## Descubra sobreposições {#discover-overlaps}
 
@@ -130,7 +136,9 @@ Descubra sobreposições para obter insights sobre como os públicos-alvo se com
 
 >[!NOTE]
 >
->A visibilidade dos públicos do colaborador depende da configuração escolhida por ele para um público na [seção de visibilidade de metadados](/help/guide/setup/onboard-audiences.md#metadata-visibility). Se o colaborador tiver definido todos os públicos-alvo como privados, esta seção não exibirá públicos-alvo.
+>A visibilidade dos públicos do colaborador depende da configuração escolhida por ele para um público na [seção de acesso à conexão](/help/guide/setup/onboard-audiences.md#connection-access) e na [seção de visibilidade de metadados](/help/guide/setup/onboard-audiences.md#metadata-visibility). Se o colaborador tiver definido todos os públicos-alvo como privados, esta seção não exibirá públicos-alvo.
+
+Se o colaborador não tiver ativado o índice de público-alvo ou a porcentagem de sobreposição, o público-alvo não será exibido.
 
 Para alterar a seleção de público, selecione **[!UICONTROL Alterar público]**.
 
@@ -147,10 +155,54 @@ Depois de selecionar os públicos desejados, a seção **[!UICONTROL Descobrir s
 | **[!UICONTROL Contagem de identidades]** | O número de IDs exclusivas dentro do público-alvo. |
 | **[!UICONTROL Identidades sobrepostas]** | O número de IDs exclusivas que se sobrepõem entre o público-alvo recomendado e todos os públicos-alvo. |
 | **[!UICONTROL Sobreposição %]** | A porcentagem de identidades sobrepostas entre o público-alvo recomendado e todos os públicos-alvo. |
+| **[!UICONTROL Índice de público-alvo]** | Uma pontuação que indica com que intensidade um público-alvo está relacionado a outro com base nas contagens e sobreposições subjacentes do público-alvo. Para saber mais sobre o significado das pontuações, leia a seção [pontuação do índice de público-alvo](#audience-index-score). |
 | **[!UICONTROL Categorias de público-alvo]** | As categorias que seu colaborador atribuiu ao público-alvo. |
 | **[!UICONTROL Chaves correspondentes]** | As chaves de correspondência que seu colaborador selecionou para o público-alvo. |
 
 {style="table-layout:auto"}
+
+## Pontuação do índice de público-alvo {#audience-index-score}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_discover_audience_index_score"
+>title="Pontuação do índice de público-alvo"
+>abstract="As pontuações do índice de público-alvo são uma métrica aprimorada que mostra o nível de relação entre um público-alvo e outro com base nas contagens e sobreposições subjacentes do público-alvo. A pontuação do índice bruto é traduzida em faixas de relevância, que categorizam as pontuações do índice de público de muito baixo para muito alto. Isso permite avaliar rapidamente a força da relação entre o público-alvo e o público-alvo do colaborador."
+
+As pontuações do índice de público-alvo são uma métrica aprimorada que mostra o nível de relação entre um público-alvo e outro com base nas contagens e sobreposições subjacentes do público-alvo. Isso ajuda a contextualizar os insights do público-alvo e identificar públicos-alvo de alto potencial para prospecção e direcionamento de campanha.
+
+A pontuação do índice é calculada usando a seguinte fórmula:
+
+![A fórmula para calcular a pontuação do índice.](/help/assets/collaborate/discover/index-score-formula.png)
+
+Imagine que um fabricante de automóveis quer realizar uma campanha publicitária com uma grande editora de receptores de televisão a cores para um novo modelo de veículo utilitário. O fabricante de automóveis tem dados sobre quem atualmente possui um modelo semelhante e quer usá-lo para encontrar prospetos adicionais para convertê-los em clientes. O fabricante do carro olha para os públicos da editora de CTV para encontrar um público relevante que corresponda estreitamente aos proprietários atuais de SUV.
+
+![O anunciante do carro versus os públicos-alvo do editor de CTV.](/help/assets/collaborate/discover/audience-index-score-example.png)
+
+Os cálculos de pontuação de índice são feitos e podem ser usados para determinar o sucesso provável da campanha:
+
+| Público-alvo do Editor de CTV | Fórmula | Pontuação do índice (i) | Interpretação |
+|------------------------|-------------|----------------|----------------|
+| Linha de base (todos os públicos-alvo) | ((1,3 M / 1,3 M) / (50 M / 50 M)) * 100 | 100 | Essa é a linha de base com base na qual os outros públicos-alvo do seu colaborador são comparados. |
+| Observadores compulsivos | ((500k / 1,3M) / (20M / 50M)) * 100 | 96 | Ao direcionar esse público-alvo, você tem 4% menos probabilidade de alcançar os proprietários de SUV em comparação com a linha de base. |
+| Amantes da Comédia | ((200k / 1,3M) / (6M / 50M)) * 100 | 128 | Ao direcionar esse público-alvo, você tem 28% mais probabilidade de alcançar os proprietários de SUV em comparação com a linha de base. |
+| Homens 25-34 | ((700k / 1,3M) / (12M / 50M)) * 100 | 224 | Ao direcionar esse público-alvo, você tem 124% mais probabilidade de alcançar os proprietários de SUV em comparação com a linha de base. |
+| Entusiastas de tecnologia | ((500k / 1,3M) / (8M / 50M)) * 100 | 240 | Ao direcionar esse público-alvo, você tem 140% mais probabilidade de alcançar os proprietários de SUV em comparação com a linha de base. |
+
+Para entender melhor como as pontuações do índice afetarão sua campanha, as faixas de relevância são fornecidas junto às pontuações.
+
+### Faixas de relevância {#audience-index-relevance-bands}
+
+Para permitir uma comparação fácil entre diferentes públicos e campanhas, o Collaboration traduz as pontuações do índice em faixas de relevância (muito baixas a muito altas). Isso permite avaliar rapidamente a força da relação entre o público-alvo e o público-alvo do colaborador.
+
+| Pontuação do índice (i) | Faixa de Relevância | Descrição |
+|---------|----------|-----------|
+| i &lt; 60 | Muito baixo | A sobreposição é muito menos prevalente no público-alvo em comparação ao seu público-alvo, indicando um relacionamento muito fraco. Os clientes que usam esse público-alvo têm muito menos probabilidade de alcançar seu público-alvo. |
+| 60 &lt; i &lt; 80 | Baixo | A sobreposição é um pouco menos prevalente no público-alvo em comparação ao seu público-alvo, sugerindo um relacionamento fraco. Os clientes que usam esse público-alvo têm menos probabilidade de alcançar o público-alvo. |
+| 80 &lt; i &lt; 120 | Médio | A sobreposição é tão prevalente no público-alvo quanto no seu público-alvo, indicando uma relação típica. Os clientes que usam esse público-alvo têm uma probabilidade média de alcançar seu público-alvo. |
+| 120 &lt; i &lt; 140 | Alto | A sobreposição é mais prevalente no público-alvo em comparação ao seu público-alvo, mostrando uma relação forte. Os clientes que usam esse público-alvo têm mais probabilidade de alcançar o público-alvo. |
+| i > 140 | Muito alto | A sobreposição é muito mais prevalente no público-alvo em comparação ao seu público-alvo, refletindo uma relação muito forte. Os clientes que usam esse público-alvo têm muito mais probabilidade de alcançar o público-alvo. |
+
+Na seção descobrir sobreposições, a pontuação do índice de público-alvo exibirá a faixa de relevância ao lado da pontuação. A pontuação será codificada por cores para indicar a faixa de relevância, facilitando a identificação da força do relacionamento num relance. As faixas de relevância muito baixa e baixa são exibidas em laranja, as faixas de relevância média em preto e as faixas de relevância alta e muito alta em verde.
 
 ## Próximas etapas
 
