@@ -2,9 +2,9 @@
 title: Descubra sobreposições e compare públicos
 description: Descubra sobreposições entre o seu e o público-alvo de seus colaboradores. Saiba como descobrir os melhores públicos-alvo para usar em suas campanhas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 76ad3357aa4cd02dbc0616e5d8bd03b03683b7fd
+source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 12%
@@ -188,6 +188,8 @@ Os cálculos de pontuação de índice são feitos e podem ser usados para deter
 | Homens 25-34 | ((700k / 1,3M) / (12M / 50M)) * 100 | 224 | Ao direcionar esse público-alvo, você tem 124% mais probabilidade de alcançar os proprietários de SUV em comparação com a linha de base. |
 | Entusiastas de tecnologia | ((500k / 1,3M) / (8M / 50M)) * 100 | 240 | Ao direcionar esse público-alvo, você tem 140% mais probabilidade de alcançar os proprietários de SUV em comparação com a linha de base. |
 
+{style="table-layout:auto"}
+
 Para entender melhor como as pontuações do índice afetarão sua campanha, as faixas de relevância são fornecidas junto às pontuações.
 
 ### Faixas de relevância {#audience-index-relevance-bands}
@@ -201,6 +203,8 @@ Para permitir uma comparação fácil entre diferentes públicos e campanhas, o 
 | 80 &lt; i &lt; 120 | Médio | A sobreposição é tão prevalente no público-alvo quanto no seu público-alvo, indicando uma relação típica. Os clientes que usam esse público-alvo têm uma probabilidade média de alcançar seu público-alvo. |
 | 120 &lt; i &lt; 140 | Alto | A sobreposição é mais prevalente no público-alvo em comparação ao seu público-alvo, mostrando uma relação forte. Os clientes que usam esse público-alvo têm mais probabilidade de alcançar o público-alvo. |
 | i > 140 | Muito alto | A sobreposição é muito mais prevalente no público-alvo em comparação ao seu público-alvo, refletindo uma relação muito forte. Os clientes que usam esse público-alvo têm muito mais probabilidade de alcançar o público-alvo. |
+
+{style="table-layout:auto"}
 
 Na seção descobrir sobreposições, a pontuação do índice de público-alvo exibirá a faixa de relevância ao lado da pontuação. A pontuação será codificada por cores para indicar a faixa de relevância, facilitando a identificação da força do relacionamento num relance. As faixas de relevância muito baixa e baixa são exibidas em laranja, as faixas de relevância média em preto e as faixas de relevância alta e muito alta em verde.
 
