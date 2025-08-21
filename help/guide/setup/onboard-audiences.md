@@ -2,12 +2,12 @@
 title: Source e gerenciar públicos
 description: Saiba como fornecer e gerenciar públicos-alvo no Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 2f2a128f1591ac864d2ebef09c58ecc93bed8d98
 workflow-type: tm+mt
 source-wordcount: '2985'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -90,7 +90,7 @@ Em seguida, verifique se as ações de marketing corretas estão definidas nos d
 
 Use ações de marketing para controlar quais dados de público-alvo trazer para o Collaboration a partir do Experience Platform. A ação de marketing **[!UICONTROL Colaboração de dados]** é compatível com os rótulos de uso de dados C4, C5 e C9. A ação de marketing **[!UICONTROL Ciência de dados]** é compatível com o rótulo de uso de dados C9.
 
-Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando a caixa de seleção estiver ***habilitada***, todos os dados rotulados no Experience Platform conforme descrito acima serão excluídos e **não** serão trazidos para o Collaboration.
 * Com a caixa de seleção ***desabilitada***, não há restrição nos dados obtidos do Experience Platform.
@@ -331,7 +331,7 @@ A disponibilidade do público-alvo para uso em projetos com colaboradores é dif
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilidade de metadados"
->abstract="<p>Indica quais metadados de público-alvo estão visíveis para outros colaboradores antes que se conectem com você ou em visualizações de projeto.</p> <p> **Contagem de identidades** controla se o colaborador pode exibir contagens de identidades para os públicos-alvo ao exibir relatórios de sobreposição na guia descoberta.</p><p> A **% de sobreposição de público-alvo** controla se os colaboradores podem descobrir as porcentagens de sobreposição entre os públicos-alvo deles e os seus.</p><p> **[!UICONTROL Índice de público-alvo]** controla se os colaboradores podem exibir o índice de público-alvo em um projeto. Essa funcionalidade só está disponível quando você tem três ou mais públicos-alvo ativos.</p> <br> Para que as configurações de visibilidade de metadados entrem em vigor, a audiência deve ser definida como pública ou personalizada."
+>abstract="<p>Indica quais metadados de público-alvo estão visíveis para outros colaboradores antes que se conectem com você ou em visualizações de projeto.</p> <p> A **Contagem de identidades** controla se o seu colaborador pode exibir contagens de identidades dos seus públicos-alvo ao visualizar relatórios de sobreposição na guia de descoberta.</p><p> A **% de sobreposição de público-alvo** controla se os colaboradores podem descobrir as porcentagens de sobreposição entre os públicos-alvo deles e os seus.</p><p> O **[!UICONTROL Índice de público-alvo]** controla se os colaboradores podem exibir o índice de público-alvo em um projeto. Essa funcionalidade só está disponível quando você tem três ou mais públicos-alvo ativos.</p> <br> Para que as configurações de visibilidade de metadados entrem em vigor, o público-alvo precisa ter sido definido como público ou personalizado."
 
 >[!NOTE]
 >

@@ -2,12 +2,12 @@
 title: Descubra sobreposições e compare públicos
 description: Descubra sobreposições entre o seu e o público-alvo de seus colaboradores. Saiba como descobrir os melhores públicos-alvo para usar em suas campanhas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
 workflow-type: tm+mt
 source-wordcount: '2068'
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 
@@ -166,7 +166,7 @@ Depois de selecionar os públicos desejados, a seção **[!UICONTROL Descobrir s
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_audience_index_score"
 >title="Pontuação do índice de público-alvo"
->abstract="As pontuações do índice de público-alvo são uma métrica aprimorada que mostra o nível de relação entre um público-alvo e outro com base nas contagens e sobreposições subjacentes do público-alvo. A pontuação do índice bruto é traduzida em faixas de relevância, que categorizam as pontuações do índice de público de muito baixo para muito alto. Isso permite avaliar rapidamente a força da relação entre o público-alvo e o público-alvo do colaborador."
+>abstract="As pontuações do índice de público-alvo são uma métrica aprimorada que mostra o nível de relação entre um público-alvo e outro com base nas contagens e sobreposições subjacentes do público-alvo. A pontuação do índice bruta é traduzida em faixas de relevância, que categorizam as pontuações do índice de público-alvo de muito baixas até muito altas. Isso permite avaliar rapidamente a força da relação entre o seu público-alvo e o público-alvo do colaborador."
 
 As pontuações do índice de público-alvo são uma métrica aprimorada que mostra o nível de relação entre um público-alvo e outro com base nas contagens e sobreposições subjacentes do público-alvo. Isso ajuda a contextualizar os insights do público-alvo e identificar públicos-alvo de alto potencial para prospecção e direcionamento de campanha.
 
@@ -194,7 +194,7 @@ Para entender melhor como as pontuações do índice afetarão sua campanha, as 
 
 ### Faixas de relevância {#audience-index-relevance-bands}
 
-Para permitir uma comparação fácil entre diferentes públicos e campanhas, o Collaboration traduz as pontuações do índice em faixas de relevância (muito baixas a muito altas). Isso permite avaliar rapidamente a força da relação entre o público-alvo e o público-alvo do colaborador.
+Para permitir uma comparação fácil entre diferentes públicos e campanhas, o Collaboration traduz as pontuações do índice em faixas de relevância (muito baixas a muito altas). Isso permite avaliar rapidamente a força da relação entre o seu público-alvo e o público-alvo do colaborador.
 
 | Pontuação do índice (i) | Faixa de Relevância | Descrição |
 |---------|----------|-----------|
