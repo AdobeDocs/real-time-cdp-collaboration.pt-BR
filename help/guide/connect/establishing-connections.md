@@ -2,11 +2,11 @@
 title: Estabelecimento de conexões
 description: Depois de descobrir possíveis colaboradores, saiba como estabelecer conexões e começar a colaborar em projetos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
+source-git-commit: ed8bd9a9e0843e2974e5a7093b2b39b03ca7f5b7
 workflow-type: tm+mt
-source-wordcount: '3213'
+source-wordcount: '3112'
 ht-degree: 7%
 
 ---
@@ -184,8 +184,6 @@ O espaço de trabalho de configurações de conexão é exibido, permitindo defi
 
 ![O espaço de trabalho de configurações de conexão.](/help/assets/connect/establish-connection/connection-set-up.png){zoomable="yes"}
 
-<!-- FIX THE ABOVE SCREENSHOT TO INCLUDE ADV NAMES, AS WELL AS THE ONES BELOW -->
-
 #### Configurações de conexão {#connection-settings}
 
 >[!CONTEXTUALHELP]
@@ -212,11 +210,6 @@ O espaço de trabalho de configurações de conexão é exibido, permitindo defi
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="Medição"
 >abstract="Execute atividades para gerar relatórios e insights de desempenho da campanha. Os créditos são consumidos com base no número de linhas nos relatórios de campanha em todas as campanhas e na frequência dos relatórios (diariamente, a cada três dias ou semanalmente)."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_connection_settings_legalagreement"
->title="Contrato legal"
->abstract="Verifique se existe um contrato de compartilhamento de dados entre as duas partes."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
@@ -259,7 +252,7 @@ Para personalizar seus casos de uso, selecione **[!UICONTROL Editar]** na seçã
 
 +++
 
-+++Teclas de correspondência
++++Chaves de correspondência
 
 As chaves de correspondência são preenchidas automaticamente com as que você selecionou ao [configurar sua conta](/help/guide/setup/onboard-account.md#set-up-match-keys). Você pode desativar as chaves de correspondência que não deseja usar, mas não pode adicionar chaves de correspondência que não foram selecionadas durante a configuração da conta.
 
@@ -283,14 +276,6 @@ Para configurar a divisão de crédito, selecione **[!UICONTROL Editar]** na se�
 
 +++
 
-+++Contratos
-
-Você deve reconhecer que um contrato legal está em vigor entre você e seu colaborador. Este contrato descreve os termos de compartilhamento e colaboração de dados. Você pode marcar a caixa de seleção **[!UICONTROL Confirmar e confirmar]** para confirmar se esse contrato existe.
-
-![A seção Contrato legal é destacada e confirmada no espaço de trabalho de conexão.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
-
-+++
-
 +++Nomes do anunciante
 
 >[!NOTE]
@@ -310,8 +295,8 @@ Quando terminar, selecione **[!UICONTROL Salvar]** para salvar suas alterações
 Ao criar um projeto, o nome do anunciante será pré-preenchido com base nas seguintes configurações estabelecidas durante a conexão    :
 
 1. **Nenhum nome de anunciante definido**: se nenhum nome de anunciante for adicionado, o padrão da Collaboration será usar o nome do anunciante como o nome do anunciante.
-1. **Um conjunto de nomes de anunciante**: se um único nome de anunciante for adicionado, o Collaboration usará automaticamente esse nome como o nome de anunciante do projeto.
-1. **Conjunto de vários nomes de anunciante**: se mais de um nome de anunciante for adicionado, você ou seu colaborador poderá selecionar qualquer um dos nomes fornecidos ao criar o projeto.
+2. **Um conjunto de nomes de anunciante**: se um único nome de anunciante for adicionado, o Collaboration usará automaticamente esse nome como o nome de anunciante do projeto.
+3. **Conjunto de vários nomes de anunciante**: se mais de um nome de anunciante for adicionado, você ou seu colaborador poderá selecionar qualquer um dos nomes fornecidos ao criar o projeto.
 
 >[!NOTE]
 >
@@ -331,9 +316,7 @@ Em seguida, o recipient precisa revisar as configurações de conexão propostas
 
 Revise as configurações propostas pelo colaborador. Você pode aceitar ou rejeitar as configurações de conexão. Se você rejeitar as configurações de conexão, precisará se comunicar com o colaborador sobre as alterações que você deseja fazer fora do produto. As informações de contato do colaborador são exibidas na seção **[!UICONTROL Contato]** do espaço de trabalho de configurações de conexão. O proprietário pode então revisar as configurações de conexão e reenviá-las para revisão.
 
-Se você estiver satisfeito com as configurações de conexão propostas, deverá reconhecer que um contrato legal está em vigor entre você e o colaborador. Marque a caixa de seleção **[!UICONTROL Confirmar e confirmar]** para confirmar se esse contrato existe.
-
-![A seção Contrato Legal foi realçada no espaço de trabalho de configurações de conexão.](/help/assets/connect/establish-connection/legal-agreement-review.png){zoomable="yes"}
+![O espaço de trabalho de configurações de conexão com a opção Aceitar e Rejeitar foi realçado.](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
 
 Além disso, se você for um publicador conectado a um anunciante, poderá adicionar nomes de anunciante nas configurações de conexão. Para saber mais sobre este processo, consulte a seção [configurações de conexão](#connection-settings).
 
