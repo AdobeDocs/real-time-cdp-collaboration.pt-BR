@@ -2,7 +2,7 @@
 title: Source e gerenciar públicos
 description: Saiba como fornecer e gerenciar públicos-alvo no Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 4f1582b489d99e9e8257c3808ec5863dbc74ef7a
 workflow-type: tm+mt
@@ -80,7 +80,7 @@ Em seguida, verifique se as ações de marketing corretas estão definidas nos d
 
 Use ações de marketing para controlar quais dados de público-alvo trazer para o Collaboration a partir do Experience Platform. A ação de marketing **[!UICONTROL Colaboração de dados]** é compatível com os rótulos de uso de dados C4, C5 e C9. A ação de marketing **[!UICONTROL Ciência de dados]** é compatível com o rótulo de uso de dados C9.
 
-Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando a caixa de seleção estiver ***habilitada***, todos os dados rotulados no Experience Platform conforme descrito acima serão excluídos e **não** serão trazidos para o Collaboration.
 * Com a caixa de seleção ***desabilitada***, não há restrição nos dados obtidos do Experience Platform.
