@@ -2,11 +2,11 @@
 title: Ativar públicos-alvo
 description: Saiba como ativar públicos no Adobe Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '1003'
 ht-degree: 2%
 
 ---
@@ -42,6 +42,10 @@ O fluxo de trabalho ativar públicos-alvo é aberto, onde você pode selecionar 
 Em **[!UICONTROL Procurar públicos-alvo]**, você pode ver a **[!UICONTROL Contagem de identidades]**, **[!UICONTROL Identidades sobrepostas]** e **[!UICONTROL Sobreposição %]** para cada público-alvo.
 
 ![A caixa de diálogo Procurar públicos-alvo mostrando os públicos-alvo disponíveis.](/help/assets/collaborate/activate/browse-audiences.png)
+
+>[!IMPORTANT]
+>
+>Ao ativar públicos-alvo onde várias chaves de correspondência são usadas, se uma (ou mais) chave de correspondência não tiver sobreposições, nenhuma contagem de público-alvo ou ficar abaixo do limite, toda a ativação falhará. Verifique se os públicos-alvo têm sobreposição suficiente e se atendem ao limite mínimo de 1000 IDs em todas as chaves de correspondência antes da ativação.
 
 Selecione o público que você deseja ativar nas campanhas e selecione **[!UICONTROL Salvar]**. O público agora é exibido e você pode ver a **[!UICONTROL Contagem de identidades]**, **[!UICONTROL Identidades sobrepostas]** e **[!UICONTROL Sobreposição %]** para o público selecionado.
 
