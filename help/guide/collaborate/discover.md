@@ -2,9 +2,9 @@
 title: Descubra sobreposições e compare públicos
 description: Descubra sobreposições entre o seu e o público-alvo de seus colaboradores. Saiba como descobrir os melhores públicos-alvo para usar em suas campanhas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
+source-git-commit: 75e76a43de75a7b1c84bdd79cb4a072855ba02df
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 17%
@@ -81,7 +81,7 @@ Na seção comparar públicos, você pode ver as seguintes métricas, que se bas
 | **[!UICONTROL Contagem de identidades]** (sua) | O número de IDs exclusivas dentro do(s) público(s) selecionado(s). |
 | **[!UICONTROL Contagem de identidades]** (seu colaborador) | O número de IDs exclusivas no(s) público(s) do colaborador. |
 | **[!UICONTROL Identidades sobrepostas]** | O número de IDs exclusivas presentes nos públicos do e do colaborador. |
-| **[!UICONTROL Sobreposição %]** | A porcentagem de sobreposição de perfis entre o público alvo selecionado do seu colaborador e o seu. |
+| **[!UICONTROL Sobreposição %]** | A porcentagem de sobreposição de perfis entre o público-alvo alvo selecionado do seu colaborador e o seu. |
 | **[!UICONTROL Índice de público-alvo]** | Uma pontuação que indica com que intensidade um público-alvo está relacionado a outro com base nas contagens e sobreposições subjacentes do público-alvo. Para saber mais sobre o significado das pontuações, leia a seção [pontuação do índice de público-alvo](#audience-index-score). As pontuações do índice de público-alvo não estão disponíveis ao comparar com a linha de base do colaborador (todos os públicos-alvo). |
 | **[!UICONTROL Detalhamento de identidades por chave de correspondência]** | O detalhamento de identidades para cada chave de correspondência escolhida no projeto, com base nos públicos selecionados para cada colaborador. |
 
@@ -197,7 +197,7 @@ Para entender melhor como as pontuações do índice afetarão sua campanha, as 
 Para permitir uma comparação fácil entre diferentes públicos e campanhas, o Collaboration traduz as pontuações do índice em faixas de relevância (muito baixas a muito altas). Isso permite avaliar rapidamente a força da relação entre o seu público-alvo e o público-alvo do colaborador.
 
 | Pontuação do índice (i) | Faixa de Relevância | Descrição |
-|---------|----------|-----------|
+|---------------|----------|-----------|
 | i &lt; 60 | Muito baixo | A sobreposição é muito menos prevalente no público-alvo em comparação ao seu público-alvo, indicando um relacionamento muito fraco. Os clientes que usam esse público-alvo têm muito menos probabilidade de alcançar seu público-alvo. |
 | 60 &lt; i &lt; 80 | Baixo | A sobreposição é um pouco menos prevalente no público-alvo em comparação ao seu público-alvo, sugerindo um relacionamento fraco. Os clientes que usam esse público-alvo têm menos probabilidade de alcançar o público-alvo. |
 | 80 &lt; i &lt; 120 | Médio | A sobreposição é tão prevalente no público-alvo quanto no seu público-alvo, indicando uma relação típica. Os clientes que usam esse público-alvo têm uma probabilidade média de alcançar seu público-alvo. |

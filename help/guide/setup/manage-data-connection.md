@@ -2,12 +2,12 @@
 title: Gerenciar conexões de dados
 description: Saiba como gerenciar conexões de dados, incluindo chaves de correspondência, agendamento, casos de uso e filtragem de público-alvo no Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 12%
+source-wordcount: '602'
+ht-degree: 7%
 
 ---
 
@@ -30,17 +30,9 @@ Para exibir as conexões de dados existentes, navegue até **[!UICONTROL Instala
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="Chaves de correspondência"
->abstract="As chaves de correspondência determinam como os dados de diferentes fontes serão correspondidos. Escolha as chaves de correspondência mais relevantes para seus casos de uso e diretrizes de privacidade."
+>abstract="As chaves de correspondência determinam como os dados de diferentes fontes serão correspondidos. As chaves de correspondência mostradas abaixo são os campos de destino para os quais você mapeou seus campos de origem."
 
-As chaves de correspondência são identificadores usados para reconciliar membros entre públicos-alvo de diferentes fontes de dados. Não é possível editar as chaves de correspondência selecionadas inicialmente para a conexão de dados.
-
->[!IMPORTANT]
-> 
->As chaves de correspondência não podem ser editadas após a criação da conexão de dados. Para atualizar chaves de correspondência, você deve criar uma nova conexão de dados.
-
-As chaves de correspondência disponíveis incluem:
-
-- **Email com hash**
+As chaves de correspondência são os campos de destino para os quais você [mapeou seus campos de origem](./onboard-audiences.md#map-fields). Não é possível editar as chaves de correspondência selecionadas inicialmente para a conexão de dados. Para atualizar chaves de correspondência, você deve criar uma nova conexão de dados. Para saber mais sobre como as chaves de correspondência funcionam, consulte o guia [chaves de correspondência](./onboard-account.md#set-up-match-keys).
 
 ![Um espaço de trabalho de conexões de dados com a seção Corresponder chaves realçada.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -57,7 +49,7 @@ Após criar uma conexão de dados, você poderá atualizar sua frequência de at
 
 >[!NOTE]
 >
->Ao fornecer públicos-alvo da Adobe Experience Platform, os públicos-alvo se tornam disponíveis em 24 horas após a conexão de dados ser estabelecida. Após a importação inicial, os dados do público-alvo são atualizados de acordo com a frequência definida.
+>Ao fornecer públicos-alvo da Adobe Experience Platform, os públicos-alvo se tornam disponíveis em 24 horas após a conexão de dados ser estabelecida. Após a origem inicial, os dados do público-alvo são atualizados de acordo com a frequência definida.
 
 Para obter mais informações sobre agendamento, consulte a [seção de agendamento](/help/guide/setup/onboard-audiences.md#schedule) no guia para configurar públicos.
 
@@ -66,6 +58,8 @@ Para obter mais informações sobre agendamento, consulte a [seção de agendame
 #### Editar agendamento {#edit-scheduling}
 
 É possível editar a frequência de uma conexão de dados existente para controlar melhor a frequência com que os públicos-alvo são atualizados. Para editar o agendamento, selecione **[!UICONTROL Editar]** na conexão de dados do cartão de agendamento.
+
+O agendamento afetará todos os públicos-alvo provenientes da conexão de dados.
 
 Na caixa de diálogo **[!UICONTROL Agendamento]**, selecione o menu suspenso para atualizar a **[!UICONTROL Frequência]**. Defina a frequência de atualização para ser executada diariamente ou a cada dois ou seis dias. Quando terminar, selecione **[!UICONTROL Salvar]** para aplicar as alterações.
 

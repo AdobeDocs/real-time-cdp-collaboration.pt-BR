@@ -2,12 +2,12 @@
 title: Estabelecimento de conexões
 description: Depois de descobrir possíveis colaboradores, saiba como estabelecer conexões e começar a colaborar em projetos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: ed8bd9a9e0843e2974e5a7093b2b39b03ca7f5b7
+source-git-commit: fcf755d5108f1f957808ead6b7022e3b9f6398b1
 workflow-type: tm+mt
-source-wordcount: '3112'
-ht-degree: 7%
+source-wordcount: '3230'
+ht-degree: 6%
 
 ---
 
@@ -194,7 +194,8 @@ O espaço de trabalho de configurações de conexão é exibido, permitindo defi
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Chaves de correspondência"
->abstract="As chaves de correspondência são preenchidas previamente com aquelas que você selecionou no nível organizacional. É possível desativar qualquer chave de correspondência que não quiser usar nesta conexão."
+>abstract="As chaves de correspondência são pré-preenchidas com chaves de correspondência comuns que você e seu colaborador selecionam no nível da conta. É possível desativar qualquer chave de correspondência que não quiser usar nesta conexão."
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Chaves de correspondência da conta"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -224,7 +225,7 @@ O espaço de trabalho de configurações de conexão é exibido, permitindo defi
 
 Você pode definir as seguintes configurações de conexão:
 
-+++Ativação de público-alvo
+##### Ativação de público-alvo {#audience-activation}
 
 >[!IMPORTANT]
 >
@@ -240,9 +241,7 @@ Quando terminar, selecione **[!UICONTROL Salvar]** para salvar suas alterações
 
 ![A caixa de diálogo de ativação de público-alvo com a opção Salvar no espaço de trabalho de configurações de conexão.](/help/assets/connect/establish-connection/audience-activation-confirm.png){zoomable="yes"}
 
-+++
-
-+++Casos de uso
+##### Casos de uso {#use-cases}
 
 Os casos de uso são preenchidos automaticamente com todas as opções disponíveis. Os casos de uso selecionados determinam quais exibições e opções estão disponíveis em seus projetos. Para saber mais, leia o guia [casos de uso do projeto](/help/guide/collaborate/manage-projects.md#project-use-cases).
 
@@ -250,19 +249,23 @@ Para personalizar seus casos de uso, selecione **[!UICONTROL Editar]** na seçã
 
 ![As configurações de casos de uso no espaço de trabalho de configurações de conexão.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
-+++
+##### Chaves de correspondência {#match-keys}
 
-+++Chaves de correspondência
+As chaves de correspondência são preenchidas automaticamente com as chaves de correspondência comuns que você e seu colaborador selecionaram ao [configurar suas contas](/help/guide/setup/onboard-account.md#set-up-match-keys). Somente as chaves correspondentes que você e seu colaborador selecionaram **e** têm em comum serão exibidas.
 
-As chaves de correspondência são preenchidas automaticamente com as que você selecionou ao [configurar sua conta](/help/guide/setup/onboard-account.md#set-up-match-keys). Você pode desativar as chaves de correspondência que não deseja usar, mas não pode adicionar chaves de correspondência que não foram selecionadas durante a configuração da conta.
+![O espaço de trabalho de configurações de conexão com a seção Chaves de correspondência realçada mostrando as chaves de correspondência comuns.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
+
+Quando o proprietário da conexão está definindo as configurações de conexão, ele pode [editar suas chaves de correspondência de conta](../setup/onboard-account.md#edit-match-keys) para incluir chaves de correspondência adicionais. Depois de ativar mais chaves de correspondência nas configurações da conta, essas chaves de correspondência estarão disponíveis para ativar as configurações de conexão se o colaborador também as tiver selecionado. As chaves de correspondência adicionadas após o início do processo de conexão não serão preenchidas automaticamente e deverão ser ativadas manualmente.
 
 Para personalizar suas chaves de correspondência, selecione **[!UICONTROL Editar]** na seção **[!UICONTROL Chaves de correspondência]** e desative todas as chaves de correspondência que não desejar usar nesta conexão. Quando terminar, selecione **[!UICONTROL Salvar]** para salvar suas alterações.
 
-![As configurações da chave Corresponder no espaço de trabalho de configurações de conexão.](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
+![O espaço de trabalho de configurações de conexão com a caixa de diálogo da seção Corresponder chaves é aberto mostrando uma chave de correspondência desligada.](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
 
-+++
+>[!IMPORTANT]
+>
+>Depois que seu colaborador aceitar as configurações de conexão, as chaves de correspondência serão bloqueadas e não poderão ser alteradas.
 
-+++Divisão de crédito
+##### Divisão de crédito {#credit-split}
 
 Use a seção divisão de crédito para determinar qual das duas partes colaboradoras cobrirá os custos das atividades. As opções de divisão de crédito são determinadas pelos casos de uso selecionados para a conexão. Embora o caso de uso **[!UICONTROL Medição]** exija que uma parte cubra os custos, o caso de uso **[!UICONTROL Ativação - Correspondência]** oferece uma opção adicional para que cada parte cubra seus próprios custos. Para obter informações sobre o detalhamento de custos, leia o guia [tipos de atividade de crédito](/help/guide/setup/my-activity.md#types-of-activities).
 
@@ -274,9 +277,7 @@ Para configurar a divisão de crédito, selecione **[!UICONTROL Editar]** na se�
 
 ![A caixa de diálogo Divisão de crédito com opções no espaço de trabalho de configurações de conexão.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 
-+++
-
-+++Nomes do anunciante
+##### Nomes do anunciante {#advertiser-names}
 
 >[!NOTE]
 >
@@ -303,8 +304,6 @@ Ao criar um projeto, o nome do anunciante será pré-preenchido com base nas seg
 > Depois de enviar as configurações de conexão, você não poderá mais adicionar ou editar nomes de anunciante.
 
 ![O espaço de trabalho de configurações de conexão com a seção de nomes de anunciante foi preenchida.](/help/assets/connect/establish-connection/add-advertiser-names.png)
-
-+++
 
 Depois de fazer suas seleções, selecione **[!UICONTROL Enviar]** para enviar as configurações sugeridas ao destinatário para revisão.
 

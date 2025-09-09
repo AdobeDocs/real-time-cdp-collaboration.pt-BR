@@ -2,11 +2,11 @@
 title: Guia de início rápido do Real-Time CDP Collaboration
 description: Saiba como integrar sua organização ao Real-Time CDP Collaboration, incluindo a configuração de funções e organizações, fornecimento de público-alvo, ativação e medição. Este guia ajuda os colaboradores a definir configurações de conexão para começar a usar seus públicos de forma segura e eficiente.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: ac8db9f5a3879d548d8dc3818ad20fc602b31e7c
+source-git-commit: 849bae30b4e617a6c49f68b2baedc0ab8a822854
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1394'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Antes de começar, verifique se você tem o seguinte:
 - [Acesso provisionado para usuários finais](./permissions/manage-user-access.md).
 - [Funções criadas para sua organização e atribuídas a usuários](./permissions/manage-roles.md).
 - Acesso aos ativos de marca, como nome, logotipo e banner da sua organização.
-- Uma [estratégia de chave de correspondência definida](./setup/onboard-account.md#set-up-match-keys) (no momento, o email com hash é a única chave de correspondência com suporte).
+- Uma [estratégia de chave de correspondência definida](./setup/onboard-account.md#set-up-match-keys)
 - (Opcional) Acesse uma fonte de nuvem compatível (Amazon S3 ou Snowflake) se você não estiver usando o Experience Platform para gerenciamento de público-alvo.
 
 ## Etapa 1: concluir configuração baseada em função {#complete-role-based-setup}
@@ -41,7 +41,7 @@ As funções de acesso da sua organização determinam o que os usuários podem 
 
 Assista a este vídeo para saber como atribuir acesso e permissões de produto ao Collaboration usando o Admin Console e o Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452235/?learn=on&enablevpops&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Etapa 2: configurar a conta do Collaboration {#set-up-your-account}
 
@@ -66,7 +66,7 @@ Defina a função da sua conta no Collaboration, forneça ativos de marca e conf
 >Se você estiver criando uma conta de editor e quiser que o seja exibido publicamente no catálogo de conexões da Collaboration, entre em contato com o representante de conta da Adobe. As contas do editor exigem um banner de marca personalizado (JPG 2688x1536); esse arquivo pode ser compartilhado diretamente com o representante.
 
 - **Email de contato** - Forneça um email comercial para que os colaboradores usem depois que uma conexão for estabelecida.
-- **Configurar chaves de correspondência** - Selecione os identificadores usados para correspondência de público-alvo (atualmente, o email com hash é a única chave de correspondência com suporte).
+- **Configurar chaves de correspondência** - Selecione os identificadores usados para correspondência de público-alvo.
 
 Para saber mais sobre a configuração inicial da conta, incluindo como definir funções, carregar ativos de marca e configurar chaves de correspondência, consulte o guia [configuração inicial da conta](./setup/onboard-account.md#initial-account-setup){target="_blank"}.
 
@@ -107,7 +107,8 @@ Configure como os públicos-alvo são preparados, combinados e controlados para 
 >
 >**Corresponder requisitos de chave:**
 >
->Todas as chaves de correspondência devem ser **cortadas**, **em minúsculas** e **SHA256-com hash**.\
+>Todas as chaves de correspondência devem ser **cortadas**, **em minúsculas**
+>>As chaves de correspondência com hash devem ser **SHA256-hash**.\
 >Se você fornecer valores com hash que usam caracteres em maiúsculas, o Collaboration os converterá automaticamente em minúsculas.\
 >Se sua origem contiver **identificadores de texto sem formatação**, use a opção **[!UICONTROL Aplicar transformação]** para aplicar o hash. Essa opção só está disponível ao fornecer públicos-alvo do Experience Platform e não tem suporte para fontes baseadas em nuvem.
 >

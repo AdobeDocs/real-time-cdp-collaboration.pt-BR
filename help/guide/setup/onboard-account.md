@@ -2,12 +2,12 @@
 title: Configurar e gerenciar sua conta
 description: Saiba como configurar e gerenciar vários aspectos da sua conta no Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: f6ba5bb484f296fe5610901bd7b2e542fb9287b0
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 18%
+source-wordcount: '1361'
+ht-degree: 7%
 
 ---
 
@@ -44,7 +44,6 @@ Para começar a configurar sua conta, primeiro você deve definir os detalhes da
 * Adicione um **[!UICONTROL Nome da conta]** que represente claramente sua marca.
 * Adicione uma **[!UICONTROL Descrição]** sobre sua marca. Isso é opcional, mas ajuda outros colaboradores a entender melhor sua marca.
 * Selecione sua **[!UICONTROL Função]**. Você pode selecionar entre **[!UICONTROL Anunciante]** e **[!UICONTROL Publicador]**. Leia o guia [funções](/help/guide/overview/roles.md) para ver semelhanças e pequenas diferenças no fluxo de trabalho entre os dois tipos de função de conta.
-<!-- The above will need to be updated when I update things for B2B -->
 * Selecione o **[!UICONTROL Setor]** da sua conta. Alguns exemplos incluem **[!UICONTROL Varejo]**, **[!UICONTROL Telecomunicações]** ou **[!UICONTROL Serviços financeiros]**.
 * A **[!UICONTROL Região]** é automaticamente definida com base em sua conta da Adobe Experience Cloud. Isso não pode ser alterado a qualquer momento.
 * Adicione um **[!UICONTROL Email de contato]** para sua conta. Esse deve ser um endereço de email de equipe ou baseado em funções. Endereços de email pessoais não devem ser fornecidos.
@@ -62,64 +61,111 @@ Para começar a configurar sua conta, primeiro você deve definir os detalhes da
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="Chaves de correspondência"
->abstract="As chaves de correspondência são identificadores usados para reconciliar membros entre públicos-alvo de diferentes fontes de dados. Inclua todas as chaves de correspondência com as quais sua marca pode trabalhar."
+>abstract="As chaves de correspondência são identificadores usados para reconciliar perfis de público-alvo de diferentes fontes de dados. Inclua todas as chaves de correspondência com as quais sua marca pode trabalhar."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
 >title="IDs próprias para pessoas"
->abstract="As IDs próprias para pessoas, como endereços de email ou números de telefone com hash, são conectadas diretamente a um perfil individual. As IDs compatíveis no momento são emails e números de telefone com hash."
+>abstract="IDs de pessoas primárias, como endereços de email com hash, números de telefone com hash ou IDs de CRM, são conectadas diretamente a um perfil individual."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="IDs próprias para dispositivos"
->abstract="As IDs próprias para dispositivos, como ECID ou endereços IP, estão diretamente conectadas a dispositivos, que podem ser compartilhados entre várias pessoas. O IPv4 é a única ID própria para dispositivo compatível no momento."
+>abstract="As IDs de dispositivo próprio, como ECID ou endereços IP, estão diretamente conectadas a dispositivos, que podem ser compartilhadas entre vários indivíduos. O IPv4 é a única ID própria para dispositivo compatível no momento."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="IDs de parceiros compatíveis"
->abstract="As IDs de parceiros associadas a perfis expandem o alcance para um determinado perfil."
+>abstract="IDs de parceiros são identificadores fornecidos por parceiros externos para reconciliação de público-alvo. As IDs de parceiros não estão conectadas diretamente a um perfil individual."
+
+![Chaves de correspondência com suporte.](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->As chaves de correspondência selecionadas durante a configuração da conta determinarão as chaves de correspondência disponíveis para as conexões criadas com outros colaboradores. Embora você possa remover chaves de correspondência durante a configuração da conexão, não é possível adicionar novas chaves de correspondência. É importante selecionar **todas** as chaves de correspondência que você planeja usar em campanhas futuras durante a configuração da conta.
+>As chaves de correspondência selecionadas durante a configuração da conta determinarão as chaves de correspondência disponíveis em suas conexões. Embora você possa [remover chaves de correspondência indesejadas](../connect/establishing-connections.md#connection-settings) durante a configuração da conexão, chaves de correspondência não podem ser adicionadas após uma conexão ser estabelecida. É importante que você selecione **todas** as chaves de correspondência que planeja usar em campanhas futuras durante a configuração da conta.
 
-As chaves de correspondência, como endereços de email, IDs de dispositivo ou IDs de cliente, ajudam os colaboradores a trabalharem juntos, permitindo uma sincronização de dados precisa e centrada na privacidade, permitindo um direcionamento e uma medição de público mais precisos.
+As chaves de correspondência ajudam os colaboradores a trabalhar em conjunto, permitindo uma sincronização de dados precisa e centrada em privacidade, permitindo um direcionamento e uma medição de público mais precisos. As chaves de correspondência selecionadas durante a configuração da conta determinarão quais chaves de correspondência estarão disponíveis em conexões futuras. Eles também são usados para [mapear campos](./onboard-audiences.md#map-fields) da sua conexão de dados para os campos de destino no Collaboration ao fornecer públicos-alvo.
 
-![Slide mostrando os identificadores disponíveis para a primeira versão do Collaboration.](/help/assets/setup/manage-account/available-identifiers.png)
+Selecione as teclas de correspondência que deseja usar ao reconciliar perfis de público-alvo. Planeje para o futuro e inclua todas as chaves de correspondência que você possa trabalhar e usar em campanhas futuras. Se você precisar selecionar chaves de correspondência adicionais para sua conta posteriormente, poderá fazê-lo no fluxo de trabalho [editar conta](#edit-account). No entanto, as teclas de correspondência adicionadas após a configuração inicial não estarão disponíveis para uso em conexões existentes.
 
-<!-- Eventually replace this image above to match branding better. -->
+#### Chaves de correspondência compatíveis {#supported-match-keys}
 
-Selecione as teclas de correspondência que deseja usar ao reconciliar perfis de público-alvo. Inclua todas as chaves de correspondência com as quais você pode trabalhar. Planeje para o futuro e selecione as chaves de correspondência que você prevê que usará em campanhas futuras. Se você precisar selecionar chaves de correspondência adicionais para sua conta posteriormente, poderá fazê-lo no fluxo de trabalho [editar conta](#edit-account).
+O Collaboration oferece suporte a três tipos de chaves de correspondência: IDs de pessoas primárias, IDs de dispositivos primários e IDs de parceiros. Todas as chaves de correspondência devem atender aos seguintes requisitos:
 
-Selecione até cinco chaves de correspondência que você planeja usar. Mais tarde, ao configurar conexões, você pode remover chaves de correspondência indesejadas, mas não pode adicionar novas.
+* As chaves correspondentes devem ser **cortadas**, **em minúsculas**
+* As chaves de correspondência com hash devem ser **SHA256-hash**.
+* Se você fornecer valores com hash que usam caracteres em maiúsculas, o Collaboration os converterá automaticamente em minúsculas.
+* Se sua origem contiver **identificadores de texto sem formatação**, use a opção **[!UICONTROL Aplicar transformação]** durante a [configuração da conexão de dados](./manage-data-connection.md#match-keys) para aplicar o hash. Essa opção só está disponível ao fornecer públicos-alvo do Experience Platform e não tem suporte para fontes baseadas em nuvem.
 
-Há três tipos de chaves de correspondência disponíveis:
+##### IDs próprias para pessoas
 
-* IDs próprias para pessoas
-* IDs próprias para dispositivos
-* IDs de parceiros
+As IDs de pessoas primárias estão conectadas diretamente a um perfil individual. As IDs compatíveis no momento são:
 
->[!IMPORTANT]
+* **[!UICONTROL Email com hash]**
+* **[!UICONTROL Telefone com hash]**
+* **[!UICONTROL IDs do CRM]**
+* **[!UICONTROL IDs de fidelidade]**
+<!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
+
+##### IDs próprias para dispositivos
+
+As IDs de dispositivo próprio são identificadores conectados a um dispositivo específico. As IDs compatíveis no momento são:
+
+* **[!UICONTROL IPv4]** com hash: endereços IPv4 com hash
+
+##### IDs de parceiros
+
+IDs de parceiros são identificadores fornecidos por parceiros externos para reconciliação de público-alvo. As IDs compatíveis no momento são:
+
+* **[!UICONTROL ID do Adfixus]**
+
+>[!NOTE]
 >
->Atualmente, a única chave compatível é o email com hash.
+>A integração do Adobe com [!DNL Adfixus] mapeia as [!UICONTROL IDs do Adfixus] exclusivas de cada conta para um formato comum codificado em Adobe. Esses mapeamentos são usados para identificar sobreposições entre colaboradores. Ao ativar públicos-alvo usando a **[!UICONTROL ID do Adfixus]**, as IDs originais serão usadas. O formato codificado em Adobe nunca sai do Collaboration.
 
-Quando estiver pronto, selecione **[!UICONTROL Concluir]** para concluir o fluxo de trabalho de configuração da organização.
+Ao selecionar **[!UICONTROL Adfixus ID]**, você precisará fornecer a ID correspondente do seu parceiro externo na seção **[!UICONTROL Credenciais da conta]**. Esta opção só estará disponível *após* alternando em **[!UICONTROL Adfixus ID]**. Insira a ID do Adfixus no campo **[!UICONTROL ID da Conta]**, certificando-se de verificar novamente a precisão do valor.
 
-![O espaço de trabalho Configurar organização com a seção Chaves de correspondência exibida.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
+![A caixa de diálogo Corresponder chaves com Adfixus ID foi ativada e a seção Credenciais da conta foi realçada.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
+
+Depois de selecionar todas as chaves de correspondência desejadas, selecione **[!UICONTROL Concluir]** para concluir o fluxo de trabalho de configuração da conta.
+
+![O espaço de trabalho Configurar conta com a seção Chaves de correspondência é exibido.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
 ## Editar conta {#edit-account}
 
-Depois de configurar sua conta, você edita determinados aspectos e detalhes dela a qualquer momento. Para editar sua conta, selecione **[!UICONTROL Editar]** na seção **[!UICONTROL Minha conta]** do espaço de trabalho **[!UICONTROL Instalação]**.
+Após configurar sua conta, você pode editar os detalhes e as chaves de correspondência a qualquer momento.
+
+### Editar detalhes {#edit-details}
+
+Você pode editar a maioria dos detalhes da sua conta a qualquer momento, com exceção da **[!UICONTROL Função]**. A região é automaticamente definida com base em sua conta da Adobe Experience Cloud e não pode ser alterada.
+
+Para editar sua conta, selecione **[!UICONTROL Editar]** na seção **[!UICONTROL Minha conta]** do espaço de trabalho **[!UICONTROL Instalação]**.
 
 ![O espaço de trabalho Instalação com a guia Minha conta e a opção Editar foi realçado.](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 
-Agora você pode editar os detalhes da sua conta, com exceção da **[!UICONTROL Função]**. Observe que a região é definida automaticamente com base em sua conta da Adobe Experience Cloud e não pode ser alterada a qualquer momento.
+Agora você pode editar os detalhes da sua conta. Atualize todos os campos que deseja alterar e selecione **[!UICONTROL Salvar]** para confirmar as alterações.
 
 ![A caixa de diálogo Editar detalhes da conta.](/help/assets/setup/manage-account/editable-options.png){zoomable="yes"}
 
-Você também pode atualizar as chaves de correspondência selecionadas inicialmente ao integrar sua organização. Selecione **[!UICONTROL Editar]** na seção **[!UICONTROL Chaves de correspondência]** para adicionar as chaves de correspondência desejadas.
+### Editar chaves de correspondência {#edit-match-keys}
+
+>[!IMPORTANT]
+>
+>A edição de chaves de correspondência não afetará suas conexões existentes. Depois que uma conexão é estabelecida, as chaves de correspondência selecionadas durante a configuração da conexão são corrigidas. É importante que você selecione **todas** as chaves de correspondência que planeja usar em campanhas futuras durante a configuração da conta.
+
+Você também pode atualizar as chaves de correspondência selecionadas inicialmente ao criar sua conta. Essas chaves de correspondência determinarão as chaves de correspondência disponíveis para conexões futuras.
+
+Selecione **[!UICONTROL Editar]** na seção **[!UICONTROL Chaves de correspondência]**.
 
 ![O espaço de trabalho de Instalação com a opção Editar realçada na seção Chaves de correspondência da conta.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
+
+A caixa de diálogo **[!UICONTROL Chaves de correspondência]** é exibida. Ative e desative qualquer chave de correspondência ou atualize sua **[!UICONTROL ID de Conta]** para sua [!UICONTROL ID de Adfixo] e selecione **[!UICONTROL Salvar]** para confirmar as alterações.
+
+>[!IMPORTANT]
+>
+>Alterar sua [!UICONTROL ID do Adfixus] não acionará uma atualização de [rascunho de dados](../glossary.md#sketches) para suas conexões de dados existentes usando a chave de correspondência. Depois que os dados forem esboçados, as alterações na [!UICONTROL ID de Adfixo] não serão refletidas até a próxima atualização de público-alvo seguindo as configurações da [agenda de conexão de dados](./manage-data-connection.md#scheduling). Se você precisar de alterações antes da próxima atualização, poderá excluir e recriar sua conexão de dados.
+
+![A caixa de diálogo Corresponder chaves com a opção Salvar foi realçada.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
 
 ## Próximas etapas
 
