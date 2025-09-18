@@ -2,24 +2,52 @@
 title: Estabelecimento de conexões
 description: Depois de descobrir possíveis colaboradores, saiba como estabelecer conexões e começar a colaborar em projetos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
+source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
 workflow-type: tm+mt
-source-wordcount: '3280'
+source-wordcount: '3400'
 ht-degree: 6%
 
 ---
 
-# Estabelecimento de conexões
+# Estabelecimento de conexões {#establishing-connections}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_compare_audiences"
+>title="Comparar públicos-alvo"
+>abstract="Compare seu público-alvo com todos os consumidores acessados por seus anúncios do Amazon."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_relevant_audiences"
+>title="Públicos-alvo relevantes"
+>abstract="Segmentos de direcionamento do Amazon que seu público-alvo tem as sobreposições mais altas, considerando apenas as impressões do DSP (esses segmentos só podem ser direcionados no DSP)."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_resolved_ids"
+>title="IDs resolvidos"
+>abstract="O número de IDs que a Resolução de identidade da Amazon conseguiu resolver usando os dados de público-alvo."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
+>title="Sobreposição de IDs de anúncios expostos"
+>abstract="Representa o número de &quot;IDs resolvidas&quot; do público-alvo carregado que também foram expostas a um anúncio por meio do Amazon Ads."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_overlap_percentage"
+>title="% de sobreposição"
+>abstract="A proporção de &quot;IDs resolvidas&quot; que foram expostas a um anúncio por meio do Amazon Ads."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_amazon_breakdown"
+>title="Detalhamento por produto de anúncio do Amazon"
+>abstract="Detalhamento de &quot;IDs de anúncios sobrepostos expostos&quot; alcançados pelo produto patrocinado da Amazon Ads e/ou pela Amazon Ads DSP."
 
 {{limited-availability-release-note}}
 
 Antes que os colaboradores possam trabalhar juntos em campanhas, eles devem estabelecer uma conexão. Essa conexão permite que eles ativem públicos, criem projetos e executem relatórios sobre o desempenho da campanha.
 
 As conexões são estabelecidas com base no padrão de colaboração escolhido. A Collaboration oferece suporte a dois principais padrões de colaboração: anunciante-editor e marca-a-marca. Para ler mais sobre esses padrões, consulte o guia [casos de uso](/help/guide/overview/use-cases.md).
-
-<!-- REPLACE THE LINK ABOVE WITH THE CORRECT LINK AFTER PAGE IS ESTABLISHED -->
 
 Para saber como estabelecer uma conexão, leia a seção abaixo que corresponde ao seu padrão de colaboração:
 
@@ -195,7 +223,7 @@ O espaço de trabalho de configurações de conexão é exibido, permitindo defi
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Chaves de correspondência"
 >abstract="As chaves de correspondência são pré-preenchidas com chaves de correspondência comuns que você e seu colaborador selecionam no nível da conta. É possível desativar qualquer chave de correspondência que não quiser usar nesta conexão."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Chaves de correspondência da conta"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Chaves de correspondência da conta"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
