@@ -2,12 +2,12 @@
 title: Source e gerenciar públicos
 description: Saiba como fornecer e gerenciar públicos-alvo no Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 425bcb6b8069dfca17838d05b6a91250293c8308
 workflow-type: tm+mt
 source-wordcount: '3508'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -34,7 +34,7 @@ Na guia **[!UICONTROL Meus públicos-alvo]** do espaço de trabalho **[!UICONTRO
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Ações de marketing"
->abstract="<p>Use ações de marketing para controlar quais dados de público-alvo importar para colaboração na Real-Time CDP a partir da Experience Platform. A ação de marketing <strong>Colaboração de dados</strong> é compatível com os rótulos de uso de dados C4, C5 e C9. A ação de marketing <strong>Ciência de dados</strong> é compatível com o rótulo de uso de dados C9.</p> <p> <ul><li> Com a caixa de seleção <em>habilitada</em>, todos os dados marcados com os rótulos mencionados acima na Experience Platform serão excluídos e <strong>não</strong> serão enviados para a Real-Time CDP Collaboration.</li><li> Com a caixa de seleção <em>desabilitada</em>, não há restrição para dados do Experience Platform que possam ser originados no Real-Time CDP Collaboration.</li></ul></p>"
+>abstract="<p>Use ações de marketing para controlar quais dados de público-alvo importar para colaboração na Real-Time CDP a partir da Experience Platform. A ação de marketing <strong>Colaboração de dados</strong> é compatível com os rótulos de uso de dados C4, C5 e C9. A ação de marketing <strong>Ciência de dados</strong> é compatível com o rótulo de uso de dados C9.</p> <p> <ul><li> Com a caixa de seleção <em>habilitada</em>, todos os dados marcados com os rótulos mencionados acima na Experience Platform serão excluídos e <strong>não</strong> serão enviados para a Real-Time CDP Collaboration.</li><li> Com a caixa de seleção <em>desabilitada</em>, não há restrição nos dados da Experience Platform que possam ser importados para a Real-Time CDP Collaboration.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=pt-BR" text="Visão geral dos rótulos de uso de dados"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=pt-BR" text="Glossário de rótulos de uso de dados"
 
@@ -80,7 +80,7 @@ Em seguida, verifique se as ações de marketing corretas estão definidas nos d
 
 Use ações de marketing para controlar quais dados de público-alvo trazer para o Collaboration a partir do Experience Platform. A ação de marketing **[!UICONTROL Colaboração de dados]** é compatível com os rótulos de uso de dados C4, C5 e C9. A ação de marketing **[!UICONTROL Ciência de dados]** é compatível com o rótulo de uso de dados C9.
 
-Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando a caixa de seleção estiver ***habilitada***, todos os dados rotulados no Experience Platform conforme descrito acima serão excluídos e **não** serão trazidos para o Collaboration.
 * Com a caixa de seleção ***desabilitada***, não há restrição nos dados obtidos do Experience Platform.
@@ -130,7 +130,7 @@ Em seguida, forneça um nome e uma descrição para sua conexão de dados. Essas
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="Atributos do perfil"
->abstract="Selecione atributos do esquema de união para a classe Perfil no Experience Platform. Essa exibição mostra atributos que estão presentes no esquema de união e pertencem à classe Perfil individual XDM."
+>abstract="Selecione atributos do esquema de união para a classe Perfil na Experience Platform. Essa exibição mostra atributos que estão presentes no esquema de união e pertencem à classe Perfil individual XDM."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=pt-BR" text="Esquema de união na Experience Platform"
 
 Em seguida, você selecionará campos de origem para mapear para campos de destino no Collaboration. Os campos de destino disponíveis serão baseados nas chaves de correspondência selecionadas durante a configuração da conta.
@@ -147,7 +147,7 @@ Em seguida, você selecionará campos de origem para mapear para campos de desti
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Os campos do Source]** são namespaces de identidade e atributos da Experience Platform. Eles incluem namespaces de identidade [padrão](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=pt-BR#standard){target="_blank"} e [personalizados](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=pt-BR#create-namespaces){target="_blank"}. Eles também incluem atributos de perfil que estão presentes no [esquema de união](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=pt-BR){target="_blank"} e pertencem à classe Perfil Individual XDM.
+**[!UICONTROL Os campos do Source]** são namespaces de identidade e atributos da Experience Platform. Eles incluem namespaces de identidade [padrão](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=pt-BR#standard){target="_blank"} e [personalizados](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. Eles também incluem atributos de perfil que estão presentes no [esquema de união](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=pt-BR){target="_blank"} e pertencem à classe Perfil Individual XDM.
 
 Os campos do Source são mapeados para os campos de destino definidos no Collaboration.
 

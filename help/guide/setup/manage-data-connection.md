@@ -2,12 +2,12 @@
 title: Gerenciar conexões de dados
 description: Saiba como gerenciar conexões de dados, incluindo chaves de correspondência, agendamento, casos de uso e filtragem de público-alvo no Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -30,7 +30,7 @@ Para exibir as conexões de dados existentes, navegue até **[!UICONTROL Instala
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="Chaves de correspondência"
->abstract="As chaves de correspondência determinam como os dados de diferentes fontes serão correspondidos. As chaves de correspondência mostradas abaixo são os campos de destino para os quais você mapeou seus campos de origem."
+>abstract="As chaves de correspondência determinam como os dados de diferentes fontes serão correspondidos. As chaves de correspondência mostradas abaixo são os campos de destino para os quais foram mapeados os campos de origem."
 
 As chaves de correspondência são os campos de destino para os quais você [mapeou seus campos de origem](./onboard-audiences.md#map-fields). Não é possível editar as chaves de correspondência selecionadas inicialmente para a conexão de dados. Para atualizar chaves de correspondência, você deve criar uma nova conexão de dados. Para saber mais sobre como as chaves de correspondência funcionam, consulte o guia [chaves de correspondência](./onboard-account.md#set-up-match-keys).
 

@@ -2,12 +2,12 @@
 title: Configurar e gerenciar sua conta
 description: Saiba como configurar e gerenciar vários aspectos da sua conta no Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: f6ba5bb484f296fe5610901bd7b2e542fb9287b0
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
@@ -66,17 +66,17 @@ Para começar a configurar sua conta, primeiro você deve definir os detalhes da
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
 >title="IDs próprias para pessoas"
->abstract="IDs de pessoas primárias, como endereços de email com hash, números de telefone com hash ou IDs de CRM, são conectadas diretamente a um perfil individual."
+>abstract="As IDs de pessoas primárias, como endereços de email e números de telefone com hash ou IDs do CRM são conectadas diretamente a um perfil individual."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="IDs próprias para dispositivos"
->abstract="As IDs de dispositivo próprio, como ECID ou endereços IP, estão diretamente conectadas a dispositivos, que podem ser compartilhadas entre vários indivíduos. O IPv4 é a única ID própria para dispositivo compatível no momento."
+>abstract="As IDs de dispositivos próprios, como ECID ou endereços IP, estão diretamente conectadas a dispositivos, que podem ser compartilhados entre várias pessoas. O IPv4 é a única ID própria para dispositivo compatível no momento."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="IDs de parceiros compatíveis"
->abstract="IDs de parceiros são identificadores fornecidos por parceiros externos para reconciliação de público-alvo. As IDs de parceiros não estão conectadas diretamente a um perfil individual."
+>abstract="As IDs de parceiros são identificadores fornecidos por parceiros externos para reconciliação de público-alvo. As IDs de parceiros não estão conectadas diretamente a um perfil individual."
 
 ![Chaves de correspondência com suporte.](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
 
@@ -115,7 +115,7 @@ As IDs de dispositivo próprio são identificadores conectados a um dispositivo 
 
 ##### IDs de parceiros
 
-IDs de parceiros são identificadores fornecidos por parceiros externos para reconciliação de público-alvo. As IDs compatíveis no momento são:
+As IDs de parceiros são identificadores fornecidos por parceiros externos para reconciliação de público-alvo. As IDs compatíveis no momento são:
 
 * **[!UICONTROL ID do Adfixus]**
 

@@ -2,12 +2,12 @@
 title: Estabelecimento de conexões
 description: Depois de descobrir possíveis colaboradores, saiba como estabelecer conexões e começar a colaborar em projetos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
 workflow-type: tm+mt
 source-wordcount: '3400'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
->title="Sobreposição de IDs de anúncios expostos"
+>title="IDs de exposição a anúncios sobrepostos"
 >abstract="Representa o número de &quot;IDs resolvidas&quot; do público-alvo carregado que também foram expostas a um anúncio por meio do Amazon Ads."
 
 >[!CONTEXTUALHELP]
@@ -40,7 +40,7 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
->title="Detalhamento por produto de anúncio do Amazon"
+>title="Detalhamento por produto de anúncio da Amazon"
 >abstract="Detalhamento de &quot;IDs de anúncios sobrepostos expostos&quot; alcançados pelo produto patrocinado da Amazon Ads e/ou pela Amazon Ads DSP."
 
 {{limited-availability-release-note}}
@@ -222,8 +222,8 @@ O espaço de trabalho de configurações de conexão é exibido, permitindo defi
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Chaves de correspondência"
->abstract="As chaves de correspondência são pré-preenchidas com chaves de correspondência comuns que você e seu colaborador selecionam no nível da conta. É possível desativar qualquer chave de correspondência que não quiser usar nesta conexão."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Chaves de correspondência da conta"
+>abstract="As chaves de correspondência são pré-preenchidas com chaves de correspondência comuns que você e o colaborador selecionaram no nível da conta. É possível desativar qualquer chave de correspondência que você não quiser usar nesta conexão."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Chaves de correspondência de conta"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"

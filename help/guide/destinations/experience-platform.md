@@ -2,12 +2,12 @@
 title: Configurar o Adobe Experience Platform como destino
 description: Saiba como configurar e gerenciar o Adobe Experience Platform como destino no Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 source-git-commit: 6acf936f50b412147578a70e2369b06c53260f06
 workflow-type: tm+mt
 source-wordcount: '1487'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 {{limited-availability-release-note}}
 
-Configure esse destino para ativar públicos do seu projeto para a Adobe Experience Platform. A ativação de públicos para o Adobe Experience Platform permite que você aproveite os recursos da plataforma para segmentação de público, análise e ativação em vários canais de marketing. Para saber mais sobre o Adobe Experience Platform, consulte a [visão geral do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/home){target="_blank"}.
+Configure esse destino para ativar públicos do seu projeto para a Adobe Experience Platform. A ativação de públicos para o Adobe Experience Platform permite que você aproveite os recursos da plataforma para segmentação de público, análise e ativação em vários canais de marketing. Para saber mais sobre o Adobe Experience Platform, consulte a [visão geral do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}.
 
 >[!WARNING]
 >
@@ -85,9 +85,9 @@ Repita esse processo para cada chave de correspondência que você deseja inclui
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_linked_key"
 >title="Chave vinculada"
->abstract="As teclas vinculadas permitem que você especifique que uma tecla de correspondência diferente deve ser usada no lugar da tecla de correspondência original durante a ativação. Para que um perfil seja ativado, ele deve ter valores para a chave de correspondência original e para a chave de correspondência vinculada."
+>abstract="As chaves vinculadas permitem especificar que uma chave de correspondência distinta deve ser usada no lugar da chave de correspondência original durante a ativação. Para que um perfil seja ativado, ele deve ter valores para a chave de correspondência original e para a chave de correspondência vinculada."
 
-As teclas vinculadas permitem que você especifique que uma tecla de correspondência diferente deve ser usada no lugar da tecla de correspondência original durante a ativação. Para entender melhor como as teclas vinculadas funcionam, considere o seguinte exemplo:
+As chaves vinculadas permitem especificar que uma chave de correspondência distinta deve ser usada no lugar da chave de correspondência original durante a ativação. Para entender melhor como as teclas vinculadas funcionam, considere o seguinte exemplo:
 
 Um retailer deseja enviar os dados que estão sendo ativados para o Experience Platform para o sistema CRM. O retailer ativou o IP com hash como uma chave de correspondência para que sua conta aumente a taxa de correspondência ao ativar públicos-alvo. No entanto, o sistema CRM da retailer não oferece suporte a IP com hash como um namespace de identidade. Portanto, é desejável usar a chave de correspondência da ID do CRM ao ativar públicos-alvo para o Experience Platform. A retailer pode usar a opção de chave vinculada para ativar públicos-alvo para o Experience Platform usando a ID do CRM em vez de IP com hash.
 
@@ -145,4 +145,4 @@ Agora que você configurou o Adobe Experience Platform como destino, é possíve
 
 ![O Portal de Público-Alvo com Real-Time CDP Collaboration como origem nas opções de filtro.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Para saber mais sobre o Audience Portal, consulte o guia [Visão geral do Audience Portal](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.
+Para saber mais sobre o Audience Portal, consulte o guia [Visão geral do Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.
