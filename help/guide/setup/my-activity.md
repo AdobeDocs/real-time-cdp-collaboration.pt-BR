@@ -2,7 +2,7 @@
 title: Rastrear sua atividade de consumo de crédito
 description: Saiba como rastrear a atividade de consumo de crédito da sua organização no Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
 source-git-commit: 4fc9b4e814f7392e1dfdb5847b7189d7d6e21702
 workflow-type: tm+mt
@@ -71,6 +71,6 @@ A coluna **[!UICONTROL Atividade]** mostra diferentes tipos de operações que c
 
 Para gerenciar efetivamente o consumo de crédito:
 
-1. **Entenda** o consumo de crédito associado a cada atividade. Verifique a [descrição do produto Collaboration](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} para obter uma tabela de créditos usados por atividade.
+1. **Entenda** o consumo de crédito associado a cada atividade. Verifique a [descrição do produto Collaboration](https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} para obter uma tabela de créditos usados por atividade.
 2. **Monitorar regularmente**: verifique seu painel de atividades com frequência para entender os padrões de uso.
 3. **Rastrear por conexão**: use o nome da conexão para identificar quais conexões estão consumindo mais créditos.
