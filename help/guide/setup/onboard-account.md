@@ -2,12 +2,12 @@
 title: Configurar e gerenciar sua conta
 description: Saiba como configurar e gerenciar vários aspectos da sua conta no Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: f6ba5bb484f296fe5610901bd7b2e542fb9287b0
+source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 13%
+source-wordcount: '1363'
+ht-degree: 14%
 
 ---
 
@@ -62,6 +62,11 @@ Para começar a configurar sua conta, primeiro você deve definir os detalhes da
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="Chaves de correspondência"
 >abstract="As chaves de correspondência são identificadores usados para reconciliar perfis de público-alvo de diferentes fontes de dados. Inclua todas as chaves de correspondência com as quais sua marca pode trabalhar."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_organization_setup_match_keys"
+>title="chaves de correspondência"
+>abstract=""
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
