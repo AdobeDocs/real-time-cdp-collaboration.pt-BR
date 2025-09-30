@@ -2,11 +2,11 @@
 title: Descubra sobreposições e compare públicos
 description: Descubra sobreposições entre o seu e o público-alvo de seus colaboradores. Saiba como descobrir os melhores públicos-alvo para usar em suas campanhas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 75e76a43de75a7b1c84bdd79cb4a072855ba02df
+source-git-commit: 3dd37dff0be104894cdfe42503b60056b25018e3
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '2069'
 ht-degree: 17%
 
 ---
@@ -83,7 +83,7 @@ Na seção comparar públicos, você pode ver as seguintes métricas, que se bas
 | **[!UICONTROL Identidades sobrepostas]** | O número de IDs exclusivas presentes nos públicos do e do colaborador. |
 | **[!UICONTROL Sobreposição %]** | A porcentagem de sobreposição de perfis entre o público-alvo alvo selecionado do seu colaborador e o seu. |
 | **[!UICONTROL Índice de público-alvo]** | Uma pontuação que indica com que intensidade um público-alvo está relacionado a outro com base nas contagens e sobreposições subjacentes do público-alvo. Para saber mais sobre o significado das pontuações, leia a seção [pontuação do índice de público-alvo](#audience-index-score). As pontuações do índice de público-alvo não estão disponíveis ao comparar com a linha de base do colaborador (todos os públicos-alvo). |
-| **[!UICONTROL Detalhamento de identidades por chave de correspondência]** | O detalhamento de identidades para cada chave de correspondência escolhida no projeto, com base nos públicos selecionados para cada colaborador. |
+| **[!UICONTROL Detalhamento de identidades por chave de correspondência]** | O detalhamento de identidades correspondentes a cada chave de correspondência escolhida no projeto, com base nos públicos-alvo selecionados para cada colaborador. |
 
 {style="table-layout:auto"}
 

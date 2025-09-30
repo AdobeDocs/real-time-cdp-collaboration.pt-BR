@@ -2,9 +2,9 @@
 title: Fluxo de trabalho completo
 description: Entenda o fluxo de trabalho completo do uso do Real-Time CDP Collaboration com base no seu padrão de colaboração.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: 8745d6d8da389b552af3da6612bf693230dfb538
+source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Para começar, a [!UICONTROL Luma] precisa [criar uma conta](../setup/onboard-ac
 
 Depois de estabelecer suas contas, a [!UICONTROL Luma] e o [!UICONTROL Tubo de TV] devem [criar uma conexão de dados e fornecer públicos-alvo](../setup/onboard-audiences.md). Somente o [!UICONTROL Tubo de TV] ativará os públicos das campanhas de marketing. Portanto, eles precisam [configurar um destino](../setup/manage-destinations.md).
 
-Depois que ambos os colaboradores tiverem suas contas configuradas, eles estarão prontos para [formar uma conexão](../connect/establishing-connections.md) dentro da plataforma. [!UICONTROL O Luma] usa o recurso [descobrir editores](../connect/discover-publishers.md) para localizar o [!UICONTROL Tubo de TV] e iniciar uma solicitação de conexão. Depois que o [!UICONTROL Tubo de TV] aceitar a solicitação de conexão, o [!UICONTROL Luma] definirá as configurações de conexão para definir como será a colaboração. [!UICONTROL TV Tube] aceita a solicitação de conexão para estabelecer um vínculo seguro entre as duas marcas.
+Depois que ambos os colaboradores tiverem suas contas configuradas, eles estarão prontos para [formar uma conexão](../connect/establishing-connections.md) dentro da plataforma. [!UICONTROL O Luma] usa o recurso [descobrir colaboradores](../connect/discover-collaborators.md) para localizar o [!UICONTROL Tubo de TV] e iniciar uma solicitação de conexão. Depois que o [!UICONTROL Tubo de TV] aceitar a solicitação de conexão, o [!UICONTROL Luma] definirá as configurações de conexão para definir como será a colaboração. [!UICONTROL TV Tube] aceita a solicitação de conexão para estabelecer um vínculo seguro entre as duas marcas.
 
 Depois que a conexão for estabelecida, o [!UICONTROL Luma] [cria um projeto](../collaborate/manage-projects.md) para iniciar sua colaboração com o [!UICONTROL Tubo de TV]. Durante a configuração do projeto, eles escolhem os casos de uso de colaboração que melhor se ajustam aos seus objetivos: [Descobrir](../collaborate/discover.md), [Ativar](../collaborate/activate.md) e [Medida](../collaborate/measure.md).
 

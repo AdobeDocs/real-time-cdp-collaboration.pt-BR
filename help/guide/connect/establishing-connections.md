@@ -2,9 +2,9 @@
 title: Estabelecimento de conexões
 description: Depois de descobrir possíveis colaboradores, saiba como estabelecer conexões e começar a colaborar em projetos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
+source-git-commit: c176db9354936fd5e64a2b4f012d99be8ddcf16b
 workflow-type: tm+mt
 source-wordcount: '3400'
 ht-degree: 7%
@@ -58,13 +58,13 @@ Para saber como estabelecer uma conexão, leia a seção abaixo que corresponde 
 
 ![Diagrama de alto nível do processo de conexão anunciante-publicador.](/help/assets/connect/establish-connection/advertiser-publisher-flow.png){zoomable="yes"}
 
-No padrão anunciante para editor, um anunciante descobre um editor com o qual deseja trabalhar por meio do espaço de trabalho **[!UICONTROL Descobrir editores]** e envia um convite de conexão. O editor então revisa o convite e o aceita, permitindo que o anunciante proponha configurações de conexão. Quando o editor aceita as configurações de conexão, a conexão é estabelecida e ambos os colaboradores podem começar a trabalhar juntos nos projetos.
+No padrão anunciante para editor, um anunciante descobre um publicador com quem deseja trabalhar por meio do espaço de trabalho **[!UICONTROL Descobrir colaboradores]** e envia um convite de conexão. O editor então revisa o convite e o aceita, permitindo que o anunciante proponha configurações de conexão. Quando o editor aceita as configurações de conexão, a conexão é estabelecida e ambos os colaboradores podem começar a trabalhar juntos nos projetos.
 
 ### Visão geral de alto nível
 
 Para estabelecer uma conexão entre um anunciante e um editor, as seguintes etapas estão envolvidas:
 
-1. [Descobrir editores](#discover-publishers): o anunciante identifica possíveis editores com os quais colaborar.
+1. [Descobrir editores](#discover-collaborators): o anunciante identifica colaboradores em potencial com os quais trabalhar.
 1. [Enviar convite](#send-invite): o anunciante envia um convite de conexão para o editor selecionado.
 1. [Aceitar convite](#accept-invite): o editor revisa e aceita o convite.
 1. [Definir configurações de conexão](#configure-connection-settings): o anunciante define as configurações de conexão e as envia ao editor para revisão.
@@ -108,25 +108,25 @@ Depois que as configurações de conexão forem aceitas, a conexão será estabe
 
 O espaço de trabalho **[!UICONTROL Conectar]** é onde você pode gerenciar suas conexões com colaboradores, enviar convites de conexão e onde os anunciantes podem navegar pelo diretório do editor. O espaço de trabalho é dividido em duas guias principais:
 
-### Descobrir editores {#discover-publishers}
+### Descobrir colaboradores {#discover-collaborators}
 
 >[!IMPORTANT]
 >
->Somente anunciantes podem descobrir editores usando o espaço de trabalho **[!UICONTROL Descobrir editores]**. Para saber mais sobre como se conectar com colaboradores, independentemente da função deles, leia a seção [conexão marca a marca](#brand-to-brand-connection).
+>Somente anunciantes podem descobrir editores usando o espaço de trabalho **[!UICONTROL Descobrir colaboradores]**. Para saber mais sobre como se conectar com colaboradores, independentemente da função deles, leia a seção [conexão marca a marca](#brand-to-brand-connection).
 
-Para descobrir editores, navegue até o espaço de trabalho **[!UICONTROL Descobrir editores]** na guia **[!UICONTROL Conectar]**. Aqui, você pode navegar pela lista de editores disponíveis usando os controles de paginação na parte inferior do espaço de trabalho. Para saber mais sobre o espaço de trabalho **[!UICONTROL Descobrir editores]**, consulte o guia [descobrir editores](/help/guide/connect/discover-publishers.md).
+Para descobrir editores, navegue até o espaço de trabalho **[!UICONTROL Descobrir colaboradores]** na guia **[!UICONTROL Conectar]**. Aqui, você pode navegar pela lista de editores disponíveis usando os controles de paginação na parte inferior do espaço de trabalho. Para saber mais sobre o espaço de trabalho **[!UICONTROL Descobrir colaboradores]**, consulte o guia [descobrir colaboradores](/help/guide/connect/discover-collaborators.md).
 
-![O espaço de trabalho de editores do Discover está exibindo uma lista de editores disponíveis.](/help/assets/connect/establish-connection/discover-publishers.png){zoomable="yes"}
+![O espaço de trabalho Descobrir colaboradores exibindo uma lista de editores disponíveis.](/help/assets/connect/establish-connection/discover-collaborators.png){zoomable="yes"}
 
 ### Enviar convite {#send-invite}
 
 >[!IMPORTANT]
 >
->Esta seção descreve o processo de envio de convites de conexão por anunciantes para editores por meio do espaço de trabalho **[!UICONTROL Descobrir editores]**. Para saber mais sobre como formar conexões entre marcas, independentemente de suas funções, leia a seção [conexão marca a marca](#brand-to-brand-connection) ou visite a seção [convite de conexão privada](#private-connection-invite).
+>Esta seção descreve o processo de envio de convites de conexão por anunciantes para editores por meio do espaço de trabalho **[!UICONTROL Descobrir colaboradores]**. Para saber mais sobre como formar conexões entre marcas, independentemente de suas funções, leia a seção [conexão marca a marca](#brand-to-brand-connection) ou visite a seção [convite de conexão privada](#private-connection-invite).
 
 Depois de identificar o fornecedor com o qual deseja colaborar, selecione a opção **[!UICONTROL Conectar]** no cartão do fornecedor. Esta ação inicia o processo de conexão.
 
-![A opção Conectar foi realçada em um editor específico no espaço de trabalho Descobrir editores.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
+![A opção Conectar foi realçada em um editor específico do espaço de trabalho Descobrir colaboradores.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
 Uma caixa de diálogo é exibida, solicitando que você envie um convite de conexão para o editor. Selecione **[!UICONTROL Enviar convite]** para continuar.
 
