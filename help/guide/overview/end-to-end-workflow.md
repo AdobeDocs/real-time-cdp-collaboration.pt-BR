@@ -2,7 +2,7 @@
 title: Fluxo de trabalho completo
 description: Entenda o fluxo de trabalho completo do uso do Real-Time CDP Collaboration com base no seu padrão de colaboração.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
 source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
 workflow-type: tm+mt
