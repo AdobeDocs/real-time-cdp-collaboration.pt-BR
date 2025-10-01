@@ -1,37 +1,37 @@
 ---
-title: Estabelecimento de conexões
+title: Estabelecer conexões
 description: Depois de descobrir possíveis colaboradores, saiba como estabelecer conexões e começar a colaborar em projetos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: c176db9354936fd5e64a2b4f012d99be8ddcf16b
 workflow-type: tm+mt
 source-wordcount: '3400'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
-# Estabelecimento de conexões {#establishing-connections}
+# Estabelecer conexões {#establishing-connections}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_compare_audiences"
 >title="Comparar públicos-alvo"
->abstract="Compare seu público-alvo com todos os consumidores acessados por seus anúncios do Amazon."
+>abstract="Compare o público-alvo com todos os consumidores alcançados pelo seu Amazon Ads."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_relevant_audiences"
 >title="Públicos-alvo relevantes"
->abstract="Segmentos de direcionamento do Amazon que seu público-alvo tem as sobreposições mais altas, considerando apenas as impressões do DSP (esses segmentos só podem ser direcionados no DSP)."
+>abstract="Segmentos de direcionamento da Amazon com os quais o público-alvo possui as maiores sobreposições, considerando apenas as impressões da DSP (esses segmentos só podem ser direcionados na DSP)."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_resolved_ids"
->title="IDs resolvidos"
->abstract="O número de IDs que a Resolução de identidade da Amazon conseguiu resolver usando os dados de público-alvo."
+>title="IDs resolvidas"
+>abstract="O número de IDs que a Resolução de identidade da Amazon conseguiu resolver com os dados de público-alvo."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
->title="IDs de exposição a anúncios sobrepostos"
->abstract="Representa o número de &quot;IDs resolvidas&quot; do público-alvo carregado que também foram expostas a um anúncio por meio do Amazon Ads."
+>title="Sobreposição de IDs expostas a anúncios"
+>abstract="Representa o número de &quot;IDs resolvidas&quot; do público-alvo enviado que também foram expostas a um anúncio por meio do Amazon Ads."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlap_percentage"
@@ -41,7 +41,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
 >title="Detalhamento por produto de anúncio da Amazon"
->abstract="Detalhamento de &quot;IDs de anúncios sobrepostos expostos&quot; alcançados pelo produto patrocinado da Amazon Ads e/ou pela Amazon Ads DSP."
+>abstract="Detalhamento de &quot;Sobreposição de IDs expostas a anúncios&quot; alcançado pelo produto patrocinado através do Amazon Ads e/ou pela Amazon Ads DSP."
 
 {{limited-availability-release-note}}
 
