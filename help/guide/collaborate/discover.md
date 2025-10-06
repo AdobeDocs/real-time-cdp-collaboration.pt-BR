@@ -2,11 +2,11 @@
 title: Descubra sobreposições e compare públicos
 description: Descubra sobreposições entre o seu e o público-alvo de seus colaboradores. Saiba como descobrir os melhores públicos-alvo para usar em suas campanhas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 3dd37dff0be104894cdfe42503b60056b25018e3
+source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '2069'
+source-wordcount: '2107'
 ht-degree: 17%
 
 ---
@@ -42,6 +42,10 @@ Para começar a usar a guia **[!UICONTROL Descobrir]** no seu projeto, você dev
 * [Criou um projeto](/help/guide/collaborate/manage-projects.md) entre você e um colaborador
 
 Depois que esses pré-requisitos forem atendidos, você poderá começar a explorar e comparar sobreposições entre você e os públicos do seu colaborador.
+
+>[!NOTE]
+>
+>Este espaço de trabalho **[!UICONTROL Descobrir]** não é relevante para colaborações com plataformas de publicidade. Atualmente, o Amazon Marketing Cloud é a única plataforma de publicidade disponível no Real-Time CDP Collaboration. Para obter mais informações sobre o espaço de trabalho [!DNL AMC] **[!UICONTROL Descobrir]**, leia o guia do [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md).
 
 ## Comparar públicos-alvo {#compare-audiences}
 

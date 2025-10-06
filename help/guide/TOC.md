@@ -2,10 +2,10 @@
 user-guide-title: Colaboração da Real-Time CDP
 breadcrumb-title: Colaboração da Real-Time CDP
 user-guide-description: O Adobe Real-Time CDP Collaboration permite o compartilhamento de dados e a colaboração perfeitos e seguros entre anunciantes e editores, facilitando insights do público-alvo em tempo real e estratégias de marketing personalizadas.
-source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
+source-git-commit: db2eb6d124fd05523ad65872bcd12078b9809ddc
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 35%
+source-wordcount: '139'
+ht-degree: 38%
 
 ---
 
@@ -29,14 +29,23 @@ ht-degree: 35%
    * [Cruzamentos de identidades](./setup/identity-crosswalk.md)
    * [Adicionar e gerenciar dados de medição](./setup/onboard-measurement-data.md)
    * [Logs de auditoria](./setup/audit-logs.md)
-* Estabelecimento de conexões {#connect}
+* Estabelecer conexões {#connect}
+   * [Overview.md](./connect/overview.md)
    * [Descobrir colaboradores](./connect/discover-collaborators.md)
-   * [Estabelecimento de conexões](./connect/establishing-connections.md)
+   * [Estabelecer conexões de colaborador](./connect/establishing-connections.md)
+   * [Gerenciar conexões](./connect/manage-connections.md)
+   * Conexões da plataforma Advertising {#ad-platform-connections}
+      * [Visão geral](./connect/advertising-platforms/overview.md)
+      * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * Colaborar {#collaborate}
+   * [Visão geral](./collaborate/overview.md)
    * [Gerenciar projetos](./collaborate/manage-projects.md)
-   * [Descobrir](./collaborate/discover.md)
-   * [Ativar](./collaborate/activate.md)
-   * [Medição](./collaborate/measure.md)
+   * Conexões do colaborador {#collaborator-connections}
+      * [Descobrir](./collaborate/discover.md)
+      * [Ativar](./collaborate/activate.md)
+      * [Medição](./collaborate/measure.md)
+   * Conexões da plataforma Advertising {#ad-platform-connections}
+      * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
 * Destinos {#destinations}
    * [Visão geral](./destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)

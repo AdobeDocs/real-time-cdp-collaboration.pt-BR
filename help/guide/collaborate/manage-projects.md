@@ -2,12 +2,12 @@
 title: Criar e gerenciar projetos
 description: Saiba como criar e gerenciar projetos no Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: f12333adbe9d1fd18650d32c1b8b4e08c1410e5e
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 9%
+source-wordcount: '350'
+ht-degree: 8%
 
 ---
 
@@ -55,13 +55,3 @@ Em seguida, adicione um **[!UICONTROL Nome do projeto]** e uma **[!UICONTROL Des
 Agora você pode visualizar o novo projeto, seus detalhes e as seções disponíveis com base nos casos de uso selecionados durante a configuração da conexão.
 
 ![O espaço de trabalho de visão geral do projeto.](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
-
-## Casos de uso de projetos {#project-use-cases}
-
-A visão geral do projeto exibe os casos de uso selecionados durante a configuração da conexão. Esses casos de uso definem a funcionalidade disponível no projeto. Os casos de uso são:
-
-| Caso de uso | Seção do projeto |
-| --- | --- |
-| Medição da campanha | Este caso de uso concede acesso à seção [Medida](/help/guide/collaborate/measure.md) e a todas as funcionalidades disponíveis. |
-| Descoberta de públicos-alvo | Este caso de uso concede acesso à seção [Descobrir](/help/guide/collaborate/discover.md) e a todas as funcionalidades disponíveis. |
-| Ativação de público-alvo | Este caso de uso concede acesso à seção [Ativar](/help/guide/collaborate/activate.md) e a todas as funcionalidades disponíveis. |
