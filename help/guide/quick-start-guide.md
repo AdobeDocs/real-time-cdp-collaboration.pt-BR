@@ -108,7 +108,7 @@ Configure como os públicos-alvo são preparados, combinados e controlados para 
 >**Corresponder requisitos de chave:**
 >
 >Todas as chaves de correspondência devem ser **cortadas**, **em minúsculas**
->>As chaves de correspondência com hash devem ser **SHA256-hash**.\
+>&#x200B;>As chaves de correspondência com hash devem ser **SHA256-hash**.\
 >Se você fornecer valores com hash que usam caracteres em maiúsculas, o Collaboration os converterá automaticamente em minúsculas.\
 >Se sua origem contiver **identificadores de texto sem formatação**, use a opção **[!UICONTROL Aplicar transformação]** para aplicar o hash. Essa opção só está disponível ao fornecer públicos-alvo do Experience Platform e não tem suporte para fontes baseadas em nuvem.
 >
