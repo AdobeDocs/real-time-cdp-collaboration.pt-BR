@@ -2,11 +2,11 @@
 title: Guia de início rápido do Real-Time CDP Collaboration
 description: Saiba como integrar sua organização ao Real-Time CDP Collaboration, incluindo a configuração de funções e organizações, fornecimento de público-alvo, ativação e medição. Este guia ajuda os colaboradores a definir configurações de conexão para começar a usar seus públicos de forma segura e eficiente.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: 9355535e067afeedff33f5c6468bc6fcb1f58e08
+source-git-commit: 3d003563e7eb6489e2a97b394f0ab185a63e35f2
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1403'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ As funções de acesso da sua organização determinam o que os usuários podem 
 
 Assista a este vídeo para saber como atribuir acesso e permissões de produto ao Collaboration usando o Admin Console e o Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452235/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Etapa 2: configurar a conta do Collaboration {#set-up-your-account}
 
@@ -108,7 +108,7 @@ Configure como os públicos-alvo são preparados, combinados e controlados para 
 >**Corresponder requisitos de chave:**
 >
 >Todas as chaves de correspondência devem ser **cortadas**, **em minúsculas**
->&#x200B;>As chaves de correspondência com hash devem ser **SHA256-hash**.\
+>As chaves de correspondência com hash devem ser **SHA256-hash**.\
 >Se você fornecer valores com hash que usam caracteres em maiúsculas, o Collaboration os converterá automaticamente em minúsculas.\
 >Se sua origem contiver **identificadores de texto sem formatação**, use a opção **[!UICONTROL Aplicar transformação]** para aplicar o hash. Essa opção só está disponível ao fornecer públicos-alvo do Experience Platform e não tem suporte para fontes baseadas em nuvem.
 >
@@ -122,15 +122,11 @@ Como alternativa, consulte o documento sobre [origem de públicos-alvo no Collab
 
 ### Opção B: Source do Snowflake ou Amazon S3
 
-Para configurar uma fonte de nuvem (por exemplo, [!DNL AWS S3] ou [!DNL Snowflake]), prepare os dados do público-alvo usando a seguinte [PDF de Especificação de Público-Alvo](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.1.pdf). Depois de concluir, ou em caso de dúvidas, entre em contato com o representante de conta da Adobe para finalizar a configuração. Este método não é de autoatendimento e requer a assistência da Adobe.
+Para configurar uma fonte na nuvem, como [!DNL Snowflake] ou [!DNL Amazon S3], prepare os dados do público-alvo usando a [PDF de Especificação de Público-Alvo](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)
 
-<!-- Add in the below in final draft: 
+Você pode configurar [!DNL Amazon S3] como uma fonte de dados de autoatendimento. Para obter instruções de instalação, consulte o [guia de fornecimento do Amazon S3](./setup/configure-aws-s3-audience-sourcing.md)
 
-To configure a cloud source, such as [!DNL Snowflake] or [!DNL AWS S3], prepare your audience data using the [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.1)
-
-[!DNL AWS S3] can now be configured as a self-service source. For setup instructions, see the [AWS S3 sourcing guide](./setup/configure-aws-s3-audience-sourcing.md)
-
-If you are using [!DNL Snowflake], or other cloud service provider, contact your Adobe account representative to finalize the setup. -->
+Se você estiver usando o [!DNL Snowflake] ou outro provedor de serviços na nuvem, entre em contato com o representante de conta da Adobe para finalizar a configuração.
 
 >[!IMPORTANT]
 >
