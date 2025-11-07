@@ -1,9 +1,7 @@
 ---
 title: Configurar [!DNL Amazon S3] para Origem de Público-Alvo
 description: Saiba como configurar e conectar seu armazenamento do  [!DNL Amazon S3] como uma fonte de dados de autoatendimento para assimilar dados de público-alvo no Real-Time CDP Collaboration.
-hide: true
-hidefromtoc: true
-source-git-commit: 4f223890dabb4897c9e9264655ff9217e323dc91
+source-git-commit: 05fd7ec466ba2b20264490bbbfadc9bb6d361bc8
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 0%
@@ -188,7 +186,7 @@ Quando estiver na exibição de grade ou tabela, selecione um item de linha ou *
 
 Use esta exibição para confirmar as configurações de público-alvo e as configurações de visibilidade antes de usar o público-alvo em projetos de colaboração.
 
-Consulte a [Exibir documentação do painel de públicos-alvo](https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) para saber mais.
+Consulte a [Exibir documentação do painel de públicos-alvo](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) para saber mais.
 
 ## Exibir sua conexão de dados S3 {#view-s3-connection}
 
