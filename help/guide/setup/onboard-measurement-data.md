@@ -2,14 +2,14 @@
 title: Adicionar e gerenciar dados de medição
 description: Saiba como adicionar dados de medição ao Adobe Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
-source-git-commit: 65468fdc8787acc6a92f4c2368758437df47d526
+source-git-commit: 26a2f8975efcadd43431823e0f2dd90847aa83ba
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 9%
+source-wordcount: '108'
+ht-degree: 25%
 
 ---
 
@@ -29,6 +29,16 @@ ht-degree: 9%
 >id="rtcdp_collaboration_measurement_data_source_fields"
 >title="Campos de origem"
 >abstract="Espaço reservado para campos de origem de medição."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_import_measurement_mapping_source_fields"
+>title="Mapear campos de origem"
+>abstract="Espaço reservado para mapeamento de medição de campos de origem."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_import_measurement_mapping_target_fields"
+>title="Mapear campos de destino"
+>abstract="Espaço reservado para mapeamento de medição de campos de destino."
 
 {{limited-availability-release-note}}
 
