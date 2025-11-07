@@ -186,7 +186,7 @@ Quando estiver na exibição de grade ou tabela, selecione um item de linha ou *
 
 Use esta exibição para confirmar as configurações de público-alvo e as configurações de visibilidade antes de usar o público-alvo em projetos de colaboração.
 
-Consulte a [Exibir documentação do painel de públicos-alvo](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) para saber mais.
+Consulte a [Exibir documentação do painel de públicos-alvo](https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) para saber mais.
 
 ## Exibir sua conexão de dados S3 {#view-s3-connection}
 
