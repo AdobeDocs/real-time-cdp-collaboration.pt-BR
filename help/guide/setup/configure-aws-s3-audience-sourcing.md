@@ -1,10 +1,10 @@
 ---
 title: Configurar [!DNL Amazon S3] para Origem de Público-Alvo
 description: Saiba como configurar e conectar seu armazenamento do  [!DNL Amazon S3] como uma fonte de dados de autoatendimento para assimilar dados de público-alvo no Real-Time CDP Collaboration.
-source-git-commit: 05fd7ec466ba2b20264490bbbfadc9bb6d361bc8
+source-git-commit: 7a2bfb524d77d42690f3abe848a59aae5b16b667
 workflow-type: tm+mt
-source-wordcount: '1515'
-ht-degree: 0%
+source-wordcount: '1583'
+ht-degree: 1%
 
 ---
 
@@ -64,6 +64,12 @@ Selecione **[!UICONTROL Amazon S3]** como conexão de dados, seguido de **[!UICO
 
 ### Revisar requisitos do arquivo de público-alvo {#review-audience-requirements}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_specifications"
+>title="Prepare seus dados para integração"
+>abstract="Leia o guia de Especificação da origem do público-alvo para saber como formatar e estruturar os dados de público-alvo no Amazon S3 para Collaboration."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Consulte o guia"
+
 Uma caixa de diálogo é exibida explicando como os arquivos de público-alvo devem ser estruturados. Use o link para a **[[!UICONTROL Especificação da Origem do Público-Alvo]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)** para saber como formatar e estruturar os dados do público-alvo do [!DNL Amazon S3] para o Collaboration para lê-los corretamente.
 
 >[!IMPORTANT]
@@ -87,6 +93,11 @@ As principais considerações incluem:
 >id="rtcdp_collaboration_sources_s3_folderpath"
 >title="Formato do caminho da pasta"
 >abstract="Insira o caminho da pasta (prefixo) no bucket do [!DNL Amazon S3] onde os arquivos de público-alvo estão armazenados.<br><ul><li>Não inicie caminhos com uma barra (/).</li><li>Inclua uma barra no final do caminho.</li><ul><br>Exemplo válido: `base/path/`<br>Exemplo inválido: `/base/path`"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sharing_amazon_s3"
+>title="Adicionar público-alvo do Amazon S3"
+>abstract="Para conectar seu armazenamento do Amazon S3, autorize o usuário do serviço da Adobe a recuperar os dados do público-alvo para processamento. Siga as etapas descritas no Experience League para conceder à Adobe acesso ao seu armazenamento Amazon S3."
 
 Em seguida, forneça suas credenciais do [!DNL Amazon S3] para conectar seu bucket do S3 ao Collaboration.
 
@@ -186,7 +197,7 @@ Quando estiver na exibição de grade ou tabela, selecione um item de linha ou *
 
 Use esta exibição para confirmar as configurações de público-alvo e as configurações de visibilidade antes de usar o público-alvo em projetos de colaboração.
 
-Consulte a [Exibir documentação do painel de públicos-alvo](https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) para saber mais.
+Consulte a [Exibir documentação do painel de públicos-alvo](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) para saber mais.
 
 ## Exibir sua conexão de dados S3 {#view-s3-connection}
 
