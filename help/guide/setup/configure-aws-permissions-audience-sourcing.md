@@ -1,10 +1,10 @@
 ---
 title: Configurar permissões do AWS para origem do público-alvo
 description: Saiba como configurar as permissões do AWS Identity and Access Management (IAM) para conceder ao Adobe acesso seguro e somente leitura ao seu bucket [!DNL Amazon S3] de origem de público-alvo no Real-Time CDP Collaboration.
-source-git-commit: 4f223890dabb4897c9e9264655ff9217e323dc91
+source-git-commit: 73f11b7341cf94540dc01f8803291f6dc3cd5038
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 0%
+source-wordcount: '650'
+ht-degree: 1%
 
 ---
 
@@ -94,6 +94,7 @@ Em [!DNL Step 1] do fluxo de trabalho [!DNL Create role], na seção **[!DNL Tru
 |---------|-------------------|
 | América do Norte | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-va6-role` |
 | Austrália | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-aus3-role` |
+| EMEA | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-deu1-role` |
 
 Um exemplo de diretiva de confiança:
 
