@@ -2,9 +2,9 @@
 title: Visão geral do controle de acesso
 description: Saiba como obter acesso ao Adobe Real-Time Customer Data Platform (CDP) Collaboration.
 audience: admin
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: af48f5ea-8258-42a6-a39e-f4a4ca5b4a69
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: 1f825bb4a81dbf65c43ddadcfd444923a37a906e
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Para configurar o controle de acesso ao Collaboration, você **deve** ter privil
 Esses guias descreverão a configuração do acesso para administradores de sistema, administradores de produtos e usuários finais. Consulte a tabela abaixo para entender a principal diferença entre as funções.
 
 | Função | Descrição |
-| --- | --- | 
+| --- | --- |
 | Administrador do sistema | O superusuário da organização. Eles podem executar todas as tarefas administrativas no Admin Console e têm permissões para delegar funções administrativas a outros usuários. |
 | Administrador do produto | Administra os produtos atribuídos a eles e todas as funções administrativas associadas, como adicionar usuários a organizações, adicionar ou remover usuários de perfis de produtos e adicionar ou remover outros administradores de produtos de um produto. |
 | Usuário final | Os usuários em sua organização que usam os produtos. |
@@ -65,7 +65,7 @@ Consulte o gráfico abaixo para determinar quem é necessário para configurar o
 > Um superusuário se refere ao mais alto nível de acesso a ser obtido pelo administrador do sistema. Um superusuário pode executar todas as tarefas administrativas e a funcionalidade do usuário. Um administrador do sistema não tem funcionalidade de produto pronta para uso e precisa conceder a si mesmo o acesso apropriado, conforme mostrado no gráfico abaixo.
 
 | Caso de uso | Função necessária | Onde começar |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Superusuário sem acesso existente ao produto Experience Platform. | Um administrador do sistema. | [Configurar acesso de administrador de produto](./manage-user-access.md#admin-access) |
 | Superusuário para um administrador de sistema do Experience Platform existente **com acesso à interface do usuário do Experience Platform**. | Um administrador do sistema. | [Configurar o acesso ao Collaboration](./manage-user-access.md#RTCDP-collab-access) |
 | Superusuário para um administrador de sistema do Experience Platform existente **sem** acesso à interface do usuário do Experience Platform. | Um administrador do sistema. | [Configurar acesso de administrador de produto](./manage-user-access.md#admin-access) |
