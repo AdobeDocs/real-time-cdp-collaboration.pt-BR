@@ -1,12 +1,12 @@
 ---
-title: Guia de início rápido do Real-Time CDP Collaboration
-description: Saiba como integrar sua organização ao Real-Time CDP Collaboration, incluindo a configuração de funções e organizações, fornecimento de público-alvo, ativação e medição. Este guia ajuda os colaboradores a definir configurações de conexão para começar a usar seus públicos de forma segura e eficiente.
+title: Guia de início e configuração rápida do Real-Time CDP Collaboration
+description: Saiba como configurar o Real-Time CDP Collaboration, configurar funções e contas, públicos-alvo de origem, ativar dados e se conectar a parceiros de forma segura.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: 3d003563e7eb6489e2a97b394f0ab185a63e35f2
+source-git-commit: d0ad2d66ac7178c24449be415a613b89d9b3bee1
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1389'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ As funções de acesso da sua organização determinam o que os usuários podem 
 
 Assista a este vídeo para saber como atribuir acesso e permissões de produto ao Collaboration usando o Admin Console e o Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452235/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Etapa 2: configurar a conta do Collaboration {#set-up-your-account}
 
