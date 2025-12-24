@@ -2,9 +2,9 @@
 title: Configurar e gerenciar sua conta
 description: Saiba como configurar e gerenciar vários aspectos da sua conta no Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
+source-git-commit: c9e2e8607dde87c4a36b131ed434195ef77730e6
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 14%
@@ -122,15 +122,15 @@ As IDs de dispositivo próprio são identificadores conectados a um dispositivo 
 
 As IDs de parceiros são identificadores fornecidos por parceiros externos para reconciliação de público-alvo. As IDs compatíveis no momento são:
 
-* **[!UICONTROL ID do Adfixus]**
+* **[!UICONTROL AdFixus ID]**
 
 >[!NOTE]
 >
->A integração do Adobe com [!DNL Adfixus] mapeia as [!UICONTROL IDs do Adfixus] exclusivas de cada conta para um formato comum codificado em Adobe. Esses mapeamentos são usados para identificar sobreposições entre colaboradores. Ao ativar públicos-alvo usando a **[!UICONTROL ID do Adfixus]**, as IDs originais serão usadas. O formato codificado em Adobe nunca sai do Collaboration.
+>A integração do Adobe com o [!DNL AdFixus] mapeia as [!UICONTROL IDs do AdFixus] exclusivas de cada conta para um formato comum codificado em Adobe. Esses mapeamentos são usados para identificar sobreposições entre colaboradores. Ao ativar públicos-alvo usando a **[!UICONTROL AdFixus ID]**, as IDs originais serão usadas. O formato codificado em Adobe nunca sai do Collaboration.
 
-Ao selecionar **[!UICONTROL Adfixus ID]**, você precisará fornecer a ID correspondente do seu parceiro externo na seção **[!UICONTROL Credenciais da conta]**. Esta opção só estará disponível *após* alternando em **[!UICONTROL Adfixus ID]**. Insira a ID do Adfixus no campo **[!UICONTROL ID da Conta]**, certificando-se de verificar novamente a precisão do valor.
+Ao selecionar **[!UICONTROL AdFixus ID]**, você precisará fornecer a ID correspondente do seu parceiro externo na seção **[!UICONTROL Credenciais da conta]**. Esta opção só estará disponível *após* alternando em **[!UICONTROL AdFixus ID]**. Digite sua ID do AdFixus no campo **[!UICONTROL ID da Conta]**, certificando-se de verificar novamente a precisão do valor.
 
-![A caixa de diálogo Corresponder chaves com Adfixus ID foi ativada e a seção Credenciais da conta foi realçada.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
+![A caixa de diálogo Corresponder chaves com AdFixus ID foi ativada e a seção Credenciais da conta foi realçada.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
 
 Depois de selecionar todas as chaves de correspondência desejadas, selecione **[!UICONTROL Concluir]** para concluir o fluxo de trabalho de configuração da conta.
 
@@ -164,11 +164,11 @@ Selecione **[!UICONTROL Editar]** na seção **[!UICONTROL Chaves de correspond�
 
 ![O espaço de trabalho de Instalação com a opção Editar realçada na seção Chaves de correspondência da conta.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-A caixa de diálogo **[!UICONTROL Chaves de correspondência]** é exibida. Ative e desative qualquer chave de correspondência ou atualize sua **[!UICONTROL ID de Conta]** para sua [!UICONTROL ID de Adfixo] e selecione **[!UICONTROL Salvar]** para confirmar as alterações.
+A caixa de diálogo **[!UICONTROL Chaves de correspondência]** é exibida. Ative e desative qualquer chave de correspondência ou atualize sua **[!UICONTROL ID da Conta]** para sua [!UICONTROL AdFixus ID] e selecione **[!UICONTROL Salvar]** para confirmar as alterações.
 
 >[!IMPORTANT]
 >
->Alterar sua [!UICONTROL ID do Adfixus] não acionará uma atualização de [rascunho de dados](../glossary.md#sketches) para suas conexões de dados existentes usando a chave de correspondência. Depois que os dados forem esboçados, as alterações na [!UICONTROL ID de Adfixo] não serão refletidas até a próxima atualização de público-alvo seguindo as configurações da [agenda de conexão de dados](./manage-data-connection.md#scheduling). Se você precisar de alterações antes da próxima atualização, poderá excluir e recriar sua conexão de dados.
+>Alterar sua [!UICONTROL AdFixus ID] não acionará uma atualização de [rascunho de dados](../glossary.md#sketches) para suas conexões de dados existentes usando a chave de correspondência. Depois que os dados forem esboçados, as alterações na [!UICONTROL AdFixus ID] não serão refletidas até a próxima atualização do público-alvo seguindo as configurações da [agenda de conexão de dados](./manage-data-connection.md#scheduling). Se você precisar de alterações antes da próxima atualização, poderá excluir e recriar sua conexão de dados.
 
 ![A caixa de diálogo Corresponder chaves com a opção Salvar foi realçada.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
 
