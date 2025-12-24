@@ -2,7 +2,7 @@
 title: Configurar e gerenciar sua conta
 description: Saiba como configurar e gerenciar vários aspectos da sua conta no Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: c9e2e8607dde87c4a36b131ed434195ef77730e6
 workflow-type: tm+mt
