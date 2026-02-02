@@ -2,11 +2,11 @@
 title: Source e gerenciar públicos
 description: Saiba como fornecer e gerenciar públicos-alvo no Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: f14b5d2f49f20f229c4f474c31e22c008827a09b
+source-git-commit: d554ce3921211bc0d726b88f410410cdccc1a937
 workflow-type: tm+mt
-source-wordcount: '3512'
+source-wordcount: '3523'
 ht-degree: 16%
 
 ---
@@ -59,7 +59,7 @@ Para começar a adicionar sua conexão de dados, selecione **[!UICONTROL Adicion
 Em seguida, escolha a origem da conexão de dados. As fontes disponíveis incluem:
 
 * **Adobe Experience Platform**: selecione esta opção para trazer seus públicos do Adobe Experience Platform.
-* **Arquivo CSV** (versão futura): carregue um arquivo CSV contendo seus dados de público-alvo para assimilação rápida e direta de dados.
+* **Arquivo CSV**: carregue um arquivo CSV contendo seus dados de público-alvo para assimilação rápida e direta de dados. Consulte o [guia de carregamento de arquivo CSV para fornecimento de público-alvo](./upload-csv-audience-sourcing.md) para começar.
 * **Amazon Web Services**: conecte-se ao armazenamento do Amazon S3 para originar dados de público-alvo diretamente dos seus buckets do S3. Consulte o guia [Configurar AWS S3 para fornecimento de público-alvo](./configure-aws-s3-audience-sourcing.md) para obter instruções passo a passo.
 * **Snowflake** (versão futura): use o data warehouse do Snowflake para obter dados de público-alvo facilmente.
 * **Google Cloud Platform** (versão futura): conecte-se ao Google Cloud Storage para obter dados de público-alvo diretamente dos seus buckets do GCS.
@@ -80,7 +80,7 @@ Em seguida, verifique se as ações de marketing corretas estão definidas nos d
 
 Use ações de marketing para controlar quais dados de público-alvo trazer para o Collaboration a partir do Experience Platform. A ação de marketing **[!UICONTROL Colaboração de dados]** é compatível com os rótulos de uso de dados C4, C5 e C9. A ação de marketing **[!UICONTROL Ciência de dados]** é compatível com o rótulo de uso de dados C9.
 
-Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando a caixa de seleção estiver ***habilitada***, todos os dados rotulados no Experience Platform conforme descrito acima serão excluídos e **não** serão trazidos para o Collaboration.
 * Com a caixa de seleção ***desabilitada***, não há restrição nos dados obtidos do Experience Platform.
@@ -147,7 +147,7 @@ Em seguida, você selecionará campos de origem para mapear para campos de desti
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Os campos do Source]** são namespaces de identidade e atributos da Experience Platform. Eles incluem namespaces de identidade [padrão](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=pt-BR#standard){target="_blank"} e [personalizados](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=pt-BR#create-namespaces){target="_blank"}. Eles também incluem atributos de perfil que estão presentes no [esquema de união](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=pt-BR){target="_blank"} e pertencem à classe Perfil Individual XDM.
+**[!UICONTROL Os campos do Source]** são namespaces de identidade e atributos da Experience Platform. Eles incluem namespaces de identidade [padrão](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=pt-BR#standard){target="_blank"} e [personalizados](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. Eles também incluem atributos de perfil que estão presentes no [esquema de união](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=pt-BR){target="_blank"} e pertencem à classe Perfil Individual XDM.
 
 Os campos do Source são mapeados para os campos de destino definidos no Collaboration.
 

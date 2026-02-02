@@ -2,10 +2,10 @@
 user-guide-title: Colaboração da Real-Time CDP
 breadcrumb-title: Colaboração da Real-Time CDP
 user-guide-description: O Adobe Real-Time CDP Collaboration permite o compartilhamento de dados e a colaboração perfeitos e seguros entre anunciantes e editores, facilitando insights do público-alvo em tempo real e estratégias de marketing personalizadas.
-source-git-commit: 05fd7ec466ba2b20264490bbbfadc9bb6d361bc8
+source-git-commit: 23025b0f4cd853f671ac8cc5ef3696cac03d20a4
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 35%
+source-wordcount: '162'
+ht-degree: 32%
 
 ---
 
@@ -22,9 +22,11 @@ ht-degree: 35%
 * Configurar {#setup}
    * [Visão geral da seção de configuração](./setup/setup-overview.md)
    * [Integrar e gerenciar sua conta](./setup/onboard-account.md)
-   * [Source e gerenciar públicos](./setup/onboard-audiences.md)
-   * [Configurar o Amazon S3 para fornecimento de público](./setup/configure-aws-s3-audience-sourcing.md)
-   * [Configurar permissões do AWS para fornecimento de público](./setup/configure-aws-permissions-audience-sourcing.md)
+   * Source e gerenciar públicos {#source-audiences}
+      * [Configurar o AEP para fornecimento de público](./setup/onboard-audiences.md)
+      * [Configurar permissões do AWS para fornecimento de público](./setup/configure-aws-permissions-audience-sourcing.md)
+      * [Configurar o Amazon S3 para fornecimento de público](./setup/configure-aws-s3-audience-sourcing.md)
+      * [Fazer upload de arquivo CSV para fornecimento de público](./setup/upload-csv-audience-sourcing.md)
    * [Gerenciar conexões de dados](./setup/manage-data-connection.md)
    * [Configurar e gerenciar destinos](./setup/manage-destinations.md)
    * [Rastrear sua atividade de consumo de crédito](/help/guide/setup/my-activity.md)
