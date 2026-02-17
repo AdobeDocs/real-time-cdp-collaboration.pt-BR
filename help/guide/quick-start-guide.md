@@ -2,9 +2,9 @@
 title: Guia de início e configuração rápida do Real-Time CDP Collaboration
 description: Saiba como configurar o Real-Time CDP Collaboration, configurar funções e contas, públicos-alvo de origem, ativar dados e se conectar a parceiros de forma segura.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: d0ad2d66ac7178c24449be415a613b89d9b3bee1
+source-git-commit: bd6c28c3d21ea98434c6cdf585a3e439f7d2ce70
 workflow-type: tm+mt
 source-wordcount: '1389'
 ht-degree: 0%
@@ -41,7 +41,7 @@ As funções de acesso da sua organização determinam o que os usuários podem 
 
 Assista a este vídeo para saber como atribuir acesso e permissões de produto ao Collaboration usando o Admin Console e o Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452235/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Etapa 2: configurar a conta do Collaboration {#set-up-your-account}
 
@@ -122,7 +122,7 @@ Como alternativa, consulte o documento sobre [origem de públicos-alvo no Collab
 
 ### Opção B: Source do Snowflake ou Amazon S3
 
-Para configurar uma fonte na nuvem, como [!DNL Snowflake] ou [!DNL Amazon S3], prepare os dados do público-alvo usando a [PDF de Especificação de Público-Alvo](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)
+Para configurar uma fonte na nuvem, como [!DNL Snowflake] ou [!DNL Amazon S3], prepare os dados do público-alvo usando a [PDF de Especificação de Público-Alvo](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)
 
 Você pode configurar [!DNL Amazon S3] como uma fonte de dados de autoatendimento. Para obter instruções de instalação, consulte o [guia de fornecimento do Amazon S3](./setup/configure-aws-s3-audience-sourcing.md)
 

@@ -1,7 +1,8 @@
 ---
 title: Configurar [!DNL Amazon S3] para Origem de Público-Alvo
 description: Saiba como configurar e conectar seu armazenamento do  [!DNL Amazon S3] como uma fonte de dados de autoatendimento para assimilar dados de público-alvo no Real-Time CDP Collaboration.
-source-git-commit: 7a2bfb524d77d42690f3abe848a59aae5b16b667
+exl-id: 566ceb1b-a72a-413d-b07d-409723892616
+source-git-commit: 43134d6f334ee500834a6451bdf1a8f7372f8d10
 workflow-type: tm+mt
 source-wordcount: '1583'
 ht-degree: 1%
@@ -27,7 +28,7 @@ Os públicos-alvo originados por meio do S3 seguem as mesmas regras de governan�
 
 Antes de configurar sua conexão de dados S3, verifique o seguinte:
 
-* Você tem acesso a um **[!DNL Amazon S3]bucket** ativo contendo arquivos de público-alvo que estão em conformidade com a **[Especificação de Origem de Público-Alvo (v1.1)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)**.
+* Você tem acesso a um **[!DNL Amazon S3]bucket** ativo contendo arquivos de público-alvo que estão em conformidade com a **[Especificação de Origem de Público-Alvo (v1.1)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**.
 * Você criou uma **função IAM** no AWS que concede à Adobe permissão para acessar seu bucket usando o método **função assumida** (não chaves de acesso/secretas). Consulte **[Configurar permissões do AWS para fornecimento de público-alvo](./configure-aws-permissions-audience-sourcing.md)** para obter instruções detalhadas. A função IAM deve incluir as seguintes permissões:
 
    * `ListBucket`
@@ -70,7 +71,7 @@ Selecione **[!UICONTROL Amazon S3]** como conexão de dados, seguido de **[!UICO
 >abstract="Leia o guia de Especificação da origem do público-alvo para saber como formatar e estruturar os dados de público-alvo no Amazon S3 para Collaboration."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Consulte o guia"
 
-Uma caixa de diálogo é exibida explicando como os arquivos de público-alvo devem ser estruturados. Use o link para a **[[!UICONTROL Especificação da Origem do Público-Alvo]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)** para saber como formatar e estruturar os dados do público-alvo do [!DNL Amazon S3] para o Collaboration para lê-los corretamente.
+Uma caixa de diálogo é exibida explicando como os arquivos de público-alvo devem ser estruturados. Use o link para a **[[!UICONTROL Especificação da Origem do Público-Alvo]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)** para saber como formatar e estruturar os dados do público-alvo do [!DNL Amazon S3] para o Collaboration para lê-los corretamente.
 
 >[!IMPORTANT]
 >
@@ -197,7 +198,7 @@ Quando estiver na exibição de grade ou tabela, selecione um item de linha ou *
 
 Use esta exibição para confirmar as configurações de público-alvo e as configurações de visibilidade antes de usar o público-alvo em projetos de colaboração.
 
-Consulte a [Exibir documentação do painel de públicos-alvo](https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) para saber mais.
+Consulte a [Exibir documentação do painel de públicos-alvo](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) para saber mais.
 
 ## Exibir sua conexão de dados S3 {#view-s3-connection}
 
