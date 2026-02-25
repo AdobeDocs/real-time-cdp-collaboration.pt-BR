@@ -2,11 +2,11 @@
 title: Configurar e gerenciar sua conta
 description: Saiba como configurar e gerenciar vários aspectos da sua conta no Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 873af5b0ef5e4e0c937c540de4697ec314624669
+source-git-commit: be7078b16d8126a80cced0a3a8328b465b6ec245
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1359'
 ht-degree: 11%
 
 ---
@@ -156,23 +156,25 @@ Agora você pode editar os detalhes da sua conta. Atualize todos os campos que d
 
 ### Editar chaves de correspondência {#edit-match-keys}
 
->[!IMPORTANT]
->
->A edição de chaves de correspondência não afetará suas conexões existentes. Depois que uma conexão é estabelecida, as chaves de correspondência selecionadas durante a configuração da conexão são corrigidas. É importante que você selecione **todas** as chaves de correspondência que planeja usar em campanhas futuras durante a configuração da conta.
-
 Você também pode atualizar as chaves de correspondência selecionadas inicialmente ao criar sua conta. Essas chaves de correspondência determinarão as chaves de correspondência disponíveis para conexões futuras.
 
 Selecione **[!UICONTROL Editar]** na seção **[!UICONTROL Chaves de correspondência]**.
 
 ![O espaço de trabalho de Instalação com a opção Editar realçada na seção Chaves de correspondência da conta.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-A caixa de diálogo **[!UICONTROL Chaves de correspondência]** é exibida. Ative e desative qualquer chave de correspondência ou atualize sua **[!UICONTROL ID da Conta]** para sua [!UICONTROL AdFixus ID] e selecione **[!UICONTROL Salvar]** para confirmar as alterações.
+A caixa de diálogo **[!UICONTROL Chaves de correspondência]** é exibida. Ative qualquer chave de correspondência ou atualize sua **[!UICONTROL ID da Conta]** para sua [!UICONTROL AdFixus ID] e selecione **[!UICONTROL Salvar]** para confirmar as alterações.
 
 >[!IMPORTANT]
 >
 >Alterar sua [!UICONTROL AdFixus ID] não acionará uma atualização de [rascunho de dados](../glossary.md#sketches) para suas conexões de dados existentes usando a chave de correspondência. Depois que os dados forem esboçados, as alterações na [!UICONTROL AdFixus ID] não serão refletidas até a próxima atualização do público-alvo seguindo as configurações da [agenda de conexão de dados](./manage-data-connection.md#scheduling). Se você precisar de alterações antes da próxima atualização, poderá excluir e recriar sua conexão de dados.
+>
+>No momento, as chaves de correspondência não podem ser removidas depois de adicionadas à sua conta.
 
 ![A caixa de diálogo Corresponder chaves com a opção Salvar foi realçada.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
+
+Uma caixa de diálogo de sucesso confirma que as chaves correspondentes da sua conta foram atualizadas com sucesso.
+
+![Uma caixa de diálogo bem-sucedida confirmando que as chaves de correspondência da sua conta foram atualizadas com êxito.](/help/assets/setup/manage-account/match-key-updated-successfully.png){zoomable="yes"}
 
 ## Próximas etapas
 
