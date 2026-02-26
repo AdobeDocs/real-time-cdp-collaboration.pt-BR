@@ -2,7 +2,7 @@
 title: Descubra sobreposições e compare públicos
 description: Descubra sobreposições entre o seu e o público-alvo de seus colaboradores. Saiba como descobrir os melhores públicos-alvo para usar em suas campanhas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
@@ -37,7 +37,7 @@ A caixa de diálogo **[!UICONTROL Editar chaves de correspondência]** é aberta
 
 Para começar a usar a guia **[!UICONTROL Descobrir]** no seu projeto, você deve ter:
 
-* [Públicos-alvo &#x200B;](/help/guide/setup/onboard-audiences.md) originados na sua conta
+* [Públicos-alvo ](/help/guide/setup/onboard-audiences.md) originados na sua conta
 * [Conectado](/help/guide/connect/establishing-connections.md) com um colaborador com o caso de uso **Descoberta de público-alvo** habilitado
 * [Criou um projeto](/help/guide/collaborate/manage-projects.md) entre você e um colaborador
 
@@ -86,7 +86,7 @@ Na seção comparar públicos, você pode ver as seguintes métricas, que se bas
 | **[!UICONTROL Contagem de identidades]** (seu colaborador) | O número de IDs exclusivas no(s) público(s) do colaborador. |
 | **[!UICONTROL Identidades sobrepostas]** | O número de IDs exclusivas presentes nos públicos do e do colaborador. |
 | **[!UICONTROL Sobreposição %]** | A porcentagem de sobreposição de perfis entre o público-alvo alvo selecionado do seu colaborador e o seu. |
-| **[!UICONTROL Índice de público-alvo]** | Uma pontuação que indica com que intensidade um público-alvo está relacionado a outro com base nas contagens e sobreposições subjacentes do público-alvo. Para saber mais sobre o significado das pontuações, leia a seção [pontuação do índice de público-alvo](#audience-index-score). As pontuações do índice de público-alvo não estão disponíveis ao comparar com a linha de base do colaborador (todos os públicos-alvo). |
+| **[!UICONTROL Índice de público-alvo]** | Uma pontuação que indica com que intensidade um público-alvo está relacionado a outro com base em contagem de público-alvo e sobreposições subjacentes. Para saber mais sobre o significado das pontuações, leia a seção [pontuação do índice de público-alvo](#audience-index-score). As pontuações do índice de público-alvo não estão disponíveis ao comparar com a linha de base do colaborador (todos os públicos-alvo). |
 | **[!UICONTROL Detalhamento de identidades por chave de correspondência]** | O detalhamento de identidades correspondentes a cada chave de correspondência escolhida no projeto, com base nos públicos-alvo selecionados para cada colaborador. |
 
 {style="table-layout:auto"}
@@ -119,7 +119,7 @@ A seção **[!UICONTROL Públicos relevantes]** exibe as seguintes informações
 | **[!UICONTROL Contagem de identidades]** | O número de IDs exclusivas dentro do público-alvo. |
 | **[!UICONTROL Identidades sobrepostas]** | O número de IDs exclusivas que se sobrepõem entre o público-alvo recomendado e todos os públicos-alvo. |
 | **[!UICONTROL Sobreposição %]** | A porcentagem de identidades sobrepostas entre o público-alvo recomendado e todos os públicos-alvo. |
-| **[!UICONTROL Índice de público-alvo]** | Uma pontuação que indica com que intensidade um público-alvo está relacionado a outro com base nas contagens e sobreposições subjacentes do público-alvo. Para saber mais sobre o significado das pontuações, leia a seção [pontuação do índice de público-alvo](#audience-index-score). |
+| **[!UICONTROL Índice de público-alvo]** | Uma pontuação que indica com que intensidade um público-alvo está relacionado a outro com base em contagem de público-alvo e sobreposições subjacentes. Para saber mais sobre o significado das pontuações, leia a seção [pontuação do índice de público-alvo](#audience-index-score). |
 | **[!UICONTROL Categorias de público-alvo]** | As categorias que seu colaborador atribuiu ao público-alvo. |
 | **[!UICONTROL Chaves correspondentes]** | As chaves de correspondência que seu colaborador selecionou para o público-alvo. |
 
@@ -159,7 +159,7 @@ Depois de selecionar os públicos desejados, a seção **[!UICONTROL Descobrir s
 | **[!UICONTROL Contagem de identidades]** | O número de IDs exclusivas dentro do público-alvo. |
 | **[!UICONTROL Identidades sobrepostas]** | O número de IDs exclusivas que se sobrepõem entre o público-alvo recomendado e todos os públicos-alvo. |
 | **[!UICONTROL Sobreposição %]** | A porcentagem de identidades sobrepostas entre o público-alvo recomendado e todos os públicos-alvo. |
-| **[!UICONTROL Índice de público-alvo]** | Uma pontuação que indica com que intensidade um público-alvo está relacionado a outro com base nas contagens e sobreposições subjacentes do público-alvo. Para saber mais sobre o significado das pontuações, leia a seção [pontuação do índice de público-alvo](#audience-index-score). |
+| **[!UICONTROL Índice de público-alvo]** | Uma pontuação que indica com que intensidade um público-alvo está relacionado a outro com base em contagem de público-alvo e sobreposições subjacentes. Para saber mais sobre o significado das pontuações, leia a seção [pontuação do índice de público-alvo](#audience-index-score). |
 | **[!UICONTROL Categorias de público-alvo]** | As categorias que seu colaborador atribuiu ao público-alvo. |
 | **[!UICONTROL Chaves correspondentes]** | As chaves de correspondência que seu colaborador selecionou para o público-alvo. |
 

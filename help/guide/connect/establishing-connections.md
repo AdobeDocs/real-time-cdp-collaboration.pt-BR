@@ -2,7 +2,7 @@
 title: Estabelecimento de conexões com colaboradores
 description: Depois de descobrir possíveis colaboradores, saiba como estabelecer conexões e começar a colaborar em projetos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
@@ -227,7 +227,7 @@ Para personalizar seus casos de uso, selecione **[!UICONTROL Editar]** na seçã
 
 >[!IMPORTANT]
 >
->Ao ativar públicos-alvo onde várias chaves de correspondência são usadas, se uma (ou mais) chave de correspondência não tiver sobreposições, nenhuma contagem de público-alvo ou ficar abaixo do limite, toda a ativação falhará. Verifique se os públicos-alvo têm sobreposição suficiente e se atendem ao limite mínimo de 1000 IDs em todas as chaves de correspondência antes da ativação.
+>Ao ativar públicos-alvo em que várias chaves de correspondência são usadas, se uma (ou mais) chave de correspondência não tiver sobreposições, contagem de público-alvo ou ficar abaixo do limite, toda a ativação falhará. Verifique se os públicos-alvo têm sobreposição suficiente e se atendem ao limite mínimo de 1000 IDs em todas as chaves de correspondência antes da ativação.
 
 As chaves de correspondência são preenchidas automaticamente com as chaves de correspondência comuns que você e seu colaborador selecionaram ao [configurar suas contas](/help/guide/setup/onboard-account.md#set-up-match-keys). Somente as chaves correspondentes que você e seu colaborador selecionaram **e** têm em comum serão exibidas.
 
