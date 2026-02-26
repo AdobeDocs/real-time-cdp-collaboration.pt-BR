@@ -37,7 +37,7 @@ A caixa de diálogo **[!UICONTROL Editar chaves de correspondência]** é aberta
 
 Para começar a usar a guia **[!UICONTROL Descobrir]** no seu projeto, você deve ter:
 
-* [Públicos-alvo ](/help/guide/setup/onboard-audiences.md) originados na sua conta
+* [Públicos-alvo &#x200B;](/help/guide/setup/onboard-audiences.md) originados na sua conta
 * [Conectado](/help/guide/connect/establishing-connections.md) com um colaborador com o caso de uso **Descoberta de público-alvo** habilitado
 * [Criou um projeto](/help/guide/collaborate/manage-projects.md) entre você e um colaborador
 
