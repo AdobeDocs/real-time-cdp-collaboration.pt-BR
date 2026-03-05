@@ -2,11 +2,11 @@
 title: Gerenciar conexões de dados
 description: Saiba como gerenciar conexões de dados, incluindo chaves de correspondência, agendamento, casos de uso e filtragem de público-alvo no Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: 46d2596bd0ccdc5da32067493968945c61f8acc4
+source-git-commit: 4bfa57ba36336dd835551fb846f1d567d6830bf9
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1149'
 ht-degree: 5%
 
 ---
@@ -60,6 +60,12 @@ Para obter mais informações sobre agendamento, consulte a [seção de agendame
 Leia as seções a seguir para saber como atualizar as chaves de correspondência e as configurações de agendamento de uma conexão de dados existente.
 
 ### Editar chaves de correspondência {#edit-match-keys}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_edit_measurement_data_connection_enrichment"
+>title="Enriquecimento"
+>abstract="Não há suporte para a desativação do enriquecimento. Em vez disso, você pode alterar as chaves de junção de enriquecimento."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections" text="Enriquecimento"
 
 >[!IMPORTANT]
 >
