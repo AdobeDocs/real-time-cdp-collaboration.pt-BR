@@ -16,7 +16,7 @@ ht-degree: 8%
 >[!IMPORTANT]
 >
 >Before following this guide, you must have completed the steps to authorize Adobe&#39;s IAM role within your AWS account.\
->**[](./configure-aws-permissions-audience-sourcing.md)**
+>**[&#128279;](./configure-aws-permissions-audience-sourcing.md)**
 
 ## Visão geral {#overview}
 
@@ -28,8 +28,8 @@ Audiences sourced through S3 follow the same governance and data handling rules 
 
 Before configuring your S3 data connection, ensure the following:
 
-* **[!DNL Amazon S3]****[](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**
-* **********[](./configure-aws-permissions-audience-sourcing.md)**
+* **[!DNL Amazon S3]**&#x200B;**[&#128279;](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**
+* **&#x200B;**&#x200B;**&#x200B;**&#x200B;**[&#128279;](./configure-aws-permissions-audience-sourcing.md)**
 
    * `ListBucket`
    * `GetBucketLocation`
@@ -37,29 +37,29 @@ Before configuring your S3 data connection, ensure the following:
 
 * You have the following values ready:
 
-   * ****
-   * ****
-   * ****
+   * **&#x200B;**
+   * **&#x200B;**
+   * **&#x200B;**
 
 >[!NOTE]
 >
->****
+>**&#x200B;**
 
 ## [!DNL Amazon S3] {#configure-aws-s3-connection}
 
-********![](/help/assets/icons/plus.png)****
+**&#x200B;**&#x200B;**&#x200B;**![](/help/assets/icons/plus.png)**&#x200B;**
 
-****
+**&#x200B;**
 
 ![](../../assets/setup/add-manage-audiences/add-audiences.png)
 
-********
+**&#x200B;**&#x200B;**&#x200B;**
 
 ![](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
 ### [!DNL Amazon S3] {#select-aws-s3}
 
-********
+**&#x200B;**&#x200B;**&#x200B;**
 
 ![[!DNL Amazon S3]](../../assets/setup/aws-audience-sourcing/select-s3-data-connection.png)
 
@@ -71,11 +71,11 @@ Before configuring your S3 data connection, ensure the following:
 >abstract="Leia o guia para especificar a origem do público-alvo para saber como formatar e estruturar os dados de público-alvo no Amazon S3 for Collaboration."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Consulte o guia"
 
-**[](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**[!DNL Amazon S3]
+**[&#128279;](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;[!DNL Amazon S3]
 
 >[!IMPORTANT]
 >
->[!DNL Amazon S3][!DNL Amazon S3]
+>[!DNL Amazon S3]&#x200B;[!DNL Amazon S3]
 
 Your audience files must comply with the Audience Sourcing Specification. The match keys are automatically mapped based on the required format.
 
@@ -83,7 +83,7 @@ Key considerations include:
 
 * `|`
 * If uploading multiple files, ensure all files contain identical columns.
-* `AUDIENCE_ID``HASHED_EMAIL_SHA_256``HASHED_PHONE_SHA_256``HASHED_IPV4_SHA_256``CRM_ID``LOYALTY_ID``ADFIXUS_ID`
+* `AUDIENCE_ID` `HASHED_EMAIL_SHA_256` `HASHED_PHONE_SHA_256` `HASHED_IPV4_SHA_256` `CRM_ID` `LOYALTY_ID` `ADFIXUS_ID`
 * Data refreshes occur every 1–6 days based on your selection during the sourcing setup in Collaboration.
 
 ![](../../assets/setup/aws-audience-sourcing/prepare-data-sourcing-dialog.png)
@@ -102,7 +102,7 @@ Key considerations include:
 
 [!DNL Amazon S3]
 
-**[](./configure-aws-permissions-audience-sourcing.md)**[!DNL Amazon S3]
+**[&#128279;](./configure-aws-permissions-audience-sourcing.md)**&#x200B;[!DNL Amazon S3]
 
 * Função do IAM
 * S3 Bucket Name
@@ -134,22 +134,22 @@ Após a conexão, o sistema valida suas credenciais e exibe uma das seguintes me
 
 Insira um nome descritivo e uma descrição opcional para sua conexão de dados do S3. 
 
-* ****
-* ****
+* **&#x200B;**
+* **&#x200B;**
 
 ![](../../assets/setup/aws-audience-sourcing/s3-connection-name-description.png)
 
 ### Review auto-mapped identity fields {#auto-mapped-fields}
 
-****
+**&#x200B;**
 
-****
+**&#x200B;**
 
 ![](../../assets/setup/aws-audience-sourcing/s3-field-mapping-auto-mapped.png)
 
 ### Schedule refresh frequency and date range {#schedule-refresh}
 
-****
+**&#x200B;**
 
 >[!IMPORTANT]
 >
@@ -161,12 +161,12 @@ Insira um nome descritivo e uma descrição opcional para sua conexão de dados 
 
 Finally, review your configuration settings in the summary screen. This view contains a summary of the following sections:
 
-* ****
-* ****
-* ****`HASHED_EMAIL`
-* ****
+* **&#x200B;**
+* **&#x200B;**
+* **&#x200B;**`HASHED_EMAIL`
+* **&#x200B;**
 
-****
+**&#x200B;**
 
 ![](../../assets/setup/aws-audience-sourcing/s3-connection-review-summary.png)
 
@@ -174,7 +174,7 @@ A dialog confirmation appears stating that the data connection was created succe
 
 ## Review sourced audiences {#review-sourced-audiences}
 
-[!DNL Amazon S3]****
+[!DNL Amazon S3]&#x200B;**&#x200B;**
 
 If audience sourcing is in progress, a banner appears at the top of the screen. Individual audiences appear only after sourcing completes.
 
@@ -184,21 +184,21 @@ Once the S3 audiences are sourced, your list of available audiences are provided
 
 >[!TIP]
 >
->****
+>**&#x200B;**
 
 ![](../../assets/setup/aws-audience-sourcing/s3-audiences-list-view.png)
 
-****
+**&#x200B;**
 
-****************
+**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**
 
 Use this view to confirm audience configuration and visibility settings before using the audience in collaboration projects.
 
-[](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)
+[&#128279;](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)
 
 ## View your S3 data connection {#view-s3-connection}
 
-[!DNL Amazon S3]****
+[!DNL Amazon S3]&#x200B;**&#x200B;**
 
 Your S3 data connection includes the same functionality and details as other audience data connections, except that you cannot add or edit audiences directly from this view.
 
@@ -212,4 +212,4 @@ Your S3 data connection includes the same functionality and details as other aud
 
 [!DNL Amazon S3]
 
-****[](./onboard-audiences.md)
+**&#x200B;**&#x200B;[&#128279;](./onboard-audiences.md)
