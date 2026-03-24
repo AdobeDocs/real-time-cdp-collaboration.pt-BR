@@ -2,11 +2,11 @@
 title: Gerenciar conexões de dados
 description: Saiba como gerenciar conexões de dados, incluindo chaves de correspondência, agendamento, casos de uso e filtragem de público-alvo no Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: 4bfa57ba36336dd835551fb846f1d567d6830bf9
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1168'
 ht-degree: 5%
 
 ---
@@ -76,11 +76,11 @@ Leia as seções a seguir para saber como atualizar as chaves de correspondênci
 
 Selecione **[!UICONTROL Editar]** na seção **[!UICONTROL Chaves de correspondência]**.
 
-![A seção Corresponder chaves com a opção Editar foi realçada.](/help/assets/setup/manage-data-connection/edit-match-keys.png){zoomable="yes"}
+![A seção Corresponder chaves com a opção Editar realçada.](/help/assets/setup/manage-data-connection/edit-match-keys.png){zoomable="yes"}
 
 Uma caixa de diálogo de confirmação é exibida, explicando que quaisquer alterações na conexão de dados serão aplicadas a todos os públicos-alvo associados. Selecione **[!UICONTROL OK]** para confirmar. Você pode optar por ignorar essa confirmação no futuro.
 
-![Caixa de diálogo de confirmação mostrando que quaisquer alterações na conexão de dados serão aplicadas a todos os públicos-alvo associados.](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
+![Caixa de diálogo de confirmação mostrando que as alterações na conexão de dados serão aplicadas a todos os públicos-alvo associados.](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
 
 Na caixa de diálogo **[!UICONTROL Chaves de correspondência]**, você pode exibir os mapeamentos existentes entre campos de origem e seus campos de destino correspondentes (chaves de correspondência). Você pode editar uma chave de correspondência atualizando o campo de origem mapeado ou adicionar outras linhas de campo de mapeamento para preencher novas chaves de correspondência.
 
@@ -98,7 +98,7 @@ Escolha o campo de origem desejado, seguido por **[!UICONTROL Selecionar]**.
 
 ![A caixa de diálogo Selecionar campo de origem com a opção GAID selecionada.](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
 
-Na caixa de diálogo **[!UICONTROL Chaves de correspondência]**, use o menu suspenso para mapear o novo campo de origem para um campo de destino. Todos os campos de público-alvo disponíveis são as chaves de correspondência configuradas para sua conta do Collaborator. Se você não vir o campo de destino necessário, [edite as chaves de correspondência da sua conta](./onboard-account.md#edit-match-keys) para adicioná-lo.
+Na caixa de diálogo **[!UICONTROL Corresponder chaves]**, use o menu suspenso para mapear o novo campo de origem para um campo de destino. Todos os campos de público-alvo disponíveis são as chaves de correspondência configuradas para sua conta do Collaborator. Se você não vir o campo de destino necessário, [edite as chaves de correspondência da sua conta](./onboard-account.md#edit-match-keys) para adicioná-lo.
 
 Use a opção **[!UICONTROL Aplicar transformação]** se desejar originar um campo sem hash para um campo de destino com hash, por exemplo, ao mapear um campo de origem de email de texto simples para o campo de destino **[!UICONTROL Email com hash]**.
 
@@ -148,10 +148,10 @@ Uma caixa de diálogo de confirmação será exibida. Selecione **[!UICONTROL Ex
 
 ## Gerenciar públicos {#manage-audiences}
 
-Uma lista de públicos-alvo anexados à conexão de dados é exibida na parte inferior do espaço de trabalho. A lista exibe uma breve visão geral de cada público-alvo, incluindo status, origem e acesso à conexão. Para editar as categorias, o acesso à conexão ou a visibilidade dos metadados de um público, selecione o nome do público. Para obter um guia completo sobre como gerenciar um público, consulte o guia [exibir públicos-alvo individuais](./onboard-audiences.md#view-individual-audiences).
+Uma lista de públicos-alvo anexados à conexão de dados é exibida na parte inferior do espaço de trabalho. A lista exibe uma breve visão geral de cada público-alvo, incluindo status, origem e acesso à conexão. Para editar as categorias, o acesso à conexão ou a visibilidade dos metadados de um público, selecione o nome do público. Para obter um guia completo sobre como gerenciar um público-alvo, consulte o guia [exibir públicos-alvo individuais](./onboard-audiences.md#view-individual-audiences).
 
 ![Um espaço de trabalho de conexões de dados com os públicos-alvo realçados.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 
 ## Próximas etapas
 
-Depois de gerenciar suas conexões de dados, você pode [descobrir sobreposições](/help/guide/collaborate/discover.md) entre os públicos-alvo e os públicos que o seu colaborador tornou visíveis.
+Depois de gerenciar as conexões de dados, você pode [descobrir sobreposições](/help/guide/collaborate/discover.md) entre os públicos-alvo e os públicos que o colaborador descobriu.
