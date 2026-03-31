@@ -2,20 +2,22 @@
 cloud: Experience Cloud
 solution: Real-Time Customer Data Platform
 product: experience cloud
+landing-page-name: experience-platform
+landing-page-breadcrumb-title: Experience Platform
 type: Documentation
 mini-toc-levels: 2
-index: y
-git-repo: https://github.com/AdobeDocs/real-time-cdp-collaboration.pt-BR
-source-git-commit: 4080dab6e4da6e38af3a7171870a904577f00bbd
+index: true
+git-repo: https://github.com/AdobeDocs/real-time-cdp-collaboration.en
+source-git-commit: 142166b96005dec8fca2ae5f809c84cdfbe0da6c
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 98%
+source-wordcount: '71'
+ht-degree: 0%
 
 ---
 
 
 # Metadados para uso interno
 
-O arquivo metadata.md inclui metadados de nível de repositório transmitidos para os arquivos TOC.md do guia do usuário no repositório. Se desejar alterar o conteúdo metadata.md para qualquer guia do usuário, faça isso em qualquer arquivo TOC.md.
+O arquivo metadata.md inclui metadados de nível de repositório que passam para os arquivos TOC.md do guia do usuário no repositório. Se quiser alterar o conteúdo metadata.md para qualquer guia do usuário, faça isso em qualquer arquivo TOC.md.
 
-Consulte [Metadados](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=pt-BR) para obter uma lista de valores válidos para **solução**, **produto** e **tipo**.
+Consulte [Metadados](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html) para obter uma lista de valores válidos para **solução**, **produto** e **tipo**.
