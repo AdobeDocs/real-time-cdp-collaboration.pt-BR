@@ -2,11 +2,11 @@
 title: Source e gerenciar públicos
 description: Saiba como fornecer e gerenciar públicos-alvo no Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: d554ce3921211bc0d726b88f410410cdccc1a937
+source-git-commit: c535412589a5004cde6147e6800c05f3b5f7bb27
 workflow-type: tm+mt
-source-wordcount: '3631'
+source-wordcount: '3636'
 ht-degree: 17%
 
 ---
@@ -21,11 +21,11 @@ Os públicos-alvo são grupos específicos de usuários ou clientes segmentados 
 
 >[!IMPORTANT]
 >
->Para públicos-alvo de origem, seu usuário precisa ser atribuído a uma função que contém duas permissões de Gerenciamento de perfil - **[!UICONTROL Exibir perfis]** e **[!UICONTROL Exibir segmentos]**. Para obter informações sobre como atribuir as permissões necessárias, consulte o [guia de fornecimento de público-alvo](../permissions/overview.md#audience-sourcing) em permissões.
+>Para públicos de origem, seu usuário precisa ser atribuído a uma função que contém duas permissões de Gerenciamento de Perfil - **[!UICONTROL Exibir Perfis]** e **[!UICONTROL Exibir Segmentos]**. Para obter informações sobre como atribuir as permissões necessárias, consulte o guia [fornecimento de público-alvo](../permissions/overview.md#audience-sourcing) em permissões.
 
 Antes de ativar públicos-alvo com colaboradores e executar cálculos de sobreposição, os públicos-alvo precisam ser originados na Collaboration. Para direcionar públicos-alvo, siga as etapas do fluxo de trabalho na seção abaixo.
 
-Na guia **[!UICONTROL Meus públicos-alvo]** do espaço de trabalho **[!UICONTROL Configuração]**, selecione o ícone adicionar (![ícone Adicionar.](/help/assets/icons/plus.png)) e selecione **[!UICONTROL Público]**. Se este for seu primeiro público-alvo, você também poderá selecionar a opção **[!UICONTROL Adicionar]**.
+Na guia **[!UICONTROL Meus públicos-alvo]** do espaço de trabalho **[!UICONTROL Configuração]**, selecione o ícone adicionar (![Ícone Adicionar.](/help/assets/icons/plus.png)) e selecione **[!UICONTROL Público]**. Se este for seu primeiro público-alvo, você também poderá selecionar a opção **[!UICONTROL Adicionar]**.
 
 ![Meu espaço de trabalho de públicos-alvo com a opção Adicionar e a opção Públicos-alvo realçadas.](/help/assets/setup/add-manage-audiences/add-audiences.png){zoomable="yes"}
 
@@ -48,7 +48,7 @@ Todas as configurações definidas para a conexão de dados são aplicadas a tod
 
 >[!TIP]
 >
->Há um fluxo de trabalho separado em que você pode visualizar e editar suas conexões de dados. Para obter mais informações, siga o [guia de gerenciamento de conexões de dados](/help/guide/setup/manage-data-connection.md).
+>Há um fluxo de trabalho separado em que você pode visualizar e editar suas conexões de dados. Para obter mais informações, siga o guia [gerenciando conexões de dados](/help/guide/setup/manage-data-connection.md).
 
 Para começar a adicionar sua conexão de dados, selecione **[!UICONTROL Adicionar nova conexão de dados]** e clique em **[!UICONTROL Avançar]**.
 
@@ -59,14 +59,14 @@ Para começar a adicionar sua conexão de dados, selecione **[!UICONTROL Adicion
 Em seguida, escolha a origem da conexão de dados. As fontes disponíveis incluem:
 
 * **Adobe Experience Platform**: selecione esta opção para trazer seus públicos do Adobe Experience Platform.
-* **Arquivo CSV**: carregue um arquivo CSV contendo seus dados de público-alvo para assimilação de dados rápida e direta. Consulte o guia [Carregar arquivo CSV para fornecimento de público-alvo](./upload-csv-audience-sourcing.md) para começar.
-* **Amazon Web Services**: conecte-se ao seu armazenamento Amazon S3 para obter dados do público-alvo diretamente dos seus buckets do S3. Consulte o guia [Configurar AWS S3 para fornecimento de público-alvo](./configure-aws-s3-audience-sourcing.md) para obter instruções passo a passo.
-* **Snowflake** (versão futura): use o data warehouse do Snowflake para obter dados de público-alvo facilmente.
-* **Google Cloud Platform** (versão futura): conecte-se ao Google Cloud Storage para obter dados do público diretamente dos seus buckets do GCS.
+* **Arquivo CSV**: carregue um arquivo CSV contendo seus dados de público-alvo para assimilação rápida e direta de dados. Consulte o [guia de carregamento de arquivo CSV para fornecimento de público-alvo](./upload-csv-audience-sourcing.md) para começar.
+* **Amazon Web Services**: conecte-se ao armazenamento do Amazon S3 para originar dados de público-alvo diretamente dos seus buckets do S3. Consulte o guia [Configurar AWS S3 para fornecimento de público-alvo](./configure-aws-s3-audience-sourcing.md) para obter instruções passo a passo.
+* **Snowflake**: use o data warehouse do Snowflake para obter os dados de público-alvo com facilidade. Consulte o guia [Configurar [!DNL Snowflake] para fornecimento de público-alvo](./configure-snowflake-audience-sourcing.md).
+* **Google Cloud Platform** (versão futura): conecte-se ao Google Cloud Storage para obter dados de público-alvo diretamente dos seus buckets do GCS.
 
-Selecione sua fonte de dados e, em seguida, selecione **[!UICONTROL Avançar]**.
+Selecione sua fonte de dados e selecione **[!UICONTROL Próximo]**.
 
-![O espaço de trabalho Adicionar públicos-alvo com a opção Adobe Experience Platform foi realçado.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
+![O espaço de trabalho Adicionar públicos-alvo com a opção Adobe Experience Platform está realçado.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
 
 #### Selecionar sandbox
 
@@ -80,10 +80,10 @@ Em seguida, verifique se as ações de marketing corretas estão definidas nos d
 
 Use ações de marketing para controlar quais dados de público-alvo trazer para o Collaboration a partir do Experience Platform. A ação de marketing **[!UICONTROL Colaboração de dados]** é compatível com os rótulos de uso de dados C4, C5 e C9. A ação de marketing **[!UICONTROL Ciência de dados]** é compatível com o rótulo de uso de dados C9.
 
-Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando a caixa de seleção estiver ***habilitada***, todos os dados rotulados no Experience Platform conforme descrito acima serão excluídos e **não** serão trazidos para o Collaboration.
-* Com a caixa de seleção ***desabilitada***, não há restrição aos dados obtidos do Experience Platform.
+* Com a caixa de seleção ***desabilitada***, não há restrição nos dados obtidos do Experience Platform.
 
 Leia mais sobre os rótulos de uso de dados na documentação do Experience Platform:
 
@@ -96,7 +96,7 @@ Além disso, selecione suas regras de consentimento a serem aplicadas aos dados 
 
 Depois de selecionar as ações de marketing e as regras de consentimento, selecione **[!UICONTROL Avançar]** para prosseguir para a próxima etapa. Uma caixa de diálogo de confirmação será exibida, solicitando que você aceite os termos. Marque a caixa de seleção e selecione **[!UICONTROL OK]** para confirmar.
 
-![A caixa de diálogo Política de governança e ações de aplicação com a caixa de seleção e a opção OK realçadas.](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
+![Caixa de diálogo Política de governança e ações de aplicação com a caixa de seleção e a opção OK realçadas.](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
 
 ### Forneça detalhes
 
@@ -147,29 +147,29 @@ Em seguida, você selecionará campos de origem para mapear para campos de desti
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL campos do Source]** são namespaces de identidade e atributos da Experience Platform. Eles incluem namespaces de identidade [padrão](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=pt-BR#standard){target="_blank"} e [personalizados](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=pt-BR#create-namespaces){target="_blank"}. Eles também incluem atributos de perfil que estão presentes no [esquema de união](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=pt-BR){target="_blank"} e pertencem à classe Perfil Individual XDM.
+**[!UICONTROL Os campos do Source]** são namespaces de identidade e atributos da Experience Platform. Eles incluem namespaces de identidade [padrão](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=pt-BR#standard){target="_blank"} e [personalizados](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. Eles também incluem atributos de perfil que estão presentes no [esquema de união](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=pt-BR){target="_blank"} e pertencem à classe Perfil Individual XDM.
 
 Os campos do Source são mapeados para os campos de destino definidos no Collaboration.
 
-**[!UICONTROL Campos de destino]** indicam como as identidades são referenciadas no Collaboration. Os campos de destino são as chaves de correspondência escolhidas durante a configuração da conta. Por padrão, todas as chaves de correspondência escolhidas estão disponíveis.
+**[!UICONTROL Os campos de destino]** indicam como as identidades são referenciadas no Collaboration. Os campos de destino são as chaves de correspondência escolhidas durante a configuração da conta. Por padrão, todas as chaves de correspondência escolhidas estão disponíveis.
 
-Use a opção **[!UICONTROL Aplicar transformação]** quando estiver fornecendo campos *não com hash* para campos com hash. O Collaboration aplicará o hash e transformará os campos. O algoritmo de hash usado pelo Adobe é SHA256.
+Use a opção **[!UICONTROL Aplicar transformação]** quando estiver fornecendo *campos sem hash* para campos com hash. O Collaboration aplicará o hash e transformará os campos. O algoritmo de hash usado pelo Adobe é SHA256.
 
 >[!ENDSHADEBOX]
 
-Para iniciar o mapeamento de campos, selecione o campo de origem vazio ao lado do campo de destino. A caixa de diálogo **[!UICONTROL Selecionar campo de origem]** será exibida. Selecione entre as opções de **[!UICONTROL Namespaces de identidade]** e **[!UICONTROL Atributos de perfil]** para localizar o campo de origem desejado e selecione o campo na lista. Também é possível usar a opção de pesquisa para localizar o campo desejado.
+Para iniciar o mapeamento de campos, selecione o campo de origem vazio ao lado do campo de destino. A caixa de diálogo **[!UICONTROL Selecionar campo de origem]** será exibida. Selecione entre as opções **[!UICONTROL Namespaces de identidade]** e **[!UICONTROL Atributos do perfil]** para localizar o campo de origem desejado e selecione o campo na lista. Também é possível usar a opção de pesquisa para localizar o campo desejado.
 
 ![A caixa de diálogo Selecionar campo de origem com as opções de email exibidas.](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
 
 Para lidar com a origem de um campo sem hash para um campo de destino com hash, use a opção **[!UICONTROL Aplicar transformação]**. Por exemplo, para adicionar um segundo campo de email, selecione a opção **[!UICONTROL Adicionar campo]** para adicionar uma nova linha e selecione **[!UICONTROL Email com hash]** para o campo de destino. Selecione um campo de origem de email sem hash e selecione **[!UICONTROL Aplicar transformação]**.
 
-![O espaço de trabalho Adicionar públicos-alvo com os campos de origem de email mapeados para o campo de destino, com a opção Aplicar transformação ativada para um.](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
+![O espaço de trabalho Adicionar públicos-alvo com os campos de origem de email mapeados para o campo de destino, com a opção Aplicar transformação ativada para um campo.](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
 
-Continue adicionando pares de mapeamento para cada campo de destino. Se você não quiser usar uma chave de correspondência, remova-a usando o ícone de exclusão (![ícone de exclusão](/help/assets/icons/delete.png)) ao lado do campo. Se a chave de correspondência for removida, você não poderá usá-la ao fornecer públicos-alvo da conexão.
+Continue adicionando pares de mapeamento para cada campo de destino. Se você não quiser usar uma chave de correspondência, poderá removê-la usando o ícone Excluir (![Ícone Excluir](/help/assets/icons/delete.png)) ao lado do campo. Se a chave de correspondência for removida, você não poderá usá-la ao fornecer públicos-alvo da conexão.
 
-![O espaço de trabalho Adicionar públicos-alvo com a opção Excluir ao lado de um campo de destino foi realçado.](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
+![O espaço de trabalho Adicionar públicos-alvo com a opção Excluir ao lado de um campo de destino está realçado.](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
 
-Quando terminar de mapear os campos, selecione **[!UICONTROL Avançar]** para continuar.
+Quando terminar de mapear campos, selecione **[!UICONTROL Avançar]** para continuar.
 
 ![O espaço de trabalho Adicionar públicos-alvo com os campos de mapa preenchidos e a opção Avançar realçada.](/help/assets/setup/add-manage-audiences/confirm-field-mapping.png){zoomable="yes"}
 
@@ -183,13 +183,13 @@ Em seguida, programe quando começar e terminar de preencher os públicos. O pú
 >
 >Ajustar a frequência de atualizações de público ajudará a gerenciar a [atividade de crédito de Gerenciamento de público-alvo](/help/guide/setup/my-activity.md#types-of-activities), que é calculada por atualização de público-alvo. Selecionar uma frequência mais alta pode afetar a atualização dos dados disponíveis para os relatórios de descoberta de público-alvo e a ativação de público-alvo.
 
-Selecione a frequência de atualização do público-alvo na lista suspensa **[!UICONTROL Frequência]**.
+Selecione a frequência de atualização do público na lista suspensa **[!UICONTROL Frequência]**.
 
-![O espaço de trabalho de agendamento Adicionar públicos-alvo com a lista suspensa de Frequência aberta.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png){zoomable="yes"}
+![O espaço de trabalho Adicionar agendamento de públicos-alvo com a lista suspensa de Frequência aberta.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png){zoomable="yes"}
 
 Em seguida, selecione o **[!UICONTROL Intervalo de datas]**. A data de início é a data em que o público-alvo começará a preencher com perfis, e a data de término é quando o público-alvo parará de ser atualizado.
 
-![O espaço de trabalho Adicionar agendamento de públicos-alvo com a opção Intervalo de datas foi exibido.](/help/assets/setup/add-manage-audiences/audience-scheduling-date-range.png){zoomable="yes"}
+![A opção Adicionar espaço de trabalho de agendamento de públicos-alvo com o intervalo de datas é exibida.](/help/assets/setup/add-manage-audiences/audience-scheduling-date-range.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -197,15 +197,15 @@ Em seguida, selecione o **[!UICONTROL Intervalo de datas]**. A data de início �
 
 ### Selecionar públicos-alvo {#select-audiences}
 
-Depois de selecionar a origem do público-alvo, você escolherá públicos-alvo específicos para incluir. Use as opções de pesquisa e filtro para encontrar os públicos-alvo relevantes da sua conexão de dados. Selecione os públicos-alvo desejados e clique em **[!UICONTROL Avançar]**.
+Depois de selecionar a origem do público-alvo, você escolherá públicos-alvo específicos para incluir. Use as opções de pesquisa e filtro para encontrar os públicos-alvo relevantes da sua conexão de dados. Selecione os públicos desejados e clique em **[!UICONTROL Avançar]**.
 
 ![O espaço de trabalho Adicionar públicos-alvo com uma lista de públicos-alvo disponíveis.](/help/assets/setup/add-manage-audiences/select-audience.png){zoomable="yes"}
 
 ### Revisar
 
-Revise todas as configurações e definições antes de finalizar a adição do público-alvo. Verifique se todos os detalhes estão corretos e selecione **[!UICONTROL Concluir]** para concluir a criação da conexão de dados.
+Revise todas as configurações e definições antes de finalizar a adição do público-alvo. Verifique se todos os detalhes estão corretos e selecione **[!UICONTROL Concluído]** para concluir a criação da conexão de dados.
 
-![O espaço de trabalho Adicionar públicos-alvo com todas as configurações selecionadas exibidas.](/help/assets/setup/add-manage-audiences/review-connection.png){zoomable="yes"}
+![O espaço de trabalho Adicionar públicos-alvo com todas as configurações selecionadas foi exibido.](/help/assets/setup/add-manage-audiences/review-connection.png){zoomable="yes"}
 
 ## Exibir painel de públicos-alvo {#view-audiences-dashboard}
 
@@ -214,7 +214,7 @@ Revise todas as configurações e definições antes de finalizar a adição do 
 >title="Identidades ausentes"
 >abstract="A contagem de identidades estará disponível após a próxima atualização da conexão de dados, de acordo com o agendamento configurado. A atualização inicial geralmente ocorre em 24 horas após a configuração da conexão de dados. Atualizações contínuas seguirão o cronograma configurado."
 
-Depois de fornecer os públicos-alvo, o espaço de trabalho **[!UICONTROL Meus públicos-alvo]** exibe todos os públicos-alvo originados na Collaboration no momento.
+Depois de fornecer os públicos-alvo, o espaço de trabalho **[!UICONTROL Meus públicos-alvo]** exibe todos os públicos-alvo originados no Collaboration no momento.
 
 ![O espaço de trabalho Meus públicos-alvo mostrando todos os públicos-alvo originados.](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
 
@@ -235,10 +235,10 @@ Cada público-alvo contém uma visão geral das seguintes informações:
 
 Para executar ações rápidas em um público, selecione as reticências **...** ao lado do nome do público. As opções disponíveis são as seguintes:
 
-* **[!UICONTROL Editar categorias]** permite adicionar diferentes tags de categoria ao público-alvo. Para obter mais informações, consulte a seção [categorias](#categories) abaixo.
+* **[!UICONTROL Editar categorias]** permite adicionar diferentes marcas de categoria ao público-alvo. Para obter mais informações, consulte a seção [categorias](#categories) abaixo.
 * **[!UICONTROL Excluir]** excluirá o público da conexão de dados.
 
-![O espaço de trabalho Meus públicos-alvo com o menu de reticências aberto e as opções Editar categorias e Excluir realçadas.](/help/assets/setup/add-manage-audiences/audiences-ellipsis-menu.png){zoomable="yes"}
+![O espaço de trabalho Meus públicos-alvo com o menu de reticências é aberto, e as opções Editar categorias e Excluir são realçadas.](/help/assets/setup/add-manage-audiences/audiences-ellipsis-menu.png){zoomable="yes"}
 
 ## Exibir públicos-alvo individuais {#view-individual-audiences}
 
@@ -273,7 +273,7 @@ A seção **[!UICONTROL Identidades]** indica o número de identidades presentes
 
 Passar o mouse sobre as seções individuais do detalhamento da chave de correspondência fornecerá uma contagem de identidades precisa para a chave relevante.
 
-![A seção Identidades do espaço de trabalho de um público-alvo individual com o detalhamento das chaves de correspondência exibido.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
+![A seção Identidades de um espaço de trabalho de público-alvo individual com um detalhamento de chave de correspondência exibido.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
 
 #### Categorias {#categories}
 
@@ -282,13 +282,13 @@ Passar o mouse sobre as seções individuais do detalhamento da chave de corresp
 >title="Categorias"
 >abstract="Adicione tags aos públicos-alvo para facilitar a organização, a filtragem e a recuperação. Você pode marcar um público-alvo com várias categorias e então usar essas tags de categoria para filtrar os públicos-alvo desejados em outras áreas do produto."
 
-Para facilitar a organização, a filtragem e a recuperação de públicos-alvo, você pode marcar seus públicos-alvo. Você pode marcar um público-alvo com várias categorias e, em seguida, usar essas marcas de categoria para filtrar os públicos-alvo desejados na área de produto [descoberta](/help/guide/collaborate/discover.md), ao executar relatórios de sobreposição de público-alvo.
+Para facilitar a organização, a filtragem e a recuperação de públicos-alvo, você pode marcar seus públicos-alvo. Você pode marcar um público com várias categorias e usar essas marcas de categoria para filtrar os públicos desejados na área de produto [descoberta](/help/guide/collaborate/discover.md), ao executar relatórios de sobreposição de público.
 
 Para adicionar categorias, selecione a opção **[!UICONTROL Editar]** na seção **[!UICONTROL Categorias]**.
 
 ![A seção Categorias do espaço de trabalho de um público-alvo individual.](/help/assets/setup/add-manage-audiences/audience-details-categories.png){zoomable="yes"}
 
-A caixa de diálogo **[!UICONTROL Categorias]** será exibida, permitindo selecionar as categorias que deseja adicionar ao público-alvo. Para selecionar uma categoria individual, marque a caixa de seleção ao lado do nome da categoria.
+A caixa de diálogo **[!UICONTROL Categorias]** será exibida, permitindo que você selecione as categorias que deseja adicionar ao público-alvo. Para selecionar uma categoria individual, marque a caixa de seleção ao lado do nome da categoria.
 
 
 #### Acesso à conexão {#connection-access}
@@ -309,11 +309,11 @@ Para atualizar o acesso à conexão do público-alvo, selecione a opção **[!UI
 
 ![A seção Acesso à conexão do espaço de trabalho de um público-alvo individual.](/help/assets/setup/add-manage-audiences/audience-details-connection-access.png){zoomable="yes"}
 
-A caixa de diálogo **[!UICONTROL Acesso à conexão]** será exibida, com três opções de acesso à conexão disponíveis:
+A caixa de diálogo **[!UICONTROL Acesso à conexão]** é exibida, com três opções de acesso à conexão disponíveis:
 
-* **[!UICONTROL Público-alvo privado]**. Estes públicos-alvo estão *não* disponíveis para uso em relatórios de sobreposição ou para ativação em conexões com quaisquer colaboradores. Embora os públicos-alvo não estejam disponíveis para os colaboradores visualizarem ou usarem, a população dos públicos-alvo ainda contribui para a população total na exibição **[!UICONTROL Todos os públicos-alvo]** da [seção de comparação de públicos-alvo](/help/guide/collaborate/discover.md#compare-audiences). Altere a configuração para público ou personalizado para usar os públicos-alvo em conexões com colaboradores.
+* **[!UICONTROL Público-alvo]**. Estes públicos-alvo *não* estão disponíveis para uso em relatórios de sobreposição ou para ativação em conexões com qualquer colaborador. Embora os públicos-alvo não estejam disponíveis para os colaboradores visualizarem ou usarem, a população dos públicos-alvo ainda contribui para a população total na exibição **[!UICONTROL Todos os públicos-alvo]** da [seção Comparar públicos-alvo](/help/guide/collaborate/discover.md#compare-audiences). Altere a configuração para público ou personalizado para usar os públicos-alvo em conexões com colaboradores.
 * **[!UICONTROL Público]**. Esses públicos-alvo estão disponíveis para uso em relatórios de sobreposição e para ativação em conexões com qualquer colaborador.
-* **[!UICONTROL Público-alvo personalizado]**. Esses públicos-alvo estão disponíveis para uso em relatórios de sobreposição e para ativação somente em conexões especificadas. Embora os públicos-alvo não estejam disponíveis para os colaboradores visualizarem ou usarem, a população dos públicos-alvo ainda contribui para a população total na exibição **[!UICONTROL Todos os públicos-alvo]** da [seção de comparação de públicos-alvo](/help/guide/collaborate/discover.md#compare-audiences).
+* **[!UICONTROL Público-alvo personalizado]**. Esses públicos-alvo estão disponíveis para uso em relatórios de sobreposição e para ativação somente em conexões especificadas. Embora os públicos-alvo não estejam disponíveis para os colaboradores visualizarem ou usarem, a população dos públicos-alvo ainda contribui para a população total na exibição **[!UICONTROL Todos os públicos-alvo]** da [seção Comparar públicos-alvo](/help/guide/collaborate/discover.md#compare-audiences).
 
 Selecione a opção de acesso de conexão desejada e selecione **[!UICONTROL Salvar]** para aplicar as alterações.
 
@@ -321,7 +321,7 @@ Selecione a opção de acesso de conexão desejada e selecione **[!UICONTROL Sal
 
 >[!IMPORTANT]
 >
->Independentemente do status de acesso (público, privado ou personalizado), a população de qualquer público-alvo contribui para a população **[!UICONTROL Todos os públicos-alvo]** na seção **[!UICONTROL Comparar públicos-alvo]** de um projeto.
+>Independentemente do status de acesso (público, privado ou personalizado), a população de qualquer público-alvo contribui para a população **[!UICONTROL Todos os públicos-alvo]** na seção **[!UICONTROL Comparar públicos-alvo]** em um projeto.
 
 A disponibilidade do público-alvo para uso em projetos com colaboradores é diferente de acordo com a configuração de acesso à conexão.
 
@@ -334,7 +334,7 @@ A disponibilidade do público-alvo para uso em projetos com colaboradores é dif
 
 >[!NOTE]
 >
->Se o colaborador tiver todos os públicos definidos como privados, a seção **[!UICONTROL Públicos relevantes]** de um projeto no espaço de trabalho **[!UICONTROL Descobrir]** ficará em branco. Para obter mais informações, leia o guia da [descoberta](/help/guide/collaborate/discover.md#relevant-audiences).
+>Se o colaborador tiver todos os públicos definidos como privados, a seção **[!UICONTROL Públicos relevantes]** de um projeto no espaço de trabalho **[!UICONTROL Descobrir]** ficará em branco. Para obter mais informações, leia o guia [descoberta](/help/guide/collaborate/discover.md#relevant-audiences).
 
 A visibilidade dos metadados indica a visibilidade dos metadados de um público-alvo para outros colaboradores antes que eles se conectem com você ou em diferentes visualizações de projeto. Para atualizar a visibilidade de metadados do público, selecione a opção **[!UICONTROL Editar]** na seção **[!UICONTROL Visibilidade de metadados]**.
 
@@ -342,7 +342,7 @@ A visibilidade dos metadados indica a visibilidade dos metadados de um público-
 
 A caixa de diálogo **[!UICONTROL Visibilidade de metadados]** é exibida, permitindo definir as configurações de visibilidade para o público-alvo. Há duas configurações de visibilidade de metadados que você pode configurar para cada público:
 
-**[!UICONTROL Mostrar contagem de identidades]**: esta configuração controla se o colaborador pode exibir contagens de identidades para os seus públicos ao [exibir relatórios de sobreposição na guia de descoberta](/help/guide/collaborate/discover.md#discover-overlaps) em um projeto.
+**[!UICONTROL Mostrar contagem de identidades]**: esta configuração controla se seu colaborador pode exibir contagens de identidades para seus públicos ao [exibir relatórios de sobreposição na guia de descoberta](/help/guide/collaborate/discover.md#discover-overlaps) em um projeto.
 
 **[!UICONTROL Mostrar sobreposição de público-alvo %]**: esta configuração controla se os colaboradores podem [descobrir porcentagens de sobreposição](/help/guide/collaborate/discover.md#compare-audiences) entre seus públicos-alvo e os seus públicos-alvo.
 
@@ -352,7 +352,7 @@ A caixa de diálogo **[!UICONTROL Visibilidade de metadados]** é exibida, permi
 >
 >Para que as configurações de visibilidade de metadados entrem em vigor, o público-alvo deve ser definido como público ou personalizado.
 
-![A caixa de diálogo de visibilidade de Metadados com as opções disponíveis exibidas.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png){zoomable="yes"}
+![A caixa de diálogo de visibilidade de Metadados com as opções disponíveis foi exibida.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png){zoomable="yes"}
 
 ## Editar vários públicos-alvo {#edit-audiences}
 
@@ -360,13 +360,13 @@ No painel de público-alvo, é possível editar vários públicos-alvo de uma s�
 
 ![O espaço de trabalho Meus Públicos-alvo com dois públicos-alvo selecionados e o menu de edição realçado.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit.png)
 
-### Bulk edit metadata visibility {#bulk-edit-metadata-visibility}
+### Visibilidade de metadados de edição em massa {#bulk-edit-metadata-visibility}
 
-With your audiences selected in the audience dashboard, select **[!UICONTROL Edit metadata visibility]** from the edit menu.
+Com seus públicos selecionados no painel de público, selecione **[!UICONTROL Editar visibilidade de metadados]** no menu de edição.
 
 ![O espaço de trabalho Meus públicos-alvo com a opção Editar visibilidade de metadados está realçada.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
 
-The **[!UICONTROL Metadata visibility]** dialog appears, allowing you to configure the visibility settings for the selected audiences. Por padrão, nenhuma das opções será selecionada. Escolha as opções que deseja aplicar a todos os públicos selecionados e selecione **[!UICONTROL Salvar]**.
+A caixa de diálogo **[!UICONTROL Visibilidade de metadados]** é exibida, permitindo definir as configurações de visibilidade para os públicos selecionados. Por padrão, nenhuma das opções será selecionada. Escolha as opções que deseja aplicar a todos os públicos selecionados e selecione **[!UICONTROL Salvar]**.
 
 ![A caixa de diálogo de visibilidade de Metadados com as opções disponíveis foi exibida.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
 
@@ -374,7 +374,7 @@ The **[!UICONTROL Metadata visibility]** dialog appears, allowing you to configu
 
 Com seus públicos selecionados no painel de público, selecione **[!UICONTROL Editar acesso à conexão]** no menu de edição.
 
-![The My audiences workspace with the Edit connection access option highlighted.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
+![O espaço de trabalho Meus públicos-alvo com a opção Editar acesso à conexão foi realçada.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
 
 A caixa de diálogo **[!UICONTROL Acesso à conexão]** é exibida, permitindo definir as configurações de acesso para os públicos selecionados. Por padrão, a opção **[!UICONTROL Público-alvo privado]** será selecionada. Escolha as opções que deseja aplicar a todos os públicos selecionados e selecione **[!UICONTROL Salvar]**.
 
@@ -386,7 +386,7 @@ Com seus públicos selecionados no painel de público, selecione **[!UICONTROL E
 
 ![O espaço de trabalho Meus públicos-alvo com a opção Editar nome e descrição foi realçado.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
 
-A caixa de diálogo **[!UICONTROL Nome e descrição]** é exibida, permitindo configurar o nome e a descrição de cada público-alvo selecionado. Por padrão, os nomes e as descrições atuais serão exibidos para cada público. Make your changes and then select **[!UICONTROL Save]**.
+A caixa de diálogo **[!UICONTROL Nome e descrição]** é exibida, permitindo configurar o nome e a descrição de cada público-alvo selecionado. Por padrão, os nomes e as descrições atuais serão exibidos para cada público. Faça as alterações e selecione **[!UICONTROL Salvar]**.
 
 ![A caixa de diálogo Nome e Descrição com as opções disponíveis foi exibida.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
 
@@ -394,11 +394,11 @@ A caixa de diálogo **[!UICONTROL Nome e descrição]** é exibida, permitindo c
 
 Com seus públicos selecionados no painel de público, selecione **[!UICONTROL Editar categorias]** no menu de edição.
 
-![O espaço de trabalho Meus públicos-alvo com a opção Editar categorias foi realçado.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
+![O espaço de trabalho Meus públicos-alvo com a opção Editar categorias está realçado.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
 
 A caixa de diálogo **[!UICONTROL Categorias]** é exibida, permitindo configurar as categorias para cada público-alvo selecionado. Por padrão, nenhuma categoria será selecionada. Para selecionar uma categoria, primeiro selecione a categoria principal e, em seguida, selecione as subcategorias que deseja incluir. Faça as alterações e selecione **[!UICONTROL Salvar]**.
 
-![A caixa de diálogo Categorias foi exibida com as opções disponíveis.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
+![A caixa de diálogo Categorias com as opções disponíveis foi exibida.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
 
 ## Próximas etapas
 
