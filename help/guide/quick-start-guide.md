@@ -1,13 +1,13 @@
 ---
 title: Guia de início e configuração rápida do Real-Time CDP Collaboration
-description: Saiba como configurar o Real-Time CDP Collaboration, configurar funções e contas, públicos-alvo de origem, ativar dados e se conectar a parceiros de forma segura.
+description: Saiba como configurar o Real-Time CDP Collaboration, definir funções e contas, públicos-alvo de origem, ativar dados e se conectar com parceiros de forma segura.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: bd6c28c3d21ea98434c6cdf585a3e439f7d2ce70
+source-git-commit: a937773267f42f254b45c14a0fd2f5f1d3b32b8b
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 0%
+source-wordcount: '1406'
+ht-degree: 2%
 
 ---
 
@@ -41,7 +41,7 @@ As funções de acesso da sua organização determinam o que os usuários podem 
 
 Assista a este vídeo para saber como atribuir acesso e permissões de produto ao Collaboration usando o Admin Console e o Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452235/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Etapa 2: configurar a conta do Collaboration {#set-up-your-account}
 
@@ -154,10 +154,6 @@ Para configurar um destino de nuvem (por exemplo, [!DNL AWS S3] ou [!DNL Snowfla
 Os dados de público-alvo enviados para um destino de nuvem seguem um esquema predefinido. Para obter uma descrição detalhada dos campos e formatos necessários, baixe o [Guia do Collaboration Audience Activation](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf).
 
 ## Etapa 5: configurar medição (opcional) {#set-up-measurement}
-
->[!AVAILABILITY]
->
->Este recurso está na **beta** e está disponível exclusivamente para clientes no programa de Disponibilidade Limitada. Entre em contato com seu representante da Adobe para solicitar acesso.
 
 >[!IMPORTANT]
 >
