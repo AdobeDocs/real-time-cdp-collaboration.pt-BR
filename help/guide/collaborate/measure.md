@@ -2,12 +2,12 @@
 title: Medir desempenho
 description: Meça o desempenho de suas campanhas em diferentes canais. Saiba como usar e interpretar vários relatórios.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: 0cf888e36ffc4730fc8de4d8adccae0e0fc2caa8
+source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
 workflow-type: tm+mt
-source-wordcount: '1949'
-ht-degree: 6%
+source-wordcount: '2612'
+ht-degree: 5%
 
 ---
 
@@ -239,3 +239,81 @@ Por fim, revise suas configurações e selecione **[!UICONTROL Criar]** para age
 Assim que estiver disponível, você poderá exibir seu relatório a qualquer momento na guia **[!UICONTROL Medida]** do espaço de trabalho do projeto.
 
 ![A tela Criar relatório de medição mostrando as informações e a opção Criar realçada.](/help/assets/collaborate/measure/attribution-review.png)
+
+## Editar relatório de medição {#edit-measurement-report}
+
+>[!IMPORTANT]
+>
+>Só é possível editar as configurações de um relatório de medição se ele estiver programado para ser executado no futuro. Para relatórios que já foram executados, as configurações não podem ser alteradas.
+
+Atualize as configurações do relatório de medição para garantir que ele forneça a análise correta de sua campanha em um período específico e seja executado na data desejada.
+
+Para começar, navegue até o espaço de trabalho do relatório de medição que deseja atualizar. Selecione o ícone de edição (![Ícone de edição](/help/assets/icons/edit.png)) ao lado do ícone de exclusão.
+
+![O espaço de trabalho do relatório de medição com o ícone Editar realçado.](/help/assets/collaborate/measure/edit-report.png)
+
+>[!TIP]
+>
+>Na guia **[!UICONTROL Medida]**, navegue até a seção de relatório que deseja editar. Selecione o ícone de edição (![Ícone de edição](/help/assets/icons/edit.png)) ao lado de **[!UICONTROL Exibir relatório completo]** para atualizar suas configurações.
+>![A guia Measure que destaca o ícone Edit em uma seção de relatório.](/help/assets/collaborate/measure/measure-tab-edit-report.png)
+
+A caixa de diálogo **[!UICONTROL Editar relatório de medição]** é exibida com as configurações atuais do relatório nas seguintes seções:
+
+* [**Detalhes de cobrança**](#billing-details): exibe informações sobre créditos ao executar relatórios de medição. Nenhuma configuração é necessária.
+* [**Detalhes da campanha**](#campaign-details): exibe as configurações do anunciante, a ID da campanha, o período do relatório e um nome de relatório amigável.
+* [**Detalhes do relatório**](#report-details): exibe configurações para o tipo de relatório, a data de execução do relatório e as opções de configuração especificamente para relatórios de atribuição.
+
+![A caixa de diálogo Editar relatório de medição que mostra as configurações atuais nas seções Detalhes do faturamento, Detalhes da campanha e Detalhes do relatório.](/help/assets/collaborate/measure/edit-measurement-report-dialog.png)
+
+### Editar detalhes da campanha {#edit-campaign-details}
+
+Na caixa de diálogo **[!UICONTROL Editar relatório de medição]**, use os menus suspensos **[!UICONTROL ID do Anunciante (Nome)]** e **[!UICONTROL ID da Campanha]** para editar o anunciante e a ID da campanha para seu relatório.
+
+![A caixa de diálogo Editar relatório de medição destacando o menu suspenso ID de Campanha é aberta.](/help/assets/collaborate/measure/edit-campaign-id.png)
+
+Em seguida, selecione **[!UICONTROL Intervalo de datas do relatório]** e use o calendário para alterar as datas de início e término do relatório.
+
+![A caixa de diálogo Editar relatório de medição destacando o calendário de intervalo de datas do Relatório está aberto.](/help/assets/collaborate/measure/edit-report-date-range.png)
+
+Insira um nome de relatório amigável atualizado para capturar suas alterações recentes. Isso o ajudará a reconhecer e encontrar esse relatório no futuro.
+
+![A caixa de diálogo Editar relatório de medição destacando o nome amigável atualizado do relatório.](/help/assets/collaborate/measure/edit-friendly-report-name.png)
+
+### Editar detalhes do relatório {#edit-report-details}
+
+Para agendar o relatório para uma data diferente, navegue até a seção **[!UICONTROL Detalhes do relatório]**. Selecione a opção data de execução atual e, em seguida, use o calendário para escolher sua data preferencial.
+
+![A caixa de diálogo Editar relatório de medição destacando o calendário de datas de execução do Relatório.](/help/assets/collaborate/measure/edit-report-run-date.png)
+
+Como anunciante, você tem a opção de selecionar ou remover o tipo de relatório **[!UICONTROL Atribuição]** além do **[!UICONTROL Resumo da campanha]**. Se você escolher **[!UICONTROL Atribuição]**, seu relatório de atribuição incluirá métricas padrão do Resumo da campanha e insights de atribuição detalhados. Para obter mais informações sobre os tipos de relatório **Resumo da campanha** e **Atribuição**, consulte a seção [Criar relatório de medição](#create-measurement-report).
+
+>[!IMPORTANT]
+>
+>Se você for um **editor**, o tipo de relatório padrão será **[!UICONTROL Resumo da campanha]** e não poderá ser alterado no momento.
+
+* Se você escolher **[!UICONTROL Atribuição]** como o tipo de relatório, deverá preencher os campos obrigatórios na seção **[!UICONTROL Atribuição]**. Para obter instruções de configuração, consulte a seção [detalhes do relatório de atribuição](#report-details-attribution).
+* Se você definiu configurações de atribuição anteriormente ao criar o relatório, poderá optar por editar a janela de pesquisa (medida em dias) e selecionar sobre quais eventos de conversão relatar.
+
+Para atualizar a **[!UICONTROL Janela de retrospectiva em dias]**, insira um valor numérico ou ajuste-o com as opções de incremento/decremento. Em seguida, selecione os eventos de conversão sobre os quais deseja criar relatórios. Você pode escolher até **3** conversões na lista disponível.
+
+![A caixa de diálogo Editar relatório de medição destacando os eventos de conversão atualizados.](/help/assets/collaborate/measure/edit-conversion-events.png)
+
+Depois de concluído, revise as atualizações e selecione **[!UICONTROL Editar]** para aplicar as alterações.
+
+![Caixa de diálogo Editar relatório de medição com a opção Editar realçada.](/help/assets/collaborate/measure/edit-report-confirm.png)
+
+Uma caixa de diálogo de confirmação confirma que o relatório foi salvo com êxito.
+
+## Excluir relatório de medição {#delete-measurement-report}
+
+Excluir um relatório de medição no Collaboration o remove permanentemente do sistema. Esta ação não pode ser desfeita. Para fazer isso, selecione o relatório que deseja excluir na guia **[!UICONTROL Measure]**.
+
+No espaço de trabalho do relatório de medição, selecione o ícone de exclusão (![Ícone de exclusão](/help/assets/common/delete.svg)).
+
+![O espaço de trabalho do relatório de medição com o ícone Excluir realçado.](/help/assets/collaborate/measure/delete-report.png)
+
+A caixa de diálogo **[!UICONTROL Excluir relatório]** é exibida, solicitando que você confirme a exclusão. Clique em **[!UICONTROL Excluir]**.
+
+![A caixa de diálogo Excluir relatório com a opção Excluir foi realçada.](/help/assets/collaborate/measure/delete-report-confirm.png)
+
+Uma caixa de diálogo de confirmação confirma que o relatório foi excluído com êxito.
