@@ -3,12 +3,11 @@ title: Glossário
 description: Entender a terminologia principal do Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-hidefromtoc: true
 hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
-source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
+source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '837'
 ht-degree: 3%
 
 ---
@@ -103,7 +102,7 @@ Uma sobreposição (ou sobreposição de público-alvo) refere-se aos segmentos 
 
 Um projeto no Adobe Real-Time CDP Collaboration é um espaço de trabalho em que os usuários podem colaborar em tarefas específicas de integração de dados e segmentação de público-alvo. Os projetos ajudam a organizar e gerenciar esforços de compartilhamento de dados, tornando a colaboração mais eficiente e simplificada.
 
-### Público
+### Público-alvo público
 
 No contexto de projetos, este é um público-alvo que pode ser descoberto pelo seu colaborador. Os públicos-alvo podem ser privados, personalizados ou públicos. Públicos-alvo privados não são detectáveis por nenhum outro colaborador. Públicos personalizados podem ser descobertos somente por determinados colaboradores e públicos podem ser descobertos por todos os colaboradores.
 
