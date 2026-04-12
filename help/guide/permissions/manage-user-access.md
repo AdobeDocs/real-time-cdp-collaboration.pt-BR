@@ -2,7 +2,7 @@
 title: Manage user access through Permissions
 description: Manage permissions and users access to different components of the Real-Time CDP Collaboration UI.
 audience: admin
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0155f6a6-5e67-4415-af96-1848345842e4
 source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
 workflow-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 {{limited-availability-release-note}}
 
-Manage permissions and user access to individual components within Adobe Real-Time CDP Collaboration through the Experience Cloud [Permissions](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"} interface. Permissions allows system and product administrators to define [roles](./manage-roles.md) to manage user access to specific features and resources.
+Manage permissions and user access to individual components within Adobe Real-Time CDP Collaboration through the Experience Cloud [Permissions](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"} interface. Permissions allows system and product administrators to define [roles](./manage-roles.md) to manage user access to specific features and resources.
 
 ## Configure access to Permissions {#permissions-access}
 
@@ -83,7 +83,7 @@ O usuário deve agora ter acesso de administrador e de produto ao Experience Pla
 
 ### Administradores: configurar o acesso à interface do usuário do Experience Platform {#product-access}
 
-No Real-Time CDP Collaboration, administradores e usuários finais trabalharão com dados da Experience Platform, como públicos-alvo e logs de auditoria. Esses dados são mantidos em instâncias da Experience Platform chamadas de sandboxes. Para garantir que os usuários possam interagir com esses dados, você precisa atribuir [funções padrão](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#default-roles){target="_blank"} ao usuário.
+No Real-Time CDP Collaboration, administradores e usuários finais trabalharão com dados da Experience Platform, como públicos-alvo e logs de auditoria. Esses dados são mantidos em instâncias da Experience Platform chamadas de sandboxes. Para garantir que os usuários possam interagir com esses dados, você precisa atribuir [funções padrão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home#default-roles){target="_blank"} ao usuário.
 
 Para começar, navegue até [Adobe Experience Cloud](https://experience.adobe.com/). Agora você deve ver **[!UICONTROL Experience Platform]** e **[!UICONTROL Permissões]** dentro de **[!UICONTROL Acesso rápido]**.
 
@@ -118,7 +118,7 @@ Agora você tem acesso ao Experience Platform e às permissões. Na etapa final,
 >title="gerenciar guia de acesso dos usuários"
 >abstract=""
 
-Para conceder aos usuários acesso ao Collaboration, você usará um conceito de controle de acesso chamado funções. As funções definem o nível de acesso que um administrador ou usuário tem a [recursos](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) em sua organização.
+Para conceder aos usuários acesso ao Collaboration, você usará um conceito de controle de acesso chamado funções. As funções definem o nível de acesso que um administrador ou usuário tem a [recursos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home#permissions) em sua organização.
 
 Ao configurar o acesso individual ao Collaboration, você atribuirá as funções dos usuários que contêm permissões do recurso Colaborações. Você pode usar o guia [gerenciar funções](./manage-roles.md) para obter informações sobre:
 
