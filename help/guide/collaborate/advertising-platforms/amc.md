@@ -3,9 +3,10 @@ title: Amazon Marketing Cloud
 description: Saiba mais sobre como colaborar com o Amazon Marketing Cloud no Real-Time CDP Collaboration.
 audience: publisher, advertiser
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 57b847c25edbf88f4708bda74be41fe6141472a7
+exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
+source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '665'
 ht-degree: 20%
 
 ---
