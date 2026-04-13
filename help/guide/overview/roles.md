@@ -2,10 +2,11 @@
 title: As funções de colaborador no Adobe Real-Time CDP Collaboration.
 description: Compreender as duas funções de conta no Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: f0b95f61-b798-400d-af52-a597d1cb66a5
+source-git-commit: 901b17c7493e76b17e780b6f7b05a69fa22303d2
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '423'
 ht-degree: 1%
 
 ---
@@ -23,6 +24,14 @@ Anunciantes são marcas que buscam alcançar públicos específicos por meio de 
 ## Editor {#publisher}
 
 Editores são marcas que possuem ou operam conteúdo ou serviços online em que os dados pessoais são coletados com o consentimento do usuário. Eles fornecem esses dados para uso por anunciantes para publicidade digital e medição de público-alvo. Usando o Collaboration, os editores podem enviar os dados de público-alvo para os colaboradores, a fim de permitir campanhas de marketing direcionadas e melhorar a eficácia dos esforços de publicidade.
+
+## Agência {#agency}
+
+As agências são organizações que planejam, gerenciam e otimizam campanhas de marketing e mídia para uma ou mais marcas. Eles usam dados primários e de terceiros para criar, ativar e medir públicos-alvo em todos os canais. Com o Collaboration, as agências podem acessar dados permissionados pela marca em um único ambiente governado, para que possam coordenar campanhas entre parceiros, ativar públicos e melhorar a eficiência da mídia.
+
+## Parceiro de dados {#data-partner}
+
+Parceiros de dados são organizações que fornecem conjuntos de dados e segmentos governados por terceiros que os colaboradores podem usar para enriquecer seus próprios dados para direcionamento, prospecção e medição de público-alvo. Com o Collaboration, os parceiros de dados podem disponibilizar com segurança esses dados aos colaboradores para obter insights de público-alvo e campanha, sem precisar que dados primários sejam transferidos para o ambiente do parceiro.
 
 ## Escolhendo a função certa {#choosing-the-right-role}
 
