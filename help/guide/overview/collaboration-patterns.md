@@ -4,9 +4,9 @@ description: Entender os dois padrões de colaboração no Adobe Real-Time CDP C
 audience: admin, publisher, advertiser, decision-maker
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 31729675-cdd8-4569-9195-1d9a61d68d30
-source-git-commit: 9a4a7acf3f4e42667889b40c6a052aaf83c06758
+source-git-commit: 7efd33179b4f4e6751853f6c513bdded63c23ee7
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
@@ -46,3 +46,27 @@ O padrão de colaboração entre plataformas de anunciante permite que os anunci
 ![Um exemplo de colaboração entre anunciante e plataforma de publicidade.](/help/assets/overview/advertiser-to-advertising-platform.png)
 
 Para saber mais sobre como os anunciantes colaboram com as plataformas de publicidade neste padrão, leia o [guia completo de fluxo de trabalho](/help/guide/overview/end-to-end-workflow.md).
+
+## Anunciante para parceiro de dados {#advertiser-to-data-partner}
+
+O padrão anunciante-parceiro de dados permite que as marcas colaborem diretamente com provedores de dados de terceiros para enriquecer os perfis do cliente, criar públicos-alvo mais precisos e acessar populações de prospecto para aquisição. Esse padrão traz fluxos de trabalho de dados tradicionalmente externos para um ambiente único e seguro para a privacidade, onde dados primários e de terceiros podem ser combinados sem exigir movimentação de dados brutos.
+
+![Um exemplo de colaboração entre anunciante e parceiro de dados.](/help/assets/overview/advertiser-to-data-partner.png)
+
+Para saber mais sobre como anunciantes e parceiros de dados colaboram neste padrão, leia o [guia completo de fluxo de trabalho](/help/guide/overview/end-to-end-workflow.md#advertiser-to-data-partner-workflow).
+
+## Agência para editor {#agency-to-publisher}
+
+O padrão de agência para editor permite que as agências de mídia colaborem diretamente com os editores para planejar, ativar e medir campanhas usando insights de público-alvo compartilhados. As agências atuam como intermediárias, aproveitando os dados do anunciante (com permissão) para identificar sobreposições e executar estratégias de mídia com parceiros do editor.
+
+![Um exemplo de colaboração entre agências e editores.](/help/assets/overview/agency-to-publisher.png)
+
+Para saber mais sobre como as agências e editores colaboram neste padrão, leia o [guia completo de fluxo de trabalho](/help/guide/overview/end-to-end-workflow.md#agency-to-publisher-workflow).
+
+## Plataforma de anunciante para agência {#advertiser-to-agency-platform}
+
+O padrão de plataforma anunciante para agência permite que as marcas colaborem com suas agências de mídia em um ambiente seguro para a privacidade, permitindo que os anunciantes enviem e recebam dados com sua agência sem precisar de transferências diretas de dados. Esse padrão oferece suporte ao planejamento de campanha, à criação de público e à ativação, mantendo o controle do anunciante sobre o uso de dados.
+
+![Um exemplo de colaboração entre anunciante e agência.](/help/assets/overview/advertiser-to-agency-platform.png)
+
+Para saber mais sobre como anunciantes e plataformas de agência colaboram neste padrão, leia o [guia completo de fluxo de trabalho](/help/guide/overview/end-to-end-workflow.md#advertiser-to-agency-platform-workflow).
