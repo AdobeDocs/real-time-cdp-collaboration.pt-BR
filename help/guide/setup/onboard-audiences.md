@@ -4,9 +4,9 @@ description: Saiba como fornecer e gerenciar públicos-alvo no Adobe Real-Time C
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: c535412589a5004cde6147e6800c05f3b5f7bb27
+source-git-commit: 1c00bacce3a612c9907fb6932ce9089ff29780e0
 workflow-type: tm+mt
-source-wordcount: '3636'
+source-wordcount: '3680'
 ht-degree: 17%
 
 ---
@@ -42,9 +42,11 @@ Na guia **[!UICONTROL Meus públicos-alvo]** do espaço de trabalho **[!UICONTRO
 >
 >Depois de estabelecer para sua primeira conexão de dados e fornecer para seu primeiro público-alvo, você pode obter vários públicos-alvo da conexão de dados existente. Ao adicionar públicos-alvo adicionais, você começará pela etapa [selecionar público-alvo](#select-audiences), pois a conexão de dados já foi estabelecida.
 
-Uma conexão de dados é a fonte de dados da qual você está fornecendo públicos-alvo. No momento, a única conexão de dados compatível é a Adobe Experience Platform.
+Uma conexão de dados é a fonte da qual você assimila públicos na Collaboration. As fontes compatíveis incluem Adobe Experience Platform, upload de arquivo CSV, [!DNL Amazon S3], [!DNL Snowflake] e [!DNL Google Cloud Storage], cada uma com seu próprio fluxo de trabalho.
 
-Todas as configurações definidas para a conexão de dados são aplicadas a todos os públicos-alvo provenientes dessa conexão de dados.
+As seções abaixo descrevem como selecionar **Adobe Experience Platform** e concluir as etapas específicas do Experience Platform (sandbox, governança e consentimento). Se você escolher CSV, [!DNL Amazon S3], [!DNL Snowflake] ou [!DNL Google Cloud Storage], use o guia vinculado em [Selecionar fonte de dados](#select-data-source) para essa opção.
+
+Todas as configurações definidas para uma conexão de dados do Experience Platform são aplicadas a todos os públicos-alvo provenientes dessa conexão.
 
 >[!TIP]
 >
@@ -62,7 +64,7 @@ Em seguida, escolha a origem da conexão de dados. As fontes disponíveis inclue
 * **Arquivo CSV**: carregue um arquivo CSV contendo seus dados de público-alvo para assimilação rápida e direta de dados. Consulte o [guia de carregamento de arquivo CSV para fornecimento de público-alvo](./upload-csv-audience-sourcing.md) para começar.
 * **Amazon Web Services**: conecte-se ao armazenamento do Amazon S3 para originar dados de público-alvo diretamente dos seus buckets do S3. Consulte o guia [Configurar AWS S3 para fornecimento de público-alvo](./configure-aws-s3-audience-sourcing.md) para obter instruções passo a passo.
 * **Snowflake**: use o data warehouse do Snowflake para obter os dados de público-alvo com facilidade. Consulte o guia [Configurar [!DNL Snowflake] para fornecimento de público-alvo](./configure-snowflake-audience-sourcing.md).
-* **Google Cloud Platform** (versão futura): conecte-se ao Google Cloud Storage para obter dados de público-alvo diretamente dos seus buckets do GCS.
+* **Armazenamento na nuvem do Google**: conecte-se aos seus buckets do GCS para obter dados do público-alvo. Consulte o guia [Configurar GCS para fornecimento de público-alvo](./configure-gcs-audience-sourcing.md) para obter instruções passo a passo.
 
 Selecione sua fonte de dados e selecione **[!UICONTROL Próximo]**.
 

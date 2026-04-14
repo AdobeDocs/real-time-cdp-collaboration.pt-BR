@@ -4,10 +4,10 @@ description: Saiba mais sobre destinos no Real-Time CDP Collaboration.
 audience: admin, publisher
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
-source-git-commit: 4ef7f8c7c27935f0e5b3620da63e7129f2714b37
+source-git-commit: 87e7feb1360d905d46032b49217f3cfee4cc6d6b
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 6%
+source-wordcount: '360'
+ht-degree: 3%
 
 ---
 
@@ -44,10 +44,14 @@ Os seguintes destinos estão disponíveis para configuração no Collaboration. 
 | Destino | Disponibilidade |
 | --- | --- |
 | [Adobe Experience Platform](./experience-platform.md) | Disponível |
-| Amazon S3 | Em breve. |
-| Snowflake | Em breve. |
-| Google Cloud Storage | Em breve. |
-| Armazenamento Azure Blob | Em breve. |
+| [!DNL Amazon S3] | Em breve. |
+| [!DNL Snowflake] | Em breve. |
+| [!DNL Google Cloud Storage] | Em breve. |
+| [!DNL Azure Blob Storage] | Em breve. |
+
+>[!NOTE]
+>
+>**[!DNL Google Cloud Storage]** nesta tabela refere-se a **destinos** (em que o Collaboration envia públicos-alvo durante a ativação). Para **originar públicos-alvo de** um bucket de GCS no espaço de trabalho **[!UICONTROL Configuração]**, consulte [Configurar GCS para fornecimento de público-alvo](../setup/configure-gcs-audience-sourcing.md).
 
 ## Próximas etapas
 

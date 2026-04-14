@@ -1,55 +1,55 @@
 ---
 title: Configurar [!DNL Amazon S3] para Origem de Público-Alvo
-description: Learn how to configure and connect your [!DNL Amazon S3] storage as a self-service data source to ingest audience data into Real-Time CDP Collaboration.
+description: Saiba como configurar e conectar seu armazenamento do  [!DNL Amazon S3] como uma fonte de dados de autoatendimento para assimilar dados de público-alvo no Real-Time CDP Collaboration.
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: 43134d6f334ee500834a6451bdf1a8f7372f8d10
+source-git-commit: 96f6ae6c4b0c4255da8b04456497edf5b4365363
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1622'
 ht-degree: 8%
 
 ---
 
 # Configurar [!DNL Amazon S3] para fornecimento de público
 
-Learn how to configure and connect your [!DNL Amazon S3] storage in the Adobe Real-Time CDP Collaboration UI to source audience data for activation and overlap analysis.
+Saiba como configurar e conectar seu armazenamento do [!DNL Amazon S3] na interface do usuário do Adobe Real-Time CDP Collaboration aos dados de público-alvo de origem para ativação e análise de sobreposição.
 
 >[!IMPORTANT]
 >
->Before following this guide, you must have completed the steps to authorize Adobe&#39;s IAM role within your AWS account.\
->See the **[Configure AWS permissions for audience sourcing](./configure-aws-permissions-audience-sourcing.md)** guide for step-by-step setup instructions.
+>Antes de seguir este guia, é necessário concluir as etapas para autorizar a função IAM da Adobe na conta da AWS.\
+>Consulte o guia **[Configurar permissões do AWS para fornecimento de público-alvo](./configure-aws-permissions-audience-sourcing.md)** para obter instruções de configuração passo a passo.
 
 ## Visão geral {#overview}
 
-Use this workflow to source and manage first-party audiences directly from [!DNL Amazon S3]. After configuration, Collaboration automatically sources audiences from your S3 bucket and makes them available for insights and activation.
+Use este fluxo de trabalho para originar e gerenciar públicos próprios diretamente de [!DNL Amazon S3]. Após a configuração, o Collaboration automaticamente origina públicos-alvo do seu bucket do S3 e os disponibiliza para insights e ativação.
 
-Audiences sourced through S3 follow the same governance and data handling rules as those sourced from Adobe Experience Platform.
+Os públicos-alvo originados por meio do S3 seguem as mesmas regras de governança e manipulação de dados que os originados do Adobe Experience Platform.
 
 ## Pré-requisitos {#prerequisites}
 
-Before configuring your S3 data connection, ensure the following:
+Antes de configurar sua conexão de dados S3, verifique o seguinte:
 
-* You have access to an active **[!DNL Amazon S3]bucket** containing audience files that conform to the **[Audience Sourcing Specification (v1.1)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**.
-* You have created an **IAM role** in AWS that grants Adobe permission to access your bucket using the **assumed role** method (not access/secret keys). See **[Configure AWS permissions for audience sourcing](./configure-aws-permissions-audience-sourcing.md)** for detailed instructions. The IAM role must include the following permissions:
+* Você tem acesso a um **[!DNL Amazon S3]bucket** ativo contendo arquivos de público-alvo que estão em conformidade com a **[Especificação de Origem de Público-Alvo (v1.1)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**.
+* Você criou uma **função IAM** no AWS que concede à Adobe permissão para acessar seu bucket usando o método **função assumida** (não chaves de acesso/secretas). Consulte **[Configurar permissões do AWS para fornecimento de público-alvo](./configure-aws-permissions-audience-sourcing.md)** para obter instruções detalhadas. A função IAM deve incluir as seguintes permissões:
 
    * `ListBucket`
    * `GetBucketLocation`
    * `GetObject`
 
-* You have the following values ready:
+* Você tem os seguintes valores prontos:
 
-   * **IAM role Amazon Resource Name (ARN)**
-   * **S3 bucket name**
-   * **Folder path** (the directory prefix containing your audience files)
+   * **ARN (Nome do Recurso da Amazon) da função do IAM**
+   * **Nome do bucket do S3**
+   * **Caminho da pasta** (o prefixo do diretório que contém seus arquivos de público-alvo)
 
 >[!NOTE]
 >
->Audience files must be located in the **root folder path** of your authorized S3 bucket. Subfolder structures are not supported.
+>Os arquivos de público-alvo devem estar localizados no **caminho da pasta raiz** de seu bucket autorizado do S3. Não há suporte para estruturas de subpastas.
 
 ## Configurar sua conexão com o [!DNL Amazon S3] {#configure-aws-s3-connection}
 
 Na guia **[!UICONTROL Meus públicos-alvo]** do espaço de trabalho **[!UICONTROL Configuração]**, selecione o ícone adicionar (![Ícone Adicionar.](/help/assets/icons/plus.png)) e selecione **[!UICONTROL Público]**.
 
-If this is your first audience, you may also select the **[!UICONTROL Add]** option.
+Se este for seu primeiro público-alvo, você também poderá selecionar a opção **[!UICONTROL Adicionar]**.
 
 ![A guia Meus públicos-alvo no espaço de trabalho de Instalação com o ícone Adicionar e a opção Adicionar público-alvo é exibida.](../../assets/setup/add-manage-audiences/add-audiences.png)
 
@@ -215,5 +215,7 @@ Sua conexão de dados do S3 inclui a mesma funcionalidade e detalhes de outras c
 ## Próximas etapas {#next-steps}
 
 Agora você configurou e conectou com êxito o armazenamento do [!DNL Amazon S3] como fonte de dados no Collaboration. Ao concluir esse fluxo de trabalho, você ativou a origem segura de dados de público-alvo primários para ativação e análise de sobreposição.
+
+Para usar [!DNL Google Cloud Storage], consulte [Configurar GCS para fornecimento de público-alvo](./configure-gcs-audience-sourcing.md).
 
 Após a conclusão da origem, seus públicos-alvo aparecem no espaço de trabalho **[!UICONTROL Meus públicos-alvo]**, prontos para colaboração e ativação. Para obter opções de gerenciamento detalhadas, consulte a [documentação sobre gerenciamento de públicos-alvo](./onboard-audiences.md).

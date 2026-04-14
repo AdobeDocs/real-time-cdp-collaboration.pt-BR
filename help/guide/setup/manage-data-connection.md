@@ -4,9 +4,9 @@ description: Saiba como gerenciar conexões de dados, incluindo chaves de corres
 audience: administrator, data engineer
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: 4bfa57ba36336dd835551fb846f1d567d6830bf9
+source-git-commit: 87e7feb1360d905d46032b49217f3cfee4cc6d6b
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1179'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 5%
 ## Visão geral
 
 Use conexões de dados no Real-Time CDP Collaboration para originar públicos-alvo de várias plataformas. Saiba como gerenciar chaves de correspondência e agendar a atualização de dados para suas conexões de dados existentes. Além disso, você poderá filtrar públicos-alvo por atributos diferentes para obter insights mais granulares.
+
+>[!NOTE]
+>
+>Para criar uma nova conexão de dados, consulte [Adicionar e gerenciar públicos](./onboard-audiences.md).
 
 ## Exibir conexões de dados
 
