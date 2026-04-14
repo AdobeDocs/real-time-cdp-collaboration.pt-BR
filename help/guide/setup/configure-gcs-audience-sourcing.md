@@ -3,7 +3,7 @@ title: Configurar [!DNL Google Cloud Storage] para Origem de Público-Alvo
 description: Saiba como conectar um bucket  [!DNL Google Cloud Storage]  como uma origem de público-alvo de autoatendimento no Real-Time CDP Collaboration, incluindo pré-requisitos, autenticação, mapeamento de campos, agendamento e validação.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 37297042942a65573a6020bfe39549b26dfdd001
+source-git-commit: 1875ac192fc36f62a4f4a4f12163d2a2cf28486f
 workflow-type: tm+mt
 source-wordcount: '2501'
 ht-degree: 1%
