@@ -1,9 +1,10 @@
 ---
 title: Fazer upload de arquivo CSV para origem de público-alvo
 description: Saiba como fazer upload do arquivo CSV como uma fonte de dados de autoatendimento para assimilar dados de público-alvo no Real-Time CDP Collaboration.
-source-git-commit: 96d3f87cedcfde73ce01c2b53c0b2ce4365fd277
+exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
+source-git-commit: 96f6ae6c4b0c4255da8b04456497edf5b4365363
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1100'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ Este guia fornece etapas para fazer upload de um arquivo CSV na interface do usu
 
 ## Visão geral {#overview}
 
-O upload de arquivos CSV é um método para fornecer dados de público-alvo primários para projetos de colaboração. Esta é uma alternativa para [conectar seu bucket do AWS S3](./configure-aws-s3-audience-sourcing.md) ou [fornecer públicos-alvo do Experience Platform](./onboard-audiences.md).
+O upload de arquivos CSV é um método para fornecer dados de público-alvo primários para projetos de colaboração. Esta é uma alternativa para [conectar seu AWS S3 bucket](./configure-aws-s3-audience-sourcing.md), [conectar o Google Cloud Storage](./configure-gcs-audience-sourcing.md) ou [fornecer públicos-alvo da Experience Platform](./onboard-audiences.md).
 
 Siga este fluxo de trabalho para fazer upload de um arquivo CSV contendo os dados do público-alvo para fornecer e gerenciar públicos-alvo primários no Collaboration. É possível mapear campos de identidade para ativação e análise de sobreposição. Depois que o arquivo é carregado e processado, o público-alvo de origem fica disponível no espaço de trabalho **[!UICONTROL Meus públicos-alvo]**, onde você pode revisar, ativar e gerenciar seus projetos de colaboração.
 
@@ -34,7 +35,7 @@ Antes de carregar arquivos CSV para fornecimento de público, verifique se você
 
 ## Fazer upload de um arquivo CSV {#upload-csv-file}
 
-Na guia **[!UICONTROL Meus públicos-alvo]** do espaço de trabalho **[!UICONTROL Configuração]**, selecione o ícone adicionar (![ícone Adicionar.](/help/assets/icons/plus.png)) e selecione **[!UICONTROL Público-alvo]**.
+Na guia **[!UICONTROL Meus públicos-alvo]** do espaço de trabalho **[!UICONTROL Configuração]**, selecione o ícone adicionar (![Ícone Adicionar.](/help/assets/icons/plus.png)) e selecione **[!UICONTROL Público]**.
 
 Se este for seu primeiro público-alvo, você também poderá selecionar a opção **[!UICONTROL Adicionar]**.
 
