@@ -47,23 +47,23 @@ ht-degree: 22%
    * [Estabelecer conexões de colaborador](./connect/establishing-connections.md)
    * [Gerenciar conexões](./connect/manage-connections.md)
    * Conexões da plataforma Advertising {#ad-platform-connections}
-      * [Visão geral](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/connect/ad-platform-connections/overview)
+      * [Visão geral](https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/connect/ad-platform-connections/overview)
       * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * Colaborar {#collaborate}
-   * [Visão geral](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/overview)
+   * [Visão geral](https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/collaborate/overview)
    * [Gerenciar projetos](./collaborate/manage-projects.md)
    * Conexões do colaborador {#collaborator-connections}
       * [Descobrir](./collaborate/discover.md)
       * [Ativar](./collaborate/activate.md)
       * [Medição](./collaborate/measure.md)
    * Conexões da plataforma Advertising {#ad-platform-connections}
-      * [Amazon Marketing Cloud](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/ad-platform-connections/amc)
+      * [Amazon Marketing Cloud](https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/collaborate/ad-platform-connections/amc)
       * {hide-from-toc}[Criar relatórios de medição AMC](./collaborate/advertising-platforms/amc-measure.md)
 * Destinos {#destinations}
-   * [Visão geral](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/overview)
+   * [Visão geral](https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/destinations/overview)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
 * Permissões {#permissions}
-   * [Visão geral](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/permissions/overview)
+   * [Visão geral](https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/permissions/overview)
    * [Gerenciar acesso do usuário](./permissions/manage-user-access.md)
    * [Gerenciar funções](./permissions/manage-roles.md)
 * Referência {#reference}

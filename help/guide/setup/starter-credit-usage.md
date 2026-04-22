@@ -2,7 +2,7 @@
 title: Uso e consumo de crédito no Real-Time CDP Collaboration [!DNL Starter]
 description: Entenda como o uso e o consumo de crédito funcionam no Adobe Real-Time CDP Collaboration [!DNL Starter].
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d1c15141-56c4-48aa-aba8-8d6f77024f63
 source-git-commit: 1952ea15da6da320b5630307528fb2f9fdb17118
 workflow-type: tm+mt
