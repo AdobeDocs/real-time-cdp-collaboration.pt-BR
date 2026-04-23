@@ -2,7 +2,7 @@
 title: Establishing connections with collaborators
 description: After discovering potential collaborators, learn how to establish connections and start collaborating on projects.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 27fdbdf7e70ba83b323e1057ab614585aa7d0045
 workflow-type: tm+mt
