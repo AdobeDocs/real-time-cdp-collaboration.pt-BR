@@ -2,7 +2,7 @@
 title: 'Configurar o acesso de administrador para a integração do Collaboration [!DNL Starter] '
 description: Saiba como configurar o acesso de administrador para o Adobe Real-Time CDP Collaboration [!DNL Starter] usando o Admin Console no Adobe Experience Cloud.
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7b5aa5e2-1238-4a0b-be20-becfe6c9e0b7
 source-git-commit: db4cc34592e49254163d7db54f93238146ce72a4
 workflow-type: tm+mt
