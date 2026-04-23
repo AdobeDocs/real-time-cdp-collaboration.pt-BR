@@ -1,44 +1,44 @@
 ---
-title: Estabelecimento de conexões com colaboradores
-description: Depois de descobrir possíveis colaboradores, saiba como estabelecer conexões e começar a colaborar em projetos.
+title: Establishing connections with collaborators
+description: After discovering potential collaborators, learn how to establish connections and start collaborating on projects.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
+source-git-commit: 27fdbdf7e70ba83b323e1057ab614585aa7d0045
 workflow-type: tm+mt
-source-wordcount: '2881'
-ht-degree: 9%
+source-wordcount: '3349'
+ht-degree: 8%
 
 ---
 
-# Estabelecimento de conexões com colaboradores {#establishing-connections}
+# Establishing connections with collaborators {#establishing-connections}
 
 {{limited-availability-release-note}}
 
-Antes que os colaboradores possam trabalhar juntos em campanhas, eles devem estabelecer uma conexão. Essa conexão permite que eles ativem públicos, criem projetos e executem relatórios sobre o desempenho da campanha.
+Before collaborators can work together on campaigns, they must establish a connection. This connection allows them to activate audiences, create projects, and run reports on campaign performance.
 
-As conexões são estabelecidas com base no padrão de colaboração escolhido. A Collaboration oferece suporte a dois principais padrões de colaboração: anunciante-editor e marca-a-marca. Para ler mais sobre esses padrões, consulte o guia [casos de uso](/help/guide/overview/use-cases.md).
+Connections are established based on your chosen collaboration pattern. Collaboration supports two key collaboration patterns: advertiser-to-publisher and brand-to-brand. To read more about these patterns, see the [use cases](/help/guide/overview/use-cases.md) guide.
 
-Para saber como estabelecer uma conexão, leia a seção abaixo que corresponde ao seu padrão de colaboração:
+To learn how to establish a connection, read the section below that corresponds to your collaboration pattern:
 
-- [Conexão do anunciante com o editor](#advertiser-to-publisher-connection)
-- [Conexão marca a marca](#brand-to-brand-connection)
+- [Advertiser-to-publisher connection](#advertiser-to-publisher-connection)
+- [Brand-to-brand connection](#brand-to-brand-connection)
 
-## Conexão do anunciante com o editor {#advertiser-to-publisher-connection}
+## Advertiser-to-publisher connection {#advertiser-to-publisher-connection}
 
-![Diagrama de alto nível do processo de conexão anunciante-publicador.](/help/assets/connect/establish-connection/advertiser-publisher-flow.png){zoomable="yes"}
+![High-level diagram of the advertiser-publisher connection process.](/help/assets/connect/establish-connection/advertiser-publisher-flow.png){zoomable="yes"}
 
-No padrão anunciante para editor, um anunciante descobre um publicador com quem deseja trabalhar por meio do espaço de trabalho **[!UICONTROL Descobrir colaboradores]** e envia um convite de conexão. O editor então revisa o convite e o aceita, permitindo que o anunciante proponha configurações de conexão. Quando o editor aceita as configurações de conexão, a conexão é estabelecida e ambos os colaboradores podem começar a trabalhar juntos nos projetos.
+In the advertiser-to-publisher pattern, an advertiser discovers a publisher they want to work with through the **[!UICONTROL Discover collaborators]** workspace and sends a connection invite. The publisher then reviews the invite and accepts it, allowing the advertiser to propose connection settings. Once the publisher accepts the connection settings, the connection is established, and both collaborators can begin working together on projects.
 
-### Visão geral de alto nível
+### High-level overview
 
-Para estabelecer uma conexão entre um anunciante e um editor, as seguintes etapas estão envolvidas:
+To establish a connection between an advertiser and a publisher, the following steps are involved:
 
-1. [Descobrir editores](#discover-collaborators): o anunciante identifica colaboradores em potencial com os quais trabalhar.
-1. [Enviar convite](#send-invite): o anunciante envia um convite de conexão para o editor selecionado.
-1. [Aceitar convite](#accept-invite): o editor revisa e aceita o convite.
-1. [Definir configurações de conexão](#configure-connection-settings): o anunciante define as configurações de conexão e as envia ao editor para revisão.
-1. [Confirmar configurações de conexão](#establish-connection): o publicador revisa as configurações de conexão e as aceita ou rejeita. Se aceita, a conexão é estabelecida. Se rejeitado, o editor pode fornecer feedback para revisões fora do produto. O anunciante poderá então revisar as configurações e reenviá-las para revisão.
+1. [Discover publishers](#discover-collaborators): The advertiser identifies potential collaborators to work with.
+1. [Send invite](#send-invite): The advertiser sends a connection invite to the selected publisher.
+1. [Accept invite](#accept-invite): The publisher reviews and accepts the invite.
+1. [Configure connection settings](#configure-connection-settings): The advertiser configures the connection settings and sends them to the publisher for review.
+1. [Confirm connection settings](#establish-connection): The publisher reviews the connection settings and either accepts or rejects them. If accepted, the connection is established. Se rejeitado, o editor pode fornecer feedback para revisões fora do produto. O anunciante poderá então revisar as configurações e reenviá-las para revisão.
 
 Depois que as configurações de conexão forem aceitas, a conexão será estabelecida e os colaboradores estarão prontos para [criar um projeto](/help/guide/collaborate/manage-projects.md#create-project) para começar a colaborar em campanhas.
 
@@ -114,39 +114,41 @@ Para atualizar seu **[!UICONTROL Código de conexão]**, selecione o ícone de a
 
 >[!IMPORTANT]
 >
->Todas as contas criadas antes da introdução do recurso **[!UICONTROL Código de conexão]** não terão um código de conexão gerado, e o campo de conexão será exibido como **[!UICONTROL Indisponível]**. Use a opção de atualização para gerar um novo código de conexão.
+>Todas as contas criadas antes da introdução do recurso **[!UICONTROL Código de conexão]** não terão um código de conexão gerado, e o campo de conexão será exibido como **[!UICONTROL Indisponível]**. Use the refresh option to generate a new connect code.
 
-#### Enviar convite de conexão privada {#send-private-connection-invite}
+#### Send private connection invite {#send-private-connection-invite}
 
-Depois de receber o **[!UICONTROL Código de conexão]** do seu colaborador, você poderá enviar um convite de conexão privada. Para fazer isso, navegue até o espaço de trabalho **[!UICONTROL Conectar]** e selecione o ícone de adição (![ícone de adição](/help/assets/icons/plus.png)) no canto superior direito.
+Once you have the **[!UICONTROL Connect code]** from your collaborator, you can send a private connection invite. To do this, navigate to the **[!UICONTROL Connect]** workspace and select the plus icon (![plus icon](/help/assets/icons/plus.png)) in the upper right corner.
 
-![O ícone de adição destacado no espaço de trabalho do Connect.](/help/assets/connect/establish-connection/private-connection-invite.png){zoomable="yes"}
+Then, select **[!UICONTROL Connect with invite code]**.
 
-A caixa de diálogo **[!UICONTROL Conectar]** é exibida, solicitando que você insira o **[!UICONTROL Código de conexão]** do colaborador com o qual deseja se conectar. Cole o código no campo de texto e selecione **[!UICONTROL Continuar]** para continuar.
+![The plus icon highlighted in the Connect workspace.](/help/assets/connect/establish-connection/private-connection-invite.png){zoomable="yes"}
 
-![A caixa de diálogo Conectar com o campo Conectar código foi preenchida e a opção Continuar foi realçada.](/help/assets/connect/establish-connection/private-connection-invite-connect.png){zoomable="yes"}
+The **[!UICONTROL Connect]** dialog appears, prompting you to enter the **[!UICONTROL Connect code]** of the collaborator you want to connect with. Paste the code into the text field and select **[!UICONTROL Continue]** to proceed.
 
-A caixa de diálogo **[!UICONTROL Conectar]** exibirá o colaborador ao qual o código está associado, permitindo que você confirme se está se conectando com o colaborador correto. Se o colaborador estiver correto, selecione **[!UICONTROL Conectar]** para enviar o convite de conexão privada.
+![The Connect dialog with the Connect code field filled in and the Continue option highlighted.](/help/assets/connect/establish-connection/private-connection-invite-connect.png){zoomable="yes"}
 
-![A caixa de diálogo Conectar com os detalhes do colaborador foi exibida e a opção Conectar foi realçada.](/help/assets/connect/establish-connection/private-connection-invite-connect-confirm.png){zoomable="yes"}
+The **[!UICONTROL Connect]** dialog will then display the collaborator the code is associated with, allowing you to confirm that you are connecting with the correct collaborator. If the collaborator is correct, select **[!UICONTROL Connect]** to send the private connection invite.
+
+![The Connect dialog with the collaborator details displayed and the Connect option highlighted.](/help/assets/connect/establish-connection/private-connection-invite-connect-confirm.png){zoomable="yes"}
 
 ### Aceitar convite {#accept-invite}
 
 >[!TIP]
 >
->Ao discutir o processo de conexão, haverá uma distinção entre **proprietário** e **destinatário**. O proprietário é o colaborador que inicia a conexão enviando o convite, enquanto o destinatário é o colaborador que recebe e revisa o convite.
+>When discussing the connection process, there will be a distinction between the **owner** and the **recipient**. The owner is the collaborator who initiates the connection by sending the invite, while the recipient is the collaborator who receives and reviews the invite.
 
-Antes que o proprietário possa definir as configurações de conexão, o destinatário deve aceitar o convite de conexão. Para fazer isso, navegue até o espaço de trabalho **[!UICONTROL Conectar]** e localize a conexão pendente na seção **[!UICONTROL Ação necessária]**. O status da conexão aparece como **[!UICONTROL Convite recebido]**. Selecione **[!UICONTROL Aceitar]** para aceitar o convite.
+Before the owner can configure the connection settings, the recipient must accept the connection invite. To do this, navigate to the **[!UICONTROL Connect]** workspace and find the pending connection in the **[!UICONTROL Action required]** section. The connection status appears as **[!UICONTROL Invite received]**. Select **[!UICONTROL Accept]** to accept the invite.
 
-![A conexão pendente é exibida na seção Ação necessária do espaço de trabalho Conectar com a opção Aceitar realçada.](/help/assets/connect/establish-connection/accept-connection.png){zoomable="yes"}
+![The pending connection is displayed Action required section of the Connect workspace with the Accept option highlighted.](/help/assets/connect/establish-connection/accept-connection.png){zoomable="yes"}
 
-A caixa de diálogo é exibida solicitando que você aceite o convite. Selecione **[!UICONTROL Aceitar convite]** para continuar.
+The dialog appears prompting you to accept the invite. Select **[!UICONTROL Accept invite]** to proceed.
 
-![A caixa de diálogo Aceitar convite de conexão com a opção Aceitar convite está realçada.](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
+![The Accept connection invite dialog with the Accept invite option highlighted.](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
 
-O status da conexão é alterado para **[!UICONTROL Pendente]**. O proprietário agora pode definir as configurações de conexão.
+The status of the connection changes to **[!UICONTROL Pending]**. The owner can now configure the connection settings.
 
-### Definir configurações de conexão {#configure-connection-settings}
+### Configure connection settings {#configure-connection-settings}
 
 As configurações de conexão definem os termos entre dois colaboradores. Essas configurações incluem casos de uso, chaves de correspondência, divisão de crédito e contratos legais. Os colaboradores que se conectam com anunciantes também podem adicionar nomes de anunciantes às configurações de conexão, que serão usadas ao criar projetos.
 
@@ -303,6 +305,70 @@ Além disso, se você for um publicador conectado a um anunciante, poderá adici
 
 Em seguida, selecione **[!UICONTROL Aceitar]** para continuar com a conexão. O status da conexão será alterado para **[!UICONTROL Ativo]**, e agora você pode começar a colaborar em projetos.
 
+## Convidar um colaborador {#invite-collaborator}
+
+Siga as etapas abaixo para convidar seu parceiro a ingressar no Real-Time CDP Collaboration [!DNL Starter]. Se quiser obter mais detalhes sobre o Collaboration [!DNL Starter] e uma visão geral passo a passo do processo, consulte a [[!DNL Starter] documentação de visão geral](../overview/starter-overview.md).
+
+Antes de iniciar o processo de convite, colete as seguintes informações do seu colaborador:
+
+| Campo | Descrição |
+|-------|-------------|
+| Empresa | O nome da empresa do colaborador. |
+| Nome | O nome completo da pessoa convidada. |
+| Endereço de email | O endereço de email que o colaborador usa para acessar o Real-Time CDP Collaboration [!DNL Starter]. |
+| Título | O cargo do contato principal. |
+
+{style="table-layout:auto"}
+
+>[!IMPORTANT]
+>
+>Ao convidar outro colaborador, você reconhece que é responsável por quaisquer encargos incorridos por meio de suas atividades. Saiba mais sobre o [uso e consumo de crédito no Collaboration Starter](../setup/starter-credit-usage.md)
+
+### Enviar um convite {#send-invitation}
+
+Convide sua organização parceira a ingressar no Collaboration [!DNL Starter] diretamente por meio da interface do usuário.
+
+Para começar, navegue até o espaço de trabalho **[!UICONTROL Conectar]** e selecione o ícone de adição (![ícone de adição](/help/assets/icons/plus.png)) no canto superior direito. Em seguida, selecione **[!UICONTROL Convidar um colaborador]**.
+
+![O espaço de trabalho Conectar com o ícone de adição e a opção Convidar um colaborador foi realçado.](/help/assets/connect/establish-connection/invite-collaborator/invite-collaborator.png){zoomable="yes"}
+
+A caixa de diálogo **[!UICONTROL Convidar um colaborador]** é exibida, solicitando que você insira as informações do colaborador convidado. Preencha os campos obrigatórios para [!UICONTROL Nome da empresa], [!UICONTROL Nome], [!UICONTROL Sobrenome] e [!UICONTROL Email].
+
+>[!IMPORTANT]
+>
+>Invitations are **tied to the email address provided**. Ensure the email address is accurate, as the invited user must use that exact email to accept the invitation and access the product.
+
+Next, use the dropdown to choose the appropriate role for your partner. See the [account roles documentation](../overview/roles.md) for details on available role types in Collaboration.
+
+![The Invite a collaborator dialog with the Role dropdown highlighted.](/help/assets/connect/establish-connection/invite-collaborator/role-dropdown.png){zoomable="yes"}
+
+When finished, review the information and select **[!UICONTROL Send invite]**.
+
+![The Invite a collaborator dialog with the Send invite option highlighted.](/help/assets/connect/establish-connection/invite-collaborator/send-invite.png){zoomable="yes"}
+
+A confirmation dialog confirms that the invite was successfully sent to your partner organization.
+
+![The confirmation dialog confirms that the invite was successfully sent.](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
+
+### Accept the invitation and sign terms {#accept-invitation-sign-terms}
+
+After you send the invitation, your partner organization receives an email with instructions to review and accept the Real-Time Collaboration terms and conditions. They can also explore the features of Collaboration before accepting.
+
+![The invitation email to join Collaboration Starter.](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
+
+Once your partner organization accepts the terms and conditions, Adobe begins provisioning Real-Time CDP Collaboration [!DNL Starter] for their account.
+
+### Provisioning confirmation {#provisioning-confirmation}
+
+When the provision process is complete, a welcome email is sent to the invited organization, confirming that Collaboration [!DNL Starter] is ready to use. This email provides instructions on how to:
+
+- [Configure administrator and user access](../setup/starter-admin-access.md)
+- [Set up permissions to access Collaboration](../setup/starter-permission-controls.md)
+
+![The welcome email sent to the invited organization with instructions to set up the necessary access and permissions.](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
+
+Once your partner has access to Collaboration, both you and the invited organization can [establish a connection](#connect) and [set up the connection settings](#configure-connection-settings) to start collaborating on projects.
+
 ## Próximas etapas
 
-Depois de estabelecer uma conexão com seu colaborador, você e ele agora podem [criar projetos](/help/guide/collaborate/manage-projects.md#create-project).
+After establishing a connection with your collaborator, you and your collaborator can now [create projects](/help/guide/collaborate/manage-projects.md#create-project).
