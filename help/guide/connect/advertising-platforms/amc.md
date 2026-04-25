@@ -2,10 +2,14 @@
 title: Amazon Marketing Cloud
 description: Saiba mais sobre como se conectar ao  [!DNL Amazon Marketing Cloud] no Real-Time CDP Collaboration.
 audience: publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 9a4a7acf3f4e42667889b40c6a052aaf83c06758
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 18169bd5-fe9f-4c39-96d5-2ae2b10578c5
+TQID: https://experienceleague.adobe.com/unC9PV6C3VOQ7OXsqFWSj73JV81uZwE37QeUPKBlO2A
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: 271
 ht-degree: 1%
 
 ---

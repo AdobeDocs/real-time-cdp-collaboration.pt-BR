@@ -1,45 +1,48 @@
 ---
-title: Manage user access through Permissions
-description: Manage permissions and users access to different components of the Real-Time CDP Collaboration UI.
+title: Gerenciar o acesso do usuário por meio das permissões
+description: Gerencie permissões e o acesso de usuários a diferentes componentes da interface do usuário do Real-Time CDP Collaboration.
 audience: admin
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0155f6a6-5e67-4415-af96-1848345842e4
-source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
+TQID: https://experienceleague.adobe.com/uPFss3qIstJmeVFF1YpQQJ0V848SiDEfy6BYyEcgPZw
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: 1406
 ht-degree: 2%
 
 ---
 
-# Manage user access through Permissions {#manage-user-access}
+# Gerenciar o acesso do usuário por meio das permissões {#manage-user-access}
 
 {{limited-availability-release-note}}
 
-Manage permissions and user access to individual components within Adobe Real-Time CDP Collaboration through the Experience Cloud [Permissions](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"} interface. Permissions allows system and product administrators to define [roles](./manage-roles.md) to manage user access to specific features and resources.
+Gerencie permissões e acesso de usuário a componentes individuais no Adobe Real-Time CDP Collaboration por meio da interface [Permissões](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"} do Experience Cloud. As permissões permitem que os administradores do sistema e do produto definam [funções](./manage-roles.md) para gerenciar o acesso de usuários a recursos e recursos específicos.
 
-## Configure access to Permissions {#permissions-access}
+## Configurar acesso às permissões {#permissions-access}
 
-To access Permissions, you must have both product administrator and user access to the Adobe Experience Platform product. A system administrator is required to configure product administrator privileges, while user privileges can be configured by a system or product administrator. For more information on the administrative roles, read the [access control heirarchy](./overview.md#hierarchy) guide.
+Para acessar as Permissões, você deve ter acesso de administrador de produto e usuário ao produto Adobe Experience Platform. Um administrador de sistema é necessário para configurar privilégios de administrador de produto, enquanto os privilégios de usuário podem ser configurados por um administrador de sistema ou de produto. Para obter mais informações sobre as funções administrativas, leia o guia da [hierarquia de controle de acesso](./overview.md#hierarchy).
 
 >[!TIP]
 >
->Throughout this guide, an **administator** will refer to **both system and product administators**.
+>Neste guia, um **administrador** fará referência a **administradores de sistema e de produto**.
 
-### System Administrators: configure product administrator access {#admin-access}
+### Administradores do sistema: configurar o acesso do administrador do produto {#admin-access}
 
-Grant a user product administrator access to give them administrative capabilities within the Experience Platform product through the following steps:
+Conceda a um administrador de produto do usuário acesso para fornecer recursos administrativos no produto Experience Platform por meio das seguintes etapas:
 
 >[!IMPORTANT]
 >
->As a system administrator, you have out-of-the box access to specific Experience Cloud products, such as Adobe Admin Console. However, to use Permissions, you are required to give yourself product administrator and user access to the Experience Platform product. Follow the step-by-step guide below to give yourself access as a system administrator.
+>Como administrador do sistema, você tem acesso imediato a produtos específicos da Experience Cloud, como o Adobe Admin Console. No entanto, para usar as Permissões, você deve fornecer a si mesmo acesso de administrador e usuário ao produto do Experience Platform. Siga o guia passo a passo abaixo para ter acesso como administrador do sistema.
 
-Log in to [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} with your credentials. The home view displays with a list of your available products within the **[!UICONTROL Quick access]** section. Selecione **[!UICONTROL Admin Console]**.
+Faça logon no [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} com suas credenciais. A exibição inicial é exibida com uma lista dos seus produtos disponíveis na seção **[!UICONTROL Acesso rápido]**. Selecione **[!UICONTROL Admin Console]**.
 
-![Experience Cloud&#39;s home view with Admin Console highlighted.](../../assets/permissions/experience-cloud.png){zoomable="yes"}
+![exibição da página inicial do Experience Cloud com Admin Console realçada.](../../assets/permissions/experience-cloud.png){zoomable="yes"}
 
-The [Adobe Admin Console](https://adminconsole.adobe.com/) overview dashboard displays. Select **[!UICONTROL Adobe Experience Platform]** from the **[!UICONTROL Products]** list under **[!UICONTROL Products and services]**.
+O painel de visão geral do [Adobe Admin Console](https://adminconsole.adobe.com/) é exibido. Selecione **[!UICONTROL Adobe Experience Platform]** na lista **[!UICONTROL Produtos]** em **[!UICONTROL Produtos e serviços]**.
 
-![Admin Console&#39;s overview dashboard with the Adobe Experience Platform product highlighted.](../../assets/permissions/admin-console.png){zoomable="yes"}
+![Painel de visão geral da Admin Console com o produto Adobe Experience Platform destacado.](../../assets/permissions/admin-console.png){zoomable="yes"}
 
 O painel do Adobe Experience Platform é exibido. Selecione a guia **[!UICONTROL Administradores]** e depois selecione **[!UICONTROL Adicionar administrador]**.
 
@@ -77,39 +80,39 @@ A caixa de diálogo **[!UICONTROL Selecionar perfis de produto]** é exibida. Se
 
 Confirme se as informações estão corretas e selecione **[!UICONTROL Salvar]**.
 
-![A caixa de diálogo Adicionar usuários aos produtos com as informações dos usuários e perfis de produtos exibidos e Salvar realçado.](../../assets/permissions/save-selections.png){zoomable="yes"}
+![The Add users to products dialog with the users information and product profiles displayed and Save highlighted.](../../assets/permissions/save-selections.png){zoomable="yes"}
 
-O usuário deve agora ter acesso de administrador e de produto ao Experience Platform, obtendo acesso às permissões. Em seguida, é necessário atribuir ao usuário duas funções fundamentais para conceder a ele acesso à interface da Experience Platform.
+The user should now have product administrator and product access to Experience Platform, gaining them access to Permissions. Next, you need to assign the user two fundamental roles to give them access to the Experience Plaform UI.
 
-### Administradores: configurar o acesso à interface do usuário do Experience Platform {#product-access}
+### Administrators: configure Experience Platform UI access {#product-access}
 
-No Real-Time CDP Collaboration, administradores e usuários finais trabalharão com dados da Experience Platform, como públicos-alvo e logs de auditoria. Esses dados são mantidos em instâncias da Experience Platform chamadas de sandboxes. Para garantir que os usuários possam interagir com esses dados, você precisa atribuir [funções padrão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home#default-roles){target="_blank"} ao usuário.
+In Real-Time CDP Collaboration, administrators and end users will be working with data from Experience Platform, such as audiences and audit logs. This data is held within instances of Experience Platform called sandboxes. To ensure users can interact with this data, you need to assign [default roles](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#default-roles){target="_blank"} to the user.
 
-Para começar, navegue até [Adobe Experience Cloud](https://experience.adobe.com/). Agora você deve ver **[!UICONTROL Experience Platform]** e **[!UICONTROL Permissões]** dentro de **[!UICONTROL Acesso rápido]**.
+To begin, navigate to [Adobe Experience Cloud](https://experience.adobe.com/). You should now see **[!UICONTROL Experience Platform]** and **[!UICONTROL Permissions]** inside of **[!UICONTROL Quick access]**.
 
-![Modo de exibição de página inicial do Experience Cloud com Experience Platform e Permissões realçadas.](../../assets/permissions/experience-cloud-products.png){zoomable="yes"}
+![Experience Cloud&#39;s home view with Experience Platform and Permissions highlighted.](../../assets/permissions/experience-cloud-products.png){zoomable="yes"}
 
 >[!NOTE]
 >
-> Os produtos podem levar vários minutos para obter acesso ao e você receberá um email alertando que recebeu acesso. Se você não estiver vendo o Experience Platform ou as Permissões no Adobe Experience Cloud depois de receber o email, saia e entre novamente na sua conta.
+> The products can take several minutes to gain access to and you&#39;ll receive an email alerting you that you&#39;ve recieved access. If you&#39;re not seeing Experience Platform or Permissions in Adobe Experience Cloud after receiving the email, log out and then back in to your account.
 
-Neste estágio, agora você pode acessar **[!UICONTROL Permissões]**. Se você tentar acessar o **[!UICONTROL Experience Platform]**, receberá um aviso de que nenhuma sandbox está habilitada, como mostrado abaixo. Para resolver isso, você precisa atribuir as funções padrão ao seu usuário. Para começar, selecione **[!UICONTROL Permissões]**.
+At this stage, you can now access **[!UICONTROL Permissions]**. If you try to access **[!UICONTROL Experience Platform]**, you&#39;ll get a warning that no sandboxes are enabled, as shown below. To solve this, you need to assign the default roles to your user. To begin, select **[!UICONTROL Permissions]**.
 
-![Modo de exibição inicial do Experience Cloud com um aviso exibido e Permissões realçadas.](../../assets/permissions/experience-cloud-warning.png){zoomable="yes"}
+![Experience Cloud&#39;s home view with a warning displayed and Permissions highlighted.](../../assets/permissions/experience-cloud-warning.png){zoomable="yes"}
 
-O painel **[!UICONTROL Permissões]** será exibido. Selecione **Usuários** no painel esquerdo e, em seguida, selecione o nome do usuário.
+The **[!UICONTROL Permissions]** dashboard will display. Select **Users** from the left panel and then select the user&#39;s name.
 
-![Painel de permissões com o espaço de trabalho Usuários exibido e um usuário realçado.](../../assets/permissions/permissions-user.png){zoomable="yes"}
+![Permissions dashboard with the Users workspace displayed and a user highlighted.](../../assets/permissions/permissions-user.png){zoomable="yes"}
 
-Selecione a guia **[!UICONTROL Funções]** e selecione **[!UICONTROL Adicionar funções]**.
+Select the **[!UICONTROL Roles]** tab and then select **[!UICONTROL Add roles]**.
 
-![O espaço de trabalho do usuário com a guia Funções exibida e a opção Adicionar funções realçada.](../../assets/permissions/user-roles.png){zoomable="yes"}
+![The user workspace with the Roles tab displayed and Add roles highlighted.](../../assets/permissions/user-roles.png){zoomable="yes"}
 
-A caixa de diálogo **[!UICONTROL Adicionar funções]** é exibida. Selecione **[!UICONTROL Acesso integral à Produção Padrão]** e **[!UICONTROL Administradores de Sandbox]** e selecione **[!UICONTROL Salvar]**.
+The **[!UICONTROL Add Roles]** dialog appears. Select **[!UICONTROL Default Production All Access]** and **[!UICONTROL Sandbox Administrators]** and then select **[!UICONTROL Save]**.
 
-![A caixa de diálogo Adicionar Funções com Todos os Administradores de Acesso e Sandbox de Produção Padrão selecionados e Salvar realçado.](../../assets/permissions/add-roles.png){zoomable="yes"}
+![The Add Roles dialog with Default Production All Access and Sandbox Administrators selected, and Save highlighted.](../../assets/permissions/add-roles.png){zoomable="yes"}
 
-Agora você tem acesso ao Experience Platform e às permissões. Na etapa final, você concederá acesso ao Real-Time CDP Collaboration.
+You now have access to Experience Platform and Permissions. In the final step, you&#39;ll grant access to Real-Time CDP Collaboration.
 
 ### Admins: configurar o acesso ao Real-Time CDP Collaboration {#RTCDP-collaboration-access}
 
@@ -118,35 +121,35 @@ Agora você tem acesso ao Experience Platform e às permissões. Na etapa final,
 >title="gerenciar guia de acesso dos usuários"
 >abstract=""
 
-Para conceder aos usuários acesso ao Collaboration, você usará um conceito de controle de acesso chamado funções. As funções definem o nível de acesso que um administrador ou usuário tem a [recursos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home#permissions) em sua organização.
+To grant users access to Collaboration, you&#39;ll use an access control concept called roles. Roles define the level of access a administrator or user has to [resources](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) in your organization.
 
-Ao configurar o acesso individual ao Collaboration, você atribuirá as funções dos usuários que contêm permissões do recurso Colaborações. Você pode usar o guia [gerenciar funções](./manage-roles.md) para obter informações sobre:
+When configuring individual access to Collaboration, you&#39;ll assign users&#39; roles containing permissions from the Collaborations resource. You can use the [manage roles](./manage-roles.md) guide to find out information on:
 
-- as [duas funções padrão](./manage-roles.md#standard-roles) e os níveis de acesso que elas concedem à Collaboration
-- criando [funções personalizadas](./manage-roles.md#specific-access-roles) usando o recurso Collaboration
-- a lista de permissões incluídas no recurso Colaborações
+- the [two standard roles](./manage-roles.md#standard-roles) and the levels of access they grant to Collaboration
+- creating [custom roles](./manage-roles.md#specific-access-roles) using the Collaboration resource
+- the list of permissions included in the Collaborations resource
 
 >[!NOTE]
 >
->Além disso, um usuário deve ser atribuído a uma função que contém a permissão **[!UICONTROL Prod]** nos recursos de **[!UICONTROL Sandboxes]**. Ambas as funções padrão contêm essa permissão. Se você optar por atribuir uma função personalizada a um usuário em vez de uma função padrão, certifique-se de que uma das funções às quais ele foi atribuído contenha essa permissão.
+>Additionally, a user must be assigned to a role containing the **[!UICONTROL Prod]** permission in the **[!UICONTROL Sandboxes]** resources. Both standard roles contain this permission. If you choose to assign a user a custom role instead of a standard role, you must ensure one of the roles they are assigned to contain this permission.
 
-Depois de escolher ou criar uma função que inclua o nível de acesso de que seu usuário precisa, é necessário atribuir o usuário a essa função.
+Once you&#39;ve chosen or created a role that encompasses the level of access your user needs, you need to assign the user to that role.
 
-#### Atribuir uma função
+#### Assign a role
 
-Você pode atribuir várias funções a um único usuário ou atribuir vários usuários a uma única função. O primeiro caso foi abordado anteriormente ao [atribuir as funções padrão](#product-access) para conceder a um usuário acesso ao Experience Platform. Nas próximas etapas, você atribuirá os usuários diretamente à função selecionada.
+You may assign multiple roles to a single user or assign multiple users to a single role. The first case was covered earlier when [assigning the default roles](#product-access) to give a user access to Experience Platform. In the next steps, you&#39;ll assign users directly to the role you&#39;ve selected.
 
-Em **[!UICONTROL Permissões]**, selecione **[!UICONTROL Funções]** no painel esquerdo e selecione sua função na lista.
+In **[!UICONTROL Permissions]** select **[!UICONTROL Roles]** from the left panel and then select your role from the list.
 
-![O painel de Permissões com o espaço de trabalho Funções exibido e uma função realçada.](../../assets/permissions/select-role.png){zoomable="yes"}
+![The Permissions dashboard with the Roles workspace displayed and a role highlighted.](../../assets/permissions/select-role.png){zoomable="yes"}
 
-A página de detalhes da atribuição é exibida. Selecione a guia **[!UICONTROL Usuários]** e clique em **[!UICONTROL Adicionar usuários]**.
+The role&#39;s detail page displays. Select the **[!UICONTROL Users]** tab and then select **[!UICONTROL Add Users]**.
 
-![O espaço de trabalho de detalhes da função com a guia Usuários exibida e Adicionar Usuários realçado.](../../assets/permissions/role-users.png){zoomable="yes"}
+![The role&#39;s detail workspace with the Users tab displayed and Add Users highlighted.](../../assets/permissions/role-users.png){zoomable="yes"}
 
-A caixa de diálogo **[!UICONTROL Adicionar usuários]** é exibida. Selecione o(s) usuário(s) na lista e selecione **[!UICONTROL Salvar]**.
+The **[!UICONTROL Add Users]** dialog appears. Select the user(s) from the list and then select **[!UICONTROL Save]**.
 
-![A caixa de diálogo Adicionar Usuários com uma seleção de usuário e a opção Salvar foram realçadas.](../../assets/permissions/add-users-to-role.png){zoomable="yes"}
+![The Add Users dialog with a user select and the Save option highlighted.](../../assets/permissions/add-users-to-role.png){zoomable="yes"}
 
 O usuário agora deve ver o **[!UICONTROL RTCDP Collaboration]** listado como um produto em **[!UICONTROL Acesso rápido]** no Experience Cloud.
 

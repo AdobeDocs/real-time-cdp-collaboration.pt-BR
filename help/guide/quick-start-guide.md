@@ -2,11 +2,15 @@
 title: Guia de início e configuração rápida do Real-Time CDP Collaboration
 description: Saiba como configurar o Real-Time CDP Collaboration, definir funções e contas, públicos-alvo de origem, ativar dados e se conectar com parceiros de forma segura.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: 156135fdad5f176cedb91c05c07d9bc0e1903557
+TQID: https://experienceleague.adobe.com/rhIArZZm0Thkj3E-qiHtVHO6qxpr1vd-Qs4hWt4tf1U
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: 1417
 ht-degree: 2%
 
 ---
@@ -41,7 +45,7 @@ As funções de acesso da sua organização determinam o que os usuários podem 
 
 Assista a este vídeo para saber como atribuir acesso e permissões de produto ao Collaboration usando o Admin Console e o Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452235/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Etapa 2: configurar a conta do Collaboration {#set-up-your-account}
 

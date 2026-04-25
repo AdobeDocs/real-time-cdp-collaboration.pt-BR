@@ -2,11 +2,15 @@
 title: Ativar públicos-alvo
 description: Saiba como ativar públicos no Adobe Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
-source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
+TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: 1016
 ht-degree: 2%
 
 ---
@@ -31,7 +35,7 @@ Para começar a ativar públicos, navegue até a guia **[!UICONTROL Ativar]** no
 >
 >![O espaço de trabalho Ativar quando o colaborador não tiver um destino configurado.](/help/assets/collaborate/activate/no-destination-configured.png)
 
-Selecione o ícone adicionar (![Ícone adicionar.](/help/assets/icons/plus.png)) ou a opção **[!UICONTROL Ativar público-alvo]** se nenhum público-alvo anterior tiver sido enviado para ativação.
+Selecione o ícone de adição (![Ícone de adição.](/help/assets/icons/plus.png)) ou a opção **[!UICONTROL Ativar público-alvo]** se nenhum público-alvo anterior tiver sido enviado para ativação.
 
 ![O espaço de trabalho Ativar em um projeto sem públicos adicionados.](/help/assets/collaborate/activate/activate-new-audiences.png)
 
@@ -45,7 +49,7 @@ Em **[!UICONTROL Procurar públicos-alvo]**, você pode ver a **[!UICONTROL Cont
 
 >[!IMPORTANT]
 >
->Ao ativar públicos-alvo onde várias chaves de correspondência são usadas, se uma (ou mais) chave de correspondência não tiver sobreposições, nenhuma contagem de público-alvo ou ficar abaixo do limite, toda a ativação falhará. Verifique se os públicos-alvo têm sobreposição suficiente e se atendem ao limite mínimo de 1000 IDs em todas as chaves de correspondência antes da ativação.
+>Ao ativar públicos-alvo em que várias chaves de correspondência são usadas, se uma (ou mais) chave de correspondência não tiver sobreposições, contagem de público-alvo ou ficar abaixo do limite, toda a ativação falhará. Verifique se os públicos-alvo têm sobreposição suficiente e se atendem ao limite mínimo de 1000 IDs em todas as chaves de correspondência antes da ativação.
 
 Selecione o público que você deseja ativar nas campanhas e selecione **[!UICONTROL Salvar]**. O público agora é exibido e você pode ver a **[!UICONTROL Contagem de identidades]**, **[!UICONTROL Identidades sobrepostas]** e **[!UICONTROL Sobreposição %]** para o público selecionado.
 
@@ -115,7 +119,7 @@ Em cada público ativado, você pode ver as seguintes métricas:
 
 Você pode excluir os públicos-alvo enviados que não deseja mais ativar. Ao excluir um público-alvo enviado, ele é removido da seção **[!UICONTROL Públicos-alvo enviados para]** e não será mais ativado para o destino do seu colaborador.
 
-Para excluir um público-alvo enviado, selecione o ícone **[!UICONTROL Excluir]** (![Ícone Excluir.](/help/assets/icons/delete.png)) ao lado do público-alvo na seção **[!UICONTROL Públicos-alvo enviados para]**.
+Para excluir um público enviado, selecione o ícone **[!UICONTROL Excluir]** (![Ícone Excluir.](/help/assets/icons/delete.png)) ao lado do público na seção **[!UICONTROL Públicos-alvo enviados para]**.
 
 ![A opção Excluir na seção Públicos enviados.](/help/assets/collaborate/activate/delete-sent-audiences.png)
 

@@ -2,11 +2,15 @@
 title: Medir desempenho
 description: Meça o desempenho de suas campanhas em diferentes canais. Saiba como usar e interpretar vários relatórios.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
+TQID: https://experienceleague.adobe.com/pr-qF4sd-NHd55kxh1dCstHRnVCUEhIvtv-47-ljiu4
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '2612'
+source-wordcount: 2612
 ht-degree: 5%
 
 ---
@@ -292,28 +296,28 @@ Como anunciante, você tem a opção de selecionar ou remover o tipo de relatór
 >Se você for um **editor**, o tipo de relatório padrão será **[!UICONTROL Resumo da campanha]** e não poderá ser alterado no momento.
 
 * Se você escolher **[!UICONTROL Atribuição]** como o tipo de relatório, deverá preencher os campos obrigatórios na seção **[!UICONTROL Atribuição]**. Para obter instruções de configuração, consulte a seção [detalhes do relatório de atribuição](#report-details-attribution).
-* Se você definiu configurações de atribuição anteriormente ao criar o relatório, poderá optar por editar a janela de pesquisa (medida em dias) e selecionar sobre quais eventos de conversão relatar.
+* If you previously configured attribution settings when creating the report, you can choose to edit the lookback window (measured in days) and select which conversion events to report on.
 
-Para atualizar a **[!UICONTROL Janela de retrospectiva em dias]**, insira um valor numérico ou ajuste-o com as opções de incremento/decremento. Em seguida, selecione os eventos de conversão sobre os quais deseja criar relatórios. Você pode escolher até **3** conversões na lista disponível.
+To update **[!UICONTROL Lookback window in days]**, enter a numeric value, or adjust it with the increment/decrement options. Next, select the conversion events you want to report on. You can choose up to **3** conversions from the available list.
 
-![A caixa de diálogo Editar relatório de medição destacando os eventos de conversão atualizados.](/help/assets/collaborate/measure/edit-conversion-events.png)
+![The Edit measurement report dialog highlighting the updated conversion events.](/help/assets/collaborate/measure/edit-conversion-events.png)
 
-Depois de concluído, revise as atualizações e selecione **[!UICONTROL Editar]** para aplicar as alterações.
+Once finished, review the updates and select **[!UICONTROL Edit]** to apply your changes.
 
-![Caixa de diálogo Editar relatório de medição com a opção Editar realçada.](/help/assets/collaborate/measure/edit-report-confirm.png)
+![The Edit measurement report dialog with the Edit option highlighted.](/help/assets/collaborate/measure/edit-report-confirm.png)
 
-Uma caixa de diálogo de confirmação confirma que o relatório foi salvo com êxito.
+A confirmation dialog confirms that your report has been successfully saved.
 
-## Excluir relatório de medição {#delete-measurement-report}
+## Delete measurement report {#delete-measurement-report}
 
-Excluir um relatório de medição no Collaboration o remove permanentemente do sistema. Esta ação não pode ser desfeita. Para fazer isso, selecione o relatório que deseja excluir na guia **[!UICONTROL Measure]**.
+Deleting a measurement report in Collaboration permanently removes it from the system. Esta ação não pode ser desfeita. To do this, select the report you wish to delete in the **[!UICONTROL Measure]** tab.
 
-No espaço de trabalho do relatório de medição, selecione o ícone de exclusão (![Ícone de exclusão](/help/assets/common/delete.svg)).
+In the measurement report workspace, select the delete icon (![Delete icon](/help/assets/common/delete.svg)).
 
-![O espaço de trabalho do relatório de medição com o ícone Excluir realçado.](/help/assets/collaborate/measure/delete-report.png)
+![The measurement report workspace with the Delete icon highlighted.](/help/assets/collaborate/measure/delete-report.png)
 
-A caixa de diálogo **[!UICONTROL Excluir relatório]** é exibida, solicitando que você confirme a exclusão. Clique em **[!UICONTROL Excluir]**.
+The **[!UICONTROL Delete report]** dialog appears, prompting you to confirm the deletion. Clique em **[!UICONTROL Excluir]**.
 
-![A caixa de diálogo Excluir relatório com a opção Excluir foi realçada.](/help/assets/collaborate/measure/delete-report-confirm.png)
+![The Delete report dialog with the Delete option highlighted.](/help/assets/collaborate/measure/delete-report-confirm.png)
 
-Uma caixa de diálogo de confirmação confirma que o relatório foi excluído com êxito.
+A confirmation dialog confirms the report was successfully deleted.

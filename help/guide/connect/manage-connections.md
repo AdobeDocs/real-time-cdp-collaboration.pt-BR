@@ -2,11 +2,14 @@
 title: Gerenciar conexões
 description: Saiba como gerenciar suas conexões no Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
-source-git-commit: 46d2596bd0ccdc5da32067493968945c61f8acc4
+TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: 1092
 ht-degree: 1%
 
 ---
@@ -122,22 +125,22 @@ As configurações de divisão de crédito especificam qual colaborador é respo
 
 Na caixa de diálogo **[!UICONTROL Divisão de crédito]**, selecione as configurações preferenciais para [!UICONTROL Correspondência de Ativação] e [!UICONTROL Medição]. Em seguida, selecione **[!UICONTROL Salvar]** para confirmar.
 
-![A caixa de diálogo Divisão de crédito exibindo as configurações de divisão de crédito e a opção Salvar.](/help/assets/connect/manage-connections/credit-split-dialog.png){zoomable="yes"}
+![The Credit split dialog showing the credit split settings and the Save option.](/help/assets/connect/manage-connections/credit-split-dialog.png){zoomable="yes"}
 
-### Revisar e enviar alterações {#review-and-submit-changes}
+### Review and submit changes {#review-and-submit-changes}
 
-Ao concluir a edição das configurações de conexão, revise e selecione **[!UICONTROL Enviar alterações]**. As atualizações das configurações de conexão serão enviadas ao seu colaborador para análise.
+When you complete editing the connection settings, review and select **[!UICONTROL Submit changes]**. The connection settings updates will be sent to your collaborator for review.
 
-![A tela de edição de configurações de conexão exibindo as atualizações e a opção Enviar alterações.](/help/assets/connect/manage-connections/review-and-submit-changes.png){zoomable="yes"}
+![The edit connection settings screen displaying the updates and the Submit changes option.](/help/assets/connect/manage-connections/review-and-submit-changes.png){zoomable="yes"}
 
-#### Salvar alterações nas configurações de conexão como rascunho
+#### Save connection settings changes as draft
 
-Você pode salvar as alterações nas configurações de conexão como rascunho e retornar para concluir a atualização das configurações de conexão a qualquer momento.
+You can save the connection settings changes as a draft and return to finish updating the connection settings at any time.
 
-Para salvar as alterações como rascunho, selecione **[!UICONTROL Cancelar]** ao lado de **[!UICONTROL Enviar alterações]**. Em seguida, na caixa de diálogo **[!UICONTROL Alterações não enviadas]**, selecione **[!UICONTROL Continuar mais tarde]** para confirmar.
+To save the changes as a draft, select **[!UICONTROL Cancel]** next to **[!UICONTROL Submit changes]**. Then, in the **[!UICONTROL Unsubmitted changes]** dialog, select **[!UICONTROL Continue later]** to confirm.
 
-![A tela de edição de configurações de conexão.](/help/assets/connect/manage-connections/unsubmitted-changes-dialog.png){zoomable="yes"}
+![The edit connection settings screen.](/help/assets/connect/manage-connections/unsubmitted-changes-dialog.png){zoomable="yes"}
 
-Suas alterações foram salvas como rascunho. No espaço de trabalho de configurações de conexão, você pode ver uma notificação indicando que há alterações não enviadas. Para fazer mais atualizações, selecione **[!UICONTROL Continuar editando]**.
+Your changes are now saved as a draft. In the connection settings workspace, you can see a notification indicating that there are unsubmitted changes. To make further updates, select **[!UICONTROL Continue editing]**.
 
-![Uma notificação no espaço de trabalho de configurações de conexão mostrando que há alterações não enviadas pendentes de revisão e envio.](/help/assets/connect/manage-connections/continue-editing-connection.png){zoomable="yes"}
+![A notification in the connection settings workspace showing there are unsubmitted changes pending review and submission.](/help/assets/connect/manage-connections/continue-editing-connection.png){zoomable="yes"}
