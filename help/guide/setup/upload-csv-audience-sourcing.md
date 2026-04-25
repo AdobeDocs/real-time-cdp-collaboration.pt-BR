@@ -2,9 +2,15 @@
 title: Fazer upload de arquivo CSV para origem de público-alvo
 description: Saiba como fazer upload do arquivo CSV como uma fonte de dados de autoatendimento para assimilar dados de público-alvo no Real-Time CDP Collaboration.
 exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
-source-git-commit: 96f6ae6c4b0c4255da8b04456497edf5b4365363
+TQID: https://experienceleague.adobe.com/sqgS0g8PUnLOyc02fJ1yiFkInVN5MlxoCbMn8lvY1-Y
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: 1100
 ht-degree: 0%
 
 ---
@@ -121,17 +127,17 @@ Quando estiver na exibição de grade ou tabela, selecione um item de linha ou *
 **[!UICONTROL Identidades]**: exibe a contagem e o detalhamento totais de identidades assim que os dados são disponibilizados.
 **[!UICONTROL Categorias]**: exibe as marcas usadas para organizar ou filtrar o público.
 **[!UICONTROL Acesso à conexão]**: exibe se o público é privado, público ou compartilhado com colaboradores específicos.
-**[!UICONTROL Visibilidade de metadados]**: mostra quais informações de público-alvo (como contagem de identidades, porcentagem de sobreposição e índice) estão visíveis para os colaboradores.
+**[!UICONTROL Metadata visibility]**: Displays what audience information (such as identity count, overlap percentage, and index) is visible to collaborators.
 
-Use esta exibição para confirmar as configurações de público-alvo e as configurações de visibilidade antes de usar o público-alvo em projetos de colaboração. Para obter mais informações, consulte [como visualizar um público-alvo individual](./onboard-audiences.md#view-individual-audiences).
+Use this view to confirm audience configuration and visibility settings before using the audience in collaboration projects. For more information, see [how to view an individual audience](./onboard-audiences.md#view-individual-audiences).
 
 ## Próximas etapas {#next-steps}
 
-Agora você carregou com êxito seu arquivo CSV no Collaboration. Após a conclusão da seleção de fornecedor, você pode:
+You have now successfully uploaded your CSV file in Collaboration. After sourcing completes, you can:
 
-* Crie projetos de colaboração com os públicos-alvo de origem. Consulte [Descobrir públicos-alvo](../../guide/collaborate/discover.md).
-* Ative públicos para destinos conectados. Consulte [Ativar públicos-alvo](../../guide/collaborate/activate.md).
-* Analise a sobreposição de público e os insights. Consulte [Medir o desempenho da campanha](../../guide/collaborate/measure.md).
-* Gerencie as configurações e a visibilidade do seu público-alvo. Consulte [Source e gerenciar públicos](./onboard-audiences.md).
+* Create collaboration projects with your sourced audiences. See [Discover audiences](../../guide/collaborate/discover.md).
+* Activate audiences to connected destinations. See [Activate audiences](../../guide/collaborate/activate.md).
+* Review audience overlap and insights. See [Measure campaign performance](../../guide/collaborate/measure.md).
+* Manage your audience settings and visibility. See [Source and manage audiences](./onboard-audiences.md).
 
-Para obter informações sobre outros métodos de fornecimento de público, consulte [Configurar o AWS S3 para fornecimento de público](./configure-aws-s3-audience-sourcing.md) ou [Públicos-alvo da Source na Experience Platform](./onboard-audiences.md).
+For information about other audience sourcing methods, see [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md) or [Source audiences from Experience Platform](./onboard-audiences.md).

@@ -4,9 +4,17 @@ description: Descubra sobreposições entre o seu e o público-alvo de seus cola
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
+TQID: https://experienceleague.adobe.com/ny3FgyvKMu4caNcmNTLrPRHXjBOKa6lDvPQ3C9YG9vo
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '2120'
+source-wordcount: 2120
 ht-degree: 17%
 
 ---
@@ -45,7 +53,7 @@ Depois que esses pré-requisitos forem atendidos, você poderá começar a explo
 
 >[!NOTE]
 >
->Este espaço de trabalho **[!UICONTROL Descobrir]** não é relevante para colaborações com plataformas de publicidade. Currently, Amazon Marketing Cloud is the only available advertising platform in Real-Time CDP Collaboration. For more information about the [!DNL AMC] **[!UICONTROL Discover]** workspace, read the [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md) guide.
+>Este espaço de trabalho **[!UICONTROL Descobrir]** não é relevante para colaborações com plataformas de publicidade. Atualmente, o Amazon Marketing Cloud é a única plataforma de publicidade disponível no Real-Time CDP Collaboration. Para obter mais informações sobre o espaço de trabalho [!DNL AMC] **[!UICONTROL Descobrir]**, leia o guia do [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md).
 
 ## Comparar públicos-alvo {#compare-audiences}
 
@@ -74,28 +82,28 @@ Depois que esses pré-requisitos forem atendidos, você poderá começar a explo
 >title="Porcentagem de identidades sobrepostas"
 >abstract="A porcentagem de sobreposição de identidades entre o público-alvo selecionado do colaborador e o seu."
 
-Use the compare audiences section to get rich information about the overlap between your and your collaborator&#39;s audiences. To change the audience selection, use the dropdown selector at the top of the **[!UICONTROL Compare audiences]** section. You can select one or all of your audiences and one or all of your collaborator&#39;s audiences to compare against each other.
+Use a seção comparar públicos para obter informações detalhadas sobre a sobreposição entre os públicos do e do colaborador. Para alterar a seleção de público, use o seletor suspenso na parte superior da seção **[!UICONTROL Comparar públicos]**. Você pode selecionar um ou todos os públicos-alvo e um ou todos os públicos-alvo do colaborador para comparar.
 
-![The Discover workspace with the audience selector highlighted in the Compare audiences section.](/help/assets/collaborate/discover/compare-audiences-selector.png)
+![O espaço de trabalho Descobrir com o seletor de público-alvo realçado na seção Comparar públicos-alvo.](/help/assets/collaborate/discover/compare-audiences-selector.png)
 
-In the compare audiences section, you can see the following metrics, which are based on the match keys that you and your collaborator agreed on for the project:
+Na seção comparar públicos, você pode ver as seguintes métricas, que se baseiam nas chaves de correspondência acordadas entre você e seu colaborador para o projeto:
 
 | Métrica | Descrição |
 |---------|----------|
-| **[!UICONTROL Identity count]** (yours) | The number of unique IDs within your selected audience(s). |
-| **[!UICONTROL Identity count]** (your collaborator) | The number of unique IDs within your collaborator&#39;s audience(s). |
-| **[!UICONTROL Overlapping identities]** | The number of unique IDs that are present in both your and your collaborator&#39;s audiences. |
-| **[!UICONTROL Overlap %]** | A porcentagem de sobreposição de perfis entre o público-alvo alvo selecionado do seu colaborador e o seu. |
-| **[!UICONTROL Audience index]** | A score that indicates how strongly one audience relates to another based on underlying audience counts &amp; overlaps. To learn more about what the scores mean, read the [audience index score](#audience-index-score) section. Audience index scores are not available when comparing against your collaborator&#39;s baseline (all audiences). |
-| **[!UICONTROL Identities breakdown by match key]** | The breakdown of identites matched for each match key chosen in the project, based on the select audiences for each collaborator. |
+| **[!UICONTROL Contagem de identidades]** (sua) | O número de IDs exclusivas dentro do(s) público(s) selecionado(s). |
+| **[!UICONTROL Contagem de identidades]** (seu colaborador) | O número de IDs exclusivas no(s) público(s) do colaborador. |
+| **[!UICONTROL Identidades sobrepostas]** | O número de IDs exclusivas presentes nos públicos do e do colaborador. |
+| **[!UICONTROL Sobreposição %]** | A porcentagem de sobreposição de perfis entre o público-alvo alvo selecionado do seu colaborador e o seu. |
+| **[!UICONTROL Índice de público-alvo]** | Uma pontuação que indica com que intensidade um público-alvo está relacionado a outro com base em contagem de público-alvo e sobreposições subjacentes. Para saber mais sobre o significado das pontuações, leia a seção [pontuação do índice de público-alvo](#audience-index-score). As pontuações do índice de público-alvo não estão disponíveis ao comparar com a linha de base do colaborador (todos os públicos-alvo). |
+| **[!UICONTROL Detalhamento de identidades por chave de correspondência]** | O detalhamento de identidades correspondentes a cada chave de correspondência escolhida no projeto, com base nos públicos-alvo selecionados para cada colaborador. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->The overlap percentage figure and audience index score may not be always available for all audiences. The visibility of the overlap percentage and audience index score depends on the setting that your collaborator chose for an audience in the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+>O índice de porcentagem de sobreposição e a pontuação do índice de público-alvo nem sempre estão disponíveis para todos os públicos-alvo. A visibilidade da porcentagem de sobreposição e da pontuação do índice de público-alvo depende da configuração que seu colaborador escolheu para um público na [seção de visibilidade de metadados](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
-If your collaborator has not enabled either the audience index or the overlap percentage, the audience will not have any comparison data available.
+Se o colaborador não tiver ativado o índice de público-alvo ou a porcentagem de sobreposição, o público-alvo não terá dados de comparação disponíveis.
 
 ## Públicos-alvo relevantes {#relevant-audiences}
 
@@ -104,7 +112,7 @@ If your collaborator has not enabled either the audience index or the overlap pe
 >title="Públicos-alvo relevantes"
 >abstract="Com base nas porcentagens de sobreposição, esses públicos-alvo podem ser adequados para a campanha. <br><br> A <b>contagem de identidades</b> é o tamanho do público-alvo do colaborador. <br><br> As <b>identidades sobrepostas</b> representam a sobreposição entre o público-alvo recomendado e todos os seus públicos-alvo. <br><br> A <b>% de sobreposição</b> representa o número de identidades sobrepostas dividido pelo tamanho de <i>todos</i> os seus públicos-alvo."
 
-The **[!UICONTROL Relevant audiences]** section in the **[!UICONTROL Discover]** tab provides a curated list of the top five audiences based on the overlap percentage between the your collaborator&#39;s audience, and all your audiences. This feature helps you quickly identify the audiences with the highest overlap, enabling you to target your campaigns more effectively. Alterne entre os públicos-alvo relevantes usando os seletores de página na parte superior direita da seção.
+A seção **[!UICONTROL Públicos-alvo relevantes]** da guia **[!UICONTROL Descobrir]** fornece uma lista com curadoria dos cinco principais públicos-alvo com base na porcentagem de sobreposição entre o público-alvo do seu colaborador e todos os seus públicos-alvo. Esse recurso ajuda você a identificar rapidamente os públicos-alvo com a maior sobreposição, permitindo direcionar suas campanhas com mais eficiência. Alterne entre os públicos-alvo relevantes usando os seletores de página na parte superior direita da seção.
 
 ![A seção Descobrir espaço de trabalho com os Públicos relevantes foi realçada.](/help/assets/collaborate/discover/relevant-audiences.png)
 
@@ -178,27 +186,27 @@ A pontuação do índice é calculada usando a seguinte fórmula:
 
 ![A fórmula para calcular a pontuação do índice.](/help/assets/collaborate/discover/index-score-formula.png)
 
-Imagine a car manufacturer wants to run an advertising campaign with a large CTV publisher for a new SUV model. The car manufacturer has data on who currently owns a similar model and wants to use that to find additional prospects to convert them to customers. The car manufacturer looks at the CTV publisher&#39;s audiences to find a relevant audience that closely matches the current SUV owners.
+Imagine que um fabricante de automóveis quer realizar uma campanha publicitária com uma grande editora de receptores de televisão a cores para um novo modelo de veículo utilitário. O fabricante de automóveis tem dados sobre quem atualmente possui um modelo semelhante e quer usá-lo para encontrar prospetos adicionais para convertê-los em clientes. O fabricante do carro olha para os públicos da editora de CTV para encontrar um público relevante que corresponda estreitamente aos proprietários atuais de SUV.
 
-![The car advertiser versus the CTV publisher audiences.](/help/assets/collaborate/discover/audience-index-score-example.png)
+![O anunciante do carro versus os públicos-alvo do editor de CTV.](/help/assets/collaborate/discover/audience-index-score-example.png)
 
-Index score calculations are made and can be used to determine the likely success of the campaign:
+Os cálculos de pontuação de índice são feitos e podem ser usados para determinar o sucesso provável da campanha:
 
-| CTV Publisher Audience | Fórmula | Index Score (i) | Interpretação |
+| Público-alvo do Editor de CTV | Fórmula | Pontuação do índice (i) | Interpretação |
 |------------------------|-------------|----------------|----------------|
-| Baseline (all audiences) | ((1.3M / 1.3M) / (50M / 50M)) * 100 | 100 | This serves as the baseline against which your collaborator&#39;s other audiences are compared to. |
-| Binge Watchers | ((500k / 1.3M) / (20M / 50M)) * 100 | 96 | By targeting this audience, you are 4% less likely to reach SUV owners compared to the baseline. |
-| Comedy Lovers | ((200k / 1.3M) / (6M / 50M)) * 100 | 128 | By targeting this audience, you are 28% more likely to reach SUV owners compared to the baseline. |
-| Males 25-34 | ((700k / 1.3M) / (12M / 50M)) * 100 | 224 | By targeting this audience, you are 124% more likely to reach SUV owners compared to the baseline. |
-| Tech Enthusiasts | ((500k / 1.3M) / (8M / 50M)) * 100 | 240 | By targeting this audience, you are 140% more likely to reach SUV owners compared to the baseline. |
+| Linha de base (todos os públicos-alvo) | ((1,3 M / 1,3 M) / (50 M / 50 M)) * 100 | 100 | Essa é a linha de base com base na qual os outros públicos-alvo do seu colaborador são comparados. |
+| Observadores compulsivos | ((500k / 1,3M) / (20M / 50M)) * 100 | 96 | Ao direcionar esse público-alvo, você tem 4% menos probabilidade de alcançar os proprietários de SUV em comparação com a linha de base. |
+| Amantes da Comédia | ((200k / 1,3M) / (6M / 50M)) * 100 | 128 | Ao direcionar esse público-alvo, você tem 28% mais probabilidade de alcançar os proprietários de SUV em comparação com a linha de base. |
+| Homens 25-34 | ((700k / 1,3M) / (12M / 50M)) * 100 | 224 | Ao direcionar esse público-alvo, você tem 124% mais probabilidade de alcançar os proprietários de SUV em comparação com a linha de base. |
+| Entusiastas de tecnologia | ((500k / 1,3M) / (8M / 50M)) * 100 | 240 | Ao direcionar esse público-alvo, você tem 140% mais probabilidade de alcançar os proprietários de SUV em comparação com a linha de base. |
 
 {style="table-layout:auto"}
 
-To better understand how the index scores will impact your campaign, relevance bands are provided alongside the scores.
+Para entender melhor como as pontuações do índice afetarão sua campanha, as faixas de relevância são fornecidas junto às pontuações.
 
-### Relevance bands {#audience-index-relevance-bands}
+### Faixas de relevância {#audience-index-relevance-bands}
 
-To enable easy comparison across different audiences and campaigns, Collaboration translates the index scores into relevance bands (very low to very high). Isso permite avaliar rapidamente a força da relação entre o seu público-alvo e o público-alvo do colaborador.
+Para permitir uma comparação fácil entre diferentes públicos e campanhas, o Collaboration traduz as pontuações do índice em faixas de relevância (muito baixas a muito altas). Isso permite avaliar rapidamente a força da relação entre o seu público-alvo e o público-alvo do colaborador.
 
 | Pontuação do índice (i) | Faixa de Relevância | Descrição |
 |---------------|----------|-----------|

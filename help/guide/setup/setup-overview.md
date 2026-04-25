@@ -1,13 +1,18 @@
 ---
 title: Visão geral da configuração
-description: Entenda todas as opções e fluxos de trabalho disponíveis na seção de configuração do Adobe Real-Time CDP Collaboration
+description: Conheça todas as opções e fluxos de trabalho disponíveis na seção de configuração do Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: cbf21cc8-41b4-4dfe-88b7-47bd9a19cbc7
-source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
+TQID: https://experienceleague.adobe.com/A01vUw6jGKigHNQHQc9nYfC5V9f6xB4mKeLqnPBfl2o
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 4%
+source-wordcount: 126
+ht-degree: 20%
 
 ---
 

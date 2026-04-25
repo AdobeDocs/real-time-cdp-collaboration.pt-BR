@@ -4,9 +4,16 @@ description: Saiba como fornecer e gerenciar públicos-alvo no Adobe Real-Time C
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 1c00bacce3a612c9907fb6932ce9089ff29780e0
+TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '3680'
+source-wordcount: 3680
 ht-degree: 17%
 
 ---
@@ -388,20 +395,20 @@ Com seus públicos selecionados no painel de público, selecione **[!UICONTROL E
 
 ![O espaço de trabalho Meus públicos-alvo com a opção Editar nome e descrição foi realçado.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
 
-A caixa de diálogo **[!UICONTROL Nome e descrição]** é exibida, permitindo configurar o nome e a descrição de cada público-alvo selecionado. Por padrão, os nomes e as descrições atuais serão exibidos para cada público. Faça as alterações e selecione **[!UICONTROL Salvar]**.
+A caixa de diálogo **[!UICONTROL Nome e descrição]** é exibida, permitindo configurar o nome e a descrição de cada público-alvo selecionado. By default, the current names and descriptions will be displayed for each audience. Make your changes and then select **[!UICONTROL Save]**.
 
-![A caixa de diálogo Nome e Descrição com as opções disponíveis foi exibida.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
+![The Name and description dialog with the available options displayed.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
 
-### Categorias de edição em massa {#bulk-edit-categories}
+### Bulk edit categories {#bulk-edit-categories}
 
-Com seus públicos selecionados no painel de público, selecione **[!UICONTROL Editar categorias]** no menu de edição.
+With your audiences selected in the audience dashboard, select **[!UICONTROL Edit categories]** from the edit menu.
 
-![O espaço de trabalho Meus públicos-alvo com a opção Editar categorias está realçado.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
+![The My audiences workspace with the Edit categories option highlighted.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
 
-A caixa de diálogo **[!UICONTROL Categorias]** é exibida, permitindo configurar as categorias para cada público-alvo selecionado. Por padrão, nenhuma categoria será selecionada. Para selecionar uma categoria, primeiro selecione a categoria principal e, em seguida, selecione as subcategorias que deseja incluir. Faça as alterações e selecione **[!UICONTROL Salvar]**.
+The **[!UICONTROL Categories]** dialog appears, allowing you to configure the categories for each selected audience. By default, no categories will be selected. To select a category, first select the main category, then select the subcategories you want to include. Make your changes and then select **[!UICONTROL Save]**.
 
-![A caixa de diálogo Categorias com as opções disponíveis foi exibida.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
+![The Categories dialog with the available options displayed.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
 
 ## Próximas etapas
 
-Depois de fornecer os públicos-alvo, é hora de descobrir colaboradores para [conectar](/help/guide/connect/establishing-connections.md) com a para colaborar em projetos.
+After sourcing audiences, it&#39;s time to discover collaborators to [connect](/help/guide/connect/establishing-connections.md) with to collaborate on projects.

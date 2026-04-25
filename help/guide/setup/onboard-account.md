@@ -1,12 +1,19 @@
 ---
 title: Configurar e gerenciar sua conta
-description: Saiba como configurar e gerenciar vários aspectos da sua conta no Real-Time CDP Collaboration
+description: Learn how to configure and manage various aspects of your account in Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: be7078b16d8126a80cced0a3a8328b465b6ec245
+TQID: https://experienceleague.adobe.com/PRmSkRSE2tQ-5t5hHKzDAGrkF6-irmZid2Akq6-PQv8
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: 1393
 ht-degree: 13%
 
 ---
@@ -15,17 +22,17 @@ ht-degree: 13%
 
 {{limited-availability-release-note}}
 
-Saiba como configurar sua conta no Real-Time CDP Collaboration para se preparar para conexões com outros colaboradores. Este guia aborda a configuração inicial da conta, incluindo a adição de detalhes da conta, a seleção de chaves de correspondência e o gerenciamento das configurações da conta.
+Learn how to set up your account in Real-Time CDP Collaboration to prepare for connections with other collaborators. This guide covers the initial setup of your account, including adding account details, selecting match keys, and managing your account&#39;s settings.
 
-![O espaço de trabalho de instalação mostra uma conta configurada.](/help/assets/setup/manage-account/my-account.png){zoomable="yes"}
+![The setup workspace showing a configured account.](/help/assets/setup/manage-account/my-account.png){zoomable="yes"}
 
-## Configurar sua conta {#set-up-account}
+## Set up your account {#set-up-account}
 
-Ao acessar o Collaboration pela primeira vez, você será solicitado a configurar sua conta. Esse é um processo único que permite configurar os detalhes da sua conta e as chaves de correspondência. Se esta for a primeira conta da sua organização, você será direcionado para o processo de integração imediatamente, começando com a configuração dos [detalhes da sua conta](#set-up-details).
+When you first access Collaboration, you are prompted to set up your account. This is a one-time process that allows you to configure your account details and match keys. If this is your organization&#39;s first account, you&#39;ll be directed through the onboarding process immediately, starting with setting up your [account details](#set-up-details).
 
-Para adicionar outras organizações, navegue até **[!UICONTROL Configuração]** no painel esquerdo e selecione o ícone adicionar (![Ícone Adicionar.](/help/assets/icons/plus.png)) no canto superior direito. Em seguida, selecione **[!UICONTROL Conta]**.
+To add additional organizations, navigate to **[!UICONTROL Setup]** in the left rail and select the add icon (![Add icon.](/help/assets/icons/plus.png)) in the upper right corner. Next, select **[!UICONTROL Account]**.
 
-![O espaço de trabalho de instalação com a guia Minha conta e a opção Conta realçada.](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
+![The setup workspace with the My account tab and Account option highlighted.](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
 
 ### Configurar detalhes {#set-up-details}
 
@@ -39,12 +46,12 @@ Para adicionar outras organizações, navegue até **[!UICONTROL Configuração]
 >title="Código de conexão"
 >abstract="O código de conexão é um identificador exclusivo para a conta. Ele é usado para estabelecer conexões com outros colaboradores na Real-Time CDP Collaboration."
 
-Para começar a configurar sua conta, primeiro você deve definir os detalhes da conta. Isso requer que você adicione as seguintes informações:
+To begin configuring your account, you must first set up the account details. This requires you to add the following information:
 
-* Adicione um **[!UICONTROL Nome da conta]** que represente claramente sua marca.
-* Adicione uma **[!UICONTROL Descrição]** sobre sua marca. Isso é opcional, mas ajuda outros colaboradores a entender melhor sua marca.
-* Selecione sua **[!UICONTROL Função]**. Você pode selecionar entre **[!UICONTROL Anunciante]** e **[!UICONTROL Publicador]**. Leia o guia [funções](/help/guide/overview/roles.md) para ver semelhanças e pequenas diferenças no fluxo de trabalho entre os dois tipos de função de conta.
-* Selecione o **[!UICONTROL Setor]** da sua conta. Alguns exemplos incluem **[!UICONTROL Varejo]**, **[!UICONTROL Telecomunicações]** ou **[!UICONTROL Serviços financeiros]**.
+* Add an **[!UICONTROL Account name]** that clearly represents your brand.
+* Add a **[!UICONTROL Description]** about your brand. This is optional, but it helps other collaborators understand your brand better.
+* Select your **[!UICONTROL Role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [roles](/help/guide/overview/roles.md) guide to see similarities and slight differences in workflow between the two account role types.
+* Select the **[!UICONTROL Industry]** for your account. Some examples include **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]**, or **[!UICONTROL Financial services]**.
 * A **[!UICONTROL Região]** é automaticamente definida com base em sua conta da Adobe Experience Cloud. Isso não pode ser alterado a qualquer momento.
 * Adicione um **[!UICONTROL Email de contato]** para sua conta. Esse deve ser um endereço de email de equipe ou baseado em funções. Endereços de email pessoais não devem ser fornecidos.
 * Carregue um **[!UICONTROL Logotipo]** para sua conta. Atualmente, imagens do tipo SVG são compatíveis. Isso é opcional, mas carregar um logotipo ajuda a representar visualmente sua marca na interface do Collaboration
@@ -178,4 +185,4 @@ Uma caixa de diálogo de sucesso confirma que as chaves correspondentes da sua c
 
 ## Próximas etapas
 
-Depois de configurar suas contas, você estará pronto para [originar públicos-alvo](/help/guide/setup/onboard-audiences.md) na Real-Time CDP Collaboration.
+After setting up your accounts, you are ready to [source audiences](/help/guide/setup/onboard-audiences.md) into Real-Time CDP Collaboration.

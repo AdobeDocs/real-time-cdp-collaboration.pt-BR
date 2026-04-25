@@ -4,9 +4,19 @@ description: Entenda todos os recursos de função disponíveis que fornecem ace
 audience: admin
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 59cf5bf2-421b-4ebc-beab-30eafb098649
-source-git-commit: 1f825bb4a81dbf65c43ddadcfd444923a37a906e
+TQID: https://experienceleague.adobe.com/dB7nEQtEGG8PvCSE7eDDelH-ml2EhKOQ8ovvGXG1Ejg
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: 623
 ht-degree: 1%
 
 ---
@@ -48,17 +58,17 @@ Veja abaixo uma lista das permissões disponíveis no recurso Colaborações:
 | Gerenciar conexões do Collaboration | Um colaborador pode exibir, criar e atualizar configurações, bem como enviar e excluir conexões. |
 | Ler conexões do Collaboration | Exibir conexões. |
 | Gerenciar dados de público-alvo | Integre e descubra públicos-alvo. Atualize públicos-alvo públicos, privados e personalizados e gerencie configurações de metadados do Audience Inventory. |
-| Ler dados de público-alvo | Leia e descubra públicos-alvo. |
-| Gerenciar dados de medição | Integrar, atualizar e excluir dados de medição. |
-| Ler dados de medição | Ler dados de medição. |
-| Gerenciar projetos | Exiba, crie, atualize e exclua projetos para qualquer uma das atividades de descoberta, ativação e medição. |
-| Ler Projetos | Visualize projetos para qualquer uma das atividades de descoberta, ativação e medição. |
-| Ler atividades do usuário | Leia as atividades do usuário. |
-| Exportar atividades do usuário | Exportar atividades do usuário. |
-| Ler Monitoramento de Crédito da Collaboration | Monitoramento de crédito no nível da organização e da instância. |
+| Read Audience Data | Read and discover audiences. |
+| Manage Measurement Data | Onboard, update, and delete measurement data. |
+| Read Measurement Data | Read measurement data. |
+| Manage Projects | View, create, update, and delete projects for any of the discover, activate, and measurement activities. |
+| Read Projects | View projects for any of the discover, activate, and measurement activities. |
+| Read User Activities | Read user activities. |
+| Export User Activities | Export user activities. |
+| Read Collaboration Credit Monitoring | Credit monitoring at the organization and instance level. |
 
 {style="table-layout:auto"}
 
 ## Próximas etapas
 
-Depois de criar funções que definem o acesso ao Collaboration, será necessário [atribuir as funções](./manage-user-access.md#assign-a-role) a administradores e usuários. Consulte o guia [gerenciar permissões para uma função](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/permissions) para obter uma visão geral completa das funções de gerenciamento.
+After creating roles that define access to Collaboration, you&#39;ll need to [assign the roles](./manage-user-access.md#assign-a-role) to administrators and users. Refer to the [manage permissions for a role](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/permissions) guide for a complete overview of managing roles.
