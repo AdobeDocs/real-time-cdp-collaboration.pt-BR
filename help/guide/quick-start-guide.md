@@ -2,7 +2,7 @@
 title: Guia de início e configuração rápida do Real-Time CDP Collaboration
 description: Saiba como configurar o Real-Time CDP Collaboration, definir funções e contas, públicos-alvo de origem, ativar dados e se conectar com parceiros de forma segura.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
 TQID: https://experienceleague.adobe.com/rhIArZZm0Thkj3E-qiHtVHO6qxpr1vd-Qs4hWt4tf1U
 product_v2:
