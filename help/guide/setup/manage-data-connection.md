@@ -2,20 +2,16 @@
 title: Gerenciar conexões de dados
 description: Saiba como gerenciar conexões de dados, incluindo chaves de correspondência, agendamento, casos de uso e filtragem de público-alvo no Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 TQID: https://experienceleague.adobe.com/QvkEpR1fJMZ5BXrucAzEtxFNSfSMS-2hIZvMSg63ySE
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1179
-ht-degree: 5%
+source-wordcount: 1253
+ht-degree: 7%
 
 ---
 
@@ -53,7 +49,7 @@ As chaves de correspondência são os campos de destino para os quais você [map
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="Agendamento"
->abstract="Exiba os detalhes de agendamento da sua conexão de dados e edite as configurações, se necessário."
+>abstract="Visualize os detalhes de agendamento da conexão de dados e edite as configurações, se necessário."
 
 Exibir e gerenciar as configurações de agendamento para suas conexões de dados. O agendamento determina a frequência com que o público-alvo é atualizado.
 
@@ -76,7 +72,7 @@ Leia as seções a seguir para saber como atualizar as chaves de correspondênci
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_edit_measurement_data_connection_enrichment"
 >title="Enriquecimento"
->abstract="Não há suporte para a desativação do enriquecimento. Em vez disso, você pode alterar as chaves de junção de enriquecimento."
+>abstract="Não há suporte para a desativação do enriquecimento. Em vez disso, é possível alterar as chaves de associação de enriquecimento."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections" text="Enriquecimento"
 
 >[!IMPORTANT]
@@ -115,6 +111,14 @@ Na caixa de diálogo **[!UICONTROL Chaves de correspondência]**, use o menu sus
 Use a opção **[!UICONTROL Aplicar transformação]** se desejar originar um campo sem hash para um campo de destino com hash, por exemplo, ao mapear um campo de origem de email de texto simples para o campo de destino **[!UICONTROL Email com hash]**.
 
 ![O menu suspenso que exibe todos os campos de destino disponíveis para mapear com o novo campo de origem.](/help/assets/setup/manage-data-connection/select-target-field.png){zoomable="yes"}
+
+##### Adicionar [!DNL Demdex ID (ECID)] {#add-demdex-id-ecid}
+
+Se você quiser adicionar [!DNL Demdex ID (ECID)] como uma chave de correspondência, primeiro verifique se ele está [habilitado nas configurações da sua conta](../setup/onboard-account.md#set-up-match-keys). Para obter mais informações sobre [!DNL Demdex ID (ECID)], leia [chaves de correspondência com suporte](../setup/onboard-account.md#supported-match-keys).
+
+Na caixa de diálogo **[!UICONTROL Chaves de correspondência]**, adicione uma nova linha de campo de mapeamento. Em seguida, selecione **[!UICONTROL ECID]** como o campo de origem e selecione **[!UICONTROL ID Demdex (ECID)]** como o campo de destino na lista suspensa.
+
+![A caixa de diálogo Corresponder chaves com o campo de mapeamento para a chave de correspondência da ID Demdex (ECID) foi realçada.](/help/assets/setup/manage-data-connection/demdex-id-ecid-match-key.png){zoomable="yes"}
 
 Depois de concluir o mapeamento dos campos, revise suas atualizações e selecione **[!UICONTROL Confirmar]** para aplicar as alterações.
 
