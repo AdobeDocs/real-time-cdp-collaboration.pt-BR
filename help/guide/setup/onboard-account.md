@@ -1,6 +1,6 @@
 ---
 title: Configurar e gerenciar sua conta
-description: Learn how to configure and manage various aspects of your account in Real-Time CDP Collaboration
+description: Saiba como configurar e gerenciar vários aspectos da sua conta no Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
@@ -11,10 +11,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1393
-ht-degree: 13%
+source-wordcount: 1410
+ht-degree: 9%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 13%
 
 {{limited-availability-release-note}}
 
-Learn how to set up your account in Real-Time CDP Collaboration to prepare for connections with other collaborators. This guide covers the initial setup of your account, including adding account details, selecting match keys, and managing your account&#39;s settings.
+Saiba como configurar sua conta no Real-Time CDP Collaboration para se preparar para conexões com outros colaboradores. Este guia aborda a configuração inicial da conta, incluindo a adição de detalhes da conta, a seleção de chaves de correspondência e o gerenciamento das configurações da conta.
 
-![The setup workspace showing a configured account.](/help/assets/setup/manage-account/my-account.png){zoomable="yes"}
+![O espaço de trabalho de instalação mostra uma conta configurada.](/help/assets/setup/manage-account/my-account.png){zoomable="yes"}
 
-## Set up your account {#set-up-account}
+## Configurar sua conta {#set-up-account}
 
-When you first access Collaboration, you are prompted to set up your account. This is a one-time process that allows you to configure your account details and match keys. If this is your organization&#39;s first account, you&#39;ll be directed through the onboarding process immediately, starting with setting up your [account details](#set-up-details).
+Ao acessar o Collaboration pela primeira vez, você será solicitado a configurar sua conta. Esse é um processo único que permite configurar os detalhes da sua conta e as chaves de correspondência. Se esta for a primeira conta da sua organização, você será direcionado para o processo de integração imediatamente, começando com a configuração dos [detalhes da sua conta](#set-up-details).
 
-To add additional organizations, navigate to **[!UICONTROL Setup]** in the left rail and select the add icon (![Add icon.](/help/assets/icons/plus.png)) in the upper right corner. Next, select **[!UICONTROL Account]**.
+Para adicionar outras organizações, navegue até **[!UICONTROL Configuração]** no painel esquerdo e selecione o ícone adicionar (![Ícone Adicionar.](/help/assets/icons/plus.png)) no canto superior direito. Em seguida, selecione **[!UICONTROL Conta]**.
 
-![The setup workspace with the My account tab and Account option highlighted.](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
+![O espaço de trabalho de instalação com a guia Minha conta e a opção Conta realçada.](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
 
 ### Configurar detalhes {#set-up-details}
 
@@ -46,12 +46,12 @@ To add additional organizations, navigate to **[!UICONTROL Setup]** in the left 
 >title="Código de conexão"
 >abstract="O código de conexão é um identificador exclusivo para a conta. Ele é usado para estabelecer conexões com outros colaboradores na Real-Time CDP Collaboration."
 
-To begin configuring your account, you must first set up the account details. This requires you to add the following information:
+Para começar a configurar sua conta, primeiro você deve definir os detalhes da conta. Isso requer que você adicione as seguintes informações:
 
-* Add an **[!UICONTROL Account name]** that clearly represents your brand.
-* Add a **[!UICONTROL Description]** about your brand. This is optional, but it helps other collaborators understand your brand better.
-* Select your **[!UICONTROL Role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [roles](/help/guide/overview/roles.md) guide to see similarities and slight differences in workflow between the two account role types.
-* Select the **[!UICONTROL Industry]** for your account. Some examples include **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]**, or **[!UICONTROL Financial services]**.
+* Adicione um **[!UICONTROL Nome da conta]** que represente claramente sua marca.
+* Adicione uma **[!UICONTROL Descrição]** sobre sua marca. Isso é opcional, mas ajuda outros colaboradores a entender melhor sua marca.
+* Selecione sua **[!UICONTROL Função]**. Você pode selecionar entre **[!UICONTROL Anunciante]** e **[!UICONTROL Publicador]**. Leia o guia [funções](/help/guide/overview/roles.md) para ver semelhanças e pequenas diferenças no fluxo de trabalho entre os dois tipos de função de conta.
+* Selecione o **[!UICONTROL Setor]** da sua conta. Alguns exemplos incluem **[!UICONTROL Varejo]**, **[!UICONTROL Telecomunicações]** ou **[!UICONTROL Serviços financeiros]**.
 * A **[!UICONTROL Região]** é automaticamente definida com base em sua conta da Adobe Experience Cloud. Isso não pode ser alterado a qualquer momento.
 * Adicione um **[!UICONTROL Email de contato]** para sua conta. Esse deve ser um endereço de email de equipe ou baseado em funções. Endereços de email pessoais não devem ser fornecidos.
 * Carregue um **[!UICONTROL Logotipo]** para sua conta. Atualmente, imagens do tipo SVG são compatíveis. Isso é opcional, mas carregar um logotipo ajuda a representar visualmente sua marca na interface do Collaboration
@@ -77,20 +77,29 @@ To begin configuring your account, you must first set up the account details. Th
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="IDs próprias para pessoas"
->abstract="As IDs de pessoas primárias, como endereços de email e números de telefone com hash ou IDs do CRM são conectadas diretamente a um perfil individual."
+>title="IDs de pessoas"
+>abstract="As IDs de pessoas, como endereços de email com hash, números de telefone com hash ou IDs de CRM, estão conectadas diretamente a um perfil individual."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
->title="IDs próprias para dispositivos"
->abstract="As IDs de dispositivos próprios, como ECID ou endereços IP, estão diretamente conectadas a dispositivos que podem ser compartilhados entre várias pessoas."
+>title="IDs de dispositivos"
+>abstract="As IDs de dispositivo, como ECID ou endereços IP, estão conectadas diretamente a dispositivos que podem ser compartilhados entre vários indivíduos."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="IDs de parceiros compatíveis"
 >abstract="As IDs de parceiros são identificadores fornecidos por parceiros externos para reconciliação de público-alvo. As IDs de parceiros não estão conectadas diretamente a um perfil individual."
 
-![Chaves de correspondência com suporte.](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
+A tabela a seguir exibe as chaves de correspondência compatíveis com o Collaboration:
+
+| IDs de pessoas | IDs de dispositivos | IDs de parceiros |
+| ------------- | ------------- | ------------- |
+| [!DNL Hashed email] | [!DNL Hashed IPv4] | [!DNL Adfixus ID] |
+| [!DNL Hashed phone] | [!DNL IDFA] | |
+| [!DNL CRM ID] | [!DNL GAID] | |
+| [!DNL Loyalty ID] | [!DNL Demdex ID (ECID)] | |
+
+{style="table-layout:auto"}
 
 >[!IMPORTANT]
 >
@@ -102,16 +111,16 @@ Selecione as teclas de correspondência que deseja usar ao reconciliar perfis de
 
 #### Chaves de correspondência compatíveis {#supported-match-keys}
 
-O Collaboration oferece suporte a três tipos de chaves de correspondência: IDs de pessoas primárias, IDs de dispositivos primários e IDs de parceiros. Todas as chaves de correspondência devem atender aos seguintes requisitos:
+O Collaboration oferece suporte a três tipos de chaves de correspondência: IDs de pessoas, IDs de dispositivos e IDs de parceiros. Todas as chaves de correspondência devem atender aos seguintes requisitos:
 
 * As chaves correspondentes devem ser **cortadas**, **em minúsculas**
 * As chaves de correspondência com hash devem ser **SHA256-hash**.
 * Se você fornecer valores com hash que usam caracteres em maiúsculas, o Collaboration os converterá automaticamente em minúsculas.
 * Se sua origem contiver **identificadores de texto sem formatação**, use a opção **[!UICONTROL Aplicar transformação]** durante a [configuração da conexão de dados](./manage-data-connection.md#match-keys) para aplicar o hash. Essa opção só está disponível ao fornecer públicos-alvo do Experience Platform e não tem suporte para fontes baseadas em nuvem.
 
-##### IDs próprias para pessoas
+##### IDs de pessoas
 
-As IDs de pessoas primárias estão conectadas diretamente a um perfil individual. As IDs compatíveis no momento são:
+As IDs de pessoas estão conectadas diretamente a um perfil individual. As IDs compatíveis no momento são:
 
 * **[!UICONTROL Email com hash]**
 * **[!UICONTROL Telefone com hash]**
@@ -119,13 +128,14 @@ As IDs de pessoas primárias estão conectadas diretamente a um perfil individua
 * **[!UICONTROL IDs de fidelidade]**
 <!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
-##### IDs próprias para dispositivos
+##### IDs de dispositivos
 
-As IDs de dispositivo próprio são identificadores conectados a um dispositivo específico. As IDs compatíveis no momento são:
+As IDs de dispositivo são identificadores conectados a um dispositivo específico. As IDs compatíveis no momento são:
 
-* **[!UICONTROL IPv4]** com hash: endereços IPv4 com hash
-* **[!UICONTROL IDFA]**: o Identificador para Anunciantes (IDFA) usado em dispositivos Apple iOS
-* **[!UICONTROL GAID]**: ID do Anunciante do Google usada em dispositivos Android
+* **[!UICONTROL IPv4]** com hash
+* **[!UICONTROL IDFA]**: o Identificador para Anunciantes (IDFA) usado em dispositivos Apple iOS.
+* **[!UICONTROL GAID]**: ID do Anunciante do Google usada em dispositivos Android.
+* **[!UICONTROL ID Demdex (ECID)]**: quando os cookies de terceiros estiverem habilitados, a ECID incluirá o cookie de terceiros da Adobe, [!DNL Demdex ID]. O [!DNL Demdex ID] pode ser usado para corresponder visitantes não autenticados com base em cookies.
 
 ##### IDs de parceiros
 
@@ -185,4 +195,4 @@ Uma caixa de diálogo de sucesso confirma que as chaves correspondentes da sua c
 
 ## Próximas etapas
 
-After setting up your accounts, you are ready to [source audiences](/help/guide/setup/onboard-audiences.md) into Real-Time CDP Collaboration.
+Depois de configurar suas contas, você estará pronto para [originar públicos-alvo](/help/guide/setup/onboard-audiences.md) na Real-Time CDP Collaboration.
