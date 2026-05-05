@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 3680
+source-wordcount: 3753
 ht-degree: 17%
 
 ---
@@ -49,7 +49,7 @@ Na guia **[!UICONTROL Meus públicos-alvo]** do espaço de trabalho **[!UICONTRO
 >
 >Depois de estabelecer para sua primeira conexão de dados e fornecer para seu primeiro público-alvo, você pode obter vários públicos-alvo da conexão de dados existente. Ao adicionar públicos-alvo adicionais, você começará pela etapa [selecionar público-alvo](#select-audiences), pois a conexão de dados já foi estabelecida.
 
-Uma conexão de dados é a fonte da qual você assimila públicos na Collaboration. As fontes compatíveis incluem Adobe Experience Platform, upload de arquivo CSV, [!DNL Amazon S3], [!DNL Snowflake] e [!DNL Google Cloud Storage], cada uma com seu próprio fluxo de trabalho.
+Uma conexão de dados é a fonte da qual você assimila públicos na Collaboration. As fontes compatíveis incluem Adobe Experience Platform, upload de arquivo CSV, [!DNL Amazon S3], [!DNL Snowflake] e [!DNL Google Cloud Storage], cada uma com seu próprio fluxo de trabalho. O Adobe Audience Manager estará disponível em breve.
 
 As seções abaixo descrevem como selecionar **Adobe Experience Platform** e concluir as etapas específicas do Experience Platform (sandbox, governança e consentimento). Se você escolher CSV, [!DNL Amazon S3], [!DNL Snowflake] ou [!DNL Google Cloud Storage], use o guia vinculado em [Selecionar fonte de dados](#select-data-source) para essa opção.
 
@@ -63,7 +63,7 @@ Para começar a adicionar sua conexão de dados, selecione **[!UICONTROL Adicion
 
 ![O espaço de trabalho Adicionar públicos-alvo com a opção Adicionar uma nova conexão de dados foi realçado.](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-#### Selecionar fonte de dados
+#### Selecionar fonte de dados {#select-data-source}
 
 Em seguida, escolha a origem da conexão de dados. As fontes disponíveis incluem:
 
@@ -72,12 +72,13 @@ Em seguida, escolha a origem da conexão de dados. As fontes disponíveis inclue
 * **Amazon Web Services**: conecte-se ao armazenamento do Amazon S3 para originar dados de público-alvo diretamente dos seus buckets do S3. Consulte o guia [Configurar AWS S3 para fornecimento de público-alvo](./configure-aws-s3-audience-sourcing.md) para obter instruções passo a passo.
 * **Snowflake**: use o data warehouse do Snowflake para obter os dados de público-alvo com facilidade. Consulte o guia [Configurar [!DNL Snowflake] para fornecimento de público-alvo](./configure-snowflake-audience-sourcing.md).
 * **Armazenamento na nuvem do Google**: conecte-se aos seus buckets do GCS para obter dados do público-alvo. Consulte o guia [Configurar GCS para fornecimento de público-alvo](./configure-gcs-audience-sourcing.md) para obter instruções passo a passo.
+* **Adobe Audience Manager** (_Em breve_): Source seus segmentos de público-alvo da Adobe Audience Manager.
 
 Selecione sua fonte de dados e selecione **[!UICONTROL Próximo]**.
 
 ![O espaço de trabalho Adicionar públicos-alvo com a opção Adobe Experience Platform está realçado.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
 
-#### Selecionar sandbox
+#### Selecionar sandbox {#select-sandbox}
 
 Após selecionar a fonte de dados, é necessário selecionar a sandbox que inclui os públicos-alvo que você deseja usar para o Collaboration. Selecione a sandbox na lista de sandboxes disponíveis e selecione **[!UICONTROL Avançar]**
 
@@ -107,7 +108,7 @@ Depois de selecionar as ações de marketing e as regras de consentimento, selec
 
 ![Caixa de diálogo Política de governança e ações de aplicação com a caixa de seleção e a opção OK realçadas.](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
 
-### Forneça detalhes
+### Forneça detalhes {#provide-details}
 
 Em seguida, forneça um nome e uma descrição para sua conexão de dados. Essas informações ajudarão você a identificar a conexão de dados posteriormente.
 
@@ -142,11 +143,9 @@ Em seguida, forneça um nome e uma descrição para sua conexão de dados. Essas
 >abstract="Selecione atributos do esquema de união para a classe Perfil na Experience Platform. Essa exibição mostra atributos que estão presentes no esquema de união e pertencem à classe Perfil individual XDM."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=pt-BR" text="Esquema de união na Experience Platform"
 
-Em seguida, você selecionará campos de origem para mapear para campos de destino no Collaboration. Os campos de destino disponíveis serão baseados nas chaves de correspondência selecionadas durante a configuração da conta.
+Em seguida, você selecionará campos de origem para mapear para campos de destino no Collaboration. Os campos de destino disponíveis serão baseados nas chaves de correspondência selecionadas durante a [configuração de conta](./onboard-account.md#set-up-match-keys).
 
->[!IMPORTANT]
->
->Atualmente, não é possível editar conexões de dados para incluir novos campos de mapa. Se você adicionar novas chaves de correspondência à sua conta após a criação da conexão de dados, será necessário criar uma nova conexão de dados para mapear para elas.
+Se você selecionou [!DNL Demdex ID (ECID)] como chave de correspondência durante a configuração da conta, [!DNL Demdex ID] será automaticamente extraído e mapeado da ECID e você não precisará realizar nenhuma ação. Para saber mais sobre [!DNL Demdex IDs], consulte o guia [[!DNL Demdex ID]](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/identity/unified-identity-support).
 
 ![O espaço de trabalho Adicionar públicos-alvo com a opção para mapear campos de origem para campos de destino.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -177,6 +176,11 @@ Para lidar com a origem de um campo sem hash para um campo de destino com hash, 
 Continue adicionando pares de mapeamento para cada campo de destino. Se você não quiser usar uma chave de correspondência, poderá removê-la usando o ícone Excluir (![Ícone Excluir](/help/assets/icons/delete.png)) ao lado do campo. Se a chave de correspondência for removida, você não poderá usá-la ao fornecer públicos-alvo da conexão.
 
 ![O espaço de trabalho Adicionar públicos-alvo com a opção Excluir ao lado de um campo de destino está realçado.](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
+
+Se você adicionar um novo campo e selecionar **[!UICONTROL ID Demdex (ECID)]** como campo de destino, a **[!UICONTROL ECID]** será selecionada automaticamente como o campo de origem correspondente. Nenhuma outra ação é necessária.
+
+<!-- The current screenshot does not show the text under the mapping dropdown as in design. Update this when it's available in the UI. -->
+![O espaço de trabalho Adicionar públicos-alvo com o campo de origem ECID mapeado automaticamente para o campo de destino Demdex ID (ECID).](/help/assets/setup/add-manage-audiences/ECID-automapped-field.png){zoomable="yes"}
 
 Quando terminar de mapear campos, selecione **[!UICONTROL Avançar]** para continuar.
 
@@ -395,20 +399,20 @@ Com seus públicos selecionados no painel de público, selecione **[!UICONTROL E
 
 ![O espaço de trabalho Meus públicos-alvo com a opção Editar nome e descrição foi realçado.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
 
-A caixa de diálogo **[!UICONTROL Nome e descrição]** é exibida, permitindo configurar o nome e a descrição de cada público-alvo selecionado. By default, the current names and descriptions will be displayed for each audience. Make your changes and then select **[!UICONTROL Save]**.
+A caixa de diálogo **[!UICONTROL Nome e descrição]** é exibida, permitindo configurar o nome e a descrição de cada público-alvo selecionado. Por padrão, os nomes e as descrições atuais serão exibidos para cada público. Faça as alterações e selecione **[!UICONTROL Salvar]**.
 
-![The Name and description dialog with the available options displayed.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
+![A caixa de diálogo Nome e Descrição com as opções disponíveis foi exibida.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
 
-### Bulk edit categories {#bulk-edit-categories}
+### Categorias de edição em massa {#bulk-edit-categories}
 
-With your audiences selected in the audience dashboard, select **[!UICONTROL Edit categories]** from the edit menu.
+Com seus públicos selecionados no painel de público, selecione **[!UICONTROL Editar categorias]** no menu de edição.
 
-![The My audiences workspace with the Edit categories option highlighted.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
+![O espaço de trabalho Meus públicos-alvo com a opção Editar categorias está realçado.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
 
-The **[!UICONTROL Categories]** dialog appears, allowing you to configure the categories for each selected audience. By default, no categories will be selected. To select a category, first select the main category, then select the subcategories you want to include. Make your changes and then select **[!UICONTROL Save]**.
+A caixa de diálogo **[!UICONTROL Categorias]** é exibida, permitindo configurar as categorias para cada público-alvo selecionado. Por padrão, nenhuma categoria será selecionada. Para selecionar uma categoria, primeiro selecione a categoria principal e, em seguida, selecione as subcategorias que deseja incluir. Faça as alterações e selecione **[!UICONTROL Salvar]**.
 
-![The Categories dialog with the available options displayed.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
+![A caixa de diálogo Categorias com as opções disponíveis foi exibida.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
 
 ## Próximas etapas
 
-After sourcing audiences, it&#39;s time to discover collaborators to [connect](/help/guide/connect/establishing-connections.md) with to collaborate on projects.
+Depois de fornecer os públicos-alvo, é hora de descobrir colaboradores para [conectar](/help/guide/connect/establishing-connections.md) com a para colaborar em projetos.

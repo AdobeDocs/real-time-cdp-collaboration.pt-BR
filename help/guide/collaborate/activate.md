@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1016
+source-wordcount: 997
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ A caixa de diálogo **[!UICONTROL Editar chaves de correspondência]** é aberta
 
 >[!NOTE]
 >
->Pelo menos uma chave de correspondência deve ser selecionada. Na versão atual, as únicas chaves de correspondência disponíveis são **[!UICONTROL email com hash]**, portanto, você não pode remover essa chave de correspondência.
+>Pelo menos uma chave de correspondência deve ser selecionada.
 
 ![A caixa de diálogo Editar chaves de correspondência no fluxo de trabalho de ativação do Público-alvo.](/help/assets/collaborate/activate/edit-match-keys-selection.png)
 
