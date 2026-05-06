@@ -2,10 +2,10 @@
 title: Configurar [!DNL Google Cloud Storage] para Origem de Público-Alvo
 description: Saiba como conectar um bucket  [!DNL Google Cloud Storage]  como uma origem de público-alvo de autoatendimento no Real-Time CDP Collaboration, incluindo pré-requisitos, autenticação, mapeamento de campos, agendamento e validação.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2898'
 ht-degree: 1%
 
 ---
@@ -90,6 +90,11 @@ Uma caixa de diálogo de pré-requisito descrevendo as etapas de configuração 
 ![Os pré-requisitos da lista modal &quot;Prepare seu bucket do GCS para integração&quot;, incluindo a criação de um bucket do GCS, a configuração do acesso ao IAM para o Adobe e a conformidade com a Especificação de Origem de Público-Alvo, com as opções Cancelar e &quot;Iniciar integração&quot;.](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
 ### Insira os detalhes da conexão do [!DNL Google Cloud Storage] {#authenticate-gcs-connection}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_gcs"
+>title="Adicionar público-alvo do Google Cloud Storage"
+>abstract="Para conectar seu Google Cloud Storage, autorize o usuário do serviço da Adobe a recuperar os dados do público-alvo para processamento. Siga as etapas descritas em Experience League para conceder ao Adobe acesso ao Google Cloud Storage."
 
 Forneça os detalhes necessários para permitir que o Collaboration acesse seu bucket do [!DNL Google Cloud Storage]. Depois de inserir as informações necessárias, selecione **[!UICONTROL Avançar]**.
 
