@@ -15,10 +15,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 7affd3abf7a10019503825cb20d9be1ad4000603
 workflow-type: tm+mt
-source-wordcount: 1461
-ht-degree: 2%
+source-wordcount: 1903
+ht-degree: 3%
 
 ---
 
@@ -26,9 +26,48 @@ ht-degree: 2%
 
 {{limited-availability-release-note}}
 
-**Última atualização**: janeiro de 2026.
+**Última atualização**: abril de 2026.
 
 Essas notas de versão abordam a funcionalidade lançada no Adobe Real-Time CDP Collaboration. As versões do Collaboration operam em um modelo de entrega contínua, que permite uma cadência de lançamento mensal aproximada. Essas notas de versão são atualizadas com frequência. Portanto, verifique-as regularmente.
+
+## Abril de 2026 {#april-2026}
+
+Agora novos recursos estão disponíveis no Real-Time CDP Collaboration. Isso inclui o Collaboration [!DNL Starter] para convidar parceiros, a fonte de público ampliada de [!DNL Snowflake] e [!DNL Google Cloud Storage], o suporte para [!DNL Demdex ID (ECID)] como chave de correspondência e duas novas funções de colaborador: Agência e Parceiro de dados.
+
+**Recursos novos ou atualizados**
+
+| Recurso | Descrição |
+| ------- | ----------- |
+| Real-Time CDP Collaboration [!DNL Starter] | Agora você pode convidar parceiros que não têm uma licença da Collaboration para colaborar com você por meio do Collaboration [!DNL Starter]. Os parceiros convidados podem fornecer públicos-alvo, descobrir sobreposições e ativar públicos-alvo na conexão compartilhada. Consulte a [visão geral [!DNL Starter] do Collaboration](../overview/starter-overview.md) para começar. |
+| Fornecimento de público de autoatendimento de [!DNL Snowflake] e [!DNL Google Cloud Storage] | Agora você pode originar públicos originais diretamente do seu bucket do [!DNL Snowflake Secure Data Share] ou do [!DNL Google Cloud Storage] para o Collaboration. Para obter instruções de configuração, consulte os guias a seguir: <ul><li>[Configurar [!DNL Snowflake] para fornecimento de público-alvo](../setup/configure-snowflake-audience-sourcing.md) </li><li> [Configurar [!DNL Google Cloud Storage] para fornecimento de público-alvo](../setup/configure-gcs-audience-sourcing.md) </li></ul> |
+| [!DNL Demdex ID] chave correspondente | Agora há suporte para [!DNL Demdex ID] (ECID) como uma chave de correspondência para identidades anônimas baseadas em cookies entre plataformas. Isso melhora a precisão da sobreposição de público-alvo sem depender de dados de usuários autenticados. Consulte [chaves de correspondência com suporte](../setup/onboard-account.md#supported-match-keys) para obter detalhes. |
+| Novas funções de colaborador | A Collaboration agora oferece suporte a duas funções adicionais de colaborador, incluindo **Agência** e **Parceiro de dados**. Essas funções expandem como organizações diferentes podem participar e trabalhar juntas na plataforma. Saiba mais sobre: <ul><li>[Funções de conta do colaborador](../overview/roles.md)</li><li>[Padrões do Collaboration](../overview/collaboration-patterns.md)</li><li>[Fluxo de trabalho de ponta a ponta](../overview/end-to-end-workflow.md)</li></ul> |
+
+{style="table-layout:auto"}
+
+## Março de 2026 {#march-2026}
+
+Agora é possível gerar relatórios de medição de campanha e gerenciar dados de medição no Real-Time CDP Collaboration.
+
+**Recursos novos ou atualizados**
+
+| Recurso | Descrição |
+| ------- | ----------- |
+| Disponibilidade geral de medição | Os relatórios de medição agora estão disponíveis no Collaboration. Agora você pode inserir IDs de campanha associadas a campanhas de marketing como editor, originar dados de conversão como anunciante e gerar dois tipos de relatórios: **Resumo da campanha** para resultados gerais da campanha e **Atribuição** para insights de eficácia da campanha. Para começar, consulte os guias a seguir: <ul><li>[IDs da campanha de entrada](../collaborate/manage-projects.md#manage-campaign-id)</li><li>[dados de conversão do Source](../setup/onboard-measurement-data.md)</li><li>[Criar e exibir relatórios de medição](../collaborate/measure.md)</li></ul> |
+| Gerenciamento do ciclo de vida de medição | O Collaboration também oferece suporte ao gerenciamento de medição:<ul><li> Agora os anunciantes podem editar ou excluir conexões de dados de medição e eventos de conversão associados para garantir uma análise de campanha precisa e atualizada. Para obter mais detalhes, consulte [Gerenciar conexão de dados de medição](../setup/manage-measurement-data-connection.md) e [Gerenciar eventos de conversão](../setup/onboard-measurement-data.md#edit-measurement-data).</li><li>Você também pode editar ou excluir relatórios de medição agendados diretamente da guia **[!UICONTROL Medida]** em qualquer projeto de colaboração. Isso está disponível para todos os usuários. Consulte o [guia de gerenciamento de relatórios de medição](../collaborate/measure.md) para obter mais detalhes.</li></ul> |
+
+{style="table-layout:auto"}
+
+## Fevereiro de 2026 {#february-2026}
+
+O Real-Time CDP Collaboration agora oferece suporte à edição de configurações de conexão de dados e conexão existentes diretamente na interface.
+
+**Recurso novo ou atualizado**
+
+| Recurso | Descrição |
+| ------- | ----------- |
+| Editar configurações de conexão | Agora, os proprietários de uma conexão podem atualizar casos de uso, chaves de correspondência, permissões de ativação e divisões de crédito após o estabelecimento de uma conexão. Consulte [Editar conexão](../connect/manage-connections.md#edit-connection) para obter instruções passo a passo. |
+| Editar conexões de dados | Atualize as chaves de correspondência e as configurações de agendamento para suas conexões de dados existentes diretamente no Collaboration. Consulte [Editar conexão de dados](../setup/manage-data-connection.md#edit-data-connection) para obter instruções passo a passo. |
 
 ## Janeiro de 2026 {#january-2026}
 
@@ -74,17 +113,17 @@ A Real-time CDP Collaboration agora oferece suporte à colaboração de marca pa
 * Os colaboradores agora podem se conectar usando [convites para conexão privada](../connect/establishing-connections.md#private-connection-invites). Compartilhe o código de conexão exclusivo de sua conta com um colaborador que pode usá-lo para se conectar diretamente com você. Este é um recurso principal da colaboração de marca para marca, permitindo que os colaboradores estabeleçam conexões além dos anunciantes que exploram o diretório **[!UICONTROL Descobrir colaboradores]**.
 * [Destinos de autoatendimento](../setup/manage-destinations.md) agora estão disponíveis para anunciantes e editores.
 * A ativação de público agora está disponível para ambos os colaboradores em uma conexão, independentemente de sua [função de conta](../overview/roles.md). As configurações de ativação de público-alvo são definidas ao [estabelecer conexões](../connect/establishing-connections.md#configure-connection-settings), permitindo que você especifique qual colaborador pode ativar públicos-alvo. Para saber mais sobre a ativação de público, leia o guia [ativar públicos-alvo](../collaborate/activate.md).
-* O caso de uso **[!UICONTROL Ativar]** foi reconfigurado para oferecer suporte à colaboração de marca para marca. A guia **[!UICONTROL Ativar]** em um projeto agora exibe os públicos que foram enviados para o colaborador e os públicos que foram ativados para o destino pelo colaborador. Para saber mais, leia o guia [ativar públicos-alvo](../collaborate/activate.md). <br> ![The Activate dashboard with the Audiences sent to and Audiences activated sections.](/help/assets/release-notes/2025/activate-dashboard.png){zoomable="yes"}
-* Audience index scores are now available in the **[!UICONTROL Discover]** tab of a project. The audience index score is a measure of how well an audience matches your collaborator&#39;s audience. This score is calculated based on on underlying audience counts &amp; overlaps. To learn more about audience index scores, read the [audience index score](../collaborate/discover.md#audience-index-score) guide.
+* O caso de uso **[!UICONTROL Ativar]** foi reconfigurado para oferecer suporte à colaboração de marca para marca. A guia **[!UICONTROL Ativar]** em um projeto agora exibe os públicos que foram enviados para o colaborador e os públicos que foram ativados para o destino pelo colaborador. Para saber mais, leia o guia [ativar públicos-alvo](../collaborate/activate.md). <br> ![O painel Ativar com as seções Públicos-alvo enviados para e Públicos-alvo ativadas.](/help/assets/release-notes/2025/activate-dashboard.png){zoomable="yes"}
+* As pontuações do índice de público-alvo agora estão disponíveis na guia **[!UICONTROL Descubra]** de um projeto. A pontuação do índice de público-alvo é uma medida do desempenho de um público-alvo que corresponde ao público-alvo de seu colaborador. Essa pontuação é calculada com base em contagem de público-alvo e sobreposições subjacentes. Para saber mais sobre as pontuações do índice de público-alvo, leia o guia [pontuação do índice de público-alvo](../collaborate/discover.md#audience-index-score).
 
 ## Maio de 2025 {#may-2025}
 
-* Real-Time CDP Collaboration is now available to customers in **Australia** and **New Zealand**. Ele fica disponível automaticamente para clientes do Real-Time CDP Prime e do Ultimate nessas regiões.
-* Real-Time CDP Collaboration now offers [self-serve destinations](../setup/manage-destinations.md) through the **[!UICONTROL My destinations]** tab in the **[!UICONTROL Setup]** section. Destinations allow you to activate audiences in third-party platforms, such as advertising networks or data management platforms, to reach your customers across various channels. Currently, only Adobe Experience Platform destinations are supported. Se você estiver interessado em configurar um destino diferente, entre em contato com o representante da Adobe. To learn more about destinations, read the [destinations overview](../destinations/overview.md) guide.
-   * Destinations also adds support to view Collaboration audiences in the [Adobe Experience Platform audience portal](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences).
-* You can now edit the audience refresh frequency for existing data connections in Collaboration. Currently, you can choose to refresh your audiences daily or every two to six days. To learn more about how to edit the audience refresh frequency, read the [manage data connections](../setup/manage-data-connection.md#scheduling) guide.
-* Credit splits between collaborators are now set for each use case selected within the connection. You can set different credit consumption rules for each use case to better control how your credits are used. To learn more about about the credit split funtionality, read the [connection settings](../connect/establishing-connections.md#connection-settings) guide. To learn more about how credits are consumed, read the [credit activity types](../setup/my-activity.md#types-of-activities) guide. <br> ![Connection settings screen showing the credit split functionality.](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
-* Publishers can now set advertiser names and IDs before accepting the connection settings from an advertiser. Publishers can set names and IDs that align with their internal systems, which can be different from the advertiser&#39;s names and IDs. To learn more about adding advertiser names and IDs, read the [connection settings](../connect/establishing-connections.md#connection-settings.md) guide. <br> ![Connection settings screen showing the publisher setting advertiser names and IDs.](/help/assets/release-notes/2025/add-advertiser-names-modal.png){zoomable="yes"}
+* O Real-Time CDP Collaboration agora está disponível para clientes na **Austrália** e na **Nova Zelândia**. Ele fica disponível automaticamente para clientes do Real-Time CDP Prime e do Ultimate nessas regiões.
+* O Real-Time CDP Collaboration agora oferece [destinos de autoatendimento](../setup/manage-destinations.md) por meio da guia **[!UICONTROL Meus destinos]** na seção **[!UICONTROL Configuração]**. Os destinos permitem ativar públicos-alvo em plataformas de terceiros, como redes de publicidade ou plataformas de gerenciamento de dados, para alcançar seus clientes em vários canais. No momento, somente os destinos do Adobe Experience Platform são compatíveis. Se você estiver interessado em configurar um destino diferente, entre em contato com o representante da Adobe. Para saber mais sobre destinos, leia o guia [visão geral dos destinos](../destinations/overview.md).
+   * Destinos também adiciona suporte para exibir públicos da Collaboration no [portal de público-alvo da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences).
+* Agora você pode editar a frequência de atualização do público-alvo para conexões de dados existentes no Collaboration. Atualmente, você pode optar por atualizar os públicos-alvo diariamente ou a cada dois ou seis dias. Para saber mais sobre como editar a frequência de atualização do público-alvo, leia o guia [gerenciar conexões de dados](../setup/manage-data-connection.md#scheduling).
+* As divisões de crédito entre colaboradores agora são definidas para cada caso de uso selecionado na conexão. Você pode definir diferentes regras de consumo de crédito para cada caso de uso para controlar melhor como seus créditos são usados. Para saber mais sobre a funcionalidade de divisão de crédito, leia o guia [configurações de conexão](../connect/establishing-connections.md#connection-settings). Para saber mais sobre como os créditos são consumidos, leia o guia [tipos de atividade de crédito](../setup/my-activity.md#types-of-activities). <br> ![Tela de configurações de conexão mostrando a funcionalidade de divisão de crédito.](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
+* Agora, os editores podem definir nomes e IDs de anunciante antes de aceitar as configurações de conexão de um anunciante. Os editores podem definir nomes e IDs que se alinham a seus sistemas internos, que podem ser diferentes dos nomes e IDs do anunciante. Para saber mais sobre como adicionar nomes e IDs de anunciante, leia o guia [configurações de conexão](../connect/establishing-connections.md#connection-settings.md). <br> ![Tela de configurações de conexão mostrando o publicador definindo nomes e IDs de anunciante.](/help/assets/release-notes/2025/add-advertiser-names-modal.png){zoomable="yes"}
 
 ## Abril de 2025 {#april-2025}
 
