@@ -2,21 +2,16 @@
 title: Estabelecimento de conexões com colaboradores
 description: Depois de descobrir possíveis colaboradores, saiba como estabelecer conexões e começar a colaborar em projetos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
 workflow-type: tm+mt
 source-wordcount: 3398
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -282,7 +277,7 @@ Para adicionar nomes de anunciante, selecione **[!UICONTROL Editar]** na seção
 
 Quando terminar, selecione **[!UICONTROL Salvar]** para salvar suas alterações.
 
-Ao criar um projeto, o nome do anunciante será pré-preenchido com base nas seguintes configurações estabelecidas durante a conexão    :
+Ao criar um projeto, o nome do anunciante será pré-preenchido com base nas seguintes configurações estabelecidas durante a conexão:
 
 1. **Nenhum nome de anunciante definido**: se nenhum nome de anunciante for adicionado, o padrão da Collaboration será usar o nome do anunciante como o nome do anunciante.
 2. **Um conjunto de nomes de anunciante**: se um único nome de anunciante for adicionado, o Collaboration usará automaticamente esse nome como o nome de anunciante do projeto.
@@ -338,7 +333,7 @@ Antes de iniciar o processo de convite, colete as seguintes informações do seu
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_starter_invite_collaborator"
 >title="Convidar um colaborador"
->abstract="Preencha este formulário para convidar sua organização parceira para o Collaboration Starter. O convidado receberá um email de convite e deverá usar o endereço de email especificado para concluir o registro."
+>abstract="Preencha este formulário para convidar a organização parceira para o Collaboration Starter. O convidado receberá um email de convite e deverá usar o mesmo email especificado para concluir o registro."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="Saiba mais sobre o Collaboration Starter"
 
 Convide sua organização parceira a ingressar no Collaboration [!DNL Starter] diretamente por meio da interface do usuário.

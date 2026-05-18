@@ -2,11 +2,11 @@
 title: Configurar [!DNL Google Cloud Storage] para Origem de Público-Alvo
 description: Saiba como conectar um bucket  [!DNL Google Cloud Storage]  como uma origem de público-alvo de autoatendimento no Real-Time CDP Collaboration, incluindo pré-requisitos, autenticação, mapeamento de campos, agendamento e validação.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -73,13 +73,13 @@ O fluxo de trabalho Adicionar público-alvo é exibido. Selecione **[!UICONTROL 
 
 ![O espaço de trabalho Adicionar públicos-alvo com a opção Adicionar uma nova conexão de dados foi realçado.](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-### Selecionar [!DNL Google Cloud Storage] como fonte de dados {#select-gcs}
+### Selecione [!DNL Google Cloud Storage] como a fonte de dados {#select-gcs}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_specifications_gcs"
 >title="Prepare seus dados para integração"
->abstract="Leia o guia de especificação de origem de público-alvo para saber como formatar e estruturar os dados de público-alvo do Google Cloud Storage for Collaboration."
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Consulte o Guia de especificação de origem de público-alvo"
+>abstract="Leia o guia Especificação do fornecimento do público-alvo para saber como formatar e estruturar os dados de público-alvo do Google Cloud Storage para trabalho colaborativo."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Consulte o Guia Especificação do fornecimento do público-alvo"
 
 A tela de seleção da fonte de dados lista todos os tipos de conexão disponíveis. Selecione **[!UICONTROL Google Cloud Storage]** e **[!UICONTROL Próximo]**.
 

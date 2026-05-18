@@ -2,12 +2,12 @@
 title: Configurar [!DNL Snowflake] para Origem de Público-Alvo
 description: Saiba como configurar e conectar o  [!DNL Snowflake Secure Data Share]  como uma fonte de dados de autoatendimento para assimilar dados de público-alvo no Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
 source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
 source-wordcount: '1586'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -138,12 +138,12 @@ Em seguida, selecione **[!UICONTROL Snowflake]** como conexão de dados, seguido
 
 ![A tela de seleção de conexão de dados com [!DNL Snowflake] está disponível como uma opção selecionável.](../../assets/setup/snowflake-audience-sourcing/select-snowflake-data-connection.png)
 
-### Revisar arquivo de público {#review-audience-file}
+### Revisar arquivo de público-alvo {#review-audience-file}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_specifications_snowflake"
 >title="Prepare seus dados para integração"
->abstract="Leia o guia de Especificação da origem do público-alvo para saber como formatar e estruturar dados de público-alvo do Snowflake para Collaboration."
+>abstract="Leia o Guia Especificação do fornecimento do público-alvo para saber como formatar e estruturar os dados de público-alvo do Snowflake para trabalho colaborativo."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Consulte o guia"
 
 Uma caixa de diálogo é exibida, explicando os requisitos do arquivo de público-alvo [!DNL Snowflake Share] e [!DNL Snowflake] antes de você começar a fornecer. Verifique se o [!DNL Snowflake Share] foi criado com o nome de compartilhamento, identificador de conta, esquema e exibição corretos. Para confirmar se os dados do público-alvo estão formatados e estruturados corretamente para uso no Collaboration, revise o guia **[[!UICONTROL Especificação da origem do público-alvo]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**.
