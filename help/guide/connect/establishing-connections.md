@@ -16,7 +16,7 @@ topic_v2:
 source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
 workflow-type: tm+mt
 source-wordcount: 3398
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -282,7 +282,7 @@ Para adicionar nomes de anunciante, selecione **[!UICONTROL Editar]** na seção
 
 Quando terminar, selecione **[!UICONTROL Salvar]** para salvar suas alterações.
 
-Ao criar um projeto, o nome do anunciante será pré-preenchido com base nas seguintes configurações estabelecidas durante a conexão    :
+Ao criar um projeto, o nome do anunciante será pré-preenchido com base nas seguintes configurações estabelecidas durante a conexão:
 
 1. **Nenhum nome de anunciante definido**: se nenhum nome de anunciante for adicionado, o padrão da Collaboration será usar o nome do anunciante como o nome do anunciante.
 2. **Um conjunto de nomes de anunciante**: se um único nome de anunciante for adicionado, o Collaboration usará automaticamente esse nome como o nome de anunciante do projeto.
@@ -338,7 +338,7 @@ Antes de iniciar o processo de convite, colete as seguintes informações do seu
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_starter_invite_collaborator"
 >title="Convidar um colaborador"
->abstract="Preencha este formulário para convidar sua organização parceira para o Collaboration Starter. O convidado receberá um email de convite e deverá usar o endereço de email especificado para concluir o registro."
+>abstract="Preencha este formulário para convidar a organização parceira para o Collaboration Starter. O convidado receberá um email de convite e deverá usar o mesmo email especificado para concluir o registro."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="Saiba mais sobre o Collaboration Starter"
 
 Convide sua organização parceira a ingressar no Collaboration [!DNL Starter] diretamente por meio da interface do usuário.
