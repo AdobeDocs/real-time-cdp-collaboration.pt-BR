@@ -2,8 +2,8 @@
 title: Configurar [!DNL Google Cloud Storage] para Origem de Público-Alvo
 description: Saiba como conectar um bucket  [!DNL Google Cloud Storage]  como uma origem de público-alvo de autoatendimento no Real-Time CDP Collaboration, incluindo pré-requisitos, autenticação, mapeamento de campos, agendamento e validação.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: e7d6ff3a93e8ac4027327c9d0e347e03a7a8aa52
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: '2898'
 ht-degree: 3%
@@ -38,7 +38,7 @@ Antes de continuar, confirme o seguinte com o administrador do [!DNL Google Clou
 
 ### Preparar os dados do público {#prepare-audience-data}
 
-Seus arquivos de público-alvo devem estar em conformidade com a **[Especificação de origem de público-alvo (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)** antes do início do fornecimento. Revise a especificação para a definição completa do esquema e exemplos em nível de campo. Os principais requisitos incluem:
+Seus arquivos de público-alvo devem estar em conformidade com a **[Especificação de origem de público-alvo (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)** antes do início do fornecimento. Revise a especificação para a definição completa do esquema e exemplos em nível de campo. Os principais requisitos incluem:
 
 * **Formato de arquivo:** CSV, usando vírgulas como delimitadores de campo e barras verticais (`|`) como separadores para vários valores em um único campo.
 * **Campos obrigatórios:** todos os registros devem incluir uma coluna `AUDIENCE_ID` e pelo menos uma coluna de chave de correspondência com suporte.
@@ -85,7 +85,7 @@ A tela de seleção da fonte de dados lista todos os tipos de conexão disponív
 
 ![O fluxo de trabalho Adicionar público-alvo mostrando a tela de seleção da fonte de dados com o Armazenamento do Google Cloud selecionado e o Próximo realçado.](../../assets/setup/gcs-audience-sourcing/gcs-data-source-selection.png)
 
-Uma caixa de diálogo de pré-requisito descrevendo as etapas de configuração necessárias (por exemplo, configuração de bucket do GCS e atribuição de função do IAM) é exibida e observa que os dados devem estar em conformidade com a **[[!UICONTROL Especificação de Origem de Público-Alvo]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**. Selecione **[!UICONTROL Iniciar integração]** para confirmar a conformidade antes de continuar.
+Uma caixa de diálogo de pré-requisito descrevendo as etapas de configuração necessárias (por exemplo, configuração de bucket do GCS e atribuição de função do IAM) é exibida e observa que os dados devem estar em conformidade com a **[[!UICONTROL Especificação de Origem de Público-Alvo]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**. Selecione **[!UICONTROL Iniciar integração]** para confirmar a conformidade antes de continuar.
 
 ![Os pré-requisitos da lista modal &quot;Prepare seu bucket do GCS para integração&quot;, incluindo a criação de um bucket do GCS, a configuração do acesso ao IAM para o Adobe e a conformidade com a Especificação de Origem de Público-Alvo, com as opções Cancelar e &quot;Iniciar integração&quot;.](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
@@ -130,7 +130,7 @@ A tela **[!UICONTROL Mapping]** é somente leitura. O Collaboration mapeia autom
 
 ![A caixa de diálogo &quot;Visualização de dados do GCS&quot; mostrando uma tabela de exemplo de dados de público-alvo com colunas como AUDIENCE_ID e HASHED_EMAIL_SHA_256, e um botão Fechar no canto inferior direito.](../../assets/setup/gcs-audience-sourcing/gcs-data-preview.png){zoomable="yes"}
 
-Confirme se os mapeamentos exibidos refletem os campos nos arquivos de público-alvo. Caso contrário, pare e corrija seus arquivos para que estejam em conformidade com a [Especificação de Origem de Público-Alvo](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf) antes de continuar. Clique em **[!UICONTROL Avançar]** para continuar.
+Confirme se os mapeamentos exibidos refletem os campos nos arquivos de público-alvo. Caso contrário, pare e corrija seus arquivos para que estejam em conformidade com a [Especificação de Origem de Público-Alvo](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf) antes de continuar. Clique em **[!UICONTROL Avançar]** para continuar.
 
 ![Adicione o fluxo de trabalho do público-alvo na etapa &quot;Mapear campos&quot; mostrando campos de origem mapeados automaticamente (AUDIENCE\_ID e HASHED\_EMAIL\_SHA\_256) para campos de identidade de destino, com a opção &quot;Visualizar dados de origem&quot; visível e o botão Avançar no canto superior direito.](../../assets/setup/gcs-audience-sourcing/gcs-mapping-auto-fields.png)
 
@@ -233,7 +233,7 @@ Use esta seção para resolver problemas que ocorrem após estabelecer a conexã
 
 **Erros de formato de arquivo de público durante uma atualização agendada**
 
-* Confirme se os arquivos atualizados no bucket estão em conformidade com a estrutura de coluna e os requisitos de campo na [Especificação da origem do público-alvo](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf).
+* Confirme se os arquivos atualizados no bucket estão em conformidade com a estrutura de coluna e os requisitos de campo na [Especificação da origem do público-alvo](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf).
 * Verifique se todos os arquivos no caminho de pasta configurado usam estruturas de coluna idênticas. Arquivos de formato misto no mesmo caminho podem causar falhas parciais de fornecimento.
 
 ## Configurar [!DNL Google Cloud Storage] permissões {#setup-gcs-permissions}
