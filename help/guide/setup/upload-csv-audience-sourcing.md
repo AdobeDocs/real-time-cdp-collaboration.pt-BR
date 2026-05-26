@@ -11,7 +11,7 @@ topic_v2:
 source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
 source-wordcount: 1121
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -61,8 +61,8 @@ Selecione **[!UICONTROL Arquivo CSV]** como uma conexão de dados, seguido por *
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_csv"
->title="Adicionar público-alvo de arquivos CSV"
->abstract="Faça upload de um arquivo CSV do seu computador para direcionar os públicos-alvo para a Real-Time CDP Collaboration."
+>title="Adicionar público-alvo a partir de arquivos CSV"
+>abstract="Faça upload de um arquivo CSV do seu computador para direcionar os públicos-alvo para o Real-Time CDP Collaboration."
 
 Escolha **[!UICONTROL Selecionar do computador]** para carregar um arquivo CSV do sistema local. Como alternativa, você pode arrastar e soltar o arquivo CSV que deseja carregar no painel [!UICONTROL Arrastar e soltar um arquivo CSV].
 
