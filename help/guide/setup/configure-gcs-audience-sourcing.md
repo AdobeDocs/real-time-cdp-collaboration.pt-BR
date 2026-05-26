@@ -2,11 +2,11 @@
 title: Configurar [!DNL Google Cloud Storage] para Origem de Público-Alvo
 description: Saiba como conectar um bucket  [!DNL Google Cloud Storage]  como uma origem de público-alvo de autoatendimento no Real-Time CDP Collaboration, incluindo pré-requisitos, autenticação, mapeamento de campos, agendamento e validação.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -94,7 +94,7 @@ Uma caixa de diálogo de pré-requisito descrevendo as etapas de configuração 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_gcs"
 >title="Adicionar público-alvo do Google Cloud Storage"
->abstract="Para conectar seu Google Cloud Storage, autorize o usuário do serviço da Adobe a recuperar os dados do público-alvo para processamento. Siga as etapas descritas em Experience League para conceder ao Adobe acesso ao Google Cloud Storage."
+>abstract="Para conectar o Google Cloud Storage, autorize o usuário do serviço da Adobe a recuperar os dados do público-alvo para processamento. Siga as etapas descritas na Experience League para conceder à Adobe acesso ao Google Cloud Storage."
 
 Forneça os detalhes necessários para permitir que o Collaboration acesse seu bucket do [!DNL Google Cloud Storage]. Depois de inserir as informações necessárias, selecione **[!UICONTROL Avançar]**.
 

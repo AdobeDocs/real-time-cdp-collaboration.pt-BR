@@ -2,12 +2,12 @@
 title: Configurar [!DNL Snowflake] para Origem de Público-Alvo
 description: Saiba como configurar e conectar o  [!DNL Snowflake Secure Data Share]  como uma fonte de dados de autoatendimento para assimilar dados de público-alvo no Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
 source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: '1586'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -152,12 +152,12 @@ Depois de concluído, selecione **[!UICONTROL Iniciar integração]**.
 
 ![Prepare seu [!DNL Snowflake Share] para a caixa de diálogo de integração com um link para as Especificações de Fornecimento de Público-Alvo.](../../assets/setup/snowflake-audience-sourcing/prepare-snowflake-share-onboarding-dialog.png)
 
-### Autenticar conexão [!DNL Snowflake Share] {#authenticate-snowflake-share-connection}
+### Autenticar conexão do [!DNL Snowflake Share] {#authenticate-snowflake-share-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_snowflake"
 >title="Adicionar público-alvo do Snowflake"
->abstract="Para conectar seu Compartilhamento da Snowflake, autorize o usuário de serviço da Adobe a recuperar os dados do público-alvo para processamento. Siga as etapas descritas em Experience League para conceder ao Adobe acesso ao seu Compartilhamento da Snowflake."
+>abstract="Para conectar o Snowflake Share, autorize o usuário do serviço da Adobe a recuperar os dados do público-alvo para processamento. Siga as etapas descritas na Experience League para conceder à Adobe acesso ao Snowflake Share."
 
 Nesta etapa, você precisa fornecer as credenciais do [!DNL Snowflake Share] necessárias para conectar o [!DNL Snowflake Share] ao Collaboration:
 
