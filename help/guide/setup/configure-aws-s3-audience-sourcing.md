@@ -2,9 +2,9 @@
 title: Configurar [!DNL Amazon S3] para Origem de Público-Alvo
 description: Saiba como configurar e conectar seu armazenamento do  [!DNL Amazon S3] como uma fonte de dados de autoatendimento para assimilar dados de público-alvo no Real-Time CDP Collaboration.
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
+source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1582'
 ht-degree: 8%
 
 ---
@@ -216,6 +216,6 @@ Sua conexão de dados do S3 inclui a mesma funcionalidade e detalhes de outras c
 
 Agora você configurou e conectou com êxito o armazenamento do [!DNL Amazon S3] como fonte de dados no Collaboration. Ao concluir esse fluxo de trabalho, você ativou a origem segura de dados de público-alvo primários para ativação e análise de sobreposição.
 
-Para usar [!DNL Google Cloud Storage], consulte [Configurar GCS para fornecimento de público-alvo](./configure-gcs-audience-sourcing.md).
-
 Após a conclusão da origem, seus públicos-alvo aparecem no espaço de trabalho **[!UICONTROL Meus públicos-alvo]**, prontos para colaboração e ativação. Para obter opções de gerenciamento detalhadas, consulte a [documentação sobre gerenciamento de públicos-alvo](./onboard-audiences.md).
+
+Para saber mais sobre todas as fontes disponíveis no Collaboration, consulte [Visão geral das fontes](./source-overview.md).

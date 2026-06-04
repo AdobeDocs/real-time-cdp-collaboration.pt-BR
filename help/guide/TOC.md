@@ -2,10 +2,10 @@
 user-guide-title: Colaboração da Real-Time CDP
 breadcrumb-title: Colaboração da Real-Time CDP
 user-guide-description: O Adobe Real-Time CDP Collaboration permite o compartilhamento de dados e a colaboração perfeitos e seguros entre anunciantes e editores, facilitando insights do público-alvo em tempo real e estratégias de marketing personalizadas.
-source-git-commit: 60d33488987bba5f04d30cc5128a5df007887c86
+source-git-commit: 07666bc6d001e602c270a611ad1da3ea5f301dbd
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 28%
+source-wordcount: '211'
+ht-degree: 29%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 28%
    * [Visão geral da seção de configuração](./setup/setup-overview.md)
    * [Integrar e gerenciar sua conta](./setup/onboard-account.md)
    * Source e gerenciar públicos {#source-audiences}
+      * [Visão geral das fontes](./setup/source-overview.md)
       * [Configurar o AEP para fornecimento de público](./setup/onboard-audiences.md)
       * [Configurar permissões do AWS para fornecimento de público](./setup/configure-aws-permissions-audience-sourcing.md)
       * [Configurar o Amazon S3 para fornecimento de público](./setup/configure-aws-s3-audience-sourcing.md)

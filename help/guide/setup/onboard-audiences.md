@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
 workflow-type: tm+mt
-source-wordcount: 3753
+source-wordcount: 3741
 ht-degree: 17%
 
 ---
@@ -49,7 +49,7 @@ Na guia **[!UICONTROL Meus públicos-alvo]** do espaço de trabalho **[!UICONTRO
 >
 >Depois de estabelecer para sua primeira conexão de dados e fornecer para seu primeiro público-alvo, você pode obter vários públicos-alvo da conexão de dados existente. Ao adicionar públicos-alvo adicionais, você começará pela etapa [selecionar público-alvo](#select-audiences), pois a conexão de dados já foi estabelecida.
 
-Uma conexão de dados é a fonte da qual você assimila públicos na Collaboration. As fontes compatíveis incluem Adobe Experience Platform, upload de arquivo CSV, [!DNL Amazon S3], [!DNL Snowflake] e [!DNL Google Cloud Storage], cada uma com seu próprio fluxo de trabalho. O Adobe Audience Manager estará disponível em breve.
+Uma conexão de dados é a fonte da qual você assimila públicos na Collaboration. Para saber mais sobre todas as fontes disponíveis, consulte [Visão geral das fontes](./source-overview.md).
 
 As seções abaixo descrevem como selecionar **Adobe Experience Platform** e concluir as etapas específicas do Experience Platform (sandbox, governança e consentimento). Se você escolher CSV, [!DNL Amazon S3], [!DNL Snowflake] ou [!DNL Google Cloud Storage], use o guia vinculado em [Selecionar fonte de dados](#select-data-source) para essa opção.
 
@@ -343,7 +343,7 @@ A disponibilidade do público-alvo para uso em projetos com colaboradores é dif
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilidade de metadados"
->abstract="<p>Indica quais metadados de público-alvo estão visíveis para outros colaboradores antes que se conectem com você ou em visualizações de projeto.</p> <p> A **Contagem de identidades** controla se o(a) colaborador(a) pode exibir contagens de identidades dos seus públicos-alvo ao visualizar relatórios de sobreposição na guia de descoberta.</p><p> A **% de sobreposição de público-alvo** controla se colaboradores podem descobrir as porcentagens de sobreposição entre os públicos-alvo deles e os seus.</p><p> O **[!UICONTROL Índice de público-alvo]** controla se os colaboradores podem exibir o índice de público-alvo em um projeto. Essa funcionalidade só está disponível quando você tem três ou mais públicos-alvo ativos.</p> <br> Para que as configurações de visibilidade de metadados entrem em vigor, o público-alvo precisa ter sido definido como público ou personalizado."
+>abstract="<p>Indica quais metadados de público-alvo estão visíveis para outros colaboradores antes que se conectem com você ou em visualizações de projeto.</p> <p> A **Contagem de identidades** controla se o seu colaborador pode exibir contagens de identidades dos seus públicos-alvo ao visualizar relatórios de sobreposição na guia de descoberta.</p><p> A **% de sobreposição de público-alvo** controla se os colaboradores podem descobrir as porcentagens de sobreposição entre os públicos-alvo deles e os seus.</p><p> O **[!UICONTROL Índice de público-alvo]** controla se os colaboradores podem exibir o índice de público-alvo em um projeto. Essa funcionalidade só está disponível quando você tem três ou mais públicos-alvo ativos.</p> <br> Para que as configurações de visibilidade de metadados entrem em vigor, o público-alvo precisa ter sido definido como público ou personalizado."
 
 >[!NOTE]
 >
