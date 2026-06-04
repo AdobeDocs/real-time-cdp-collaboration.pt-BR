@@ -2,10 +2,10 @@
 title: Configurar [!DNL Google Cloud Storage] para Origem de Público-Alvo
 description: Saiba como conectar um bucket  [!DNL Google Cloud Storage]  como uma origem de público-alvo de autoatendimento no Real-Time CDP Collaboration, incluindo pré-requisitos, autenticação, mapeamento de campos, agendamento e validação.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
 workflow-type: tm+mt
-source-wordcount: '2898'
+source-wordcount: '2910'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ Este guia aborda o fluxo de trabalho de configuração de ponta a ponta: prepara
 
 Os públicos-alvo originados de [!DNL Google Cloud Storage] seguem as mesmas regras de governança e manipulação de dados que os públicos-alvo originados do Adobe Experience Platform.
 
-Outros métodos de fornecimento disponíveis incluem [Experience Platform](./onboard-audiences.md), [Amazon S3](./configure-aws-s3-audience-sourcing.md), [Snowflake](./configure-snowflake-audience-sourcing.md) e [carregamento de arquivo CSV](./upload-csv-audience-sourcing.md).
+Outros métodos de fornecimento disponíveis incluem [Experience Platform](./onboard-audiences.md), [Amazon S3](./configure-aws-s3-audience-sourcing.md), [Snowflake](./configure-snowflake-audience-sourcing.md) e [carregamento de arquivo CSV](./upload-csv-audience-sourcing.md). Para saber mais sobre todas as fontes disponíveis no Collaboration, consulte [Visão geral das fontes](./source-overview.md).
 
 ## Pré-requisitos {#prerequisites}
 

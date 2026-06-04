@@ -3,15 +3,12 @@ title: Fazer upload de arquivo CSV para origem de público-alvo
 description: Saiba como fazer upload do arquivo CSV como uma fonte de dados de autoatendimento para assimilar dados de público-alvo no Real-Time CDP Collaboration.
 exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
 TQID: https://experienceleague.adobe.com/sqgS0g8PUnLOyc02fJ1yiFkInVN5MlxoCbMn8lvY1-Y
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
 workflow-type: tm+mt
-source-wordcount: 1121
-ht-degree: 2%
+source-wordcount: 1070
+ht-degree: 3%
 
 ---
 
@@ -145,4 +142,4 @@ Agora você carregou com êxito seu arquivo CSV no Collaboration. Após a conclu
 * Analise a sobreposição de público e os insights. Consulte [Medir o desempenho da campanha](../../guide/collaborate/measure.md).
 * Gerencie as configurações e a visibilidade do seu público-alvo. Consulte [Source e gerenciar públicos](./onboard-audiences.md).
 
-Para obter informações sobre outros métodos de fornecimento de público, consulte [Configurar o AWS S3 para fornecimento de público](./configure-aws-s3-audience-sourcing.md) ou [Públicos-alvo da Source na Experience Platform](./onboard-audiences.md).
+Para saber mais sobre todas as fontes disponíveis no Collaboration, consulte [Visão geral das fontes](./source-overview.md).

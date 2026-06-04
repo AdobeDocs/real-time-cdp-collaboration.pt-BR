@@ -2,11 +2,11 @@
 title: Configurar [!DNL Snowflake] para Origem de Público-Alvo
 description: Saiba como configurar e conectar o  [!DNL Snowflake Secure Data Share]  como uma fonte de dados de autoatendimento para assimilar dados de público-alvo no Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
+source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1598'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ Saiba como configurar e conectar seu [!DNL Snowflake Secure Data Share] na inter
 
 ## Visão geral {#overview}
 
-[!DNL Snowflake] é uma das opções com suporte para fornecer dados de público-alvo primário no Collaboration. Outros métodos disponíveis incluem o fornecimento de públicos do [Experience Platform](./onboard-audiences.md), a conexão de um [[!DNL AWS S3] bucket](./configure-aws-s3-audience-sourcing.md) ou o upload de um [arquivo CSV](./upload-csv-audience-sourcing.md).
+[!DNL Snowflake] é uma das opções com suporte para fornecer dados de público-alvo primário no Collaboration. Outros métodos disponíveis incluem o fornecimento de públicos do [Experience Platform](./onboard-audiences.md), a conexão de um [[!DNL AWS S3] bucket](./configure-aws-s3-audience-sourcing.md) ou o upload de um [arquivo CSV](./upload-csv-audience-sourcing.md). Para saber mais sobre todas as fontes disponíveis no Collaboration, consulte [Visão geral das fontes](./source-overview.md).
 
 Siga as etapas abaixo para conectar seu [!DNL Snowflake Secure Data Share] e originar seus dados de público-alvo no Collaboration. Depois que a configuração for concluída, você poderá revisar, ativar e gerenciar os públicos-alvo originados para os projetos de colaboração.
 
