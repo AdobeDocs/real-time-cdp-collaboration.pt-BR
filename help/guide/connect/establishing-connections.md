@@ -2,20 +2,15 @@
 title: Estabelecimento de conexões com colaboradores
 description: Depois de descobrir possíveis colaboradores, saiba como estabelecer conexões e começar a colaborar em projetos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 06d4477f3254e9811f410340c934ec5682a92cb0
 workflow-type: tm+mt
-source-wordcount: 3398
+source-wordcount: 3420
 ht-degree: 9%
 
 ---
@@ -25,6 +20,13 @@ ht-degree: 9%
 {{limited-availability-release-note}}
 
 Antes que os colaboradores possam trabalhar juntos em campanhas, eles devem estabelecer uma conexão. Essa conexão permite que eles ativem públicos, criem projetos e executem relatórios sobre o desempenho da campanha.
+
+O Collaboration oferece suporte aos seguintes métodos de convite:
+
+- [Convite de conexão pública](#discover-collaborators): conecte-se com outro cliente licenciado por meio do espaço de trabalho **[!UICONTROL Descobrir colaboradores]**.
+- [Convite para conexão privada](#private-connection-invite): conecte-se diretamente com outro cliente licenciado usando um código de conexão.
+- [Convite inicial](#invite-non-licensed-collaborator): conecte-se a uma organização que não tenha uma licença.
+- [Autenticação](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection): conecte-se a uma plataforma de publicidade de terceiros com suporte.
 
 As conexões são estabelecidas com base no padrão de colaboração escolhido. A Collaboration oferece suporte a dois principais padrões de colaboração: anunciante-editor e marca-a-marca. Para ler mais sobre esses padrões, consulte o guia [casos de uso](/help/guide/overview/use-cases.md).
 
@@ -55,9 +57,6 @@ Depois que as configurações de conexão forem aceitas, a conexão será estabe
 
 ![Diagrama de alto nível do processo de conexão marca a marca.](/help/assets/connect/establish-connection/brand-to-brand-flow.png){zoomable="yes"}
 
->[!TIP]
->
->Este guia aborda o processo de conexão para os padrões de colaboração anunciante-editor e marca-para-marca. Para saber mais sobre como se conectar a plataformas de publicidade, consulte a seção [conexão entre anunciante e plataforma de publicidade](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection) no guia [visão geral das conexões](/help/guide/connect/overview.md).
 
 ## Conectar {#connect}
 
@@ -314,9 +313,9 @@ Além disso, se você for um publicador conectado a um anunciante, poderá adici
 
 Em seguida, selecione **[!UICONTROL Aceitar]** para continuar com a conexão. O status da conexão será alterado para **[!UICONTROL Ativo]**, e agora você pode começar a colaborar em projetos.
 
-## Convidar um colaborador {#invite-collaborator}
+## Convidar um colaborador não licenciado (Iniciante) {#invite-non-licensed-collaborator}
 
-Siga as etapas abaixo para convidar seu parceiro a ingressar no Real-Time CDP Collaboration [!DNL Starter]. Se quiser obter mais detalhes sobre o Collaboration [!DNL Starter] e uma visão geral passo a passo do processo, consulte a [[!DNL Starter] documentação de visão geral](../overview/starter-overview.md).
+Siga as etapas abaixo para convidar seu parceiro não licenciado para ingressar no Real-Time CDP Collaboration [!DNL Starter]. Se quiser obter mais detalhes sobre o Collaboration [!DNL Starter] e uma visão geral passo a passo do processo, consulte a [[!DNL Starter] documentação de visão geral](../overview/starter-overview.md).
 
 Antes de iniciar o processo de convite, colete as seguintes informações do seu colaborador:
 
