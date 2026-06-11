@@ -13,9 +13,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
+source-git-commit: 06d4477f3254e9811f410340c934ec5682a92cb0
 workflow-type: tm+mt
-source-wordcount: 3398
+source-wordcount: 3420
 ht-degree: 9%
 
 ---
@@ -25,6 +25,13 @@ ht-degree: 9%
 {{limited-availability-release-note}}
 
 Antes que os colaboradores possam trabalhar juntos em campanhas, eles devem estabelecer uma conexão. Essa conexão permite que eles ativem públicos, criem projetos e executem relatórios sobre o desempenho da campanha.
+
+O Collaboration oferece suporte aos seguintes métodos de convite:
+
+- [Convite de conexão pública](#discover-collaborators): conecte-se com outro cliente licenciado por meio do espaço de trabalho **[!UICONTROL Descobrir colaboradores]**.
+- [Convite para conexão privada](#private-connection-invite): conecte-se diretamente com outro cliente licenciado usando um código de conexão.
+- [Convite inicial](#invite-non-licensed-collaborator): conecte-se a uma organização que não tenha uma licença.
+- [Autenticação](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection): conecte-se a uma plataforma de publicidade de terceiros com suporte.
 
 As conexões são estabelecidas com base no padrão de colaboração escolhido. A Collaboration oferece suporte a dois principais padrões de colaboração: anunciante-editor e marca-a-marca. Para ler mais sobre esses padrões, consulte o guia [casos de uso](/help/guide/overview/use-cases.md).
 
@@ -55,9 +62,6 @@ Depois que as configurações de conexão forem aceitas, a conexão será estabe
 
 ![Diagrama de alto nível do processo de conexão marca a marca.](/help/assets/connect/establish-connection/brand-to-brand-flow.png){zoomable="yes"}
 
->[!TIP]
->
->Este guia aborda o processo de conexão para os padrões de colaboração anunciante-editor e marca-para-marca. Para saber mais sobre como se conectar a plataformas de publicidade, consulte a seção [conexão entre anunciante e plataforma de publicidade](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection) no guia [visão geral das conexões](/help/guide/connect/overview.md).
 
 ## Conectar {#connect}
 
@@ -314,9 +318,9 @@ Além disso, se você for um publicador conectado a um anunciante, poderá adici
 
 Em seguida, selecione **[!UICONTROL Aceitar]** para continuar com a conexão. O status da conexão será alterado para **[!UICONTROL Ativo]**, e agora você pode começar a colaborar em projetos.
 
-## Convidar um colaborador {#invite-collaborator}
+## Convidar um colaborador não licenciado (Iniciante) {#invite-non-licensed-collaborator}
 
-Siga as etapas abaixo para convidar seu parceiro a ingressar no Real-Time CDP Collaboration [!DNL Starter]. Se quiser obter mais detalhes sobre o Collaboration [!DNL Starter] e uma visão geral passo a passo do processo, consulte a [[!DNL Starter] documentação de visão geral](../overview/starter-overview.md).
+Siga as etapas abaixo para convidar seu parceiro não licenciado para ingressar no Real-Time CDP Collaboration [!DNL Starter]. Se quiser obter mais detalhes sobre o Collaboration [!DNL Starter] e uma visão geral passo a passo do processo, consulte a [[!DNL Starter] documentação de visão geral](../overview/starter-overview.md).
 
 Antes de iniciar o processo de convite, colete as seguintes informações do seu colaborador:
 

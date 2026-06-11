@@ -4,7 +4,7 @@ description: Saiba como o Adobe Real-Time CDP Collaboration Starter ajuda a expa
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
+source-git-commit: d0d854f73fa835984e5cff5207ce3e01297c8deb
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 3%
@@ -36,7 +36,7 @@ Para iniciar o convite, forneça as seguintes informações ao seu parceiro lice
 * Função (Anunciante/Editor): Anunciante
 * Setor
 
-Depois que você receber e aceitar o convite, sua organização deverá revisar e assinar uma Ordem de Venda sem custo com a Adobe para acessar o Collaboration [!DNL Starter]. Para obter mais detalhes sobre o processo de convite, consulte o guia [convidando um colaborador para a Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator).
+Depois que você receber e aceitar o convite, sua organização deverá revisar e assinar uma Ordem de Venda sem custo com a Adobe para acessar o Collaboration [!DNL Starter]. Para obter mais detalhes sobre o processo de convite, consulte o guia [convidando um colaborador para a Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-non-licensed-collaborator).
 
 ## Medidas de proteção {#guardrails}
 
@@ -53,7 +53,7 @@ Leia a tabela a seguir para entender as medidas de proteção principais que se 
 
 ## Introdução {#getting-started}
 
-Depois que você [aceitar seu convite e concordar com os termos](../connect/establishing-connections.md#accept-invitation-sign-terms), faça logon no [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} com suas credenciais. Antes de usar o Collaboration, sua conta deve receber o acesso e as funções apropriadas.
+Depois que você [aceitar seu convite e concordar com os termos](../connect/establishing-connections.md#accept-invitation-sign-terms), faça logon na [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} com suas credenciais. Antes de usar o Collaboration, sua conta deve receber o acesso e as funções apropriadas.
 
 Use este fluxo de trabalho para configurar sua conta do [!DNL Starter] e começar a colaborar com seu parceiro.
 
@@ -61,9 +61,9 @@ Use este fluxo de trabalho para configurar sua conta do [!DNL Starter] e começa
 
 Primeiro, use o espaço de trabalho **Acesso de Administrador** para conceder a si mesmo o acesso necessário. Isso garante que você tenha direitos administrativos e acesso de usuário aos produtos da Experience Platform. Para obter etapas detalhadas sobre como configurar o acesso inicial, consulte as [instruções de acesso de administrador](../setup/starter-admin-access.md).
 
-Depois de concluído, você deverá ver as **[!UICONTROL Permissões]**, **[!UICONTROL Experience Platform]** e **[!UICONTROL Real-Time CDP Collaboration]** na seção de **[!UICONTROL Acesso rápido]** da sua página inicial do [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}.
+Depois de concluído, você deverá ver as **[!UICONTROL Permissões]**, **[!UICONTROL Experience Platform]** e **[!UICONTROL Real-Time CDP Collaboration]** na seção de **[!UICONTROL Acesso rápido]** da sua página inicial da [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}.
 
-![O espaço de trabalho do Adobe Experience Cloud que mostra as Permissões, o Experience Platform e o Real-Time CDP Collaboration após a instalação de acesso do administrador do produto.](/help/assets/overview/starter/setup-admin-access.png){zoomable="yes"}
+![O espaço de trabalho da Adobe Experience Cloud mostra Permissões, Experience Platform e Real-Time CDP Collaboration após o acesso do administrador ao produto.](/help/assets/overview/starter/setup-admin-access.png){zoomable="yes"}
 
 Para obter mais detalhes sobre funções de acesso e diferentes produtos da Adobe Experience Cloud, leia a [visão geral do controle de acesso](../permissions/overview.md).
 
