@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: 5c0fd0c7a7914f5c7828b76150b266d4625b6266
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 1063
 ht-degree: 2%
 
 ---
@@ -75,9 +75,11 @@ A caixa de diálogo **[!UICONTROL Editar chaves de correspondência]** é aberta
 
 ### Definir a frequência de atualização do público {#set-audience-refresh-frequency}
 
-Por fim, defina a frequência e o intervalo de datas desejados para o público-alvo ser atualizado. Na versão atual, a única opção de frequência com suporte é **[!UICONTROL Uma Vez]**. A frequência **[!UICONTROL Once]** significa que os públicos-alvo são ativados uma única vez e não são atualizados. A opção **[!UICONTROL Data]** é preenchida automaticamente com a data atual.
+Por fim, defina a frequência e o intervalo de datas desejados para a ativação do público-alvo. Use a lista suspensa **[!UICONTROL Frequência]** para escolher se o público-alvo é ativado uma vez ou atualizado de acordo com um agendamento recorrente. Selecione **[!UICONTROL Uma vez]** para ativar a audiência uma única vez ou selecione uma frequência recorrente, como **[!UICONTROL Diariamente]**, **[!UICONTROL A cada 2 dias]**, **[!UICONTROL A cada 3 dias]**, **[!UICONTROL a cada 4 dias]**, **[!UICONTROL a cada 5 dias]**, **[!UICONTROL a cada 6 dias]**, **[!UICONTROL a cada 2 semanas]**, **[!UICONTROL a cada 3 semanas]** ou **[!UICONTROL mensalmente]**.
 
-![O fluxo de trabalho de ativação de público-alvo com a seção Frequência realçada.](/help/assets/collaborate/activate/audience-frequency.png)
+![A lista suspensa Frequência no fluxo de trabalho de ativação de público-alvo mostra as opções disponíveis, incluindo Uma vez, Diariamente, a cada 2 a 6 dias, a cada 2 a 3 semanas e Mensalmente.](/help/assets/collaborate/activate/activation-frequency.png)
+
+Use o campo **[!UICONTROL Intervalo de datas]** para definir quando o agendamento de ativação começa e termina.
 
 Quando satisfeito com suas seleções, selecione **[!UICONTROL Ativar]** para concluir o fluxo de trabalho.
 
@@ -100,7 +102,7 @@ Em cada público-alvo enviado, você pode ver as seguintes métricas:
 | **[!UICONTROL Contagem de identidades]** | O número de identidades no público-alvo. |
 | **[!UICONTROL Identidades sobrepostas]** | O número de identidades sobrepostas entre esse público-alvo e a população total de perfis no inventário do colaborador. |
 | **[!UICONTROL Criado]** | A data em que o público-alvo foi enviado inicialmente. |
-| **[!UICONTROL Último envio]** | A data em que o público-alvo foi enviado pela última vez para o colaborador. |
+| **[!UICONTROL Último envio]** | A data em que o público-alvo foi disponibilizado pela última vez ao colaborador por meio do fluxo de trabalho de ativação, seja de uma ativação única ou de uma programação recorrente. |
 | **[!UICONTROL Chaves correspondentes]** | Indica a chave de correspondência usada para o público-alvo. |
 
 ## Exibir públicos ativados {#view-activated-audiences}
@@ -115,7 +117,7 @@ Em cada público ativado, você pode ver as seguintes métricas:
 | **[!UICONTROL Status]** | O status do público-alvo ativado. |
 | **[!UICONTROL Contagem de identidades]** | O número de identidades que foram ativadas, com base nas identidades sobrepostas quando seu colaborador enviou o público. |
 | **[!UICONTROL Criado]** | A data em que o público-alvo foi ativado. |
-| **[!UICONTROL Última atualização]** | A data em que o público-alvo foi atualizado pela última vez, com base no agendamento de atualização escolhido durante a ativação. |
+| **[!UICONTROL Última atualização]** | A data em que o público-alvo foi atualizado pela última vez, com base na frequência selecionada durante a ativação. |
 | **[!UICONTROL Destino]** | O destino onde o público-alvo foi ativado. |
 | **[!UICONTROL Chaves correspondentes]** | Indica a chave de correspondência usada para o público-alvo. |
 
