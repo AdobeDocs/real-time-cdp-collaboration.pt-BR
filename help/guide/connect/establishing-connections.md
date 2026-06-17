@@ -2,20 +2,15 @@
 title: Estabelecimento de conexões com colaboradores
 description: Depois de descobrir possíveis colaboradores, saiba como estabelecer conexões e começar a colaborar em projetos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: fb824ee8d84cb8dc125da82a4afd6f50e3ce80cf
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5e722bc0077495561181519121bab9bb267dc7e1
 workflow-type: tm+mt
-source-wordcount: 3420
+source-wordcount: 3459
 ht-degree: 9%
 
 ---
@@ -320,7 +315,7 @@ Em seguida, selecione **[!UICONTROL Aceitar]** para continuar com a conexão. O 
 
 ## Convidar um colaborador não licenciado (Iniciante) {#invite-non-licensed-collaborator}
 
-Siga as etapas abaixo para convidar seu parceiro não licenciado para ingressar no Real-Time CDP Collaboration [!DNL Starter]. Se quiser obter mais detalhes sobre o Collaboration [!DNL Starter] e uma visão geral passo a passo do processo, consulte a [[!DNL Starter] documentação de visão geral](../overview/starter-overview.md).
+Siga as etapas abaixo para convidar seu parceiro não licenciado para ingressar no Real-Time CDP Collaboration [!DNL Starter]. Os convites são enviados diretamente para o endereço de email do colaborador e devem ser aceitos antes que uma conexão possa ser estabelecida. Se quiser obter mais detalhes sobre o Collaboration [!DNL Starter] e uma visão geral passo a passo do processo, consulte a [[!DNL Starter] documentação de visão geral](../overview/starter-overview.md).
 
 Antes de iniciar o processo de convite, colete as seguintes informações do seu colaborador:
 
@@ -369,9 +364,14 @@ Uma caixa de diálogo de confirmação confirma que o convite foi enviado com ê
 
 ![A caixa de diálogo de confirmação confirma que o convite foi enviado com êxito.](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
 
+Após enviar o convite, sua organização parceira receberá um email com instruções para revisar e assinar os termos e condições do Real-Time Collaboration.
+
 ### Aceite o convite e assine os termos {#accept-invitation-sign-terms}
 
-Após enviar o convite, sua organização parceira receberá um email com instruções para revisar e aceitar os termos e condições do Real-Time Collaboration. Eles também podem explorar os recursos do Collaboration antes de aceitar.
+Para continuar, sua organização parceira convidada deve:
+
+- Abra o email de convite.
+- Clique no link para revisar e assinar os termos e condições da Real-Time CDP Collaboration.
 
 ![O email de convite para participar do Collaboration Starter.](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
 
@@ -379,10 +379,11 @@ Assim que sua organização parceira aceitar os termos e condições, a Adobe co
 
 ### Confirmação de provisionamento {#provisioning-confirmation}
 
-Quando o processo de provisionamento estiver concluído, um email de boas-vindas será enviado à organização convidada, confirmando que o Collaboration [!DNL Starter] está pronto para uso. Este email fornece instruções sobre como:
+Quando o processo de provisionamento estiver concluído, um segundo email será enviado para a organização convidada, confirmando que o Collaboration [!DNL Starter] está pronto para uso. Este email de boas-vindas fornece instruções sobre como:
 
 - [Configurar o acesso do administrador e do usuário](../setup/starter-admin-access.md)
 - [Configurar permissões para acessar o Collaboration](../setup/starter-permission-controls.md)
+- [Estabelecer uma conexão com o colaborador convidador](#connect)
 
 ![O email de boas-vindas enviado à organização convidada com instruções para configurar o acesso e as permissões necessárias.](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
 
@@ -390,4 +391,4 @@ Assim que seu parceiro tiver acesso ao Collaboration, você e a organização co
 
 ## Próximas etapas
 
-Depois de estabelecer uma conexão com seu colaborador, você e ele agora podem [criar projetos](/help/guide/collaborate/manage-projects.md#create-project).
+Depois de estabelecer uma conexão, você pode [criar projetos](/help/guide/collaborate/manage-projects.md#create-project) com seu colaborador.
