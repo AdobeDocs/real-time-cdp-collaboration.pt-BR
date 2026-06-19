@@ -2,7 +2,7 @@
 title: Públicos-alvo da Source do armazenamento  [!DNL Azure]  no Real-Time CDP Collaboration
 description: Dados de público-alvo primários da Source do Azure Blob Storage ou do Azure Data Lake Storage Gen2 na Real-Time CDP Collaboration.
 keywords: Real-Time CDP Collaboration; fornecimento de público-alvo; [!DNL Azure Blob Storage]; [!DNL Azure Data Lake Storage] Gen2
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 3b62837cecf6cf7c288ce1633d43312ff6a92664
 workflow-type: tm+mt
 source-wordcount: '2050'
