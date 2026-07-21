@@ -104,7 +104,7 @@ A tela **[!UICONTROL Mapping]** é somente leitura. O Collaboration mapeia autom
 
 Você pode revisar o mapeamento, mas não pode modificá-lo neste estágio. Clique em **[!UICONTROL Avançar]** para continuar.
 
-![Adicionar fluxo de trabalho de público-alvo na etapa &quot;Mapear campos&quot; mostrando campos de origem mapeados para campos de identidade de destino ](../../assets/setup/aam-audience-sourcing/audience-manager-map-fields.png)
+![Adicionar fluxo de trabalho de público-alvo na etapa &quot;Mapear campos&quot; mostrando campos de origem mapeados para campos de identidade de destino &#x200B;](../../assets/setup/aam-audience-sourcing/audience-manager-map-fields.png)
 
 ### Agendar atualização de dados {#schedule-data-refresh}
 
