@@ -2,18 +2,14 @@
 title: Source e gerenciar públicos
 description: Saiba como fornecer e gerenciar públicos-alvo no Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 33e4aeab1bb50edac6308c4b12ced2ab9430ed74
 workflow-type: tm+mt
-source-wordcount: 3752
+source-wordcount: 3773
 ht-degree: 17%
 
 ---
@@ -51,7 +47,7 @@ Na guia **[!UICONTROL Meus públicos-alvo]** do espaço de trabalho **[!UICONTRO
 
 Uma conexão de dados é a fonte da qual você assimila públicos na Collaboration. Para saber mais sobre todas as fontes disponíveis, consulte [Visão geral das fontes](./source-overview.md).
 
-As seções abaixo descrevem como selecionar **Adobe Experience Platform** e concluir as etapas específicas do Experience Platform (sandbox, governança e consentimento). Se você escolher CSV, [!DNL Amazon S3], [!DNL Snowflake] ou [!DNL Google Cloud Storage], use o guia vinculado em [Selecionar fonte de dados](#select-data-source) para essa opção.
+As seções abaixo descrevem como selecionar **Adobe Experience Platform** e concluir as etapas específicas do Experience Platform (sandbox, governança e consentimento). Se você escolher CSV, [!DNL Amazon S3], [!DNL Snowflake], [!DNL Google Cloud Storage], Adobe Audience Manager ou [!DNL Databricks Delta Share], use o guia vinculado em [Selecionar fonte de dados](#select-data-source) para essa opção.
 
 Todas as configurações definidas para uma conexão de dados do Experience Platform são aplicadas a todos os públicos-alvo provenientes dessa conexão.
 
@@ -72,6 +68,7 @@ Em seguida, escolha a origem da conexão de dados. As fontes disponíveis inclue
 * **Amazon Web Services**: conecte-se ao armazenamento do Amazon S3 para originar dados de público-alvo diretamente dos seus buckets do S3. Consulte o guia [Configurar AWS S3 para fornecimento de público-alvo](./configure-aws-s3-audience-sourcing.md) para obter instruções passo a passo.
 * **Snowflake**: use o data warehouse do Snowflake para obter os dados de público-alvo com facilidade. Consulte o guia [Configurar [!DNL Snowflake] para fornecimento de público-alvo](./configure-snowflake-audience-sourcing.md).
 * **Armazenamento na nuvem do Google**: conecte-se aos seus buckets do GCS para obter dados do público-alvo. Consulte o guia [Configurar GCS para fornecimento de público-alvo](./configure-gcs-audience-sourcing.md) para obter instruções passo a passo.
+* **[!DNL Databricks Delta Share]**: conecte-se ao seu [!DNL Databricks Delta Share] para originar dados de público-alvo primário do seu ambiente [!DNL Databricks]. Consulte o guia [Configurar [!DNL Databricks Delta Share] para fornecimento de público-alvo](./configure-databricks-audience-sourcing.md).
 * **Adobe Audience Manager**: Source seus segmentos de público-alvo da Adobe Audience Manager. Consulte o guia [Configurar Adobe Audience Manager para fornecimento de público-alvo](./configure-aam-audience-sourcing.md) para começar.
 
 Selecione sua fonte de dados e selecione **[!UICONTROL Próximo]**.
@@ -90,7 +87,7 @@ Em seguida, verifique se as ações de marketing corretas estão definidas nos d
 
 Use ações de marketing para controlar quais dados de público-alvo trazer para o Collaboration a partir do Experience Platform. A ação de marketing **[!UICONTROL Colaboração de dados]** é compatível com os rótulos de uso de dados C4, C5 e C9. A ação de marketing **[!UICONTROL Ciência de dados]** é compatível com o rótulo de uso de dados C9.
 
-Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando a caixa de seleção estiver ***habilitada***, todos os dados rotulados no Experience Platform conforme descrito acima serão excluídos e **não** serão trazidos para o Collaboration.
 * Com a caixa de seleção ***desabilitada***, não há restrição nos dados obtidos do Experience Platform.
@@ -145,7 +142,7 @@ Em seguida, forneça um nome e uma descrição para sua conexão de dados. Essas
 
 Em seguida, você selecionará campos de origem para mapear para campos de destino no Collaboration. Os campos de destino disponíveis serão baseados nas chaves de correspondência selecionadas durante a [configuração de conta](./onboard-account.md#set-up-match-keys).
 
-Se você selecionou [!DNL Demdex ID (ECID)] como chave de correspondência durante a configuração da conta, [!DNL Demdex ID] será automaticamente extraído e mapeado da ECID e você não precisará realizar nenhuma ação. Para saber mais sobre [!DNL Demdex IDs], consulte o guia [[!DNL Demdex ID]](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/identity/unified-identity-support).
+Se você selecionou [!DNL Demdex ID (ECID)] como chave de correspondência durante a configuração da conta, [!DNL Demdex ID] será automaticamente extraído e mapeado da ECID e você não precisará realizar nenhuma ação. Para saber mais sobre [!DNL Demdex IDs], consulte o guia [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support).
 
 ![O espaço de trabalho Adicionar públicos-alvo com a opção para mapear campos de origem para campos de destino.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -155,7 +152,7 @@ Se você selecionou [!DNL Demdex ID (ECID)] como chave de correspondência duran
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Os campos do Source]** são namespaces de identidade e atributos da Experience Platform. Eles incluem namespaces de identidade [padrão](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=pt-BR#standard){target="_blank"} e [personalizados](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=pt-BR#create-namespaces){target="_blank"}. Eles também incluem atributos de perfil que estão presentes no [esquema de união](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=pt-BR){target="_blank"} e pertencem à classe Perfil Individual XDM.
+**[!UICONTROL Os campos do Source]** são namespaces de identidade e atributos da Experience Platform. Eles incluem namespaces de identidade [padrão](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=pt-BR#standard){target="_blank"} e [personalizados](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. Eles também incluem atributos de perfil que estão presentes no [esquema de união](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=pt-BR){target="_blank"} e pertencem à classe Perfil Individual XDM.
 
 Os campos do Source são mapeados para os campos de destino definidos no Collaboration.
 
