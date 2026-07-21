@@ -2,10 +2,10 @@
 title: Visão geral das fontes
 description: Saiba mais sobre conectores de origem no Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-source-git-commit: b30d1b01e929e586404faac34650c7fd479d071b
+source-git-commit: 23f7d91d37d0d9c9b352716caa4827dcc87093d8
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 6%
+source-wordcount: '412'
+ht-degree: 7%
 
 ---
 
@@ -38,7 +38,8 @@ As fontes a seguir estão disponíveis no Collaboration. Para exibir o guia de s
 | [[!DNL Snowflake]](./configure-snowflake-audience-sourcing.md) | Conecte seu [!DNL Snowflake Secure Data Share] para trazer conjuntos de dados de público-alvo em larga escala. | Disponível |
 | [[!DNL Google Cloud Storage]](./configure-gcs-audience-sourcing.md) | Conecte seus buckets do GCS para trazer os dados de público-alvo armazenados em seu ambiente [!DNL Google Cloud]. | Disponível |
 | [Carregamento de arquivo CSV](./upload-csv-audience-sourcing.md) | Carregue um arquivo CSV formatado diretamente do sistema local. | Disponível |
-| Adobe Audience Manager | Traga segmentos existentes do Audience Manager para seus projetos do Collaboration. | *Em breve* |
+| [Adobe Audience Manager](./configure-aam-audience-sourcing.md) | Traga segmentos existentes do Audience Manager para seus projetos do Collaboration. | Disponível |
+| [[!DNL Databricks Delta Share]](./configure-databricks-audience-sourcing.md) | Conecte seu [!DNL Databricks Delta Share] para trazer conjuntos de dados de público-alvo em larga escala do seu ambiente [!DNL Databricks]. | Disponível |
 | [[!DNL Azure Blob Storage]](./configure-azure-storage-audience-sourcing.md) | Conecte seus contêineres do [!DNL Azure Blob Storage] aos conjuntos de dados primários de origem do seu ambiente do [!DNL Microsoft Azure]. | Disponível |
 | [[!DNL Azure Data Lake Storage]](./configure-azure-storage-audience-sourcing.md) | Conecte sua conta do [!DNL Azure Data Lake Storage Gen 2] para trazer os dados de público-alvo armazenados em seu data lake do [!DNL Azure]. | Disponível |
 
