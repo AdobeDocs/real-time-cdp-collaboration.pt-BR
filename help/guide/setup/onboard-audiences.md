@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
+source-git-commit: 33e4aeab1bb50edac6308c4b12ced2ab9430ed74
 workflow-type: tm+mt
-source-wordcount: 3741
+source-wordcount: 3773
 ht-degree: 17%
 
 ---
@@ -51,7 +51,7 @@ Na guia **[!UICONTROL Meus públicos-alvo]** do espaço de trabalho **[!UICONTRO
 
 Uma conexão de dados é a fonte da qual você assimila públicos na Collaboration. Para saber mais sobre todas as fontes disponíveis, consulte [Visão geral das fontes](./source-overview.md).
 
-As seções abaixo descrevem como selecionar **Adobe Experience Platform** e concluir as etapas específicas do Experience Platform (sandbox, governança e consentimento). Se você escolher CSV, [!DNL Amazon S3], [!DNL Snowflake] ou [!DNL Google Cloud Storage], use o guia vinculado em [Selecionar fonte de dados](#select-data-source) para essa opção.
+As seções abaixo descrevem como selecionar **Adobe Experience Platform** e concluir as etapas específicas do Experience Platform (sandbox, governança e consentimento). Se você escolher CSV, [!DNL Amazon S3], [!DNL Snowflake], [!DNL Google Cloud Storage], Adobe Audience Manager ou [!DNL Databricks Delta Share], use o guia vinculado em [Selecionar fonte de dados](#select-data-source) para essa opção.
 
 Todas as configurações definidas para uma conexão de dados do Experience Platform são aplicadas a todos os públicos-alvo provenientes dessa conexão.
 
@@ -72,7 +72,8 @@ Em seguida, escolha a origem da conexão de dados. As fontes disponíveis inclue
 * **Amazon Web Services**: conecte-se ao armazenamento do Amazon S3 para originar dados de público-alvo diretamente dos seus buckets do S3. Consulte o guia [Configurar AWS S3 para fornecimento de público-alvo](./configure-aws-s3-audience-sourcing.md) para obter instruções passo a passo.
 * **Snowflake**: use o data warehouse do Snowflake para obter os dados de público-alvo com facilidade. Consulte o guia [Configurar [!DNL Snowflake] para fornecimento de público-alvo](./configure-snowflake-audience-sourcing.md).
 * **Armazenamento na nuvem do Google**: conecte-se aos seus buckets do GCS para obter dados do público-alvo. Consulte o guia [Configurar GCS para fornecimento de público-alvo](./configure-gcs-audience-sourcing.md) para obter instruções passo a passo.
-* **Adobe Audience Manager** (_Em breve_): Source seus segmentos de público-alvo da Adobe Audience Manager.
+* **[!DNL Databricks Delta Share]**: conecte-se ao seu [!DNL Databricks Delta Share] para originar dados de público-alvo primário do seu ambiente [!DNL Databricks]. Consulte o guia [Configurar [!DNL Databricks Delta Share] para fornecimento de público-alvo](./configure-databricks-audience-sourcing.md).
+* **Adobe Audience Manager**: Source seus segmentos de público-alvo da Adobe Audience Manager. Consulte o guia [Configurar Adobe Audience Manager para fornecimento de público-alvo](./configure-aam-audience-sourcing.md) para começar.
 
 Selecione sua fonte de dados e selecione **[!UICONTROL Próximo]**.
 

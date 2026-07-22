@@ -12,7 +12,7 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
 workflow-type: tm+mt
 source-wordcount: 1253
 ht-degree: 7%
@@ -154,7 +154,7 @@ Quando terminar, revise as atualizações e selecione **[!UICONTROL Salvar]** pa
 
 ![A caixa de diálogo Agendamento realçando as atualizações e a opção Salvar.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
-## Excluir conexão de dados
+## Excluir conexão de dados {#delete-data-connection}
 
 A exclusão de uma conexão de dados removerá todos os públicos-alvo subjacentes, as configurações associadas e o uso no Collaboration. Esta ação não pode ser desfeita.
 
