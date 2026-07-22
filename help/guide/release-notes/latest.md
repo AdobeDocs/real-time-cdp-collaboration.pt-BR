@@ -2,22 +2,15 @@
 title: Notas de versão mais recentes do Real-Time CDP Collaboration
 description: Seguir as versões mais recentes do Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 TQID: https://experienceleague.adobe.com/re4oFblCLiZpspWIS7D4EEYNh36EDhULEOd2-ccXH28
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 7affd3abf7a10019503825cb20d9be1ad4000603
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: e6156a39107edb0e15e2115db0762f6a86801ed6
 workflow-type: tm+mt
-source-wordcount: 1903
+source-wordcount: 1968
 ht-degree: 3%
 
 ---
@@ -26,9 +19,21 @@ ht-degree: 3%
 
 {{limited-availability-release-note}}
 
-**Última atualização**: abril de 2026.
+**Última atualização**: julho de 2026.
 
 Essas notas de versão abordam a funcionalidade lançada no Adobe Real-Time CDP Collaboration. As versões do Collaboration operam em um modelo de entrega contínua, que permite uma cadência de lançamento mensal aproximada. Essas notas de versão são atualizadas com frequência. Portanto, verifique-as regularmente.
+
+## Julho de 2026 {#july-2026}
+
+O Real-Time CDP Collaboration agora oferece suporte a opções adicionais de fornecimento de público-alvo por autoatendimento.
+
+**Recursos novos ou atualizados**
+
+| Recurso | Descrição |
+| ------- | ----------- |
+| Fornecimento de público-alvo de autoatendimento do [!DNL Databricks Delta Share] e da Adobe Audience Manager | Agora você pode originar públicos-alvo primários diretamente do seu [!DNL Databricks Delta Share] ou trazer segmentos qualificados do Adobe Audience Manager para o Collaboration. Para obter instruções de configuração, consulte os guias a seguir: <ul><li>[Configurar [!DNL Databricks Delta Share] para fornecimento de público-alvo](../setup/configure-databricks-audience-sourcing.md)</li><li>[Configurar o Adobe Audience Manager para fornecimento de público-alvo](../setup/configure-aam-audience-sourcing.md)</li></ul> |
+
+{style="table-layout:auto"}
 
 ## Abril de 2026 {#april-2026}
 
@@ -91,12 +96,12 @@ O Real-Time CDP Collaboration agora está disponível para clientes na **Europa,
 O Real-Time CDP Collaboration agora está disponível para clientes no **Canadá**. Ele fica disponível automaticamente para clientes do Real-Time CDP Prime e do Ultimate nessas regiões.
 
 * O Collaboration agora oferece suporte às [chaves de correspondência](../setup/onboard-account.md#supported-match-keys) a seguir:
-   * Email com hash
-   * Número de telefone com hash
-   * ID do CRM
-   * ID de fidelidade
-   * IPv4 com hash
-   * ID do AdFixus
+  * Email com hash
+  * Número de telefone com hash
+  * ID do CRM
+  * ID de fidelidade
+  * IPv4 com hash
+  * ID do AdFixus
 * Agora há várias chaves de correspondência disponíveis no Collaboration, o que permite expandir o tamanho do público e melhorar as taxas de correspondência. Várias chaves de correspondência podem ser usadas ao fornecer públicos, estabelecer conexões e ativar públicos. Para saber mais sobre como usar várias chaves de correspondência, leia os [guias Configurar chaves de correspondência](../setup/onboard-account.md) e [públicos-alvo de origem](../setup/onboard-audiences.md#map-fields).
 
 >[!IMPORTANT]
@@ -120,7 +125,7 @@ A Real-time CDP Collaboration agora oferece suporte à colaboração de marca pa
 
 * O Real-Time CDP Collaboration agora está disponível para clientes na **Austrália** e na **Nova Zelândia**. Ele fica disponível automaticamente para clientes do Real-Time CDP Prime e do Ultimate nessas regiões.
 * O Real-Time CDP Collaboration agora oferece [destinos de autoatendimento](../setup/manage-destinations.md) por meio da guia **[!UICONTROL Meus destinos]** na seção **[!UICONTROL Configuração]**. Os destinos permitem ativar públicos-alvo em plataformas de terceiros, como redes de publicidade ou plataformas de gerenciamento de dados, para alcançar seus clientes em vários canais. No momento, somente os destinos do Adobe Experience Platform são compatíveis. Se você estiver interessado em configurar um destino diferente, entre em contato com o representante da Adobe. Para saber mais sobre destinos, leia o guia [visão geral dos destinos](../destinations/overview.md).
-   * Destinos também adiciona suporte para exibir públicos da Collaboration no [portal de público-alvo da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences).
+  * Destinos também adiciona suporte para exibir públicos da Collaboration no [portal de público-alvo da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences).
 * Agora você pode editar a frequência de atualização do público-alvo para conexões de dados existentes no Collaboration. Atualmente, você pode optar por atualizar os públicos-alvo diariamente ou a cada dois ou seis dias. Para saber mais sobre como editar a frequência de atualização do público-alvo, leia o guia [gerenciar conexões de dados](../setup/manage-data-connection.md#scheduling).
 * As divisões de crédito entre colaboradores agora são definidas para cada caso de uso selecionado na conexão. Você pode definir diferentes regras de consumo de crédito para cada caso de uso para controlar melhor como seus créditos são usados. Para saber mais sobre a funcionalidade de divisão de crédito, leia o guia [configurações de conexão](../connect/establishing-connections.md#connection-settings). Para saber mais sobre como os créditos são consumidos, leia o guia [tipos de atividade de crédito](../setup/my-activity.md#types-of-activities). <br> ![Tela de configurações de conexão mostrando a funcionalidade de divisão de crédito.](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
 * Agora, os editores podem definir nomes e IDs de anunciante antes de aceitar as configurações de conexão de um anunciante. Os editores podem definir nomes e IDs que se alinham a seus sistemas internos, que podem ser diferentes dos nomes e IDs do anunciante. Para saber mais sobre como adicionar nomes e IDs de anunciante, leia o guia [configurações de conexão](../connect/establishing-connections.md#connection-settings.md). <br> ![Tela de configurações de conexão mostrando o publicador definindo nomes e IDs de anunciante.](/help/assets/release-notes/2025/add-advertiser-names-modal.png){zoomable="yes"}
@@ -132,11 +137,11 @@ A Real-time CDP Collaboration agora oferece suporte à colaboração de marca pa
 
 ## Março de 2025 {#march-2025}
 
-* Ao [fornecer públicos-alvo](/help/guide/setup/onboard-audiences.md) para o Collaboration, agora é possível definir uma frequência de atualização de público-alvo de **a cada um a seis dias** para gerenciar melhor a [atividade de crédito de Gerenciamento de público-alvo](/help/guide/setup/my-activity.md#types-of-activities). Para obter mais informações, leia o guia [gerenciar públicos-alvo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences). <br> ![A tela Agendar mostra intervalos de frequência diferentes para atualizar a associação de público-alvo.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "Tela de agendamento mostrando intervalos de frequência diferentes para atualizar associação de público-alvo."){width="250" align="center" zoomable="yes"}
+* Ao [fornecer públicos-alvo](/help/guide/setup/onboard-audiences.md) para o Collaboration, agora é possível definir uma frequência de atualização de público-alvo de **a cada um a seis dias** para gerenciar melhor a [atividade de crédito de Gerenciamento de público-alvo](/help/guide/setup/my-activity.md#types-of-activities). Para obter mais informações, leia o guia [gerenciar públicos-alvo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences). <br> ![A tela Agendar mostra intervalos de frequência diferentes para atualizar a associação de público-alvo.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "Tela de agendamento mostrando intervalos de frequência diferentes para atualizar associação de público-alvo."){width="250" align="center" zoomable="yes"}
 * Ao estabelecer uma conexão com um colaborador, agora é possível selecionar **casos de uso** predefinidos. O caso de uso selecionado determina quais seções do projeto e funcionalidades do produto ficam disponíveis. Para obter mais informações, leia o guia [gerenciar projetos](/help/guide/collaborate/manage-projects.md#project-use-cases).
-   * *A medição* habilita a seção de projeto **Medida**.
-   * A *descoberta de público-alvo* habilita a seção de projeto **Descoberta**.
-   * *A ativação de público* habilita as **Ativar** seções de projeto <br>
+  * *A medição* habilita a seção de projeto **Medida**.
+  * A *descoberta de público-alvo* habilita a seção de projeto **Descoberta**.
+  * *A ativação de público* habilita as **Ativar** seções de projeto <br>
 * Agora você pode excluir conexões com colaboradores com os quais não deseja mais trabalhar. Para saber como excluir conexões, leia o guia [excluindo conexões](/help/guide/connect/establishing-connections.md#delete-connections).
 
 ## Fevereiro de 2025 {#february-2025}
