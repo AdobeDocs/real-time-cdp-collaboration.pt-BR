@@ -2,25 +2,16 @@
 title: Glossário
 description: Entender a terminologia principal do Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
 TQID: https://experienceleague.adobe.com/aamkkPQbkaATqzByHmnTU2QGiUXLOn1yhz1jPA8LgGc
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 146b4214b909f7c854107d9ff4e7975c85ea794d
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: 934
 ht-degree: 3%
 
 ---
@@ -32,6 +23,14 @@ ht-degree: 3%
 Este glossário fornece definições para os termos principais identificados no produto e na documentação da Adobe Real-Time CDP Collaboration. A compreensão desses termos ajudará você a utilizar melhor o produto e seus recursos.
 
 ## A
+
+### Ativar (para um colaborador)
+
+Refere-se à ação de enviar um público-alvo para outro colaborador em um projeto compartilhado. Quando você ativa um público-alvo para um colaborador, ele é enviado para o destino pré-configurado desse colaborador, onde fica disponível para uso em campanhas. Para obter instruções, consulte [Ativar públicos-alvo](/help/guide/collaborate/activate.md). Não confundir com **Ativar (para um destino)**.
+
+### Ativar (para um destino)
+
+Refere-se ao destino em que um público-alvo ativado chega, como uma plataforma de armazenamento em nuvem ou Adobe Experience Platform, e ao espaço de trabalho onde os destinos são configurados, navegados e monitorados. Os públicos-alvo ainda atingem um destino por meio da ação [Ativar públicos-alvo](/help/guide/collaborate/activate.md) em um projeto; esse espaço de trabalho controla quais destinos estão disponíveis e como eles são configurados. Para obter instruções, consulte [Visão geral dos destinos](/help/guide/destinations/overview.md). Não confundir com **Ativar (para um colaborador)**.
 
 ### Anunciante
 
