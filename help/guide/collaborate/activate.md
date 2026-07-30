@@ -2,19 +2,15 @@
 title: Ativar públicos-alvo
 description: Saiba como ativar públicos no Adobe Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5c0fd0c7a7914f5c7828b76150b266d4625b6266
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 4b38559f30c55f4cb1607d373fb1318416382c32
 workflow-type: tm+mt
-source-wordcount: 1063
+source-wordcount: 1078
 ht-degree: 2%
 
 ---
@@ -27,7 +23,9 @@ ht-degree: 2%
 >
 >O espaço de trabalho **[!UICONTROL Ativar]** só estará disponível se o caso de uso **Ativação de público-alvo** tiver sido habilitado [durante o processo de conexão](../connect/establishing-connections.md#connection-settings). Para obter mais informações sobre casos de uso, consulte o guia [gerenciar projetos](./manage-projects.md#project-use-cases).
 
-A ativação de público permite ativar públicos para uso em campanhas. A ativação pode ser feita por qualquer um dos colaboradores, dependendo das configurações de ativação de público-alvo [definidas na conexão](/help/guide/connect/establishing-connections.md#configure-connection-settings). Depois que você [descobrir os melhores públicos-alvo da sua campanha](./discover.md), ative os públicos-alvo para disponibilizá-los para uso. Quando você ativa um público-alvo, ele é enviado para o destino pré-configurado do colaborador, como o Adobe Experience Platform, onde fica disponível para uso em campanhas. Para obter mais informações sobre como configurar destinos, consulte o guia [visão geral dos destinos](../destinations/overview.md).
+Você pode usar a ativação de público-alvo para ativar o público-alvo para fins de campanha. A ativação pode ser feita por qualquer um dos colaboradores, dependendo das configurações de ativação de público-alvo [definidas na conexão](/help/guide/connect/establishing-connections.md#configure-connection-settings). Depois que você [descobrir os melhores públicos-alvo da sua campanha](./discover.md), ative os públicos-alvo para disponibilizá-los para uso. Quando você ativa um público-alvo, ele é enviado para o destino pré-configurado do colaborador, como o Adobe Experience Platform, onde fica disponível para uso em campanhas. Para obter mais informações sobre como configurar destinos, consulte o guia [visão geral dos destinos](../destinations/overview.md).
+
+Para obter uma explicação conceitual de onde a ativação se encaixa em fluxos de trabalho compatíveis, consulte [Visão geral dos públicos-alvo](../setup/audiences-overview.md).
 
 ## Ativar novos públicos {#activate-new-audiences}
 
