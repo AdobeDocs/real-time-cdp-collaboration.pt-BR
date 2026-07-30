@@ -2,7 +2,7 @@
 title: Configurar o Adobe Experience Platform como destino
 description: Saiba como configurar e gerenciar o Adobe Experience Platform como destino no Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 TQID: https://experienceleague.adobe.com/vOAlNzIaEKC6cZC-zMxShPTn77kmV3WbUuvZU8Svzh4
 product_v2:
@@ -156,4 +156,4 @@ Agora que você configurou o Adobe Experience Platform como destino, é possíve
 
 ![O Portal de Público-Alvo com Real-Time CDP Collaboration como origem nas opções de filtro.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Para saber mais sobre o Audience Portal, consulte o guia [Visão geral do Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.
+Para saber mais sobre o Audience Portal, consulte o guia [Visão geral do Audience Portal](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.
