@@ -1,8 +1,7 @@
 ---
 title: Ativar públicos-alvo
-description: Saiba como ativar públicos no Adobe Real-Time CDP Collaboration.
-audience: admin, publisher
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+description: Saiba como enviar públicos-alvo para colaboradores e ativar manualmente os públicos-alvo recebidos para destinos no Adobe Real-Time CDP Collaboration.
+audience: admin, publisher, advertiser
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
 product_v2:
@@ -12,127 +11,197 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5c0fd0c7a7914f5c7828b76150b266d4625b6266
+source-git-commit: 5d12a5004a6854392c130fd6b93a841fb22cf6ab
 workflow-type: tm+mt
-source-wordcount: 1063
+source-wordcount: 1565
 ht-degree: 2%
 
 ---
 
 # Ativar públicos-alvo
 
-{{limited-availability-release-note}}
+Use a guia **[!UICONTROL Ativar]** em um projeto para enviar públicos-alvo para o colaborador, revisar públicos-alvo recebidos do colaborador e ativar públicos-alvo recebidos para entrega em um destino configurado. Para configurar e gerenciar destinos do espaço de trabalho de nível superior **[!UICONTROL Ativação]**, consulte a [visão geral de destinos](../destinations/overview.md).
 
 >[!IMPORTANT]
 >
->O espaço de trabalho **[!UICONTROL Ativar]** só estará disponível se o caso de uso **Ativação de público-alvo** tiver sido habilitado [durante o processo de conexão](../connect/establishing-connections.md#connection-settings). Para obter mais informações sobre casos de uso, consulte o guia [gerenciar projetos](./manage-projects.md#project-use-cases).
+>A guia **[!UICONTROL Ativar]** só estará disponível se o caso de uso **Ativação de público-alvo** tiver sido habilitado [durante o processo de conexão](../connect/establishing-connections.md#connection-settings). Para obter mais informações sobre casos de uso, consulte [Gerenciar projetos](./manage-projects.md#project-use-cases).
 
-A ativação de público permite ativar públicos para uso em campanhas. A ativação pode ser feita por qualquer um dos colaboradores, dependendo das configurações de ativação de público-alvo [definidas na conexão](/help/guide/connect/establishing-connections.md#configure-connection-settings). Depois que você [descobrir os melhores públicos-alvo da sua campanha](./discover.md), ative os públicos-alvo para disponibilizá-los para uso. Quando você ativa um público-alvo, ele é enviado para o destino pré-configurado do colaborador, como o Adobe Experience Platform, onde fica disponível para uso em campanhas. Para obter mais informações sobre como configurar destinos, consulte o guia [visão geral dos destinos](../destinations/overview.md).
+Use a [guia Descobrir](./discover.md) para identificar os públicos-alvo que melhor correspondem à sua campanha e, em seguida, envie-os ao seu colaborador. O colaborador de recebimento seleciona um destino configurado e agenda o público-alvo recebido para ativação.
 
-## Ativar novos públicos {#activate-new-audiences}
+Enviar e ativar são ações separadas. Enviar fornece ao colaborador acesso a um público-alvo. O colaborador receptor seleciona um destino e ativa manualmente o público-alvo recebido.
 
-Para começar a ativar públicos, navegue até a guia **[!UICONTROL Ativar]** no espaço de trabalho do projeto.
+As seções e ações disponíveis para você dependem se a sua organização está enviando ou recebendo públicos-alvo no projeto. A guia **[!UICONTROL Ativar]** contém as seguintes seções:
+
+| Seção | Descrição |
+|---|---|
+| **[!UICONTROL Públicos enviados para [colaborador]]** | Públicos enviados ao seu colaborador. |
+| **[!UICONTROL Públicos-alvo recebidos]** | Públicos-alvo que seu colaborador enviou para você e que estão disponíveis para ativação. |
+| **[!UICONTROL Públicos ativados]** | Públicos-alvo recebidos que você ativou para um destino. |
+
+![A guia Ativar no nível do projeto com contagens resumidas nas seções Principais e expandidas Públicos-alvo enviados, Públicos-alvo recebidos e Públicos-alvo ativados. Cada seção exibe contagens de status e uma tabela de detalhes do público-alvo.](/help/assets/collaborate/activate/activate-dashboard.png)
+
+## Pré-requisitos {#prerequisites}
+
+Antes de enviar ou ativar públicos, verifique se:
+
+- Os públicos-alvo são originados e disponibilizados para envio. Para obter mais informações, consulte [Source e gerenciar públicos](../setup/onboard-audiences.md).
+- Pelo menos um destino está configurado se você precisar ativar os públicos-alvo recebidos. Para obter mais informações, consulte a [visão geral sobre destinos](../destinations/overview.md).
+
+## Enviar públicos-alvo {#send-audiences}
+
+Envie um público-alvo para conceder acesso ao colaborador. Após enviar o público-alvo, ele será exibido na seção **[!UICONTROL Públicos-alvo enviados para o [colaborador]]** e na seção **[!UICONTROL Públicos-alvo recebidos]** do seu colaborador.
+
+Navegue até **[!UICONTROL Colaborar]**, abra um projeto e selecione a guia **[!UICONTROL Ativar]**.
+
+Na seção **[!UICONTROL Públicos enviados para [colaborador]]**, selecione o ícone adicionar (![Ícone adicionar.](/help/assets/icons/plus.png)). Se nenhum público-alvo tiver sido enviado, selecione **[!UICONTROL Enviar público-alvo]** na exibição vazia.
+
+![A guia Ativar no nível do projeto quando nenhum público-alvo for enviado. A mensagem de exibição vazia explica que você não enviou um público-alvo e exibe um botão Enviar público-alvo.](/help/assets/collaborate/activate/activate-new-audiences.png)
+
+O fluxo de trabalho **[!UICONTROL Enviar públicos-alvo]** é aberto. Use o seletor de público para encontrar um público ou selecione **[!UICONTROL Procurar públicos]** para comparar os públicos disponíveis.
+
+![O fluxo de trabalho Enviar públicos-alvo com um seletor de público-alvo e um botão Procurar públicos-alvo. O fluxo de trabalho permite que o remetente escolha um público-alvo antes de definir as chaves de correspondência e acessar as configurações.](/help/assets/collaborate/activate/audience-activation.png)
+
+Na caixa de diálogo **[!UICONTROL Procurar públicos-alvo]**, revise a **[!UICONTROL Contagem de identidades]**, **[!UICONTROL Identidades sobrepostas]** e **[!UICONTROL Sobreposição %]** para cada público-alvo.
+
+![A caixa de diálogo Procurar públicos-alvo listando os públicos-alvo disponíveis com sua contagem de identidades, contagem de identidades sobrepostas e porcentagem de sobreposição.](/help/assets/collaborate/activate/browse-audiences.png)
 
 >[!IMPORTANT]
 >
->**Antes** de ativar um público-alvo, seu colaborador **deve** configurar um destino. Quando você ativa um público-alvo, ele é enviado automaticamente para o destino configurado do colaborador. Se nenhum destino estiver configurado, não será possível ativar os públicos-alvo.
->
->![O espaço de trabalho Ativar quando o colaborador não tiver um destino configurado.](/help/assets/collaborate/activate/no-destination-configured.png)
+>Se um público-alvo usar várias chaves de correspondência, cada chave de correspondência selecionada deverá atingir o limite de sobreposição necessário. Use a [guia Descobrir](./discover.md) para confirmar se o público-alvo atende aos requisitos de sobreposição antes de enviá-lo.
 
-Selecione o ícone de adição (![Ícone de adição.](/help/assets/icons/plus.png)) ou a opção **[!UICONTROL Ativar público-alvo]** se nenhum público-alvo anterior tiver sido enviado para ativação.
+Selecione o público que deseja enviar e selecione **[!UICONTROL Salvar]**.
 
-![O espaço de trabalho Ativar em um projeto sem públicos adicionados.](/help/assets/collaborate/activate/activate-new-audiences.png)
+O público selecionado aparece no fluxo de trabalho com sua identidade e informações de sobreposição.
 
-O fluxo de trabalho ativar públicos-alvo é aberto, onde você pode selecionar o público-alvo que deseja enviar para o colaborador. Use a lista suspensa para selecionar um público ou pesquise por um público específico. Para ver mais informações sobre os públicos-alvo antes de fazer sua seleção, selecione **[!UICONTROL Procurar públicos-alvo]**
-
-![O fluxo de trabalho de ativação de Público-alvo com as opções suspensa e Procurar públicos-alvo foi realçado.](/help/assets/collaborate/activate/audience-activation.png)
-
-Em **[!UICONTROL Procurar públicos-alvo]**, você pode ver a **[!UICONTROL Contagem de identidades]**, **[!UICONTROL Identidades sobrepostas]** e **[!UICONTROL Sobreposição %]** para cada público-alvo.
-
-![A caixa de diálogo Procurar públicos-alvo mostrando os públicos-alvo disponíveis.](/help/assets/collaborate/activate/browse-audiences.png)
-
->[!IMPORTANT]
->
->Ao ativar públicos-alvo em que várias chaves de correspondência são usadas, se uma (ou mais) chave de correspondência não tiver sobreposições, contagem de público-alvo ou ficar abaixo do limite, toda a ativação falhará. Verifique se os públicos-alvo têm sobreposição suficiente e se atendem ao limite mínimo de 1000 IDs em todas as chaves de correspondência antes da ativação.
-
-Selecione o público que você deseja ativar nas campanhas e selecione **[!UICONTROL Salvar]**. O público agora é exibido e você pode ver a **[!UICONTROL Contagem de identidades]**, **[!UICONTROL Identidades sobrepostas]** e **[!UICONTROL Sobreposição %]** para o público selecionado.
-
-![O fluxo de trabalho de ativação de público-alvo com o público-alvo selecionado foi exibido.](/help/assets/collaborate/activate/audience-selected.png)
+![O fluxo de trabalho Enviar públicos-alvo com um público-alvo selecionado mostrando sua contagem de identidades, contagem de identidades sobrepostas, porcentagem de sobreposição, chaves de correspondência e a opção Editar chaves de correspondência.](/help/assets/collaborate/activate/audience-selected.png)
 
 ### Editar chaves de correspondência {#edit-match-keys}
 
-Em seguida, você pode editar as chaves de correspondência do público selecionando **[!UICONTROL Editar chaves de correspondência]** no público selecionado. Essas opções são herdadas de suas seleções de chave de correspondência quando a conexão entre colaboradores foi configurada inicialmente. Você pode remover as chaves de correspondência que foram selecionadas se elas não se aplicarem a uma campanha específica, mas não pode adicionar novas chaves de correspondência.
+Use as chaves de correspondência configuradas para a conexão do colaborador ou remova qualquer chave de correspondência que não se aplique ao público-alvo.
 
-![O fluxo de trabalho de ativação de público-alvo com a opção Editar chaves de correspondência foi realçado.](/help/assets/collaborate/activate/edit-match-keys.png)
+Selecione **[!UICONTROL Editar chaves de correspondência]** no público selecionado.
 
-A caixa de diálogo **[!UICONTROL Editar chaves de correspondência]** é aberta, onde você pode desativar as chaves de correspondência que não deseja usar. Selecione **[!UICONTROL Salvar]** para salvar suas alterações.
+![O público selecionado no fluxo de trabalho Enviar públicos-alvo com a opção Editar chaves de correspondência realçada.](/help/assets/collaborate/activate/edit-match-keys.png)
+
+A caixa de diálogo **[!UICONTROL Editar chaves de correspondência]** é exibida. Desative todas as chaves de correspondência que você não deseja usar e selecione **[!UICONTROL Salvar]**.
 
 >[!NOTE]
 >
->Pelo menos uma chave de correspondência deve ser selecionada.
+>Pelo menos uma chave de correspondência deve permanecer selecionada.
 
-![A caixa de diálogo Editar chaves de correspondência no fluxo de trabalho de ativação do Público-alvo.](/help/assets/collaborate/activate/edit-match-keys-selection.png)
+![A caixa de diálogo Editar chaves de correspondência com controles de alternância para as chaves de correspondência disponíveis por meio da conexão do colaborador e um botão Salvar.](/help/assets/collaborate/activate/edit-match-keys-selection.png)
 
-### Definir a frequência de atualização do público {#set-audience-refresh-frequency}
+### Configurar o acesso do público {#configure-audience-access}
 
-Por fim, defina a frequência e o intervalo de datas desejados para a ativação do público-alvo. Use a lista suspensa **[!UICONTROL Frequência]** para escolher se o público-alvo é ativado uma vez ou atualizado de acordo com um agendamento recorrente. Selecione **[!UICONTROL Uma vez]** para ativar a audiência uma única vez ou selecione uma frequência recorrente, como **[!UICONTROL Diariamente]**, **[!UICONTROL A cada 2 dias]**, **[!UICONTROL A cada 3 dias]**, **[!UICONTROL a cada 4 dias]**, **[!UICONTROL a cada 5 dias]**, **[!UICONTROL a cada 6 dias]**, **[!UICONTROL a cada 2 semanas]**, **[!UICONTROL a cada 3 semanas]** ou **[!UICONTROL mensalmente]**.
+Configure como o público-alvo é enviado e por quanto tempo seu colaborador pode acessá-lo.
 
-![A lista suspensa Frequência no fluxo de trabalho de ativação de público-alvo mostra as opções disponíveis, incluindo Uma vez, Diariamente, a cada 2 a 6 dias, a cada 2 a 3 semanas e Mensalmente.](/help/assets/collaborate/activate/activation-frequency.png)
+Use o controle **[!UICONTROL Duração do acesso]** para selecionar uma das seguintes opções:
 
-Use o campo **[!UICONTROL Intervalo de datas]** para definir quando o agendamento de ativação começa e termina.
+- **[!UICONTROL Enviar agora (único)]**: enviar o público-alvo uma vez. O colaborador destinatário pode ativá-lo uma vez.
+- **[!UICONTROL Agendar envio de público recorrente]**: atualize o público durante um período de acesso especificado. Use o controle **[!UICONTROL Intervalo de datas]** para selecionar as datas inicial e final.
 
-Quando satisfeito com suas seleções, selecione **[!UICONTROL Ativar]** para concluir o fluxo de trabalho.
+![A etapa Duração do acesso no fluxo de trabalho Enviar públicos-alvo com opções para enviar o público-alvo uma vez ou agendar o envio de um público-alvo recorrente. A opção recorrente exibe controles de data para definir o período de acesso.](/help/assets/collaborate/activate/activation-frequency.png)
 
-## Ativar painel {#activate-dashboard}
+Quando as configurações de público-alvo e acesso forem concluídas, selecione **[!UICONTROL Enviar]**.
 
-Na guia **[!UICONTROL Ativar]**, é possível exibir todos os públicos-alvo enviados ao colaborador, bem como todos os públicos-alvo que o colaborador ativou para o destino.
-
-![O painel Ativar mostrando as seções Públicos enviados e Públicos ativados.](/help/assets/collaborate/activate/activate-dashboard.png)
+O público aparece na sua seção **[!UICONTROL Públicos enviados para o [colaborador]]**. Seu colaborador pode revisá-lo na seção **[!UICONTROL Públicos-alvo recebidos]**.
 
 ## Exibir públicos-alvo enviados {#view-sent-audiences}
 
-Na seção **[!UICONTROL Públicos-alvo enviados para o]** collaborator, todos os públicos-alvo enviados serão listados. Atualmente, os públicos-alvo são enviados automaticamente para o destino configurado do colaborador depois que você os envia. Na exibição do seu colaborador, esses públicos são exibidos na seção **[!UICONTROL Públicos ativados]**.
+Use a seção **[!UICONTROL Públicos enviados para o [colaborador]]** para analisar os públicos enviados e monitorar seu status de acesso atual.
 
-Em cada público-alvo enviado, você pode ver as seguintes métricas:
+Cada público-alvo enviado exibe as seguintes informações:
 
-| Métrica | Descrição |
-|---------|----------|
-| **[!UICONTROL Nome]** | O nome do público. |
-| **[!UICONTROL Status]** | O status do público-alvo enviado. |
+| Coluna | Descrição |
+|---|---|
+| **[!UICONTROL Nome do público-alvo]** | O nome do público-alvo enviado. |
+| **[!UICONTROL Status]** | O status de acesso atual do público-alvo. |
 | **[!UICONTROL Contagem de identidades]** | O número de identidades no público-alvo. |
-| **[!UICONTROL Identidades sobrepostas]** | O número de identidades sobrepostas entre esse público-alvo e a população total de perfis no inventário do colaborador. |
-| **[!UICONTROL Criado]** | A data em que o público-alvo foi enviado inicialmente. |
-| **[!UICONTROL Último envio]** | A data em que o público-alvo foi disponibilizado pela última vez ao colaborador por meio do fluxo de trabalho de ativação, seja de uma ativação única ou de uma programação recorrente. |
-| **[!UICONTROL Chaves correspondentes]** | Indica a chave de correspondência usada para o público-alvo. |
+| **[!UICONTROL Identidades sobrepostas]** | O número de identidades que se sobrepõem ao inventário do colaborador. |
+| **[!UICONTROL Criado]** | A data e a hora em que o público-alvo foi enviado pela primeira vez. |
+| **[!UICONTROL Último envio]** | A data e a hora em que os dados do público-alvo foram enviados mais recentemente para o colaborador. |
+| **[!UICONTROL Duração do acesso]** | A configuração de acesso definida quando o público-alvo foi enviado. |
+| **[!UICONTROL Chaves correspondentes]** | As teclas de correspondência usadas ao enviar o público-alvo. |
 
-## Exibir públicos ativados {#view-activated-audiences}
+### Excluir um público-alvo enviado {#delete-sent-audience}
 
-Na seção **[!UICONTROL Públicos ativados]**, você pode ver todos os públicos que foram ativados para o seu destino.
+Exclua um público-alvo enviado para removê-lo da lista de públicos-alvo enviados e revogar o acesso do colaborador.
 
-Em cada público ativado, você pode ver as seguintes métricas:
+Selecione o ícone de exclusão (![Ícone de exclusão.](/help/assets/icons/delete.png)) ao lado do público na seção **[!UICONTROL Públicos enviados para o [colaborador]]**.
 
-| Métrica | Descrição |
-|---------|----------|
-| **[!UICONTROL Nome]** | O nome do público. |
-| **[!UICONTROL Status]** | O status do público-alvo ativado. |
-| **[!UICONTROL Contagem de identidades]** | O número de identidades que foram ativadas, com base nas identidades sobrepostas quando seu colaborador enviou o público. |
-| **[!UICONTROL Criado]** | A data em que o público-alvo foi ativado. |
-| **[!UICONTROL Última atualização]** | A data em que o público-alvo foi atualizado pela última vez, com base na frequência selecionada durante a ativação. |
-| **[!UICONTROL Destino]** | O destino onde o público-alvo foi ativado. |
-| **[!UICONTROL Chaves correspondentes]** | Indica a chave de correspondência usada para o público-alvo. |
+![A seção Públicos-alvo enviados com o ícone de exclusão exibido ao lado de uma linha de público-alvo.](/help/assets/collaborate/activate/delete-sent-audiences.png)
 
-## Excluir públicos-alvo enviados {#delete-sent-audiences}
+Uma caixa de diálogo de confirmação é exibida. Selecione **[!UICONTROL Excluir]** para confirmar.
 
-Você pode excluir os públicos-alvo enviados que não deseja mais ativar. Ao excluir um público-alvo enviado, ele é removido da seção **[!UICONTROL Públicos-alvo enviados para]** e não será mais ativado para o destino do seu colaborador.
+![A caixa de diálogo de confirmação de exclusão do público-alvo enviado explicando que o público-alvo será removido e o colaborador perderá o acesso, com os botões Cancelar e Excluir.](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
 
-Para excluir um público enviado, selecione o ícone **[!UICONTROL Excluir]** (![Ícone Excluir.](/help/assets/icons/delete.png)) ao lado do público na seção **[!UICONTROL Públicos-alvo enviados para]**.
+O público-alvo é removido da seção e o colaborador perde acesso a ele.
 
-![A opção Excluir na seção Públicos enviados.](/help/assets/collaborate/activate/delete-sent-audiences.png)
+## Exibir públicos-alvo recebidos {#received-audiences}
 
-Uma caixa de diálogo de confirmação é aberta, solicitando que você confirme a exclusão. Selecione **[!UICONTROL Excluir]** para confirmar.
+Use a seção **[!UICONTROL Públicos-alvo recebidos]** para analisar os públicos-alvo enviados pelo seu colaborador a você. Um público-alvo recebido deve ser ativado manualmente antes que seus dados sejam enviados para um destino.
 
-![A caixa de diálogo de confirmação Excluir.](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
+Cada público-alvo recebido exibe as seguintes informações:
+
+| Coluna | Descrição |
+|---|---|
+| **[!UICONTROL Nome do público-alvo]** | O nome do público-alvo recebido. |
+| **[!UICONTROL Status]** | O status de acesso atual do público-alvo. |
+| **[!UICONTROL Contagem de identidades]** | O número de identidades no público-alvo. |
+| **[!UICONTROL Identidades sobrepostas]** | O número de identidades que se sobrepõem ao seu estoque. |
+| **[!UICONTROL Última execução do fluxo de dados]** | A data e a hora da execução mais recente do fluxo de dados para o público-alvo. |
+| **[!UICONTROL Duração do acesso]** | A configuração de acesso definida pelo colaborador que enviou o público. |
+| **[!UICONTROL Chaves correspondentes]** | As chaves de correspondência usadas para o público-alvo. |
+
+![A seção Públicos-alvo recebidos com contagem de público-alvo ativos e expirados. Cada linha de público mostra seu nome, status, informações de identidade, última execução do fluxo de dados, duração do acesso, chaves de correspondência e um ícone de adição usado para iniciar a ativação.](/help/assets/collaborate/activate/received-audiences-section.png)
+
+### Ativar um público-alvo recebido {#activate-received-audience}
+
+Ative um público-alvo recebido para enviar seus dados a um dos destinos configurados.
+
+Na seção **[!UICONTROL Públicos-alvo recebidos]**, selecione o ícone adicionar (![Ícone adicionar.](/help/assets/icons/plus.png)) ao lado do público que você deseja ativar.
+
+A caixa de diálogo **[!UICONTROL Ativar público-alvo]** é exibida.
+
+Use **[!UICONTROL Destino]** para selecionar o destino que recebe os dados do público-alvo. Se a lista de destinos estiver vazia, configure um destino antes de continuar. Para obter instruções, consulte a [visão geral sobre destinos](../destinations/overview.md).
+
+Use **[!UICONTROL Data]** para selecionar a data em que a ativação será executada e selecione **[!UICONTROL Ativar]**.
+
+![A caixa de diálogo Ativar público-alvo foi aberta a partir de um público-alvo recebido. A caixa de diálogo contém uma lista suspensa Destino para selecionar um destino configurado, um campo Data com um controle de calendário e os botões Cancelar e Ativar.](/help/assets/collaborate/activate/activate-received-audience.png)
+
+A caixa de diálogo é fechada e a ativação é exibida na seção **[!UICONTROL Públicos ativados]**. O público-alvo recebido permanece disponível na seção **[!UICONTROL Públicos-alvo recebidos]** enquanto seu acesso permanece ativo.
+
+## Exibir públicos ativados {#activated-audiences}
+
+Use a seção **[!UICONTROL Públicos-alvo ativados]** para confirmar quais públicos-alvo recebidos foram ativados e revisar seu destino e status de entrega.
+
+Cada público ativado exibe as seguintes informações:
+
+| Coluna | Descrição |
+|---|---|
+| **[!UICONTROL Nome do público-alvo]** | O nome do público-alvo ativado. |
+| **[!UICONTROL Status]** | O status de ativação atual. |
+| **[!UICONTROL Contagem ativada]** | O número de identidades ativadas para o destino. |
+| **[!UICONTROL Última atualização]** | A data e a hora em que o público-alvo ativado foi atualizado mais recentemente. |
+| **[!UICONTROL Destino]** | O destino que recebe os dados do público-alvo. |
+| **[!UICONTROL Frequência]** | A frequência de ativação. As ativações manuais são exibidas **[!UICONTROL uma vez]**. |
+| **[!UICONTROL Data]** | A data em que a ativação é executada. |
+| **[!UICONTROL Chaves correspondentes]** | As chaves de correspondência incluídas no público ativado. |
+
+![A seção Públicos ativados com contagens de ativação ativas, arquivadas e pausadas. Cada linha mostra o nome do público-alvo, o status, a contagem ativada, a data da última atualização, o destino, a frequência, a data de ativação, as chaves de correspondência e um ícone de exclusão.](/help/assets/collaborate/activate/activated-audiences-section.png)
+
+### Excluir um público-alvo ativado {#delete-activated-audience}
+
+Exclua um público-alvo ativado para remover a ativação da seção **[!UICONTROL Públicos-alvo ativados]**.
+
+Selecione o ícone de exclusão (![Ícone de exclusão.](/help/assets/icons/delete.png)) ao lado do público-alvo ativado.
+
+Uma caixa de diálogo de confirmação é exibida. Selecione **[!UICONTROL Excluir]** para confirmar.
+
+![A caixa de diálogo de confirmação da exclusão de público-alvo ativado explicando que o público-alvo será removido da lista de públicos-alvo ativados e poderá ser ativado novamente mais tarde, com os botões Cancelar e Excluir.](/help/assets/collaborate/activate/delete-activated-audience-confirmation.png)
+
+A ativação é removida da lista. Você pode ativar o público-alvo recebido novamente enquanto o acesso dele permanecer ativo.
 
 ## Próximas etapas {#next-steps}
 
-Após ativar os públicos-alvo e executar campanhas, trabalhe com a equipe de capacitação e engenharia do Adobe para carregar dados de medição e exibir os [relatórios de medição](/help/guide/collaborate/measure.md) correspondentes.
+Após enviar ou ativar públicos, monitore seu status nas seções **[!UICONTROL Públicos enviados para [colaborador]]** e **[!UICONTROL Públicos ativados]**. Quando as campanhas estiverem concluídas, trabalhe com a equipe de capacitação e engenharia da Adobe para carregar dados de medição e exibir os [relatórios de medição](./measure.md) correspondentes.

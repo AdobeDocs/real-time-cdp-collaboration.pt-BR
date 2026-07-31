@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 33e4aeab1bb50edac6308c4b12ced2ab9430ed74
+source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
 workflow-type: tm+mt
-source-wordcount: 3773
+source-wordcount: 3758
 ht-degree: 17%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 17%
 {{limited-availability-release-note}}
 
 Os públicos-alvo são grupos específicos de usuários ou clientes segmentados com base em vários atributos. Eles permitem que os colaboradores trabalhem em conjunto em marketing direcionado e experiências personalizadas para campanhas publicitárias mais eficazes. Este guia aborda como originar públicos-alvo na Real-Time CDP Collaboration, exibir o painel de públicos-alvo e gerenciar públicos-alvo individuais.
+
+Para obter uma explicação conceitual dos públicos-alvo no Collaboration, consulte [Visão geral dos públicos-alvo](../setup/audiences-overview.md).
 
 ## Públicos-alvo da Source na Collaboration {#source-audiences}
 
@@ -239,7 +241,7 @@ Cada público-alvo contém uma visão geral das seguintes informações:
 | **[!UICONTROL Nome]** | O nome do público. |
 | **[!UICONTROL Identidades]** | Indica o número de identidades presentes nesse público-alvo. Observe que, se o mesmo perfil tiver duas ou mais identidades, e essas identidades forem usadas como chaves de correspondência no projeto, o perfil aparecerá duas vezes na contagem. |
 | **[!UICONTROL Status]** | Indica se a audiência está ativa e pode ser usada em projetos. Um status **[!UICONTROL Pendente]** indica que o público-alvo acabou de ser originado e as identidades ainda não foram preenchidas. Os públicos-alvo fornecidos serão preenchidos com perfis após a atualização inicial, que geralmente ocorre em 24 horas após a configuração da conexão de dados. |
-| **[!UICONTROL Source]** | Indica de onde o público-alvo foi originado. Na versão atual do Collaboration, o Experience Platform é a única fonte compatível. |
+| **[!UICONTROL Source]** | Indica de onde o público-alvo foi originado. |
 | **[!UICONTROL Conexão de dados]** | A conexão de dados da qual o público-alvo tem origem. Você pode selecionar o nome para exibir a conexão de dados. |
 | **[!UICONTROL Acesso à conexão]** | Define se o público é privado ou público. Os públicos-alvo são detectáveis em relatórios de sobreposição e podem ser ativados em um projeto. |
 | **[!UICONTROL Criado]** | Indica quando o público-alvo foi originado inicialmente na Collaboration. |
@@ -265,7 +267,7 @@ As seguintes informações são exibidas para cada público individual:
 | Item | Descrição |
 |----------|---------|
 | **[!UICONTROL Status]** | Indica se a audiência está ativa e pode ser usada em projetos. |
-| **[!UICONTROL Source]** | Indica de onde o público-alvo foi originado. Na versão atual do Collaboration, o Experience Platform é a única fonte compatível. |
+| **[!UICONTROL Source]** | Indica de onde o público-alvo foi originado. |
 | **[!UICONTROL Conexão de dados]** | A conexão de dados da qual o público-alvo tem origem. |
 | **[!UICONTROL Última atualização]** | Indica a última data e hora em que o público-alvo foi atualizado no Collaboration. Não se refere a quando o público-alvo foi atualizado pela última vez, mas sim quando a configuração ou os metadados do público-alvo foram alterados pela última vez |
 | **[!UICONTROL Última atualização por]** | Indica o usuário que atualizou o público pela última vez. |

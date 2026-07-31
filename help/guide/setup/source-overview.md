@@ -2,16 +2,18 @@
 title: Visão geral das fontes
 description: Saiba mais sobre conectores de origem no Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-source-git-commit: 23f7d91d37d0d9c9b352716caa4827dcc87093d8
+source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 7%
+source-wordcount: '433'
+ht-degree: 6%
 
 ---
 
 # Visão geral das fontes
 
 No Adobe Real-Time CDP Collaboration, uma fonte (ou conexão de dados) é de onde os dados do público-alvo vêm. Você pode se conectar a vários tipos de origem, como aplicativos Adobe, armazenamentos na nuvem ou arquivos do seu sistema local, para [originar e gerenciar públicos](./onboard-audiences.md) para seus projetos Collaboration. Durante o fluxo de trabalho de fornecimento de público, você pode escolher e configurar sua origem preferida com base nas necessidades da organização.
+
+Para obter uma visão geral conceitual de como públicos-alvo, fontes, conexões de dados, projetos e destinos se encaixam no Collaboration, consulte a [Visão geral dos públicos-alvo](./audiences-overview.md).
 
 ## Conectar uma origem {#connect-a-source}
 
