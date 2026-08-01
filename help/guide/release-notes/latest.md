@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ec15512bc5c6579ade907fc238cfe5394862dc7e
+source-git-commit: c74300c6d38a33dfdc7c7d50306b26ef61a7494b
 workflow-type: tm+mt
-source-wordcount: 1968
+source-wordcount: 2054
 ht-degree: 3%
 
 ---
@@ -32,13 +32,15 @@ Essas notas de versão abordam a funcionalidade lançada no Adobe Real-Time CDP 
 
 ## Julho de 2026 {#july-2026}
 
-O Real-Time CDP Collaboration agora oferece suporte a opções adicionais de fornecimento de público-alvo por autoatendimento.
+O Real-Time CDP Collaboration agora oferece suporte a opções adicionais de fornecimento de público-alvo por autoatendimento, além de fluxos de trabalho de ativação e configuração de destino mais fáceis.
 
 **Recursos novos ou atualizados**
 
 | Recurso | Descrição |
 | ------- | ----------- |
 | Fornecimento de público-alvo de autoatendimento do [!DNL Databricks Delta Share] e da Adobe Audience Manager | Agora você pode originar públicos-alvo primários diretamente do seu [!DNL Databricks Delta Share] ou trazer segmentos qualificados do Adobe Audience Manager para o Collaboration. Para obter instruções de configuração, consulte os guias a seguir: <ul><li>[Configurar [!DNL Databricks Delta Share] para fornecimento de público-alvo](../setup/configure-databricks-audience-sourcing.md)</li><li>[Configurar o Adobe Audience Manager para fornecimento de público-alvo](../setup/configure-aam-audience-sourcing.md)</li></ul> |
+| Ativação manual de públicos-alvo recebidos | Agora é possível ativar manualmente os públicos-alvo recebidos de um colaborador para um destino configurado e escolher quando a ativação será executada. Isso dá aos recipients mais controle sobre a entrega de público-alvo. Consulte [Ativar públicos-alvo](../collaborate/activate.md) para obter instruções passo a passo. |
+| Destinos de armazenamento na nuvem de autoatendimento | Agora você pode configurar e gerenciar os destinos de armazenamento na nuvem compatíveis diretamente do espaço de trabalho de Ativação e usá-los para ativar públicos recebidos. Consulte [Configurar e gerenciar destinos de armazenamento na nuvem](../destinations/manage-destinations.md) para obter instruções de configuração. |
 
 {style="table-layout:auto"}
 
