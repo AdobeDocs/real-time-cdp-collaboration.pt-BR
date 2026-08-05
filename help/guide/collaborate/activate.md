@@ -4,16 +4,12 @@ description: Saiba como enviar públicos-alvo para colaboradores e ativar manual
 audience: admin, publisher, advertiser
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5d12a5004a6854392c130fd6b93a841fb22cf6ab
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 87a7ddb5b6ef1661e347a3dd7842523639d54859
 workflow-type: tm+mt
-source-wordcount: 1565
+source-wordcount: 1589
 ht-degree: 2%
 
 ---
@@ -58,6 +54,10 @@ Na seção **[!UICONTROL Públicos enviados para [colaborador]]**, selecione o �
 ![A guia Ativar no nível do projeto quando nenhum público-alvo for enviado. A mensagem de exibição vazia explica que você não enviou um público-alvo e exibe um botão Enviar público-alvo.](/help/assets/collaborate/activate/activate-new-audiences.png)
 
 O fluxo de trabalho **[!UICONTROL Enviar públicos-alvo]** é aberto. Use o seletor de público para encontrar um público ou selecione **[!UICONTROL Procurar públicos]** para comparar os públicos disponíveis.
+
+>[!IMPORTANT]
+>
+>Somente públicos-alvo com mais de 1000 identidades sobrepostas estão disponíveis para ativação. Se as sobreposições de público-alvo estiverem próximas ao limite de identidade de 1000, a ativação poderá falhar.
 
 ![O fluxo de trabalho Enviar públicos-alvo com um seletor de público-alvo e um botão Procurar públicos-alvo. O fluxo de trabalho permite que o remetente escolha um público-alvo antes de definir as chaves de correspondência e acessar as configurações.](/help/assets/collaborate/activate/audience-activation.png)
 
