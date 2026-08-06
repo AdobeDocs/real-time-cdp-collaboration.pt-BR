@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: dc86508b6327694a612625d427e3165a5e34e800
 workflow-type: tm+mt
-source-wordcount: 2120
-ht-degree: 17%
+source-wordcount: 2132
+ht-degree: 16%
 
 ---
 
@@ -51,6 +51,10 @@ Para começar a usar a guia **[!UICONTROL Descobrir]** no seu projeto, você dev
 
 Depois que esses pré-requisitos forem atendidos, você poderá começar a explorar e comparar sobreposições entre você e os públicos do seu colaborador.
 
+>[!IMPORTANT]
+>
+>Comparações de público-alvo com menos de 1.000 identidades sobrepostas não retornam resultados.
+
 >[!NOTE]
 >
 >Este espaço de trabalho **[!UICONTROL Descobrir]** não é relevante para colaborações com plataformas de publicidade. Atualmente, o Amazon Marketing Cloud é a única plataforma de publicidade disponível no Real-Time CDP Collaboration. Para obter mais informações sobre o espaço de trabalho [!DNL AMC] **[!UICONTROL Descobrir]**, leia o guia do [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md).
@@ -85,6 +89,8 @@ Depois que esses pré-requisitos forem atendidos, você poderá começar a explo
 Use a seção comparar públicos para obter informações detalhadas sobre a sobreposição entre os públicos do e do colaborador. Para alterar a seleção de público, use o seletor suspenso na parte superior da seção **[!UICONTROL Comparar públicos]**. Você pode selecionar um ou todos os públicos-alvo e um ou todos os públicos-alvo do colaborador para comparar.
 
 ![O espaço de trabalho Descobrir com o seletor de público-alvo realçado na seção Comparar públicos-alvo.](/help/assets/collaborate/discover/compare-audiences-selector.png)
+
+
 
 Na seção comparar públicos, você pode ver as seguintes métricas, que se baseiam nas chaves de correspondência acordadas entre você e seu colaborador para o projeto:
 
