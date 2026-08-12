@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: b29c92fa411198ec4e9a0a493c91ee302a327697
 workflow-type: tm+mt
-source-wordcount: 665
-ht-degree: 20%
+source-wordcount: 699
+ht-degree: 9%
 
 ---
 
@@ -23,11 +23,7 @@ ht-degree: 20%
 
 {{limited-availability-release-note}}
 
-Depois de formar uma conexão com [!DNL Amazon Marketing Cloud] ([!DNL AMC]), os anunciantes podem [criar um projeto](../manage-projects.md#create-project) para colaborar com [!DNL AMC] para aproveitar seus recursos avançados de análise. Depois de criar um projeto, você pode usar a seção **[!UICONTROL Descobrir]** para comparar os insights do público-alvo e descobrir públicos relevantes para suas campanhas.
-
->[!IMPORTANT]
->
->Os únicos casos de uso com suporte no [!DNL AMC] são **Descoberta de público-alvo** e **Medição**. Atualmente, somente a seção **[!UICONTROL Descobrir]** está disponível no seu projeto com [!DNL AMC].
+Depois de formar uma conexão com [!DNL Amazon Marketing Cloud] ([!DNL AMC]), os anunciantes podem [criar um projeto](../manage-projects.md#create-project) para colaborar com [!DNL AMC]. Há suporte para dois casos de uso em um projeto [!DNL AMC]: **Descoberta de público-alvo** usando a seção **[!UICONTROL Descoberta]** e **Medição** usando a guia **[!UICONTROL Medida]**.
 
 ## Descobrir {#discover}
 
@@ -44,12 +40,12 @@ Depois de formar uma conexão com [!DNL Amazon Marketing Cloud] ([!DNL AMC]), os
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_resolved_ids"
 >title="IDs resolvidas"
->abstract="O número de IDs que a Resolução de identidade da Amazon conseguiu resolver com os dados de público-alvo."
+>abstract="O número de IDs que a Resolução de identidade da Amazon conseguiu resolver usando os dados de público-alvo."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
 >title="Sobreposição de IDs expostas a anúncios"
->abstract="Representa o número de &quot;IDs resolvidas&quot; do público-alvo enviado que também foram expostas a um anúncio por meio do Amazon Ads."
+>abstract="Representa o número de &quot;IDs resolvidas&quot; do público-alvo carregado que também foram expostas a um anúncio por meio do Amazon Ads."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlap_percentage"
@@ -59,7 +55,7 @@ Depois de formar uma conexão com [!DNL Amazon Marketing Cloud] ([!DNL AMC]), os
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
 >title="Detalhamento por produto de anúncio da Amazon"
->abstract="Detalhamento de &quot;Sobreposição de IDs expostas a anúncios&quot; alcançado pelo produto patrocinado através do Amazon Ads e/ou pela Amazon Ads DSP."
+>abstract="Detalhamento de &quot;Sobreposição de IDs expostas a anúncios&quot; alcançado pelo produto patrocinado da Amazon Ads e/ou pela Amazon Ads DSP."
 
 Na seção **[!UICONTROL Discover]**, você pode comparar o público-alvo da AMC a todos os consumidores atingidos pelos seus anúncios do Amazon. Você também pode visualizar os segmentos de direcionamento do Amazon com os quais seu público-alvo tem as sobreposições mais altas, considerando apenas as impressões do DSP (esses segmentos só podem ser direcionados no DSP).
 
@@ -75,7 +71,7 @@ A seção **[!UICONTROL Comparar públicos-alvo]** fornece informações sobre c
 
 | Métrica | Descrição |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL IDs Resolvidas] | O número de IDs que [!DNL Amazon’s Identity Resolution] conseguiu resolver usando seus dados de público-alvo. |
+| [!UICONTROL IDs Resolvidas] | O número de IDs que [!DNL Amazon's Identity Resolution] conseguiu resolver usando seus dados de público-alvo. |
 | [!UICONTROL Sobreposição de IDs expostas ao anúncio] | O número de [!UICONTROL IDs resolvidas] do público-alvo carregado que também foram expostas a um anúncio via [!DNL Amazon Ads]. |
 | [!UICONTROL Sobreposição %] | A proporção de [!UICONTROL IDs resolvidas] que foram expostas a um anúncio via [!DNL Amazon Ads]. |
 | [!UICONTROL Detalhamento por produto de anúncio da Amazon] | Detalhamento de [!UICONTROL IDs sobrepostas e expostas] atingidas por [!UICONTROL Produto patrocinado] e/ou [!UICONTROL DSP]. Cada uma é representada como uma porcentagem individual do número total de IDs de anúncios expostos. Como uma ID pode pertencer a [!UICONTROL Produtos Patrocinados] e [!UICONTROL DSP], as porcentagens não podem somar 100%. |
@@ -87,7 +83,7 @@ A seção **[!UICONTROL Públicos-alvo relevantes]** fornece informações sobre
 
 | Métrica | Descrição |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL IDs Resolvidas] | O número de IDs que [!DNL Amazon’s Identity Resolution] conseguiu resolver usando seus dados de público-alvo. |
+| [!UICONTROL IDs Resolvidas] | O número de IDs que [!DNL Amazon's Identity Resolution] conseguiu resolver usando seus dados de público-alvo. |
 | [!UICONTROL Sobreposição de IDs expostas ao anúncio] | Representa o número de [!UICONTROL IDs resolvidas] do público-alvo carregado que também foram expostas a um anúncio via [!DNL Amazon Ads]. Isso só considera impressões do DSP. |
 | [!UICONTROL Sobreposição %] | A proporção de [!UICONTROL IDs resolvidas] que foram expostas a um anúncio via [!DNL Amazon Ads]. |
 | [!UICONTROL Categorias] | A categoria ou categorias às quais o público-alvo pertence. Um público-alvo pode pertencer a várias categorias. |
@@ -98,6 +94,12 @@ A seção **[!UICONTROL Descobrir sobreposições com o Amazon Marketing Cloud]*
 
 | Métrica | Descrição |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL IDs Resolvidas] | O número de IDs que [!DNL Amazon’s Identity Resolution] conseguiu resolver usando seus dados de público-alvo. |
+| [!UICONTROL IDs Resolvidas] | O número de IDs que [!DNL Amazon's Identity Resolution] conseguiu resolver usando seus dados de público-alvo. |
 | [!UICONTROL Sobreposição de IDs expostas ao anúncio] | Representa o número de [!UICONTROL IDs resolvidas] do público-alvo carregado que também foram expostas a um anúncio via [!DNL Amazon Ads]. Isso só considera impressões do DSP. |
 | [!UICONTROL Sobreposição %] | A proporção de [!UICONTROL IDs resolvidas] que foram expostas a um anúncio via [!DNL Amazon Ads]. |
+
+## Medição {#measure}
+
+A guia **[!UICONTROL Medida]** está disponível quando a instância [!DNL AMC] contém IDs de campanha. Ao criar um projeto, o Real-Time CDP Collaboration executa consultas em segundo plano com base nos dados do [!DNL AMC] para preencher a seção [!UICONTROL Descobrir] e as listas de eventos de campanha e conversão usadas para configurar relatórios de medição.
+
+Para obter instruções passo a passo sobre como criar e interpretar [!DNL AMC] relatórios de medição, leia o [guia Criar relatórios de medição da AMC](./amc-measure.md).
