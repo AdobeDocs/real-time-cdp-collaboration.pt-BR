@@ -2,16 +2,12 @@
 title: Amazon Marketing Cloud
 description: Saiba mais sobre como colaborar com o Amazon Marketing Cloud no Real-Time CDP Collaboration.
 audience: publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
 TQID: https://experienceleague.adobe.com/jNTQWEaUuuvgqKboJWsUH4XoKStP49nB0GLUSze0eXw
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: b29c92fa411198ec4e9a0a493c91ee302a327697
 workflow-type: tm+mt
 source-wordcount: 699
@@ -61,7 +57,7 @@ Na seção **[!UICONTROL Discover]**, você pode comparar o público-alvo da AMC
 
 >[!IMPORTANT]
 >
->Os dados de público-alvo são processados de públicos-alvo carregados na sua conta do [!DNL Amazon Ads]. Para saber como usar o recurso Destinos do Experience Platform para enviar os públicos-alvo para a conta do [!DNL Amazon Ads], leia o guia [Conexão de anúncios do Amazon](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/advertising/amazon-ads).
+>Os dados de público-alvo são processados de públicos-alvo carregados na sua conta do [!DNL Amazon Ads]. Para saber como usar o recurso Destinos do Experience Platform para enviar os públicos-alvo para a conta do [!DNL Amazon Ads], leia o guia [Conexão de anúncios do Amazon](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/amazon-ads).
 
 ![A seção Descobrir em um projeto com o Amazon Marketing Cloud.](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 
