@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: c74300c6d38a33dfdc7c7d50306b26ef61a7494b
+source-git-commit: 21f15134c9319aacf332a9f430b51d84f69498b0
 workflow-type: tm+mt
-source-wordcount: 2054
+source-wordcount: 2131
 ht-degree: 3%
 
 ---
@@ -26,9 +26,21 @@ ht-degree: 3%
 
 {{limited-availability-release-note}}
 
-**Última atualização**: julho de 2026.
+**Última atualização**: agosto de 2026.
 
 Essas notas de versão abordam a funcionalidade lançada no Adobe Real-Time CDP Collaboration. As versões do Collaboration operam em um modelo de entrega contínua, que permite uma cadência de lançamento mensal aproximada. Essas notas de versão são atualizadas com frequência. Portanto, verifique-as regularmente.
+
+## Agosto de 2026 {#august-2026}
+
+O Real-Time CDP Collaboration agora oferece suporte aos relatórios de medição de [!DNL Amazon Marketing Cloud] (AMC), permitindo que você meça o desempenho da campanha do Amazon Ads a partir de um projeto [!DNL AMC].
+
+**Recursos novos ou atualizados**
+
+| Recurso | Descrição |
+| ------- | ----------- |
+| [!DNL AMC] relatório de medição | Meça o desempenho de suas campanhas do Amazon Ads usando os dados do [!DNL AMC] diretamente no Collaboration. Na guia [!UICONTROL Measure] de um projeto [!DNL AMC], você pode criar relatórios do **Resumo da Campanha** e do **Atribuição** para avaliar o desempenho da campanha e entender a atribuição de conversão. Para obter mais informações, consulte [Criar relatórios de medição do Amazon Marketing Cloud](../collaborate/advertising-platforms/amc-measure.md). |
+
+{style="table-layout:auto"}
 
 ## Julho de 2026 {#july-2026}
 
