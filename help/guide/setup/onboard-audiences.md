@@ -2,19 +2,15 @@
 title: Source e gerenciar públicos
 description: Saiba como fornecer e gerenciar públicos-alvo no Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: c524b54ce4ff9f5a37c2c064ad5304e011c61652
 workflow-type: tm+mt
-source-wordcount: 3758
-ht-degree: 17%
+source-wordcount: 3958
+ht-degree: 16%
 
 ---
 
@@ -93,7 +89,7 @@ Em seguida, verifique se as ações de marketing corretas estão definidas nos d
 
 Use ações de marketing para controlar quais dados de público-alvo trazer para o Collaboration a partir do Experience Platform. A ação de marketing **[!UICONTROL Colaboração de dados]** é compatível com os rótulos de uso de dados C4, C5 e C9. A ação de marketing **[!UICONTROL Ciência de dados]** é compatível com o rótulo de uso de dados C9.
 
-Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando a caixa de seleção estiver ***habilitada***, todos os dados rotulados no Experience Platform conforme descrito acima serão excluídos e **não** serão trazidos para o Collaboration.
 * Com a caixa de seleção ***desabilitada***, não há restrição nos dados obtidos do Experience Platform.
@@ -148,7 +144,7 @@ Em seguida, forneça um nome e uma descrição para sua conexão de dados. Essas
 
 Em seguida, você selecionará campos de origem para mapear para campos de destino no Collaboration. Os campos de destino disponíveis serão baseados nas chaves de correspondência selecionadas durante a [configuração de conta](./onboard-account.md#set-up-match-keys).
 
-Se você selecionou [!DNL Demdex ID (ECID)] como chave de correspondência durante a configuração da conta, [!DNL Demdex ID] será automaticamente extraído e mapeado da ECID e você não precisará realizar nenhuma ação. Para saber mais sobre [!DNL Demdex IDs], consulte o guia [[!DNL Demdex ID]](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/identity/unified-identity-support).
+Se você selecionou [!DNL Demdex ID (ECID)] como chave de correspondência durante a configuração da conta, [!DNL Demdex ID] será automaticamente extraído e mapeado da ECID e você não precisará realizar nenhuma ação. Para saber mais sobre [!DNL Demdex IDs], consulte o guia [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support).
 
 ![O espaço de trabalho Adicionar públicos-alvo com a opção para mapear campos de origem para campos de destino.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -158,7 +154,7 @@ Se você selecionou [!DNL Demdex ID (ECID)] como chave de correspondência duran
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Os campos do Source]** são namespaces de identidade e atributos da Experience Platform. Eles incluem namespaces de identidade [padrão](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=pt-BR#standard){target="_blank"} e [personalizados](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=pt-BR#create-namespaces){target="_blank"}. Eles também incluem atributos de perfil que estão presentes no [esquema de união](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=pt-BR){target="_blank"} e pertencem à classe Perfil Individual XDM.
+**[!UICONTROL Os campos do Source]** são namespaces de identidade e atributos da Experience Platform. Eles incluem namespaces de identidade [padrão](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=pt-BR#standard){target="_blank"} e [personalizados](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. Eles também incluem atributos de perfil que estão presentes no [esquema de união](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=pt-BR){target="_blank"} e pertencem à classe Perfil Individual XDM.
 
 Os campos do Source são mapeados para os campos de destino definidos no Collaboration.
 
@@ -171,6 +167,22 @@ Use a opção **[!UICONTROL Aplicar transformação]** quando estiver fornecendo
 Para iniciar o mapeamento de campos, selecione o campo de origem vazio ao lado do campo de destino. A caixa de diálogo **[!UICONTROL Selecionar campo de origem]** será exibida. Selecione entre as opções **[!UICONTROL Namespaces de identidade]** e **[!UICONTROL Atributos do perfil]** para localizar o campo de origem desejado e selecione o campo na lista. Também é possível usar a opção de pesquisa para localizar o campo desejado.
 
 ![A caixa de diálogo Selecionar campo de origem com as opções de email exibidas.](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
+
+Alguns atributos de perfil são modelados dentro de uma lista, que é uma matriz de objetos (mostrados como `Object[]` na caixa de diálogo). Identificadores ou atributos de chave geralmente ficam dentro desses registros repetidos, como um número de conta ou identificador de veículo.
+
+Na opção **[!UICONTROL Atributos do perfil]**, expanda o campo de lista na caixa de diálogo **[!UICONTROL Selecionar campo de origem]** e selecione o campo aninhado que deseja mapear para uma chave correspondente. Por exemplo, expanda `devices` e selecione `Device ID`. O campo aninhado preenche o campo de origem dessa linha de mapeamento e você o mapeia para um campo de destino da mesma forma que qualquer outro campo de origem.
+
+Se um perfil tiver vários valores no campo aninhado, o Collaboration corresponderá e contará cada valor individualmente. Você não precisa achatar nem reestruturar seus dados antecipadamente.
+
+![A caixa de diálogo Selecionar campo de origem com a lista de dispositivos expandida e o campo ID de Dispositivo selecionado para mapeamento.](/help/assets/setup/add-manage-audiences/select-source-field-nested.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>A seleção de um campo aninhado em uma lista tem as seguintes limitações:
+>
+>* Você pode selecionar campos aninhados somente para chaves de correspondência. Não há suporte para a seleção de um campo aninhado como um atributo.
+>* É possível selecionar um campo aninhado por lista de cada vez.
+>* Listas de valores simples, em vez de listas de objetos, aparecem na caixa de diálogo, mas não podem ser selecionadas.
 
 Para lidar com a origem de um campo sem hash para um campo de destino com hash, use a opção **[!UICONTROL Aplicar transformação]**. Por exemplo, para adicionar um segundo campo de email, selecione a opção **[!UICONTROL Adicionar campo]** para adicionar uma nova linha e selecione **[!UICONTROL Email com hash]** para o campo de destino. Selecione um campo de origem de email sem hash e selecione **[!UICONTROL Aplicar transformação]**.
 
