@@ -11,10 +11,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
+source-git-commit: c524b54ce4ff9f5a37c2c064ad5304e011c61652
 workflow-type: tm+mt
-source-wordcount: 3758
-ht-degree: 17%
+source-wordcount: 3958
+ht-degree: 16%
 
 ---
 
@@ -171,6 +171,22 @@ Use a opção **[!UICONTROL Aplicar transformação]** quando estiver fornecendo
 Para iniciar o mapeamento de campos, selecione o campo de origem vazio ao lado do campo de destino. A caixa de diálogo **[!UICONTROL Selecionar campo de origem]** será exibida. Selecione entre as opções **[!UICONTROL Namespaces de identidade]** e **[!UICONTROL Atributos do perfil]** para localizar o campo de origem desejado e selecione o campo na lista. Também é possível usar a opção de pesquisa para localizar o campo desejado.
 
 ![A caixa de diálogo Selecionar campo de origem com as opções de email exibidas.](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
+
+Alguns atributos de perfil são modelados dentro de uma lista, que é uma matriz de objetos (mostrados como `Object[]` na caixa de diálogo). Identificadores ou atributos de chave geralmente ficam dentro desses registros repetidos, como um número de conta ou identificador de veículo.
+
+Na opção **[!UICONTROL Atributos do perfil]**, expanda o campo de lista na caixa de diálogo **[!UICONTROL Selecionar campo de origem]** e selecione o campo aninhado que deseja mapear para uma chave correspondente. Por exemplo, expanda `devices` e selecione `Device ID`. O campo aninhado preenche o campo de origem dessa linha de mapeamento e você o mapeia para um campo de destino da mesma forma que qualquer outro campo de origem.
+
+Se um perfil tiver vários valores no campo aninhado, o Collaboration corresponderá e contará cada valor individualmente. Você não precisa achatar nem reestruturar seus dados antecipadamente.
+
+![A caixa de diálogo Selecionar campo de origem com a lista de dispositivos expandida e o campo ID de Dispositivo selecionado para mapeamento.](/help/assets/setup/add-manage-audiences/select-source-field-nested.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>A seleção de um campo aninhado em uma lista tem as seguintes limitações:
+>
+>* Você pode selecionar campos aninhados somente para chaves de correspondência. Não há suporte para a seleção de um campo aninhado como um atributo.
+>* É possível selecionar um campo aninhado por lista de cada vez.
+>* Listas de valores simples, em vez de listas de objetos, aparecem na caixa de diálogo, mas não podem ser selecionadas.
 
 Para lidar com a origem de um campo sem hash para um campo de destino com hash, use a opção **[!UICONTROL Aplicar transformação]**. Por exemplo, para adicionar um segundo campo de email, selecione a opção **[!UICONTROL Adicionar campo]** para adicionar uma nova linha e selecione **[!UICONTROL Email com hash]** para o campo de destino. Selecione um campo de origem de email sem hash e selecione **[!UICONTROL Aplicar transformação]**.
 

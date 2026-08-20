@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
+source-git-commit: 07471fb3690c3ff57d21231da3d126cf9545677a
 workflow-type: tm+mt
-source-wordcount: 1253
+source-wordcount: 1299
 ht-degree: 7%
 
 ---
@@ -109,6 +109,8 @@ Em seguida, selecione o campo de origem vazio. A caixa de diálogo **[!UICONTROL
 Escolha o campo de origem desejado, seguido por **[!UICONTROL Selecionar]**.
 
 ![A caixa de diálogo Selecionar campo de origem com a opção GAID selecionada.](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
+
+Na opção **[!UICONTROL Atributos do perfil]**, alguns campos de origem são modelados dentro de uma lista, que é uma matriz de objetos. É possível expandir esses campos de lista e selecionar um campo aninhado dentro deles para mapear para uma chave de correspondência. Para obter mais informações, consulte o guia [mapear campos](./onboard-audiences.md#map-fields).
 
 Na caixa de diálogo **[!UICONTROL Chaves de correspondência]**, use o menu suspenso para mapear o novo campo de origem para um campo de destino. Todos os campos de público-alvo disponíveis são as chaves de correspondência configuradas para sua conta do Collaborator. Se você não vir o campo de destino necessário, [edite as chaves de correspondência da sua conta](./onboard-account.md#edit-match-keys) para adicioná-lo.
 

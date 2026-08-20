@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: ab26b139fe8ea3d22e38b234b55862c4d83b5c54
 workflow-type: tm+mt
-source-wordcount: 2612
+source-wordcount: 2776
 ht-degree: 5%
 
 ---
@@ -36,8 +36,8 @@ Antes de acessar os relatórios de medição no Collaboration, você deve:
 * [Conecte-se](/help/guide/connect/establishing-connections.md) a um colaborador com o caso de uso **Medição** habilitado
 * Colabore em pelo menos um projeto com seu colaborador. Saiba como [criar um projeto](/help/guide/collaborate/manage-projects.md#create-project).
 * Execute sua campanha e verifique se uma [ID da campanha](../collaborate/manage-projects.md#manage-campaign-id) foi fornecida:
-   * Se você for um editor, insira a ID da campanha vinculada à campanha do anunciante.
-   * Se você for um anunciante, solicite que seu colaborador (editor) forneça a ID do Campaign. Isso é necessário para [gerar relatórios no espaço de trabalho de Medidas](#create-measurement-report).
+  * Se você for um editor, insira a ID da campanha vinculada à campanha do anunciante.
+  * Se você for um anunciante, solicite que seu colaborador (editor) forneça a ID do Campaign. Isso é necessário para [gerar relatórios no espaço de trabalho de Medidas](#create-measurement-report).
 * [Carregar dados de medição](/help/guide/setup/onboard-measurement-data.md) no Collaboration se desejar [criar relatórios de Atribuição](#create-attribution-report).
 
 ## Exibir relatórios {#view-reports}
@@ -109,11 +109,11 @@ Entenda qual mídia está gerando impressões para o seu criativo. Isso pode aju
 
 ### Conversões cumulativas {#cumulative-conversions}
 
-Essa visualização fornece um detalhamento dos eventos de conversão que você escolhe medir em formato tabular. A tabela inclui:
+Essa visualização fornece um detalhamento dos eventos de conversão que você escolhe medir em formato tabular. Os resultados são calculados no nível **ID da campanha**. A tabela inclui:
 
 * **Evento de conversão**: nome de cada evento de conversão que você está rastreando.
-* **Contagem de conversão**: Contagem total de conversões que ocorreram para cada evento.
-* **Receita estimada**: valor estimado atribuído a cada evento de conversão.
+* **Contagem de conversão**: Contagem total de conversões que ocorreram para cada evento, para a ID da campanha.
+* **Valor(es) de conversão**: valor atribuído a cada evento de conversão, para a ID da campanha.
 
 Consulte esta tabela para avaliar a eficácia da campanha na condução das ações desejadas.
 
@@ -124,6 +124,16 @@ Consulte esta tabela para avaliar a eficácia da campanha na condução das aç�
 Este gráfico fornece um detalhamento diário das conversões para cada evento configurado ao criar um relatório de Atribuição. Use essa exibição para descobrir padrões diários, identificar períodos de atividade de conversão alta ou baixa e comparar o desempenho de diferentes eventos de conversão na linha do tempo da campanha.
 
 ![Conversões por dia.](/help/assets/collaborate/measure/conversions-by-day.gif)
+
+### Conversões por posicionamento {#conversions-by-placement}
+
+Esta tabela fornece um **detalhamento em nível de ID de posicionamento** dos eventos de conversão selecionados para o relatório de Atribuição. Uma única ID de campanha pode incluir várias IDs de posicionamento, portanto, use essa visualização para ver como as conversões são divididas em uma campanha. Para cada evento de conversão selecionado, a tabela mostra as conversões atribuídas a cada posicionamento e o valor de conversão correspondente. A tabela inclui:
+
+* **Nome ou ID do posicionamento**: o identificador do posicionamento no qual o criativo foi executado.
+* **Contagem de conversão**: a contagem de conversões atribuídas a esse posicionamento, para cada evento de conversão selecionado quando o relatório foi criado. Um posicionamento pode exibir até três eventos de conversão, correspondendo ao número máximo de eventos de conversão permitidos por relatório.
+* **Valor de conversão**: o valor atribuído a cada evento de conversão, para esse posicionamento específico.
+
+![Conversões por posicionamento.](/help/assets/collaborate/measure/conversions-by-placement.png)
 
 ## Criar relatório de medição {#create-measurement-report}
 
@@ -300,28 +310,28 @@ Como anunciante, você tem a opção de selecionar ou remover o tipo de relatór
 >Se você for um **editor**, o tipo de relatório padrão será **[!UICONTROL Resumo da campanha]** e não poderá ser alterado no momento.
 
 * Se você escolher **[!UICONTROL Atribuição]** como o tipo de relatório, deverá preencher os campos obrigatórios na seção **[!UICONTROL Atribuição]**. Para obter instruções de configuração, consulte a seção [detalhes do relatório de atribuição](#report-details-attribution).
-* If you previously configured attribution settings when creating the report, you can choose to edit the lookback window (measured in days) and select which conversion events to report on.
+* Se você definiu configurações de atribuição anteriormente ao criar o relatório, poderá optar por editar a janela de pesquisa (medida em dias) e selecionar sobre quais eventos de conversão relatar.
 
-To update **[!UICONTROL Lookback window in days]**, enter a numeric value, or adjust it with the increment/decrement options. Next, select the conversion events you want to report on. You can choose up to **3** conversions from the available list.
+Para atualizar a **[!UICONTROL Janela de retrospectiva em dias]**, insira um valor numérico ou ajuste-o com as opções de incremento/decremento. Em seguida, selecione os eventos de conversão sobre os quais deseja criar relatórios. Você pode escolher até **3** conversões na lista disponível.
 
-![The Edit measurement report dialog highlighting the updated conversion events.](/help/assets/collaborate/measure/edit-conversion-events.png)
+![A caixa de diálogo Editar relatório de medição destacando os eventos de conversão atualizados.](/help/assets/collaborate/measure/edit-conversion-events.png)
 
-Once finished, review the updates and select **[!UICONTROL Edit]** to apply your changes.
+Depois de concluído, revise as atualizações e selecione **[!UICONTROL Editar]** para aplicar as alterações.
 
-![The Edit measurement report dialog with the Edit option highlighted.](/help/assets/collaborate/measure/edit-report-confirm.png)
+![Caixa de diálogo Editar relatório de medição com a opção Editar realçada.](/help/assets/collaborate/measure/edit-report-confirm.png)
 
-A confirmation dialog confirms that your report has been successfully saved.
+Uma caixa de diálogo de confirmação confirma que o relatório foi salvo com êxito.
 
-## Delete measurement report {#delete-measurement-report}
+## Excluir relatório de medição {#delete-measurement-report}
 
-Deleting a measurement report in Collaboration permanently removes it from the system. Esta ação não pode ser desfeita. To do this, select the report you wish to delete in the **[!UICONTROL Measure]** tab.
+Excluir um relatório de medição no Collaboration o remove permanentemente do sistema. Esta ação não pode ser desfeita. Para fazer isso, selecione o relatório que deseja excluir na guia **[!UICONTROL Measure]**.
 
-In the measurement report workspace, select the delete icon (![Delete icon](/help/assets/common/delete.svg)).
+No espaço de trabalho do relatório de medição, selecione o ícone de exclusão (![Ícone de exclusão](/help/assets/common/delete.svg)).
 
-![The measurement report workspace with the Delete icon highlighted.](/help/assets/collaborate/measure/delete-report.png)
+![O espaço de trabalho do relatório de medição com o ícone Excluir realçado.](/help/assets/collaborate/measure/delete-report.png)
 
-The **[!UICONTROL Delete report]** dialog appears, prompting you to confirm the deletion. Clique em **[!UICONTROL Excluir]**.
+A caixa de diálogo **[!UICONTROL Excluir relatório]** é exibida, solicitando que você confirme a exclusão. Clique em **[!UICONTROL Excluir]**.
 
-![The Delete report dialog with the Delete option highlighted.](/help/assets/collaborate/measure/delete-report-confirm.png)
+![A caixa de diálogo Excluir relatório com a opção Excluir foi realçada.](/help/assets/collaborate/measure/delete-report-confirm.png)
 
-A confirmation dialog confirms the report was successfully deleted.
+Uma caixa de diálogo de confirmação confirma que o relatório foi excluído com êxito.
