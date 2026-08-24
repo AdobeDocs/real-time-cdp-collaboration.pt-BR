@@ -11,10 +11,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c524b54ce4ff9f5a37c2c064ad5304e011c61652
+source-git-commit: e4951569c5f5190b7f1b7f9b85cf4397ffdeef6d
 workflow-type: tm+mt
-source-wordcount: 3958
-ht-degree: 16%
+source-wordcount: 3970
+ht-degree: 15%
 
 ---
 
@@ -43,7 +43,7 @@ Na guia **[!UICONTROL Meus públicos-alvo]** do espaço de trabalho **[!UICONTRO
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Ações de marketing"
->abstract="<p>Use ações de marketing para controlar quais dados de público-alvo importar para colaboração na Real-Time CDP a partir da Experience Platform. A ação de marketing <strong>Colaboração de dados</strong> é compatível com os rótulos de uso de dados C4, C5 e C9. A ação de marketing <strong>Ciência de dados</strong> é compatível com o rótulo de uso de dados C9.</p> <p> <ul><li> Com a caixa de seleção <em>habilitada</em>, todos os dados marcados com os rótulos mencionados acima na Experience Platform serão excluídos e <strong>não</strong> serão enviados para a Real-Time CDP Collaboration.</li><li> Com a caixa de seleção <em>desabilitada</em>, não há restrição nos dados da Experience Platform que possam ser importados para a Real-Time CDP Collaboration.</li></ul></p>"
+>abstract="<p>Use ações de marketing para controlar quais dados de público-alvo importar para colaboração na Real-Time CDP a partir da Experience Platform. A ação de marketing <strong>Data Collaboration</strong> dá suporte aos rótulos de uso de dados C4, C5, C9, S1, S2, PSPD e RHD. A ação de marketing <strong>Ciência de dados</strong> é compatível com o rótulo de uso de dados C9.</p> <p> <ul><li> Com a caixa de seleção <em>habilitada</em>, todos os dados marcados com os rótulos mencionados acima na Experience Platform serão excluídos e <strong>não</strong> serão enviados para a Real-Time CDP Collaboration.</li><li> Com a caixa de seleção <em>desabilitada</em>, não há restrição nos dados da Experience Platform que possam ser importados para a Real-Time CDP Collaboration.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=pt-BR" text="Visão geral dos rótulos de uso de dados"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=pt-BR" text="Glossário de rótulos de uso de dados"
 
@@ -91,9 +91,9 @@ Após selecionar a fonte de dados, é necessário selecionar a sandbox que inclu
 
 Em seguida, verifique se as ações de marketing corretas estão definidas nos dados fornecidos. Você também precisa fornecer consentimento para que os dados obtidos do Experience Platform sejam usados para colaboração de dados.
 
-Use ações de marketing para controlar quais dados de público-alvo trazer para o Collaboration a partir do Experience Platform. A ação de marketing **[!UICONTROL Colaboração de dados]** é compatível com os rótulos de uso de dados C4, C5 e C9. A ação de marketing **[!UICONTROL Ciência de dados]** é compatível com o rótulo de uso de dados C9.
+Use ações de marketing para controlar quais dados de público-alvo trazer para o Collaboration a partir do Experience Platform. A ação de marketing **[!UICONTROL Data Collaboration]** dá suporte aos rótulos de uso de dados C4, C5, C9, S1, S2, PSPD e RHD. A ação de marketing **[!UICONTROL Ciência de dados]** é compatível com o rótulo de uso de dados C9.
 
-Leia mais sobre os [rótulos de uso de dados C4, C5 e C9](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Leia mais sobre os [rótulos de uso de dados C4, C5, C9, S1, S2, PSPD e RHD](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando a caixa de seleção estiver ***habilitada***, todos os dados rotulados no Experience Platform conforme descrito acima serão excluídos e **não** serão trazidos para o Collaboration.
 * Com a caixa de seleção ***desabilitada***, não há restrição nos dados obtidos do Experience Platform.
