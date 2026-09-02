@@ -2,11 +2,11 @@
 title: Configurar [!DNL Databricks Delta Share] para Origem de Público-Alvo
 description: Saiba como configurar e conectar [!DNL Databricks Delta Share] para origem de público-alvo no Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 876b7d2996d3027f81159252f714c2305d6d23b4
 workflow-type: tm+mt
 source-wordcount: '2816'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -93,7 +93,7 @@ A tela de seleção da fonte de dados lista todos os tipos de conexão disponív
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_databricks"
 >title="Experience League"
->abstract="Consulte o guia de fornecimento do [!DNL Databricks Delta Share] para obter instruções sobre como configurar seu compartilhamento para fornecimento de público"
+>abstract="Consulte o guia de obtenção do [!DNL Databricks Delta Share] para obter instruções sobre como configurar seu compartilhamento para obtenção de público-alvo"
 
 Forneça os detalhes necessários para permitir que o Collaboration acesse seu [!DNL Delta Share]. Insira os detalhes do provedor, compartilhamento, esquema e tabela de [!DNL Databricks Delta Share]. A tabela de associação necessária deve estar disponível no schema compartilhado. Se você usar uma tabela de metadados, ela também deverá estar disponível no mesmo schema compartilhado.
 Depois de inserir as informações necessárias, selecione **[!UICONTROL Conectar]**.
