@@ -2,7 +2,7 @@
 title: Configurar [!DNL Databricks Delta Share] para Origem de Público-Alvo
 description: Saiba como configurar e conectar [!DNL Databricks Delta Share] para origem de público-alvo no Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 876b7d2996d3027f81159252f714c2305d6d23b4
 workflow-type: tm+mt
 source-wordcount: '2816'
