@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 21f15134c9319aacf332a9f430b51d84f69498b0
+source-git-commit: 0e46c6f1bc2a0ce5752c7c08700429c97a8b0d45
 workflow-type: tm+mt
-source-wordcount: 2131
+source-wordcount: 2255
 ht-degree: 3%
 
 ---
@@ -38,7 +38,9 @@ O Real-Time CDP Collaboration agora oferece suporte aos relatórios de medição
 
 | Recurso | Descrição |
 | ------- | ----------- |
-| [!DNL AMC] relatório de medição | Meça o desempenho de suas campanhas do Amazon Ads usando os dados do [!DNL AMC] diretamente no Collaboration. Na guia [!UICONTROL Measure] de um projeto [!DNL AMC], você pode criar relatórios do **Resumo da Campanha** e do **Atribuição** para avaliar o desempenho da campanha e entender a atribuição de conversão. Para obter mais informações, consulte [Criar relatórios de medição do Amazon Marketing Cloud](../collaborate/advertising-platforms/amc-measure.md). |
+| [!DNL AMC] relatório de medição | Meça o desempenho de suas campanhas do Amazon Ads usando os dados do [!DNL AMC] diretamente no Collaboration. Na guia **[!UICONTROL Measure]** de um projeto [!DNL AMC], você pode criar relatórios do **Resumo da Campanha** e do **Atribuição** para avaliar o desempenho da campanha e entender a atribuição de conversão. Para obter mais informações, consulte [Criar relatórios de medição do Amazon Marketing Cloud](../collaborate/advertising-platforms/amc-measure.md). |
+| Corresponder mapeamento de chaves para atributos de perfil aninhados | Agora é possível mapear chaves de correspondência para campos aninhados dentro de campos de perfil baseados em lista, como uma ID de dispositivo em uma matriz `devices`, sem achatar ou reestruturar os dados antecipadamente. O Collaboration corresponde e conta cada valor no campo aninhado individualmente. Atualmente, os campos aninhados são compatíveis apenas com chaves de correspondência, não como atributos de perfil. Para obter mais informações, consulte [mapear campos](../setup/onboard-audiences.md#map-fields). |
+| Relatórios de conversão em nível de posicionamento | Os relatórios de atribuição agora incluem uma tabela **conversões por posicionamento**, mostrando a contagem de conversão e o valor de conversão para cada ID de posicionamento em uma ID de campanha. Isso fornece resultados separados para campanhas com vários posicionamentos. O antigo rótulo da métrica **[!UICONTROL Receita estimada]** foi atualizado para **[!UICONTROL Valor de conversão]** para maior clareza. Para obter mais informações, consulte [conversões por posicionamento](../collaborate/measure.md#conversions-by-placement). |
 
 {style="table-layout:auto"}
 
