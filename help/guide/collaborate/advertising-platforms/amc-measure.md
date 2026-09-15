@@ -8,10 +8,8 @@ badgelimitedavailability: label="Disponibilidade limitada" type="Informative" ur
 source-git-commit: 944914557c10b43abbe4915e061c219aca9f783f
 workflow-type: tm+mt
 source-wordcount: '1574'
-ht-degree: 5%
-
+ht-degree: 12%
 ---
-
 
 # Criar [!DNL Amazon Marketing Cloud] relatórios de medição {#amc-measurement-reports}
 
@@ -43,7 +41,7 @@ Se a campanha necessária não estiver listada, verifique se ela pertence à con
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_report_date_range"
 >title="Intervalo de datas"
->abstract="Defina as datas de início e término para os dados da campanha a serem incluídos no relatório. O intervalo de datas é limitado a uma janela de retrospectiva de 365 dias com um período máximo de 90 dias. Você só pode relatar campanhas anteriores."
+>abstract="Defina as datas inicial e final dos dados da campanha a serem incluídos no relatório. O intervalo de datas é limitado a uma janela de retrospectiva de 365 dias com um período máximo de 90 dias. Você só pode relatar campanhas anteriores."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_report_run_date"
@@ -81,7 +79,7 @@ Todos os relatórios de [!DNL AMC] incluem um **[!UICONTROL Resumo da campanha]*
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_conversion_events"
 >title="Eventos de conversão"
->abstract="Selecione até três eventos de conversão para incluir no relatório de atribuição. Os eventos disponíveis são descobertos automaticamente da sua instância [!DNL AMC]. Se nenhum evento for exibido, talvez a instância [!DNL AMC] não tenha eventos de conversão gravados e a Atribuição não estará disponível."
+>abstract="Selecione até três eventos de conversão para incluir no relatório de atribuição. Os eventos disponíveis são descobertos automaticamente da instância do [!DNL AMC]. Se nenhum evento for exibido, talvez a instância do [!DNL AMC] não tenha eventos de conversão gravados e a Atribuição estará indisponível."
 
 >[!NOTE]
 >
