@@ -1,13 +1,12 @@
 ---
 title: Configurar permissões do AWS para origem do público-alvo
-description: Saiba como configurar as permissões do AWS Identity and Access Management (IAM) para conceder ao Adobe acesso seguro e somente leitura ao seu bucket [!DNL Amazon S3] de origem de público-alvo no Real-Time CDP Collaboration.
-source-git-commit: 73f11b7341cf94540dc01f8803291f6dc3cd5038
+description: Saiba como configurar permissões do AWS Identity and Access Management (IAM) para conceder ao Adobe acesso seguro e somente leitura ao seu bucket [!DNL Amazon S3] para fornecimento de público no Real-Time CDP Collaboration.
+exl-id: a48b800f-4bb3-4be6-af8e-b42a65a25c5b
+source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '659'
 ht-degree: 1%
-
 ---
-
 # Configurar permissões do AWS para fornecimento de público
 
 Use este guia para configurar as políticas e funções do AWS Identity and Access Management (IAM) que concedem ao Adobe acesso seguro e somente leitura ao seu bucket do Amazon S3. Esse acesso permite que o Real-Time CDP Collaboration origine públicos-alvo do seu bucket do S3.
