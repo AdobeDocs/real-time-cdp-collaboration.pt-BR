@@ -1,12 +1,12 @@
 ---
 title: Criar públicos de expansão em Expandir
 description: Saiba como criar públicos de expansão de um público inicial usando a população de público-alvo de um colaborador no Adobe Real-Time CDP Collaboration.
-source-git-commit: 88cd685742a4d85850cbf732ef93ab215287c22a
+source-git-commit: d2585628407acf10ad8388231259c77991a9a0b0
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '872'
 ht-degree: 1%
 ---
-# Criar públicos de expansão em Expandir
+# (Beta) Criar públicos de expansão em Expandir
 
 Use a guia **[!UICONTROL Expandir]** em um projeto para criar um público-alvo de expansão de um de seus públicos-alvo. O Collaboration usa a população de público-alvo do seu colaborador para encontrar perfis que se assemelham ao seu público-alvo inicial, ajudando você a alcançar novos clientes potenciais sem expor os dados de público-alvo subjacentes do seu colaborador. O público-alvo de expansão resultante é enviado ao colaborador para ativação.
 
