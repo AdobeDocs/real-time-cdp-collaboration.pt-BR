@@ -7,18 +7,20 @@ exl-id: eb154fbc-258e-42c8-91c8-62435b3d3a55
 TQID: https://experienceleague.adobe.com/hPBn--hYwsYhphCF84-5HFRUuYXHgcbpo730g6uV-dc
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 feature_v2:
   - id: ba929a52-9339-4154-9487-317dc875a3c7
+    internal-label: Use cases
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+    internal-label: Insights
+source-git-commit: a0b7e303857d5706974c1ec428c04c8bd86b4faa
 workflow-type: tm+mt
-source-wordcount: 203
+source-wordcount: '219'
 ht-degree: 4%
-
 ---
-
 # Visão geral de colaboração
 
 {{limited-availability-release-note}}
@@ -34,6 +36,7 @@ A visão geral do projeto exibe os casos de uso selecionados durante a configura
 | Medição da campanha | Este caso de uso concede acesso à seção [Medida](/help/guide/collaborate/measure.md) e a todas as funcionalidades disponíveis. |
 | Descoberta de públicos-alvo | Este caso de uso concede acesso à seção [Descobrir](/help/guide/collaborate/discover.md) e a todas as funcionalidades disponíveis. |
 | Ativação de público-alvo | Este caso de uso concede acesso à seção [Ativar](/help/guide/collaborate/activate.md) e a todas as funcionalidades disponíveis. |
+| Modelos de expansão (Beta) | Este caso de uso concede acesso à seção [Expandir](/help/guide/collaborate/expand.md) e a todas as funcionalidades disponíveis. |
 
 ## Colaboração com plataformas de publicidade {#collaborating-with-advertising-platforms}
 
