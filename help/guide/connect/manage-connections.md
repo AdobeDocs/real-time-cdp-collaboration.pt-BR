@@ -1,21 +1,21 @@
 ---
 title: Gerenciar conexões
-description: Saiba como gerenciar suas conexões no Real-Time CDP Collaboration.
+description: Saiba como gerenciar conexões e configurar a ativação automática no Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
 TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+    internal-label: Insights
+source-git-commit: 991ea79aa90841bee833a04a304a52a407d377c7
 workflow-type: tm+mt
-source-wordcount: 1092
+source-wordcount: '1297'
 ht-degree: 1%
-
 ---
-
 # Gerenciar conexões {#manage-connections}
 
 {{limited-availability-release-note}}
@@ -35,6 +35,22 @@ A área de trabalho de visão geral da conexão é exibida, mostrando detalhes s
 O espaço de trabalho de configurações de conexão é exibido, exibindo os detalhes da conexão entre você e seu colaborador. Aqui, você pode exibir todas as configurações selecionadas durante o processo de conexão, o status atual da conexão, o proprietário da conexão e as informações de contato do seu colaborador. Para obter informações sobre configurações de conexão específicas, consulte o guia [configurações de conexão](/help/guide/connect/establishing-connections.md#connection-settings).
 
 ![O espaço de trabalho de configurações de conexão exibindo detalhes da conexão.](/help/assets/connect/manage-connections/connection-settings.png){zoomable="yes"}
+
+### Configurar um destino de ativação automática {#configure-auto-activation-destination}
+
+Como colaborador de recebimento, você pode selecionar um destino que o Collaboration usa para ativar automaticamente os públicos-alvo enviados a você por meio da conexão. Antes de começar, verifique se você tem pelo menos um destino ativo. Para obter instruções sobre como configurar destinos, consulte a [visão geral sobre destinos](../destinations/overview.md).
+
+No espaço de trabalho de configurações de conexão, vá para **[!UICONTROL Controle de ativação]** e selecione **[!UICONTROL EDITAR]**. Em seguida, escolha um **[!UICONTROL Destino de ativação automática]** na lista suspensa e selecione **[!UICONTROL Salvar]** para confirmar.
+
+>[!NOTE]
+>
+>A ativação automática está disponível para todos os destinos.
+
+![A caixa de diálogo de controle Ativação com Exportações de Público-Alvo do Northstar foi selecionada como destino de ativação automática e o botão Salvar foi realçado.](/help/assets/connect/manage-connections/configure-auto-activation-destination.png){zoomable="yes"}
+
+Depois que você salva o destino, o colaborador que envia um público-alvo escolhe seu cronograma de ativação. Seu destino aparece como uma seleção somente leitura em seu workflow de envio. Quando o público-alvo é recebido, o Collaboration cria a ativação para você de acordo com essa programação. Em outras palavras, o receptor escolhe o destino, o remetente escolhe o agendamento e o Collaboration cria a ativação.
+
+As alterações no destino de ativação automática se aplicam somente a públicos-alvo compartilhados após a alteração. As ativações criadas automaticamente existentes continuam a usar seu destino original. Para desativar a ativação automática para compartilhamentos futuros, desmarque o destino da ativação automática e salve as alterações.
 
 ## Excluir conexão {#delete-connection}
 
@@ -127,22 +143,22 @@ As configurações de divisão de crédito especificam qual colaborador é respo
 
 Na caixa de diálogo **[!UICONTROL Divisão de crédito]**, selecione as configurações preferenciais para [!UICONTROL Correspondência de Ativação] e [!UICONTROL Medição]. Em seguida, selecione **[!UICONTROL Salvar]** para confirmar.
 
-![The Credit split dialog showing the credit split settings and the Save option.](/help/assets/connect/manage-connections/credit-split-dialog.png){zoomable="yes"}
+![A caixa de diálogo Divisão de crédito exibindo as configurações de divisão de crédito e a opção Salvar.](/help/assets/connect/manage-connections/credit-split-dialog.png){zoomable="yes"}
 
-### Review and submit changes {#review-and-submit-changes}
+### Revisar e enviar alterações {#review-and-submit-changes}
 
-When you complete editing the connection settings, review and select **[!UICONTROL Submit changes]**. The connection settings updates will be sent to your collaborator for review.
+Ao concluir a edição das configurações de conexão, revise e selecione **[!UICONTROL Enviar alterações]**. As atualizações das configurações de conexão serão enviadas ao seu colaborador para análise.
 
-![The edit connection settings screen displaying the updates and the Submit changes option.](/help/assets/connect/manage-connections/review-and-submit-changes.png){zoomable="yes"}
+![A tela de edição de configurações de conexão exibindo as atualizações e a opção Enviar alterações.](/help/assets/connect/manage-connections/review-and-submit-changes.png){zoomable="yes"}
 
-#### Save connection settings changes as draft
+#### Salvar alterações nas configurações de conexão como rascunho
 
-You can save the connection settings changes as a draft and return to finish updating the connection settings at any time.
+Você pode salvar as alterações nas configurações de conexão como rascunho e retornar para concluir a atualização das configurações de conexão a qualquer momento.
 
-To save the changes as a draft, select **[!UICONTROL Cancel]** next to **[!UICONTROL Submit changes]**. Then, in the **[!UICONTROL Unsubmitted changes]** dialog, select **[!UICONTROL Continue later]** to confirm.
+Para salvar as alterações como rascunho, selecione **[!UICONTROL Cancelar]** ao lado de **[!UICONTROL Enviar alterações]**. Em seguida, na caixa de diálogo **[!UICONTROL Alterações não enviadas]**, selecione **[!UICONTROL Continuar mais tarde]** para confirmar.
 
-![The edit connection settings screen.](/help/assets/connect/manage-connections/unsubmitted-changes-dialog.png){zoomable="yes"}
+![A tela de edição de configurações de conexão.](/help/assets/connect/manage-connections/unsubmitted-changes-dialog.png){zoomable="yes"}
 
-Your changes are now saved as a draft. In the connection settings workspace, you can see a notification indicating that there are unsubmitted changes. To make further updates, select **[!UICONTROL Continue editing]**.
+Suas alterações foram salvas como rascunho. No espaço de trabalho de configurações de conexão, você pode ver uma notificação indicando que há alterações não enviadas. Para fazer mais atualizações, selecione **[!UICONTROL Continuar editando]**.
 
-![A notification in the connection settings workspace showing there are unsubmitted changes pending review and submission.](/help/assets/connect/manage-connections/continue-editing-connection.png){zoomable="yes"}
+![Uma notificação no espaço de trabalho de configurações de conexão mostrando que há alterações não enviadas pendentes de revisão e envio.](/help/assets/connect/manage-connections/continue-editing-connection.png){zoomable="yes"}
