@@ -2,7 +2,7 @@
 title: Gerenciar conexões de dados de medição
 description: Saiba como gerenciar conexões de dados de medição, incluindo detalhes e chaves de correspondência no Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: dfe72315-6fcc-4ad7-b100-fc992ba9abbc
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
