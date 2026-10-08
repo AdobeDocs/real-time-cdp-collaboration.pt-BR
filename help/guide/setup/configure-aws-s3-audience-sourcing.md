@@ -1,14 +1,15 @@
 ---
-title: Configurar [!DNL Amazon S3] para Origem de Público-Alvo
-description: Saiba como configurar e conectar seu armazenamento do  [!DNL Amazon S3] como uma fonte de dados de autoatendimento para assimilar dados de público-alvo no Real-Time CDP Collaboration.
+title: Configurar o [!DNL Amazon S3] para origem do público-alvo
+description: Saiba como configurar e conectar seu armazenamento do [!DNL Amazon S3] como uma fonte de dados de autoatendimento para assimilar dados de público-alvo no Real-Time CDP Collaboration.
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1626'
 ht-degree: 8%
-
 ---
-
 # Configurar [!DNL Amazon S3] para fornecimento de público
 
 Saiba como configurar e conectar seu armazenamento do [!DNL Amazon S3] na interface do usuário do Adobe Real-Time CDP Collaboration aos dados de público-alvo de origem para ativação e análise de sobreposição.
@@ -31,15 +32,15 @@ Antes de configurar sua conexão de dados S3, verifique o seguinte:
 * Você tem acesso a um **[!DNL Amazon S3]bucket** ativo contendo arquivos de público-alvo que estão em conformidade com a **[Especificação de Origem de Público-Alvo (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**.
 * Você criou uma **função IAM** no AWS que concede à Adobe permissão para acessar seu bucket usando o método **função assumida** (não chaves de acesso/secretas). Consulte **[Configurar permissões do AWS para fornecimento de público-alvo](./configure-aws-permissions-audience-sourcing.md)** para obter instruções detalhadas. A função IAM deve incluir as seguintes permissões:
 
-   * `ListBucket`
-   * `GetBucketLocation`
-   * `GetObject`
+  * `ListBucket`
+  * `GetBucketLocation`
+  * `GetObject`
 
 * Você tem os seguintes valores prontos:
 
-   * **ARN (Nome do Recurso da Amazon) da função do IAM**
-   * **Nome do bucket do S3**
-   * **Caminho da pasta** (o prefixo do diretório que contém seus arquivos de público-alvo)
+  * **ARN (Nome do Recurso da Amazon) da função do IAM**
+  * **Nome do bucket do S3**
+  * **Caminho da pasta** (o prefixo do diretório que contém seus arquivos de público-alvo)
 
 >[!NOTE]
 >

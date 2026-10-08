@@ -4,13 +4,14 @@ description: Entenda como o uso e o consumo de crédito funcionam no Adobe Real-
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d1c15141-56c4-48aa-aba8-8d6f77024f63
-source-git-commit: 1952ea15da6da320b5630307528fb2f9fdb17118
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 1%
-
 ---
-
 # Uso e consumo de crédito no Real-Time CDP Collaboration [!DNL Starter]
 
 Esta documentação fornece detalhes sobre como os créditos são usados ao associar-se ao Adobe Real-Time CDP Collaboration [!DNL Starter] como usuário convidado. Saiba mais sobre quem é responsável pelo uso de crédito e considerações importantes sobre acesso e gerenciamento.
@@ -27,8 +28,8 @@ A Collaboration **não** impõe automaticamente o uso ou a disponibilidade de cr
 
 * Como usuário convidado, você deve coordenar diretamente com a organização ou parceiro que convidou você para discutir o uso do crédito.
 * Sua organização convidadora é responsável por decidir:
-   * Quando você pode acessar e usar os recursos do Collaboration
-   * Quais limites, restrições ou governança em torno do consumo de crédito
+  * Quando você pode acessar e usar os recursos do Collaboration
+  * Quais limites, restrições ou governança em torno do consumo de crédito
 
 >[!IMPORTANT]
 >

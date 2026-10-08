@@ -3,13 +3,14 @@ title: Configurar o Adobe Audience Manager para origem do público-alvo
 description: Saiba como conectar o Adobe Audience Manager como uma fonte de dados para poder fornecer públicos-alvo primários qualificados para o Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: be12b4c3b1d3d40fa9ceb43b319f55254b05e4df
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 0%
-
 ---
-
 
 # Configurar o Adobe Audience Manager para fornecimento de público
 

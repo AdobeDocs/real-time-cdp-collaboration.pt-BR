@@ -2,13 +2,14 @@
 title: Visão geral das fontes
 description: Saiba mais sobre conectores de origem no Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 6%
-
 ---
-
 # Visão geral das fontes
 
 No Adobe Real-Time CDP Collaboration, uma fonte (ou conexão de dados) é de onde os dados do público-alvo vêm. Você pode se conectar a vários tipos de origem, como aplicativos Adobe, armazenamentos na nuvem ou arquivos do seu sistema local, para [originar e gerenciar públicos](./onboard-audiences.md) para seus projetos Collaboration. Durante o fluxo de trabalho de fornecimento de público, você pode escolher e configurar sua origem preferida com base nas necessidades da organização.
@@ -33,7 +34,7 @@ Depois de selecionar uma origem, o fluxo de trabalho orienta você pelas etapas 
 
 As fontes a seguir estão disponíveis no Collaboration. Para exibir o guia de seleção de fornecedor passo a passo para essa origem, selecione o nome da origem na tabela abaixo. Se você estiver interessado em uma fonte que não está disponível no momento, entre em contato com o representante da Adobe.
 
-| Fonte | Descrição | Disponibilidade |
+| Origem | Descrição | Disponibilidade |
 | --- | --- | --- |
 | [Adobe Experience Platform](./onboard-audiences.md) | Traga públicos-alvo da instância conectada do Experience Platform e reutilize os segmentos de clientes existentes. | Disponível |
 | [Amazon S3](./configure-aws-s3-audience-sourcing.md) | Conecte seus buckets do S3 para obter grandes conjuntos de dados primários a partir de sua infraestrutura de nuvem. | Disponível |

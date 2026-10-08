@@ -2,13 +2,14 @@
 title: Requisitos de conexão de destino
 description: Revise as informações de conexão necessárias para configurar os destinos compatíveis com o Real-Time CDP Collaboration.
 audience: admin, publisher
-source-git-commit: c84582bb81289ce761c664af7db177535ff00a00
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 1%
-
 ---
-
 # Requisitos de conexão de destino
 
 Antes de configurar um destino no Real-Time CDP Collaboration, obtenha as credenciais e as informações de conexão exigidas pelo provedor de destino.

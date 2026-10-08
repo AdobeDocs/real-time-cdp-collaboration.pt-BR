@@ -1,19 +1,20 @@
 ---
-title: 'Configurar controles de permissão para a integração do Collaboration [!DNL Starter] '
-description: Saiba como configurar permissões para o Adobe Real-Time CDP Collaboration [!DNL Starter] usando as Permissões no Adobe Experience Cloud.
+title: Configurar controles de permissão para a integração do Collaboration [!DNL Starter]
+description: Saiba como configurar permissões para o Adobe Real-Time CDP Collaboration [!DNL Starter] usando as Permissões na Adobe Experience Cloud.
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 4e50b6cc-58f7-4a0c-8b6d-f5aa4f092e9f
-source-git-commit: 147fd5847bc5074e4b4f8a05a9a1c3afc089be56
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '578'
 ht-degree: 2%
-
 ---
-
 # Configurar controles de permissão para a integração do Collaboration [!DNL Starter]
 
-Depois de configurar o acesso de administrador e usuário aos produtos da Adobe Experience Platform, é necessário atribuir a si mesmo funções com as permissões apropriadas para o Real-Time CDP Collaboration. Leia este guia para saber como adicionar as funções certas à sua conta por meio da interface de Permissões do Experience Cloud, para que você possa acessar e gerenciar o acesso do usuário aos recursos do Collaboration.
+Depois de configurar o acesso de administrador e usuário aos produtos da Adobe Experience Platform, é necessário atribuir a si mesmo funções com as permissões apropriadas para o Real-Time CDP Collaboration. Leia este guia para saber como adicionar as funções certas à sua conta por meio da interface de Permissões da Experience Cloud, para que você possa acessar e gerenciar o acesso de usuários aos recursos do Collaboration.
 
 Para obter detalhes sobre funções padrão e permissões disponíveis incluídas no recurso do Collaboration, consulte [guia de como gerenciar funções](../permissions/manage-roles.md).
 
@@ -23,13 +24,13 @@ Verifique se você tem **privilégios de administrador** e **acesso de usuário*
 
 ## Configurar permissões {#setup-permissions}
 
-Siga as etapas abaixo para configurar as permissões necessárias para o Collaboration. Primeiro, faça logon no [Adobe Experience Cloud](https://experience.adobe.com/) com suas credenciais.
+Siga as etapas abaixo para configurar as permissões necessárias para o Collaboration. Primeiro, faça logon na [Adobe Experience Cloud](https://experience.adobe.com/) com suas credenciais.
 
 ### Permissões de acesso {#access-permissions}
 
 Depois de fazer logon, navegue até a seção **[!UICONTROL Acesso rápido]** e selecione **[!UICONTROL Permissões]**. Isso abre o painel Permissões, onde você pode atribuir as funções necessárias a si mesmo.
 
-![Página inicial do Experience Cloud com Permissões na seção de Acesso rápido destacada.](../../assets/setup/starter/access-permissions.png){zoomable="yes"}
+![Página inicial da Experience Cloud com permissões na seção Acesso rápido destacada.](../../assets/setup/starter/access-permissions.png){zoomable="yes"}
 
 ### Selecionar um usuário {#select-user}
 
@@ -66,7 +67,7 @@ Revise as informações e selecione as funções que deseja atribuir à sua cont
 
 Uma caixa de diálogo de confirmação confirma que novas funções foram adicionadas com êxito.
 
-Para verificar se suas permissões estão configuradas corretamente, retorne à página inicial do [Experience Cloud](https://experience.adobe.com/). Selecione **[!UICONTROL Real-Time CDP Collaboration]** em **[!UICONTROL Acesso rápido]**. Você deve conseguir acessar o espaço de trabalho do Collaboration e começar a usar os recursos disponíveis para sua conta do [!DNL Starter].
+Para verificar se suas permissões estão configuradas corretamente, retorne à página inicial da [Experience Cloud](https://experience.adobe.com/). Selecione **[!UICONTROL Real-Time CDP Collaboration]** em **[!UICONTROL Acesso rápido]**. Você deve conseguir acessar o espaço de trabalho do Collaboration e começar a usar os recursos disponíveis para sua conta do [!DNL Starter].
 
 ## Próximas etapas {#next-steps}
 

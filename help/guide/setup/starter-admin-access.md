@@ -1,16 +1,17 @@
 ---
-title: 'Configurar o acesso de administrador para a integração do Collaboration [!DNL Starter] '
-description: Saiba como configurar o acesso de administrador para o Adobe Real-Time CDP Collaboration [!DNL Starter] usando o Admin Console no Adobe Experience Cloud.
+title: Configurar o acesso de administrador para a integração do Collaboration [!DNL Starter]
+description: Saiba como configurar o acesso de administrador para o Adobe Real-Time CDP Collaboration [!DNL Starter] usando o Admin Console na Adobe Experience Cloud.
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
 badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7b5aa5e2-1238-4a0b-be20-becfe6c9e0b7
-source-git-commit: db4cc34592e49254163d7db54f93238146ce72a4
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '830'
 ht-degree: 2%
-
 ---
-
 # Configurar o acesso de administrador para a integração do Collaboration [!DNL Starter]
 
 Como o primeiro usuário da sua organização a acessar o Adobe Experience Platform por meio do Collaboration [!DNL Starter], você é responsável por configurar e gerenciar o acesso da sua equipe. Você deve conceder a si mesmo as permissões de administrador e usuário necessárias para começar a trabalhar no Real-Time CDP Collaboration. Leia este guia para saber como configurar o acesso necessário no Admin Console para gerenciar permissões de Colaborações na interface de Permissões.
@@ -29,7 +30,7 @@ Quando sua conta do Adobe é criada por meio do fluxo de trabalho [!DNL Starter]
 
 Use o Admin Console para conceder a si mesmo **acesso de administrador de produto** ao Experience Platform e **acesso de usuário** aos produtos da Experience Platform para obter **[!UICONTROL Permissões]**.
 
-Para saber mais sobre funções e produtos no Experience Cloud, leia a documentação da [visão geral do controle de acesso](../permissions/overview.md).
+Para saber mais sobre funções e produtos na Experience Cloud, leia a documentação da [visão geral do controle de acesso](../permissions/overview.md).
 
 >[!TIP]
 >
@@ -41,9 +42,9 @@ Leia esta seção para conceder a si mesmo privilégios de administrador para co
 
 #### Acessar o Admin Console {#access-admin-console}
 
-Para começar, entre no [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} com suas credenciais. Você pode ver uma lista dos seus produtos disponíveis na seção **[!UICONTROL Acesso rápido]**. Selecione **[!UICONTROL Admin Console]**.
+Para começar, entre na [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} com suas credenciais. Você pode ver uma lista dos seus produtos disponíveis na seção **[!UICONTROL Acesso rápido]**. Selecione **[!UICONTROL Admin Console]**.
 
-![Página inicial do Adobe Experience Cloud com Admin Console realçada.](../../assets/setup/starter/admin-access/select-admin-console.png){zoomable="yes"}
+![Página inicial da Adobe Experience Cloud com Admin Console realçada.](../../assets/setup/starter/admin-access/select-admin-console.png){zoomable="yes"}
 
 #### Acessar o painel de produtos do Adobe Experience Platform {#access-adobe-experience-platform}
 
@@ -73,7 +74,7 @@ Para gerenciar as permissões do Collaboration, você deve ter **acesso de usuá
 
 Para começar a configurar o acesso do usuário, conclua as seguintes etapas:
 
-1. [Acesse o Admin Console pela página inicial do Adobe Experience Cloud](#access-admin-console).
+1. [Acesse o Admin Console pela página inicial da Adobe Experience Cloud](#access-admin-console).
 2. [Navegue até o painel de produtos do Adobe Experience Platform](#access-adobe-experience-platform).
 
 #### Adicionar usuário ao produto {#add-user}
@@ -96,9 +97,9 @@ Finalmente, selecione **[!UICONTROL Salvar]** para concluir a adição de um nov
 
 ![Adicionar usuários a esta caixa de diálogo de produto com a opção Salvar realçada.](../../assets/setup/starter/admin-access/save-user.png){zoomable="yes"}
 
-Após ter acesso de usuário, navegue de volta para [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}. Confirme se as **[!UICONTROL Permissões]** e o **[!UICONTROL Real-Time CDP Collaboration]** estão disponíveis no **[!UICONTROL Acesso rápido]**.
+Após ter acesso de usuário, navegue de volta para a [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}. Confirme se as **[!UICONTROL Permissões]** e o **[!UICONTROL Real-Time CDP Collaboration]** estão disponíveis no **[!UICONTROL Acesso rápido]**.
 
-![Tela inicial do Adobe Experience Cloud mostrando Permissões e Real-Time CDP Collaboration listadas em Acesso rápido e realçadas.](../../assets/setup/starter/admin-access/permissions-collaboration-available.png){zoomable="yes"}
+![Tela inicial da Adobe Experience Cloud mostrando as Permissões e o Real-Time CDP Collaboration listados em Acesso rápido e realçados.](../../assets/setup/starter/admin-access/permissions-collaboration-available.png){zoomable="yes"}
 
 >[!TIP]
 >
