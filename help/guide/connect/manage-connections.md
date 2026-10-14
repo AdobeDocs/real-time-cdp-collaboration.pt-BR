@@ -11,9 +11,9 @@ product_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 991ea79aa90841bee833a04a304a52a407d377c7
+source-git-commit: 3c781fcb761c0d74241d66a7e75e3206fc1bc1da
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1311'
 ht-degree: 1%
 ---
 # Gerenciar conexões {#manage-connections}
@@ -38,7 +38,9 @@ O espaço de trabalho de configurações de conexão é exibido, exibindo os det
 
 ### Configurar um destino de ativação automática {#configure-auto-activation-destination}
 
-Como colaborador de recebimento, você pode selecionar um destino que o Collaboration usa para ativar automaticamente os públicos-alvo enviados a você por meio da conexão. Antes de começar, verifique se você tem pelo menos um destino ativo. Para obter instruções sobre como configurar destinos, consulte a [visão geral sobre destinos](../destinations/overview.md).
+Como colaborador de recebimento, você pode selecionar um destino que o Collaboration usa para ativar automaticamente os públicos-alvo enviados a você por meio da conexão. Se você não configurar um destino de ativação automática, será necessário ativar manualmente os públicos-alvo recebidos.
+
+Antes de começar, verifique se você tem pelo menos um destino ativo. Para obter instruções sobre como configurar destinos, consulte a [visão geral sobre destinos](../destinations/overview.md).
 
 No espaço de trabalho de configurações de conexão, vá para **[!UICONTROL Controle de ativação]** e selecione **[!UICONTROL EDITAR]**. Em seguida, escolha um **[!UICONTROL Destino de ativação automática]** na lista suspensa e selecione **[!UICONTROL Salvar]** para confirmar.
 
