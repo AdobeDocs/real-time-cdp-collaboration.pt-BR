@@ -2,7 +2,7 @@
 title: Configurar [!DNL Google Cloud Storage] para fornecimento de exposição de anúncios
 description: Saiba como conectar um bucket do [!DNL Google Cloud Storage] como uma fonte de log de anúncios de autoatendimento para exposições de anúncios na medição do Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 02f344c9fcfff20c84c2e92b5aa4647829dd5d2f
 workflow-type: tm+mt
 source-wordcount: '1712'
