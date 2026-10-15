@@ -2,7 +2,7 @@
 title: Configurar o [!DNL Snowflake] para origem do público-alvo
 description: Saiba como configurar e conectar seu [!DNL Snowflake Secure Data Share] como uma fonte de dados de autoatendimento para assimilar dados de público-alvo no Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
