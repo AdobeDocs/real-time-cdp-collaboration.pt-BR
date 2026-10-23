@@ -4,9 +4,9 @@ description: Saiba como criar públicos de expansão de um público inicial usan
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
+source-git-commit: 3fa87a65d9f231fe717df3dd5f63f1e6720c90e9
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '892'
 ht-degree: 1%
 ---
 # (Beta) Criar públicos de expansão em Expandir
@@ -15,12 +15,14 @@ Use a guia **[!UICONTROL Expandir]** em um projeto para criar um público-alvo d
 
 ## Pré-requisitos {#prerequisites}
 
-Antes de usar a guia **[!UICONTROL Expandir]**, você deve ter:
+Antes de usar a guia **[!UICONTROL Expandir]**, conclua estes pré-requisitos:
 
-* [Fornecido](/help/guide/setup/onboard-audiences.md) pelo menos um público-alvo para usar como um público-alvo de propagação
-* [Conectado](/help/guide/connect/establishing-connections.md) com um colaborador
-* [Criou um projeto](/help/guide/collaborate/manage-projects.md) com esse colaborador
-* Se você estiver recebendo um público de expansão, um [destino](/help/guide/destinations/overview.md) configurado para receber públicos ativados
+* [Source com pelo menos um público-alvo](/help/guide/setup/onboard-audiences.md) para usar como um público-alvo de propagação.
+* [Conecte-se com um colaborador](/help/guide/connect/establishing-connections.md).
+* [Crie um projeto](/help/guide/collaborate/manage-projects.md) com esse colaborador.
+* Se você receber públicos de expansão, [configure um destino de ativação automática](/help/guide/connect/manage-connections.md#configure-auto-activation-destination) para a conexão. Você deve possuir um destino ativo antes de configurar a ativação automática.
+
+Para obter detalhes sobre como enviar públicos e ativar públicos-alvo recebidos, consulte [Ativar públicos-alvo](/help/guide/collaborate/activate.md).
 
 ## Expandir visão geral {#expand-overview}
 
