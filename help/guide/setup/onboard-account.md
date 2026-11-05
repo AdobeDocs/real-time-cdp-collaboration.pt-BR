@@ -2,7 +2,7 @@
 title: Configurar e gerenciar sua conta
 description: Saiba como configurar e gerenciar vários aspectos da sua conta no Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 TQID: https://experienceleague.adobe.com/PRmSkRSE2tQ-5t5hHKzDAGrkF6-irmZid2Akq6-PQv8
 product_v2:
@@ -15,13 +15,11 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: b40ca0030b48f01a4f27716fbf39e587d858e3f4
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: '1432'
 ht-degree: 13%
-
 ---
-
 # Configurar e gerenciar sua conta
 
 {{limited-availability-release-note}}
@@ -56,10 +54,10 @@ Para começar a configurar sua conta, primeiro você deve definir os detalhes da
 * Adicione uma **[!UICONTROL Descrição]** sobre sua marca. Isso é opcional, mas ajuda outros colaboradores a entender melhor sua marca.
 * Selecione sua **[!UICONTROL Função]**. Você pode selecionar entre **[!UICONTROL Anunciante]** e **[!UICONTROL Publicador]**. Leia o guia [funções](/help/guide/overview/roles.md) para ver semelhanças e pequenas diferenças no fluxo de trabalho entre os dois tipos de função de conta.
 * Selecione o **[!UICONTROL Setor]** da sua conta. Alguns exemplos incluem **[!UICONTROL Varejo]**, **[!UICONTROL Telecomunicações]** ou **[!UICONTROL Serviços financeiros]**.
-* A **[!UICONTROL Região]** é automaticamente definida com base em sua conta da Adobe Experience Cloud. Isso não pode ser alterado a qualquer momento.
+* A **[!UICONTROL Região]** é definida automaticamente com base na sua conta da Adobe Experience Cloud. Isso não pode ser alterado a qualquer momento.
 * Adicione um **[!UICONTROL Email de contato]** para sua conta. Esse deve ser um endereço de email de equipe ou baseado em funções. Endereços de email pessoais não devem ser fornecidos.
 * Carregue um **[!UICONTROL Logotipo]** para sua conta. Atualmente, imagens do tipo SVG são compatíveis. Isso é opcional, mas carregar um logotipo ajuda a representar visualmente sua marca na interface do Collaboration
-* Selecione uma imagem para a imagem do cabeçalho da conta.
+* Selecione uma imagem para o cabeçalho da sua conta.
 
 >[!NOTE]
 >
@@ -105,6 +103,10 @@ A tabela a seguir exibe as chaves de correspondência compatíveis com o Collabo
 
 {style="table-layout:auto"}
 
+>[!NOTE]
+>
+>Os campos Nome e Endereço Postal usados para a resolução de identidade [!DNL Epsilon Core ID] não estão configurados como chaves de correspondência no nível da conta. Mapeie esses campos ao configurar uma conexão de dados de público-alvo. Para obter mais informações, consulte [Mapear campos](./onboard-audiences.md#map-fields).
+
 >[!IMPORTANT]
 >
 >As chaves de correspondência selecionadas durante a configuração da conta determinarão as chaves de correspondência disponíveis em suas conexões. Embora você possa [remover chaves de correspondência indesejadas](../connect/establishing-connections.md#connection-settings) durante a configuração da conexão, chaves de correspondência não podem ser adicionadas após uma conexão ser estabelecida. É importante que você selecione **todas** as chaves de correspondência que planeja usar em campanhas futuras durante a configuração da conta.
@@ -130,7 +132,6 @@ As IDs de pessoas estão conectadas diretamente a um perfil individual. As IDs c
 * **[!UICONTROL Telefone com hash]**
 * **[!UICONTROL IDs do CRM]**
 * **[!UICONTROL IDs de fidelidade]**
-<!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
 ##### IDs de dispositivos
 
@@ -151,13 +152,9 @@ As IDs de parceiros são identificadores fornecidos por parceiros externos para 
 >
 >A integração do Adobe com o [!DNL AdFixus] mapeia as [!UICONTROL IDs do AdFixus] exclusivas de cada conta para um formato comum codificado em Adobe. Esses mapeamentos são usados para identificar sobreposições entre colaboradores. Ao ativar públicos-alvo usando a **[!UICONTROL AdFixus ID]**, as IDs originais serão usadas. O formato codificado em Adobe nunca sai do Collaboration.
 
-Ao selecionar **[!UICONTROL AdFixus ID]**, você precisará fornecer a ID correspondente do seu parceiro externo na seção **[!UICONTROL Credenciais da conta]**. Esta opção só estará disponível *após* alternando em **[!UICONTROL AdFixus ID]**. Digite sua ID do AdFixus no campo **[!UICONTROL ID da Conta]**, certificando-se de verificar novamente a precisão do valor.
+Ao selecionar **[!UICONTROL AdFixus ID]**, você precisará fornecer a ID correspondente do seu parceiro externo na seção **[!UICONTROL Credenciais da conta]**. Esta opção só estará disponível *após* alternando em **[!UICONTROL AdFixus ID]**. Digite sua ID do AdFixus no campo **[!UICONTROL ID da Conta]**, certificando-se de verificar novamente a precisão do valor. Depois de selecionar todas as chaves de correspondência desejadas, selecione **[!UICONTROL Concluir]** para concluir o fluxo de trabalho de configuração da conta.
 
 ![A caixa de diálogo Corresponder chaves com AdFixus ID foi ativada e a seção Credenciais da conta foi realçada.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
-
-Depois de selecionar todas as chaves de correspondência desejadas, selecione **[!UICONTROL Concluir]** para concluir o fluxo de trabalho de configuração da conta.
-
-![O espaço de trabalho Configurar conta com a seção Chaves de correspondência é exibido.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
 ## Editar conta {#edit-account}
 
@@ -165,7 +162,7 @@ Após configurar sua conta, você pode editar os detalhes e as chaves de corresp
 
 ### Editar detalhes {#edit-details}
 
-Você pode editar a maioria dos detalhes da sua conta a qualquer momento, com exceção da **[!UICONTROL Função]**. A região é automaticamente definida com base em sua conta da Adobe Experience Cloud e não pode ser alterada.
+Você pode editar a maioria dos detalhes da sua conta a qualquer momento, com exceção da **[!UICONTROL Função]**. A região é definida automaticamente com base na sua conta da Adobe Experience Cloud e não pode ser alterada.
 
 Para editar sua conta, selecione **[!UICONTROL Editar]** na seção **[!UICONTROL Minha conta]** do espaço de trabalho **[!UICONTROL Instalação]**.
 

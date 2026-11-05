@@ -2,7 +2,7 @@
 title: Visão geral da configuração
 description: Conheça todas as opções e fluxos de trabalho disponíveis na seção de configuração do Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: cbf21cc8-41b4-4dfe-88b7-47bd9a19cbc7
 TQID: https://experienceleague.adobe.com/A01vUw6jGKigHNQHQc9nYfC5V9f6xB4mKeLqnPBfl2o
 product_v2:
@@ -11,13 +11,11 @@ product_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 146b4214b909f7c854107d9ff4e7975c85ea794d
+source-git-commit: 6a7fb27f1b657e9053025207cf571b918509a4f8
 workflow-type: tm+mt
-source-wordcount: 119
-ht-degree: 21%
-
+source-wordcount: '125'
+ht-degree: 20%
 ---
-
 # Visão geral da seção de configuração
 
 {{limited-availability-release-note}}
@@ -31,5 +29,6 @@ Use a funcionalidade na seção de configuração para:
 * [Configurar e gerenciar sua conta](/help/guide/setup/onboard-account.md)
 * [Source e gerenciar públicos](/help/guide/setup/onboard-audiences.md)
 * [Gerenciar conexões de dados](/help/guide/setup/manage-data-connection.md)
+* [Configurar e gerenciar a resolução de identidade](/help/guide/setup/identity-resolution.md)
 * [Rastrear sua atividade de consumo de crédito](/help/guide/setup/my-activity.md)
 * [Exibir logs de auditoria](/help/guide/setup/audit-logs.md)

@@ -2,7 +2,7 @@
 title: Source e gerenciar públicos
 description: Saiba como fornecer e gerenciar públicos-alvo no Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
 product_v2:
@@ -15,10 +15,10 @@ topic_v2:
     internal-label: Governance
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: e4951569c5f5190b7f1b7f9b85cf4397ffdeef6d
+source-git-commit: b381d126dfdf1a6377f93c4f24905492de0bdb73
 workflow-type: tm+mt
-source-wordcount: '3970'
-ht-degree: 16%
+source-wordcount: '4152'
+ht-degree: 14%
 ---
 # Source e gerenciar públicos
 
@@ -95,7 +95,7 @@ Em seguida, verifique se as ações de marketing corretas estão definidas nos d
 
 Use ações de marketing para controlar quais dados de público-alvo trazer para o Collaboration a partir do Experience Platform. A ação de marketing **[!UICONTROL Colaboração de dados]** é compatível com os rótulos de uso de dados C4, C5, C9, S1, S2, PSPD e RHD. A ação de marketing **[!UICONTROL Ciência de dados]** é compatível com o rótulo de uso de dados C9.
 
-Leia mais sobre os [rótulos de uso de dados C4, C5, C9, S1, S2, PSPD e RHD](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Leia mais sobre os [rótulos de uso de dados C4, C5, C9, S1, S2, PSPD e RHD](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando a caixa de seleção estiver ***habilitada***, todos os dados rotulados no Experience Platform conforme descrito acima serão excluídos e **não** serão trazidos para o Collaboration.
 * Com a caixa de seleção ***desabilitada***, não há restrição nos dados obtidos do Experience Platform.
@@ -129,7 +129,7 @@ Em seguida, forneça um nome e uma descrição para sua conexão de dados. Essas
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Campos de destino"
->abstract="Os campos de destino são as chaves de correspondência escolhidas durante a configuração da conta. Por padrão, todas as chaves de correspondência escolhidas estão disponíveis."
+>abstract="Os campos de destino identificam como os dados de origem mapeados são usados no Collaboration. As chaves de correspondência no nível da conta estão disponíveis por padrão. Os campos de nome e endereço postal usados para resolução de identidade estão disponíveis durante a configuração da conexão de dados e não exigem ativação no nível da conta."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -148,9 +148,22 @@ Em seguida, forneça um nome e uma descrição para sua conexão de dados. Essas
 >abstract="Selecione atributos do esquema de união para a classe Perfil na Experience Platform. Essa exibição mostra atributos que estão presentes no esquema de união e pertencem à classe Perfil individual XDM."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=pt-BR" text="Esquema de união na Experience Platform"
 
-Em seguida, você selecionará campos de origem para mapear para campos de destino no Collaboration. Os campos de destino disponíveis serão baseados nas chaves de correspondência selecionadas durante a [configuração de conta](./onboard-account.md#set-up-match-keys).
+Em seguida, você selecionará campos de origem para mapear para campos de destino no Collaboration. Os campos de destino disponíveis são baseados nas chaves de correspondência selecionadas durante a [configuração de conta](./onboard-account.md#set-up-match-keys). Os campos [!UICONTROL Nome] e [!UICONTROL Endereço postal] usados para resolução de identidade estão disponíveis durante a configuração da conexão de dados e não precisam ser habilitados no nível da conta.
 
-Se você selecionou [!DNL Demdex ID (ECID)] como chave de correspondência durante a configuração da conta, [!DNL Demdex ID] será automaticamente extraído e mapeado da ECID e você não precisará realizar nenhuma ação. Para saber mais sobre [!DNL Demdex IDs], consulte o guia [[!DNL Demdex ID]](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/identity/unified-identity-support).
+#### Mapear campos de nome e endereço postal para a ID principal do Epsilon {#map-name-postal-address}
+
+Para usar **[!UICONTROL Nome]** e **[!UICONTROL Endereço postal]** para resolução de identidade, mapeie pelo menos um subcomponente em ambos os campos:
+
+* **[!UICONTROL Nome]:** [!UICONTROL Nome], [!UICONTROL Sobrenome] ou [!UICONTROL Nome completo].
+* **[!UICONTROL Endereço postal]:** [!UICONTROL Endereço], [!UICONTROL Cidade], [!UICONTROL Estado], [!UICONTROL CEP] ou [!UICONTROL País].
+
+Quando o Adobe Experience Platform é a fonte de dados, o Collaboration mapeia automaticamente os atributos de perfil disponíveis da sandbox selecionada para os subcomponentes [!UICONTROL Nome] e [!UICONTROL Endereço postal]. Revise os mapeamentos sugeridos e corrija os campos ausentes ou mapeados incorretamente.
+
+Não é necessário mapear cada subcomponente. Para excluir um subcomponente para o qual você não tem dados, exclua sua linha de mapeamento. Os valores [!UICONTROL Nome] e [!UICONTROL Endereço postal] não estão com hash.
+
+Para obter mais informações sobre como usar esses campos, consulte [Configurar e gerenciar a resolução de identidade](./identity-resolution.md).
+
+Se você selecionou [!DNL Demdex ID (ECID)] como chave de correspondência durante a configuração da conta, [!DNL Demdex ID] será automaticamente extraído e mapeado da ECID e você não precisará realizar nenhuma ação. Para saber mais sobre [!DNL Demdex IDs], consulte o guia [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support).
 
 ![O espaço de trabalho Adicionar públicos-alvo com a opção para mapear campos de origem para campos de destino.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -160,13 +173,13 @@ Se você selecionou [!DNL Demdex ID (ECID)] como chave de correspondência duran
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Os campos do Source]** são namespaces de identidade e atributos da Experience Platform. Eles incluem namespaces de identidade [padrão](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=pt-BR#standard){target="_blank"} e [personalizados](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=pt-BR#create-namespaces){target="_blank"}. Eles também incluem atributos de perfil que estão presentes no [esquema de união](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=pt-BR){target="_blank"} e pertencem à classe Perfil Individual XDM.
+**[!UICONTROL Os campos do Source]** são namespaces de identidade e atributos da Experience Platform. Eles incluem namespaces de identidade [padrão](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=pt-BR#standard){target="_blank"} e [personalizados](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. Eles também incluem atributos de perfil que estão presentes no [esquema de união](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=pt-BR){target="_blank"} e pertencem à classe Perfil Individual XDM.
 
-Os campos do Source são mapeados para os campos de destino definidos no Collaboration.
+Os campos do Source são mapeados para campos de destino definidos no Collaboration.
 
-**[!UICONTROL Os campos de destino]** indicam como as identidades são referenciadas no Collaboration. Os campos de destino são as chaves de correspondência escolhidas durante a configuração da conta. Por padrão, todas as chaves de correspondência escolhidas estão disponíveis.
+**[!UICONTROL Campos de destino]** indicam como os dados de origem mapeados são usados no Collaboration. A maioria dos campos de destino são chaves de correspondência selecionadas durante a configuração da conta. Os campos **[!UICONTROL Nome]** e **[!UICONTROL Endereço postal]** para resolução de identidade são fornecidos durante a configuração da conexão de dados e não exigem habilitação no nível da conta.
 
-Use a opção **[!UICONTROL Aplicar transformação]** quando estiver fornecendo *campos sem hash* para campos com hash. O Collaboration aplicará o hash e transformará os campos. O algoritmo de hash usado pelo Adobe é SHA256.
+Use a opção **[!UICONTROL Aplicar transformação]** quando estiver fornecendo campos sem hash para campos com hash. O Collaboration aplica hash SHA256 para transformar os campos. Os valores [!UICONTROL Nome] e [!UICONTROL Endereço postal] não estão com hash.
 
 >[!ENDSHADEBOX]
 
