@@ -15,10 +15,10 @@ topic_v2:
     internal-label: Governance
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: e4951569c5f5190b7f1b7f9b85cf4397ffdeef6d
+source-git-commit: b381d126dfdf1a6377f93c4f24905492de0bdb73
 workflow-type: tm+mt
-source-wordcount: '3970'
-ht-degree: 16%
+source-wordcount: '4152'
+ht-degree: 14%
 ---
 # Source e gerenciar públicos
 
@@ -129,7 +129,7 @@ Em seguida, forneça um nome e uma descrição para sua conexão de dados. Essas
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Campos de destino"
->abstract="Os campos de destino são as chaves de correspondência escolhidas durante a configuração da conta. Por padrão, todas as chaves de correspondência escolhidas estão disponíveis."
+>abstract="Os campos de destino identificam como os dados de origem mapeados são usados no Collaboration. As chaves de correspondência no nível da conta estão disponíveis por padrão. Os campos de nome e endereço postal usados para resolução de identidade estão disponíveis durante a configuração da conexão de dados e não exigem ativação no nível da conta."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -148,7 +148,20 @@ Em seguida, forneça um nome e uma descrição para sua conexão de dados. Essas
 >abstract="Selecione atributos do esquema de união para a classe Perfil na Experience Platform. Essa exibição mostra atributos que estão presentes no esquema de união e pertencem à classe Perfil individual XDM."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=pt-BR" text="Esquema de união na Experience Platform"
 
-Em seguida, você selecionará campos de origem para mapear para campos de destino no Collaboration. Os campos de destino disponíveis serão baseados nas chaves de correspondência selecionadas durante a [configuração de conta](./onboard-account.md#set-up-match-keys).
+Em seguida, você selecionará campos de origem para mapear para campos de destino no Collaboration. Os campos de destino disponíveis são baseados nas chaves de correspondência selecionadas durante a [configuração de conta](./onboard-account.md#set-up-match-keys). Os campos [!UICONTROL Nome] e [!UICONTROL Endereço postal] usados para resolução de identidade estão disponíveis durante a configuração da conexão de dados e não precisam ser habilitados no nível da conta.
+
+#### Mapear campos de nome e endereço postal para a ID principal do Epsilon {#map-name-postal-address}
+
+Para usar **[!UICONTROL Nome]** e **[!UICONTROL Endereço postal]** para resolução de identidade, mapeie pelo menos um subcomponente em ambos os campos:
+
+* **[!UICONTROL Nome]:** [!UICONTROL Nome], [!UICONTROL Sobrenome] ou [!UICONTROL Nome completo].
+* **[!UICONTROL Endereço postal]:** [!UICONTROL Endereço], [!UICONTROL Cidade], [!UICONTROL Estado], [!UICONTROL CEP] ou [!UICONTROL País].
+
+Quando o Adobe Experience Platform é a fonte de dados, o Collaboration mapeia automaticamente os atributos de perfil disponíveis da sandbox selecionada para os subcomponentes [!UICONTROL Nome] e [!UICONTROL Endereço postal]. Revise os mapeamentos sugeridos e corrija os campos ausentes ou mapeados incorretamente.
+
+Não é necessário mapear cada subcomponente. Para excluir um subcomponente para o qual você não tem dados, exclua sua linha de mapeamento. Os valores [!UICONTROL Nome] e [!UICONTROL Endereço postal] não estão com hash.
+
+Para obter mais informações sobre como usar esses campos, consulte [Configurar e gerenciar a resolução de identidade](./identity-resolution.md).
 
 Se você selecionou [!DNL Demdex ID (ECID)] como chave de correspondência durante a configuração da conta, [!DNL Demdex ID] será automaticamente extraído e mapeado da ECID e você não precisará realizar nenhuma ação. Para saber mais sobre [!DNL Demdex IDs], consulte o guia [[!DNL Demdex ID]](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/identity/unified-identity-support).
 
@@ -162,11 +175,11 @@ Se você selecionou [!DNL Demdex ID (ECID)] como chave de correspondência duran
 
 **[!UICONTROL Os campos do Source]** são namespaces de identidade e atributos da Experience Platform. Eles incluem namespaces de identidade [padrão](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=pt-BR#standard){target="_blank"} e [personalizados](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=pt-BR#create-namespaces){target="_blank"}. Eles também incluem atributos de perfil que estão presentes no [esquema de união](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=pt-BR){target="_blank"} e pertencem à classe Perfil Individual XDM.
 
-Os campos do Source são mapeados para os campos de destino definidos no Collaboration.
+Os campos do Source são mapeados para campos de destino definidos no Collaboration.
 
-**[!UICONTROL Os campos de destino]** indicam como as identidades são referenciadas no Collaboration. Os campos de destino são as chaves de correspondência escolhidas durante a configuração da conta. Por padrão, todas as chaves de correspondência escolhidas estão disponíveis.
+**[!UICONTROL Campos de destino]** indicam como os dados de origem mapeados são usados no Collaboration. A maioria dos campos de destino são chaves de correspondência selecionadas durante a configuração da conta. Os campos **[!UICONTROL Nome]** e **[!UICONTROL Endereço postal]** para resolução de identidade são fornecidos durante a configuração da conexão de dados e não exigem habilitação no nível da conta.
 
-Use a opção **[!UICONTROL Aplicar transformação]** quando estiver fornecendo *campos sem hash* para campos com hash. O Collaboration aplicará o hash e transformará os campos. O algoritmo de hash usado pelo Adobe é SHA256.
+Use a opção **[!UICONTROL Aplicar transformação]** quando estiver fornecendo campos sem hash para campos com hash. O Collaboration aplica hash SHA256 para transformar os campos. Os valores [!UICONTROL Nome] e [!UICONTROL Endereço postal] não estão com hash.
 
 >[!ENDSHADEBOX]
 
