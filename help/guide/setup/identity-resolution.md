@@ -2,13 +2,13 @@
 title: Configurar e gerenciar a resolução de identidade
 description: Saiba como configurar e gerenciar a resolução de identidade no Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser, agency
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: ff233017fb78a63b2e911dc0dc94d67f2b18af04
+source-git-commit: 7554535fc7e29879d982b928e1b78d8ebb9c61f7
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1095'
 ht-degree: 1%
 ---
 # Configurar e gerenciar a resolução de identidade
@@ -19,11 +19,7 @@ A resolução de identidade ajuda a identificar os clientes que você tem em com
 
 >[!NOTE]
 >
->As etapas e capturas de tela neste guia usam [!DNL Epsilon Core ID] como exemplo. Os requisitos e as opções disponíveis podem diferir, dependendo do seu provedor de identidade.
-
->[!AVAILABILITY]
->
->Na inicialização, somente [!DNL Epsilon Core ID] está disponível para configuração. A resolução de identidade da Epsilon Core ID só está disponível para contas do Real-Time CDP Collaboration provisionadas nos Estados Unidos.
+>Atualmente, somente a Epsilon Core ID está disponível para configuração e somente para contas do Real-Time CDP Collaboration provisionadas nos Estados Unidos. As etapas e capturas de tela neste guia usam a Epsilon Core ID.
 
 ## Pré-requisitos {#prerequisites}
 
