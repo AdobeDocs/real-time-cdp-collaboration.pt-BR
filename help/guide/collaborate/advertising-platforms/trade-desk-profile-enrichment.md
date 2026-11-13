@@ -178,6 +178,6 @@ Para solucionar problemas de dados de origem, exportação e assimilação, use 
 
 ## Próximas etapas {#next-steps}
 
-Depois de assimilar e validar os atributos, compile os públicos-alvo no [!DNL Adobe Real-Time CDP] combinando sinais de enriquecimento com dados primários. Para obter mais informações, consulte o [guia do Audience Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}.
+Depois de assimilar e validar os atributos, compile os públicos-alvo no [!DNL Adobe Real-Time CDP] combinando sinais de enriquecimento com dados primários. Para obter mais informações, consulte o [guia do Audience Builder](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}.
 
-Para ativar públicos-alvo para destinos, personalização ou jornadas do cliente, consulte o [guia de ativação de público-alvo](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}.
+Para ativar públicos-alvo para destinos, personalização ou jornadas do cliente, consulte o [guia de ativação de público-alvo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}.
