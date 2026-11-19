@@ -1,15 +1,15 @@
 ---
 title: Configurar o [!DNL Databricks Delta Share] para origem do público-alvo
-description: Saiba como configurar e conectar o [!DNL Databricks Delta Share] para fornecimento de público no Real-Time CDP Collaboration.
+description: Saiba como configurar e conectar o [!DNL Databricks Delta Share] para fornecimento de público-alvo no Real-Time CDP Collaboration, incluindo compartilhamento de histórico.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informativo" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html" newtab=true
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
+source-git-commit: 2c6b8967566bcb1ea1851763a13d965bddfb9236
 workflow-type: tm+mt
-source-wordcount: '2818'
-ht-degree: 2%
+source-wordcount: '3294'
+ht-degree: 1%
 ---
 
 # Configurar [!DNL Databricks Delta Share] para fornecimento de público
@@ -18,7 +18,7 @@ Use este guia para conectar o [!DNL Databricks Delta Share] ao Adobe Real-Time C
 
 Ao conectar [!DNL Databricks Delta Share], o Collaboration lê os dados de público-alvo diretamente do compartilhamento do Catálogo do Unity. Depois que a origem for concluída, você poderá usar os públicos-alvo para ativação e análise de sobreposição em projetos de colaboração.
 
-Este guia explica como preparar pré-requisitos, conectar seu [!DNL Delta Share], especificar tabelas de origem, mapear campos de identidade e verificar se a origem de público-alvo é iniciada com êxito.
+Este guia explica como concluir os pré-requisitos, conectar seu [!DNL Delta Share], especificar tabelas de origem, mapear campos de identidade e verificar se a origem de público-alvo é iniciada com êxito.
 
 Os públicos-alvo provenientes de [!DNL Databricks] seguem as mesmas regras de governança e tratamento de dados que os públicos-alvo provenientes da Adobe Experience Platform e de outras fontes de nuvem compatíveis.
 
@@ -44,17 +44,18 @@ Para obter instruções passo a passo sobre como publicar um compartilhamento na
 
 Estruture suas tabelas de público para que o Collaboration possa descobrir públicos e mapear identidades corretamente.
 
-* **Tabela de associação (obrigatória):** uma tabela dentro do esquema compartilhado que contém uma linha por par perfil-público. Esta tabela deve incluir uma coluna mapeável para `AUDIENCE_ID` e pelo menos uma coluna de chave correspondente com suporte. O Collaboration usa essa tabela para visualização de dados de origem e mapeamento de campo.
+* **Tabela de associação (obrigatória):** uma tabela dentro do esquema compartilhado que contém uma linha por par perfil-público. Esta tabela deve incluir uma coluna `AUDIENCE_ID` e pelo menos uma coluna de chave correspondente com suporte. O Collaboration usa essa tabela para visualização de dados de origem e mapeamento de campo.
 * **Tabela de metadados (opcional):** se você mantiver um catálogo separado de públicos-alvo (uma linha por público-alvo com ID de público-alvo, nome, contagens ou metadados semelhantes), poderá fornecer essa tabela para que o Collaboration leia as definições de público-alvo a partir dela em vez de deduzir IDs de público-alvo distintas somente da tabela de associação.
 * **Chaves de correspondência com suporte:** `HASHED_EMAIL_SHA_256`, `HASHED_PHONE_SHA_256`, `HASHED_IPV4_SHA_256`, `CRM_ID`, `LOYALTY_ID`, `ADFIXUS_ID` e outras chaves de correspondência habilitadas para sua conta da Collaboration.
 * **Requisitos de hash:** Todos os valores de chave de correspondência devem ser cortados, ter letras minúsculas e ter hash SHA256 antes de serem armazenados em [!DNL Databricks]. O Collaboration não faz hash ou normaliza dados antes da assimilação.
 * **Consistência de coluna:** A tabela de associação deve expor nomes de coluna estáveis que o Collaboration pode mapear para suas chaves de correspondência habilitadas.
+* **Compartilhamento de histórico (recomendado):** Para melhorar o desempenho de fornecimento, especialmente para tabelas grandes, habilite o compartilhamento de histórico ao compartilhar tabelas de público-alvo. O compartilhamento de histórico permite que o Collaboration leia dados em paralelo usando uma versão de tabela consistente. Sem o compartilhamento de histórico, a origem de público-alvo é concluída usando um processo de consulta única e mais lento. Para obter mais informações, consulte [Habilitar compartilhamento de histórico](#enable-history-sharing).
 
 Todas as chaves de correspondência presentes na tabela de associação também devem ser habilitadas para a conta do Collaboration. Para adicionar ou habilitar chaves correspondentes, consulte [Configurar chaves correspondentes](./onboard-account.md#set-up-match-keys).
 
 ### Valores obrigatórios antes de começar {#required-values}
 
-Tenha os seguintes valores prontos antes de iniciar o assistente de configuração.
+Tenha os seguintes valores prontos antes de iniciar o fluxo de trabalho de configuração.
 
 
 | Valor | Descrição |
@@ -69,7 +70,7 @@ Tenha os seguintes valores prontos antes de iniciar o assistente de configuraç�
 
 ## Configurar sua conexão com o [!DNL Databricks] {#configure-databricks-connection}
 
-O fluxo de trabalho de configuração é um assistente de várias etapas dentro do espaço de trabalho **[!UICONTROL Instalação]**. Conclua cada etapa em sequência.
+O fluxo de trabalho de configuração inclui várias etapas no espaço de trabalho **[!UICONTROL Instalação]**. Conclua cada etapa em sequência.
 
 ### Adicionar uma nova conexão de dados {#add-data-connection}
 
@@ -106,11 +107,11 @@ O Collaboration valida o compartilhamento e o monta no espaço de trabalho do Ad
 | **[!UICONTROL Nome do provedor]** | O nome do provedor do Catálogo do Unity que a Adobe usa para consumir seu compartilhamento. Consulte [Valores necessários antes de começar](#required-values). |
 | **[!UICONTROL Nome do compartilhamento]** | O nome do [!DNL Delta Share] publicado no Adobe. |
 | **[!UICONTROL Esquema]** | O esquema no compartilhamento que contém suas tabelas de público-alvo. |
-| **[!UICONTROL Tabela de dados]** | O nome da tabela no esquema que contém as linhas de associação de público-alvo (uma linha por perfil em um público-alvo). |
+| **[!UICONTROL Tabela de associação]** | O nome da tabela no esquema que contém as linhas de associação de público-alvo (uma linha por perfil em um público-alvo). |
 | **[!UICONTROL Tabela de metadados]** | A tabela que lista os públicos-alvo (uma linha por público-alvo). |
 
 
-![O fluxo de trabalho Adicionar público-alvo mostrando o formulário de compartilhamento de conexão de Databricks com o nome do provedor, o nome do compartilhamento, o esquema, a tabela de dados e os campos de tabela de metadados, e o botão Próximo disponível.](../../assets/setup/databricks-audience-sourcing/databricks-connect-share-successful.png)
+![O fluxo de trabalho Adicionar público-alvo mostrando o formulário de compartilhamento de conexão de Databricks com o nome do provedor, o nome do compartilhamento, o esquema, a tabela de associação e os campos de tabela de metadados, e o botão Próximo disponível.](../../assets/setup/databricks-audience-sourcing/databricks-connect-share-successful.png)
 
 Se o compartilhamento não puder ser encontrado ou o esquema ainda não estiver visível, uma mensagem de erro será exibida. Verifique os valores com o administrador [!DNL Databricks] e tente novamente.
 
@@ -171,7 +172,7 @@ Uma caixa de diálogo de confirmação é exibida, indicando que o Collaboration
 
 ## Revisar públicos-alvo originados {#review-sourced-audiences}
 
-Após concluir o assistente de configuração, o Collaboration começa a fornecer públicos-alvo das tabelas do [!DNL Databricks] de forma assíncrona. Navegue até **[!UICONTROL Configuração] > [!UICONTROL Meus públicos-alvo]** para monitorar o progresso. A origem não é concluída imediatamente; o tempo necessário depende do tamanho dos dados.
+Após concluir o fluxo de trabalho de configuração, a Collaboration começa a fornecer públicos-alvo a partir das tabelas [!DNL Databricks] de forma assíncrona. Navegue até **[!UICONTROL Configuração] > [!UICONTROL Meus públicos-alvo]** para monitorar o progresso. A origem não é concluída imediatamente; o tempo necessário depende do tamanho dos dados.
 
 ### Monitorar o progresso do fornecimento de público {#monitor-sourcing-progress}
 
@@ -181,7 +182,9 @@ Enquanto a Collaboration recupera os dados do seu público-alvo, um banner na pa
 
 >[!TIP]
 >
->O tempo de fornecimento do público-alvo varia de acordo com o tamanho da tabela de associação e se você usa uma tabela de metadados para descobrir o público-alvo. Conjuntos de dados maiores podem levar mais tempo para serem exibidos no espaço de trabalho **[!UICONTROL Meus públicos-alvo]**.
+>Para melhorar o desempenho do fornecimento de público-alvo, especialmente em tabelas grandes, habilite o compartilhamento de histórico. Isso permite que o Collaboration leia dados em paralelo de uma versão de tabela consistente. No entanto, os compartilhamentos entre nuvens usam um processo de consulta única, mesmo quando o compartilhamento de histórico está habilitado.
+>
+>O tempo de fornecimento do público-alvo também depende de fatores como tamanho da tabela de associação e descoberta de público-alvo orientada por metadados. Conjuntos de dados maiores podem levar mais tempo para serem exibidos em **[!UICONTROL Meus públicos-alvo]**. Para obter mais informações, consulte [Habilitar compartilhamento de histórico](#enable-history-sharing).
 
 ### Exibir detalhes do público-alvo de origem {#view-audience-details}
 
@@ -216,11 +219,13 @@ Para revisar a própria conexão, incluindo suas chaves de correspondência, nav
 
 Esteja ciente das seguintes restrições ao configurar e usar a fonte de público-alvo [!DNL Databricks Delta Share]:
 
-* **Somente compartilhamento nativo:** A interface dá suporte somente a Databricks nativos para Databricks [!DNL Delta Sharing]. Os fluxos de autenticação de bearer-token e OIDC não estão disponíveis no assistente de configuração.
-* **Nenhum navegador de tabela do assistente:** Insira nomes de tabela manualmente. O Collaboration valida os nomes das tabelas quando você as visualiza; ele não lista todas as tabelas no seu compartilhamento automaticamente.
+* **Somente compartilhamento nativo:** A interface dá suporte somente a Databricks nativos para Databricks [!DNL Delta Sharing]. Os fluxos de autenticação de bearer-token e OIDC não estão disponíveis no fluxo de trabalho de configuração.
+* **Entrada manual de nome de tabela:** Insira nomes de tabela manualmente. O Collaboration valida os nomes das tabelas quando você as visualiza; ele não lista todas as tabelas no seu compartilhamento automaticamente.
 * **Limite de linhas da tabela de metadados:** Quando você usa uma tabela de metadados para descoberta de público-alvo, o Collaboration importa até 100.000 linhas de público-alvo dessa tabela. Entre em contato com o suporte da Adobe se o catálogo exceder esse limite.
 * **Restrições de chave de correspondência:** depois que uma chave de correspondência é habilitada para uma conexão de dados, ela não pode ser removida. Você pode adicionar chaves de correspondência a uma conexão existente, mas não pode desabilitá-las ou excluí-las. Para alterar as chaves de correspondência ativas, você deve [excluir a conexão de dados](./manage-data-connection.md#delete-data-connection) e criar uma nova.
 * **Tabela de associação necessária:** Mesmo quando você usa uma tabela de metadados para descoberta de público-alvo, deve especificar uma tabela de associação. O Collaboration lê linhas de identidade da tabela de associação durante a assimilação.
+* **Compartilhamento de histórico recomendado para tabelas grandes:** Para melhorar o desempenho de fornecimento de tabelas grandes, habilite o compartilhamento de histórico. Isso permite que o Collaboration leia os dados em paralelo. Sem o compartilhamento de histórico, a seleção de fornecedor usa um processo de consulta única mais lento. Para obter mais informações, consulte [Habilitar compartilhamento de histórico](#enable-history-sharing).
+* **Compartilhamentos entre nuvens:** Quando o provedor [!DNL Databricks] e o espaço de trabalho do Adobe usam diferentes ambientes de nuvem, a fonte usa um processo de consulta única, independentemente de o compartilhamento de histórico estar habilitado. Por exemplo, isso se aplica quando seu provedor usa o [!DNL Azure] e o espaço de trabalho do Adobe usa o AWS. Nenhuma configuração adicional é necessária.
 
 ## Solução de problemas {#troubleshooting}
 
@@ -240,16 +245,32 @@ Use esta seção para resolver problemas que ocorrem durante ou após a configur
 
 **Progresso dos blocos de validação de mapeamento de campo**
 
-* Confirme se a tabela de associação inclui uma coluna mapeável para **`AUDIENCE_ID`**.
-* Verifique se pelo menos dois campos de identidade estão totalmente mapeados (origem e destino).
+* Confirme se a tabela de associação inclui uma coluna `AUDIENCE_ID` e pelo menos uma coluna de chave de correspondência com suporte.
+* Confirme se pelo menos uma chave de correspondência compatível tem um campo de origem e um campo de destino mapeados.
 * Use **[!UICONTROL Visualizar dados de origem]** para verificar se os nomes de coluna correspondem às chaves de correspondência habilitadas.
 
 **Os públicos-alvo não estão aparecendo ou a fonte está demorando mais do que o esperado**
 
+* Confirme se as tabelas estão compartilhadas com o histórico. Execute `SHOW ALL IN SHARE <share_name>;` e verifique se `history_sharing` é `ENABLED`. Se o compartilhamento do histórico estiver desabilitado, adicione novamente a tabela com `WITH HISTORY`. Para obter mais informações, consulte [Habilitar compartilhamento de histórico](#enable-history-sharing).
 * O tempo de origem é escalonado com o volume de dados. O tempo de processamento estendido é esperado para tabelas de associação grandes.
 * Se os públicos-alvo não aparecerem em 24 horas, verifique na guia **[!UICONTROL Minhas conexões de dados]** se há indicadores de erro na conexão.
 * Verifique se a estrutura da tabela de associação e os mapeamentos de campo correspondem aos requisitos em [Preparar os dados do público-alvo](#prepare-audience-data).
 * Se o problema persistir, entre em contato com o suporte ao cliente da Adobe e forneça o nome da conexão de dados e os detalhes da tabela.
+
+**Falha ao habilitar o compartilhamento de histórico**
+
+Se o espaço de trabalho rejeitar o comando `ALTER TABLE`, remova a tabela do compartilhamento e adicione a tabela com o histórico. Substitua `<share_name>`, `<catalog>`, `<schema>` e `<table>` pelo nome compartilhado e identificadores de tabela.
+
+>[!IMPORTANT]
+>
+> Não remova e adicione novamente uma tabela enquanto uma execução de origem do Adobe estiver em andamento.
+
+```sql
+ALTER SHARE <share_name> REMOVE TABLE <catalog>.<schema>.<table>;
+ALTER SHARE <share_name> ADD TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+Depois de adicionar a tabela novamente, [verifique se o compartilhamento de histórico está habilitado](#enable-history-sharing).
 
 **A conexão de dados mostra um status de falha após êxito inicial**
 
@@ -273,28 +294,62 @@ Prepare o seguinte no seu espaço de trabalho [!DNL Databricks]:
 * Um [!DNL Delta Share] contendo o esquema e as tabelas que o Collaboration lerá.
 * Uma tabela de associação com uma linha por par perfil-público e colunas para **`AUDIENCE_ID`** e chaves correspondentes.
 * Uma tabela de metadados opcional se você planeja usar a descoberta de públicos orientada por metadados.
+* Compartilhamento de histórico habilitado para cada tabela no compartilhamento (recomendado).
 
 ### Publicar o compartilhamento {#publish}
 
 Siga os procedimentos [!DNL Databricks Delta Sharing] de sua organização para conceder à conta de consumidor da Adobe acesso ao compartilhamento. As etapas exatas dependem do modelo de governança e implantação do [!DNL Databricks]. Em geral:
 
 1. No Catálogo do Unity, crie ou identifique o compartilhamento que contém seu esquema de público-alvo e tabelas.
-2. Adicione o esquema (ou tabelas individuais) ao compartilhamento.
+2. Adicione o esquema ou as tabelas individuais ao compartilhamento de Databricks. A Adobe recomenda ativar o compartilhamento de histórico para cada tabela. Para obter mais informações, consulte [Habilitar compartilhamento de histórico](#enable-history-sharing).
 3. Conceda o compartilhamento para a conta de consumidor [!DNL Databricks] da Adobe usando o compartilhamento de Databricks nativos para Databricks.
-4. Confirme com o contato do Adobe se o compartilhamento está visível no lado do consumidor e anote o nome do provedor e o nome do compartilhamento do assistente de configuração do Collaboration.
-5. Para obter a documentação do produto [!DNL Databricks] sobre [!DNL Delta Sharing], consulte a [documentação de Compartilhamento Delta de Databricks](https://docs.databricks.com/aws/en/delta-sharing).
+4. Confirme com o contato do Adobe se o compartilhamento está visível no lado do consumidor e anote o nome do provedor e o nome do compartilhamento para o fluxo de trabalho de configuração do Collaboration.
+
+>[!NOTE]
+>
+> Para obter instruções sobre o produto, consulte a [documentação sobre Compartilhamento delta de Databricks](https://docs.databricks.com/aws/en/delta-sharing){target="_blank"}.
+
+### Habilitar compartilhamento de histórico {#enable-history-sharing}
+
+Para melhorar o desempenho da fonte para tabelas grandes, habilite o compartilhamento de histórico para cada tabela de público-alvo. Isso permite que o Collaboration leia dados em paralelo usando uma versão de tabela consistente. Sem o compartilhamento de histórico, o Collaboration usa um processo de consulta única mais lento.
+
+Compartilhamentos entre nuvens usam a leitura de consulta única mesmo com o histórico ativado. Para obter mais informações, consulte [Limitações conhecidas](#known-limitations).
+
+O compartilhamento de histórico fornece ao Adobe acesso a versões anteriores das tabelas compartilhadas, mas não a outras tabelas. Não é necessário conceder acesso adicional ao habilitar o compartilhamento de histórico para uma tabela que você já compartilhou com a Adobe.
+
+Use os seguintes comandos SQL no espaço de trabalho [!DNL Databricks]. Substitua `<share_name>`, `<catalog>`, `<schema>` e `<table>` pelo nome compartilhado e identificadores de tabela.
+
+Para adicionar uma tabela com histórico, execute:
+
+```sql
+ALTER SHARE <share_name> ADD TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+Para habilitar o compartilhamento do histórico de uma tabela que já está no compartilhamento, execute:
+
+```sql
+ALTER SHARE <share_name> ALTER TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+Para verificar o compartilhamento do histórico, execute:
+
+```sql
+SHOW ALL IN SHARE <share_name>;
+```
+
+Confirme se `history_sharing` é `ENABLED` para cada tabela de público-alvo, incluindo a tabela de metadados, se você usar uma. O compartilhamento do histórico entra em vigor na próxima execução de origem.
 
 ### Coletar detalhes de [!DNL Databricks] para o Collaboration {#collect-databricks-details}
 
 Após publicar o compartilhamento, verifique se você tem o nome do provedor, o nome do compartilhamento, o esquema e os nomes da tabela disponíveis para o fluxo de trabalho de configuração do Collaboration.
 
-Obtenha os detalhes abaixo antes de iniciar o assistente de configuração do Collaboration.
+Obtenha os detalhes abaixo antes de iniciar o fluxo de trabalho de configuração do Collaboration.
 
 | Campo | Descrição | Exemplo |
-| ------| ----------- | ------- |
+| ------ | ----------- | ------- |
 | Nome do provedor | Identificador do provedor no metastore do Catálogo do Unity da Adobe (da integração do Adobe) | `your_org_provider` |
 | Nome do compartilhamento | Nome do [!DNL Delta Share] publicado | `audience_share_prod` |
-| Esquema | Esquema | `collaboration_audiences` |
+| Esquema | Esquema no compartilhamento que contém suas tabelas de público-alvo. | `collaboration_audiences` |
 | Tabela de associação | Tabela com linhas de associação perfil-público | `audience_members` |
 | Tabela de metadados (opcional) | Tabela listando públicos (uma linha por público) | `audience_catalog` |
 
