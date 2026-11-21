@@ -2,7 +2,7 @@
 title: Notas de versão mais recentes do Real-Time CDP Collaboration
 description: Seguir as versões mais recentes do Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidade limitada" type="Informative" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidade limitada" type="Informativo" url="https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform-collaboration.html" newtab=true
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 TQID: https://experienceleague.adobe.com/re4oFblCLiZpspWIS7D4EEYNh36EDhULEOd2-ccXH28
 product_v2:
@@ -22,20 +22,41 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 0e46c6f1bc2a0ce5752c7c08700429c97a8b0d45
+source-git-commit: c5031db11e6dd8d965439f0f5860a0710d2a56d1
 workflow-type: tm+mt
-source-wordcount: 2255
+source-wordcount: '2587'
 ht-degree: 3%
-
 ---
-
 # Notas de versão mais recentes do Real-Time CDP Collaboration
 
 {{limited-availability-release-note}}
 
-**Última atualização**: agosto de 2026.
+**Última atualização**: novembro de 2026.
 
 Essas notas de versão abordam a funcionalidade lançada no Adobe Real-Time CDP Collaboration. As versões do Collaboration operam em um modelo de entrega contínua, que permite uma cadência de lançamento mensal aproximada. Essas notas de versão são atualizadas com frequência. Portanto, verifique-as regularmente.
+
+## Novembro de 2026 {#november-2026}
+
+Agora você pode adicionar o contexto de mídia paga de [!DNL The Trade Desk] aos perfis próprios e melhorar o desempenho do fornecimento para tabelas de público-alvo grandes de [!DNL Databricks].
+
+| Recurso | Descrição |
+| ------- | ----------- |
+| Enriquecimento de perfil do [!BADGE Alpha]{type=Informative} [!DNL The Trade Desk] | Agora você pode adicionar o contexto de mídia paga do [!DNL The Trade Desk] aos perfis primários para a criação e personalização de público-alvo. Para obter mais informações, consulte [O enriquecimento do perfil da Trade Desk](../collaborate/advertising-platforms/trade-desk-profile-enrichment.md). |
+| Compartilhamento de histórico para [!DNL Databricks] fonte de público | Agora é possível melhorar o desempenho de fornecimento de público-alvo para tabelas [!DNL Databricks] grandes, habilitando o compartilhamento de histórico. Essa melhoria de desempenho não se aplica a compartilhamentos entre nuvens. Para obter mais informações, consulte [Habilitar compartilhamento de histórico](../setup/configure-databricks-audience-sourcing.md#enable-history-sharing). |
+
+{style="table-layout:auto"}
+
+## Outubro de 2026 {#october-2026}
+
+Agora você pode gerenciar a resolução de identidade, criar públicos de expansão e usar o autoatendimento e o fornecimento de log no Real-Time CDP Collaboration.
+
+| Recurso | Descrição |
+| ------- | ----------- |
+| Resolução de identidade da Epsilon Core ID | Agora é possível identificar as pessoas que você tem em comum com os colaboradores, mesmo quando suas organizações usam identificadores diferentes. Use a Epsilon Core ID para resolver identidades em conexões de dados de público-alvo qualificados sem criar integrações personalizadas para cada parceiro. Esse recurso está disponível somente para contas do Collaboration provisionadas nos Estados Unidos. Para obter mais informações, consulte [Configurar e gerenciar a resolução de identidade](../setup/identity-resolution.md). |
+| Fornecimento de log de anúncio de autoatendimento | Agora você pode obter dados de exposição de publicidade (log de anúncios) diretamente de [!DNL Google Cloud Storage], [!DNL Azure Blob Storage] ou [!DNL Azure Data Lake Storage Gen2] para medir o desempenho da campanha. Isso elimina a necessidade de primeiro direcionar logs de anúncios por meio do Adobe Experience Platform. Para obter mais informações, consulte [configuração do Google Cloud Storage](../setup/configure-gcs-adlog-sourcing.md) e [configuração do Azure Storage](../setup/configure-azure-adlog-sourcing.md). |
+| [!BADGE Beta]{type=Informative} Expansão de público | Agora é possível encontrar perfis em uma população de colaboradores semelhantes ao público-alvo de origem sem expor os dados do público-alvo subjacente. Use esses perfis para criar públicos-alvo de expansão para novos clientes potenciais. Para obter mais informações, consulte [Criar públicos de expansão](../collaborate/expand.md). |
+
+{style="table-layout:auto"}
 
 ## Agosto de 2026 {#august-2026}
 
@@ -45,6 +66,7 @@ O Real-Time CDP Collaboration agora oferece suporte aos relatórios de medição
 
 | Recurso | Descrição |
 | ------- | ----------- |
+| Rótulos de uso de dados adicionais para [!UICONTROL Data Collaboration] | Agora é possível aplicar restrições de uso de dados durante o fornecimento de público-alvo para evitar que dados de saúde rotulados como confidenciais e regulamentados sejam originados no Collaboration. A ação de marketing [!UICONTROL Data Collaboration] agora dá suporte aos rótulos de uso de dados S1, S2, PSPD e RHD. O suporte existente às etiquetas C4, C5 e C9 permanece inalterado. Para obter mais informações, consulte [Governança de fornecimento de público-alvo](../setup/onboard-audiences.md#governance-policy-and-enforcement-actions). |
 | [!DNL AMC] relatório de medição | Meça o desempenho de suas campanhas do Amazon Ads usando os dados do [!DNL AMC] diretamente no Collaboration. Na guia **[!UICONTROL Measure]** de um projeto [!DNL AMC], você pode criar relatórios do **Resumo da Campanha** e do **Atribuição** para avaliar o desempenho da campanha e entender a atribuição de conversão. Para obter mais informações, consulte [Criar relatórios de medição do Amazon Marketing Cloud](../collaborate/advertising-platforms/amc-measure.md). |
 | Corresponder mapeamento de chaves para atributos de perfil aninhados | Agora é possível mapear chaves de correspondência para campos aninhados dentro de campos de perfil baseados em lista, como uma ID de dispositivo em uma matriz `devices`, sem achatar ou reestruturar os dados antecipadamente. O Collaboration corresponde e conta cada valor no campo aninhado individualmente. Atualmente, os campos aninhados são compatíveis apenas com chaves de correspondência, não como atributos de perfil. Para obter mais informações, consulte [mapear campos](../setup/onboard-audiences.md#map-fields). |
 | Relatórios de conversão em nível de posicionamento | Os relatórios de atribuição agora incluem uma tabela **conversões por posicionamento**, mostrando a contagem de conversão e o valor de conversão para cada ID de posicionamento em uma ID de campanha. Isso fornece resultados separados para campanhas com vários posicionamentos. O antigo rótulo da métrica **[!UICONTROL Receita estimada]** foi atualizado para **[!UICONTROL Valor de conversão]** para maior clareza. Para obter mais informações, consulte [conversões por posicionamento](../collaborate/measure.md#conversions-by-placement). |
@@ -143,7 +165,7 @@ O Real-Time CDP Collaboration agora está disponível para clientes no **Canadá
 
 ## Julho de 2025 {#july-2025}
 
-A Real-time CDP Collaboration agora oferece suporte à colaboração de marca para marca. Os colaboradores agora podem formar conexões, independentemente de serem um anunciante ou editor. Isso permite oportunidades de colaboração mais flexíveis e permite que as marcas aproveitem os dados e insights umas das outras. Para saber mais sobre as diferenças entre a colaboração de marca para marca e de anunciante para editor, leia o guia [padrões de colaboração](../overview/collaboration-patterns.md).
+A Real-Time CDP Collaboration agora oferece suporte à colaboração de marca para marca. Os colaboradores agora podem formar conexões, independentemente de serem um anunciante ou editor. Isso permite oportunidades de colaboração mais flexíveis e permite que as marcas aproveitem os dados e insights umas das outras. Para saber mais sobre as diferenças entre a colaboração de marca para marca e de anunciante para editor, leia o guia [padrões de colaboração](../overview/collaboration-patterns.md).
 
 * Os colaboradores agora podem se conectar usando [convites para conexão privada](../connect/establishing-connections.md#private-connection-invites). Compartilhe o código de conexão exclusivo de sua conta com um colaborador que pode usá-lo para se conectar diretamente com você. Este é um recurso principal da colaboração de marca para marca, permitindo que os colaboradores estabeleçam conexões além dos anunciantes que exploram o diretório **[!UICONTROL Descobrir colaboradores]**.
 * [Destinos de autoatendimento](../destinations/overview.md) agora estão disponíveis para anunciantes e editores.
