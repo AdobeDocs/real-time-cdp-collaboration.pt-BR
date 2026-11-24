@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: b381d126dfdf1a6377f93c4f24905492de0bdb73
 workflow-type: tm+mt
 source-wordcount: '4152'
-ht-degree: 14%
+ht-degree: 15%
 ---
 # Source e gerenciar públicos
 
@@ -129,7 +129,7 @@ Em seguida, forneça um nome e uma descrição para sua conexão de dados. Essas
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Campos de destino"
->abstract="Os campos de destino identificam como os dados de origem mapeados são usados no Collaboration. As chaves de correspondência no nível da conta estão disponíveis por padrão. Os campos de nome e endereço postal usados para resolução de identidade estão disponíveis durante a configuração da conexão de dados e não exigem ativação no nível da conta."
+>abstract="Os campos de destino identificam como os dados de origem mapeados são usados no Collaboration. As chaves de correspondência no nível da conta estão disponíveis por padrão. Os campos Nome e Endereço postal usados para resolução de identidade estão disponíveis durante a configuração da conexão de dados e não exigem ativação no nível da conta."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
